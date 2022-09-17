@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Furniture Expanded - Props and Decor</name>
+	<author>Oskar Potocki</author>
+	<url/>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.2</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+	<packageId>VanillaExpanded.VFEPropsandDecor</packageId>
+	<description>Vanilla Furniture Expanded - Props and Decor is a major mod release that has been in production for almost 8 months. The main aim is to provide much needed customizability to your bases and cities, a way to add some detail to your rooms and buildings, and to generally allow you to place more of “you” inside the game.
+
+This mod adds almost 350 hand drawn, vanilla-like props, spread across several categories, from place-able filth to space ships. All these props have no functionality in the game - a sink prop doesn’t use Dubs Bad Hygiene, a shelf prop isn’t an actual shelf, and it doesn’t need Deep Storage to work. All these props are simply decorations, and to reward players for placing them, they each provide 1 Beauty - which means they slightly level the beauty rating of the room they are in.
+
+Why didn’t we add functionality to these props? Because of the sheer amount of them - I wouldn’t forgive myself if I didn’t add function to ALL of them. I wouldn’t be satisfied with just 30 props with functions while the rest would just be props. I have then decided all of those should be simply props, as the name of the mod suggests.
+
+Well don’t wait any longer, download this mod, use the new props to decorate your base and make sure to tell your friends about it too! Everyone wants to place a puddle of vomit in their hospitals!
+</description>
+</ModMetaData>

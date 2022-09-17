@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
+    <defName>IndustrialProps</defName>
+    <label>industrial props</label>
+    <description>Unlocks industrial props and decorations.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>VehicleProps</defName>
+    <label>vehicle props</label>
+    <description>Unlocks a wide selection of land vehicle props.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>PlantProps</defName>
+    <label>plant props</label>
+    <description>Unlocks a selection of fake plants and trees.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+      <ResearchProjectDef>
+    <defName>MedievalProps</defName>
+    <label>medieval props</label>
+    <description>Unlocks a number of medieval inspired decorations.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+      <ResearchProjectDef>
+    <defName>FarmProps</defName>
+    <label>farm props</label>
+    <description>Grants access to a selection of farming related props.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+  
+    <ResearchProjectDef>
+    <defName>PowerProps</defName>
+    <label>power props</label>
+    <description>Unlocks a number of generators and other power-based props.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>KitchenProps</defName>
+    <label>kitchen props</label>
+    <description>Unlocks a selection of kitchen-based props.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+      <ResearchProjectDef>
+    <defName>DecalsProps</defName>
+    <label>decals</label>
+    <description>Unlocks a large number of customisable floor decals.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+      <ResearchProjectDef>
+    <defName>FurnitureProps</defName>
+    <label>furniture</label>
+    <description>Gives access too a variety of furniture props.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>SpaceshipProps</defName>
+    <label>spaceship props</label>
+    <description>Unlocks a selection of spaceship props.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>SpacerProps</defName>
+    <label>spacer props</label>
+    <description>Unlocks a large number of spacer inspired props and decorations.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
+
+</Defs>

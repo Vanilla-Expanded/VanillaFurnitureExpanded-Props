@@ -1,0 +1,2368 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelATM</defName>
+    <label>steel ATM</label>
+    <description>A non-functional steel money dispensing machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ATM/ATM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelATM</defName>
+    <label>plasteel ATM</label>
+    <description>A non-functional plasteel money dispensing machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ATM/ATM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverATM</defName>
+    <label>silver ATM</label>
+    <description>A non-functional silver money dispensing machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ATM/ATM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenATM</defName>
+    <label>wooden ATM</label>
+    <description>A non-functional wooden money dispensing machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ATM/ATM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelBookshelf</defName>
+    <label>steel bookshelf</label>
+    <description>A bookshelf containing a variety of unreadable tomes and publications.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Bookshelf/Bookshelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelBookshelf</defName>
+    <label>plasteel bookshelf</label>
+    <description>A bookshelf containing a variety of unreadable tomes and publications.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Bookshelf/Bookshelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverBookshelf</defName>
+    <label>silver bookshelf</label>
+    <description>A bookshelf containing a variety of unreadable tomes and publications.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Bookshelf/Bookshelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenBookshelf</defName>
+    <label>wooden bookshelf</label>
+    <description>A bookshelf containing a variety of unreadable tomes and publications.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Bookshelf/Bookshelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+  
+    
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelCupboard</defName>
+    <label>steel cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelCupboard</defName>
+    <label>plasteel cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverCupboard</defName>
+    <label>silver cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenCupboard</defName>
+    <label>wooden cupboard</label>
+    <description>An empty large cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Cupboard/Cupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+  
+      <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelCupboardDouble</defName>
+    <label>steel double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelCupboardDouble</defName>
+    <label>plasteel double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverCupboardDouble</defName>
+    <label>silver double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenCupboardDouble</defName>
+    <label>wooden double cupboard</label>
+    <description>An empty large double cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardDouble/CupboardDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelCupboardPlates</defName>
+    <label>steel cupboard with plates</label>
+    <description>A large cupboard with some plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardPlates/CupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelCupboardPlates</defName>
+    <label>plasteel cupboard with plates</label>
+    <description>A large cupboard with some plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardPlates/CupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverCupboardPlates</defName>
+    <label>silver cupboard with plates</label>
+    <description>A large cupboard with some plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardPlates/CupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenCupboardPlates</defName>
+    <label>wooden cupboard with plates</label>
+    <description>A large cupboard with some plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardPlates/CupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelCupboardNarrow</defName>
+    <label>steel narrow cupboard</label>
+    <description>A narrow empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardNarrow/CupboardNarrow</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelCupboardNarrow</defName>
+    <label>plasteel narrow cupboard</label>
+    <description>A narrow empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardNarrow/CupboardNarrow</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverCupboardNarrow</defName>
+    <label>silver narrow cupboard</label>
+    <description>A narrow empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardNarrow/CupboardNarrow</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenCupboardNarrow</defName>
+    <label>wooden narrow cupboard</label>
+    <description>A narrow empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/CupboardNarrow/CupboardNarrow</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+ 
+ 
+ 
+   <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelTallCabinet</defName>
+    <label>steel tall cabinet</label>
+    <description>A tall cabinet unit.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/TallCabinet/TallCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelTallCabinet</defName>
+    <label>plasteel tall cabinet</label>
+    <description>A tall cabinet unit.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/TallCabinet/TallCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverTallCabinet</defName>
+    <label>silver tall cabinet</label>
+    <description>A tall cabinet unit.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/TallCabinet/TallCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenTallCabinet</defName>
+    <label>wooden tall cabinet</label>
+    <description>A tall cabinet unit.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/TallCabinet/TallCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+ 
+ 
+ 
+      <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelShortCupboard</defName>
+    <label>steel short cupboard</label>
+    <description>A short, empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboard/ShortCupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelShortCupboard</defName>
+    <label>plasteel short cupboard</label>
+    <description>A short, empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboard/ShortCupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverShortCupboard</defName>
+    <label>silver short cupboard</label>
+    <description>A short, empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboard/ShortCupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenShortCupboard</defName>
+    <label>wooden short cupboard</label>
+    <description>A short, empty cupboard.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboard/ShortCupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+        <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelShortCupboardPlates</defName>
+    <label>steel short cupboard with plates</label>
+    <description>A short cupboard with plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboardPlates/ShortCupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelShortCupboardPlates</defName>
+    <label>plasteel short cupboard with plates</label>
+    <description>A short cupboard with plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboardPlates/ShortCupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverShortCupboardPlates</defName>
+    <label>silver short cupboard with plates</label>
+    <description>A short cupboard with plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboardPlates/ShortCupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenShortCupboardPlates</defName>
+    <label>wooden short cupboard with plates</label>
+    <description>A short cupboard with plates.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/ShortCupboardPlates/ShortCupboardPlates</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>VFEPD_Desk</defName>
+    <label>desk</label>
+    <description>A large desk.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/Desk/Desk</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+    </statBases>
+    <size>(3,1)</size>
+    <costStuffCount>40</costStuffCount>
+    <designationCategory>PropsandDecor</designationCategory>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>VFEPD_CoffeeTable</defName>
+    <label>coffee table (2x1)</label>
+    <description>A coffee table.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CoffeeTable/CoffeeTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>550</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>30</costStuffCount>
+    <designationCategory>PropsandDecor</designationCategory>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>VFEPD_CoffeeTableSmall</defName>
+    <label>coffee table (1x1)</label>
+    <description>A small coffee table.</description>
+    <graphicData>
+      <texPath>Things/Building/FurnitureProps/CoffeeTableSmall/CoffeeTableSmall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+	<rotatable>false</rotatable>
+    <uiIconScale>0.8</uiIconScale>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costStuffCount>30</costStuffCount>
+    <designationCategory>PropsandDecor</designationCategory>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+ 
+      <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelDivider</defName>
+    <label>steel divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Divider/Divider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelDivider</defName>
+    <label>plasteel divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Divider/Divider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverDivider</defName>
+    <label>silver divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Divider/Divider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenDivider</defName>
+    <label>wooden divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Divider/Divider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+  
+  
+      <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelPlankDivider</defName>
+    <label>steel plank divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/PlankDivider/PlankDivider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelPlankDivider</defName>
+    <label>plasteel plank divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/PlankDivider/PlankDivider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverPlankDivider</defName>
+    <label>silver plank divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/PlankDivider/PlankDivider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenPlankDivider</defName>
+    <label>wooden plank divider</label>
+    <description>A tall, impassable room divider.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/PlankDivider/PlankDivider</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,3.5)</drawSize>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+ 
+ 
+        <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelMirror</defName>
+    <label>steel mirror</label>
+    <description>A standing mirror.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelMirror</defName>
+    <label>plasteel mirror</label>
+    <description>A standing mirror.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverMirror</defName>
+    <label>silver mirror</label>
+    <description>A standing mirror.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenMirror</defName>
+    <label>wooden mirror</label>
+    <description>A standing mirror.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.20)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SteelVendingMachine</defName>
+    <label>steel vending machine</label>
+    <description>A non-functional vending machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/VendingMachine/VendingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(105,105,105)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlasteelVendingMachine</defName>
+    <label>plasteel vending machine</label>
+    <description>A non-functional vending machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/VendingMachine/VendingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(160,178,181)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SilverVendingMachine</defName>
+    <label>silver vending machine</label>
+    <description>A non-functional vending machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/VendingMachine/VendingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(180,173,150)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Silver>10</Silver>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WoodenVendingMachine</defName>
+    <label>wooden vending machine</label>
+    <description>A non-functional vending machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/VendingMachine/VendingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		<color>(133,97,67)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>0.6</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+     <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WashingMachine</defName>
+    <label>washing machine</label>
+    <description>A washing machine.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/WashingMachine/WashingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.3</fillPercent>
+	<rotatable>true</rotatable>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+     <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WarehouseShelfEmpty</defName>
+    <label>warehouse shelf</label>
+    <description>An impassable empty warehouse shelf.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/WarehouseShelfEmpty/WarehouseShelfEmpty</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.3</fillPercent>
+	<rotatable>true</rotatable>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+     <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_WarehouseShelfBoxes</defName>
+    <label>warehouse shelf with boxes</label>
+    <description>An impassable warehouse shelf with boxes.</description>
+    <graphicData>	
+      <texPath>Things/Building/FurnitureProps/WarehouseShelfBoxes/WarehouseShelfBoxes</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>FurnitureProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+	<rotatable>true</rotatable>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>FurnitureProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+ 
+ 
+ 
+ 
+
+</Defs>

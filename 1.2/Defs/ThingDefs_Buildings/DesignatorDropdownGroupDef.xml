@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>IndustrialProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>IndustrialPropsPalletes</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>IndustrialPropsContainers</defName>
+  </DesignatorDropdownGroupDef>
+  
+      <DesignatorDropdownGroupDef>
+    <defName>FilthProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>VehicleProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>PlantProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>TreeProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>ShrubProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>SpaceshipProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>PowerProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>WordDecals</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>SymbolDecals</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>LargeWordDecals</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>LargeSymbolDecals</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>SpacerProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>KitchenProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>MedievalProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>FurnitureProps</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <DesignatorDropdownGroupDef>
+    <defName>FarmProps</defName>
+  </DesignatorDropdownGroupDef>
+
+
+</Defs>
