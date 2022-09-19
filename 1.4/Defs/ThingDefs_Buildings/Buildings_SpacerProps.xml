@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_DataConsole</defName>
+    <label>data console</label>
+    <description>An advanced data console accepting several different types of file formatting.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/DataConsole/DataConsole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_DataConveyor</defName>
+    <label>data conveyor</label>
+    <description>A large box holding cables and pipes for data transfer.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/DataConveyor/DataConveyor</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>True</castEdgeShadows>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>30</WorkToBuild>
+      <Mass>10</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_DisplayScreen</defName>
+    <label>display screen</label>
+    <description>A large data display screen.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/DisplayScreen/DisplayScreen</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+	  <Beauty>1</Beauty>
+      <Mass>15</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_DisplayTable</defName>
+    <label>display table</label>
+    <description>A large size display screen mounted on a large table.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/DisplayTable</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(4,4)</drawSize>
+    </graphicData>
+	<rotatable>false</rotatable>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>True</castEdgeShadows>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+	  <Beauty>1</Beauty>
+      <Mass>25</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(4,4)</size>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_LongCommandConsole</defName>
+    <label>long command console</label>
+    <description>A long console with several different command modules.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/LongCommandConsole/LongCommandConsole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>20</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(4,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlanningScreen</defName>
+    <label>planning screen</label>
+    <description>A glass screen, ideal for planning out combat scenarios.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/PlanningScreen/PlanningScreen</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+	  <Beauty>1</Beauty>
+      <Mass>15</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PlanningTable</defName>
+    <label>planning table</label>
+    <description>A large size planning screen mounted on a large table.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/PlanningTable</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+	<rotatable>false</rotatable>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>True</castEdgeShadows>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+	  <Beauty>1</Beauty>
+      <Mass>25</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_TripleDisplay</defName>
+    <label>triple display dashboard</label>
+    <description>A large dashboard with several display screens, for up-to-date information on all mod releases.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/TripleDisplay/TripleDisplay</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SpacerContainer</defName>
+    <label>spacer container</label>
+    <description>A medium sized, triple sealed, password protected box.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SpacerContainer/SpacerContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SpacerContainerLarge</defName>
+    <label>spacer container large</label>
+    <description>A large sized, triple sealed, password protected box.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SpacerContainerLarge/SpacerContainerLarge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SpacerContainerStack</defName>
+    <label>spacer container stack</label>
+    <description>A large stack of different sized, triple sealed, password protected boxes.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SpacerContainerStack</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+	<rotatable>false</rotatable>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SpacerStorage</defName>
+    <label>advanced storage device</label>
+    <description>A large, multi-chamber advanced storage device.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SpacerStorage/SpacerStorage</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.35</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SwitchPanel</defName>
+    <label>switch panel</label>
+    <description>A medium sized panel containing varius levers and switches.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SwitchPanel/SwitchPanel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+	<rotatable>true</rotatable>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_ServerRack</defName>
+    <label>server rack</label>
+    <description>A large server rack, containing multiple hard drives and advanced computer components.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/ServerRack/ServerRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.6</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_SensorPlatform</defName>
+    <label>sensor platform</label>
+    <description>A small platform containing a variety of sensors.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/SensorPlatform/SensorPlatform</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+	<rotatable>false</rotatable>
+    <passability>Standable</passability>
+    <fillPercent>0.1</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFEPD_PersonalConsole</defName>
+    <label>personal console</label>
+    <description>A small, futuristic personal communications console.</description>
+    <graphicData>	
+      <texPath>Things/Building/SpacerProps/PersonalConsole/PersonalConsole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.6</fillPercent>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <designatorDropdown>SpacerProps</designatorDropdown>
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+  
+  
+
+</Defs>

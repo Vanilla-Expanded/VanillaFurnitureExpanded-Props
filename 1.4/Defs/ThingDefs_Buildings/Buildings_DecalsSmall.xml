@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef Abstract="True" ParentName="BuildingBase" Name="DecalBase">
+    <description>A floor decal.</description>
+    <graphicData>	
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <color>(255,255,255,65)</color>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <altitudeLayer>Floor</altitudeLayer>
+    <researchPrerequisites><li>DecalsProps</li></researchPrerequisites>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <drawerType>MapMeshOnly</drawerType>
+	<building>    
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+	</building>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>5</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <designationCategory>PropsandDecor</designationCategory>
+    <uiIconScale>1</uiIconScale>
+    <filthLeaving Inherit="False"/>
+	<clearBuildingArea>false</clearBuildingArea>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalArrowLong</defName>
+    <label>arrow long symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalArrowLong</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalArrowShort</defName>
+    <label>arrow short symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalArrowShort</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalArrowWide</defName>
+    <label>arrow wide symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalArrowWide</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineDouble</defName>
+    <label>decal line double</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineDouble</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineDoubleCornerInner</defName>
+    <label>decal line double inner corner</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineDoubleCornerInner</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineDoubleCornerOuter</defName>
+    <label>decal line double outer corner</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineDoubleCornerOuter</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineThin</defName>
+    <label>decal line thin</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineThin</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineThinCornerInner</defName>
+    <label>decal line thin inner corner</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineThinCornerInner</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalLineThinCornerOuter</defName>
+    <label>decal line thin outer corner</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalLineThinCornerOuter</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolA</defName>
+    <label>A symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolA</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolB</defName>
+    <label>B symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolB</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolC</defName>
+    <label>C symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolC</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolD</defName>
+    <label>D symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolD</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolE</defName>
+    <label>E symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolE</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolF</defName>
+    <label>F symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolF</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolG</defName>
+    <label>G symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolG</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolH</defName>
+    <label>H symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolH</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolI</defName>
+    <label>I symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolI</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolJ</defName>
+    <label>J symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolJ</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolK</defName>
+    <label>K symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolK</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolL</defName>
+    <label>L symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolL</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolM</defName>
+    <label>M symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolM</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolN</defName>
+    <label>N symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolN</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolO</defName>
+    <label>O symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolO</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolP</defName>
+    <label>P symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolP</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolQ</defName>
+    <label>Q symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolQ</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolV</defName>
+    <label>V symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolV</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolR</defName>
+    <label>R symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolR</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolS</defName>
+    <label>S symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolS</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolT</defName>
+    <label>T symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolT</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolU</defName>
+    <label>U symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolU</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolW</defName>
+    <label>W symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolW</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolX</defName>
+    <label>X symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolX</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolY</defName>
+    <label>Y symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolY</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolZ</defName>
+    <label>Z symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbolZ</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolOne</defName>
+    <label>1 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol1</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolTwo</defName>
+    <label>2 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol2</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolThree</defName>
+    <label>3 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol3</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolFour</defName>
+    <label>4 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol4</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolFive</defName>
+    <label>5 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol5</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolSix</defName>
+    <label>6 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol6</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolSeven</defName>
+    <label>7 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol7</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolEight</defName>
+    <label>8 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol8</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolNine</defName>
+    <label>9 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol9</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalSymbolZero</defName>
+    <label>0 symbol</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalSymbol0</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>SymbolDecals</designatorDropdown>
+  </ThingDef>
+  
+  
+  
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordArmory</defName>
+    <label>armory decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordArmory</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordBarracks</defName>
+    <label>barracks decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordBarracks</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordBlock</defName>
+    <label>block decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordBlock</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordCafeteria</defName>
+    <label>cafeteria decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordCafeteria</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordCargo</defName>
+    <label>cargo decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordCargo</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordChamber</defName>
+    <label>chamber decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordChamber</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordClimate</defName>
+    <label>climate decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordClimate</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordCommand</defName>
+    <label>command decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordCommand</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordControl</defName>
+    <label>control decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordControl</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordEngineer</defName>
+    <label>engineer decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordEngineer</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordFarming</defName>
+    <label>farming decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordFarming</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordFreezer</defName>
+    <label>freezer decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordFreezer</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordFridge</defName>
+    <label>fridge decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordFridge</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+        <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordHangar</defName>
+    <label>hangar decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordHangar</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordHospital</defName>
+    <label>hospital decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordHospital</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordKill</defName>
+    <label>kill decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordKill</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordKitchen</defName>
+    <label>kitchen decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordKitchen</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordLanding</defName>
+    <label>landing decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordLanding</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordMedical</defName>
+    <label>medical decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordMedical</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordMess</defName>
+    <label>mess decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordMess</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordMorgue</defName>
+    <label>morgue decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordMorgue</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordMortar</defName>
+    <label>mortar decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordMortar</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordPlay</defName>
+    <label>play decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordPlay</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordPrison</defName>
+    <label>prison decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordPrison</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordReactor</defName>
+    <label>reactor decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordReactor</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordRecreation</defName>
+    <label>recreation decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordRecreation</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordRefinery</defName>
+    <label>refinery decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordRefinery</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordRelax</defName>
+    <label>relax decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordRelax</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordResearch</defName>
+    <label>research decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordResearch</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSecurity</defName>
+    <label>security decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSecurity</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordShipping</defName>
+    <label>shipping decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordShipping</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSleeping</defName>
+    <label>sleeping decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSleeping</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmelting</defName>
+    <label>smelting decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmelting</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordStorage</defName>
+    <label>storage decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordStorage</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordWarning</defName>
+    <label>warning decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordWarning</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+        <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordWorkshop</defName>
+    <label>workshop decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordWorkshop</texPath>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+  
+  
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallBase</defName>
+    <label>base decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallBase</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallBay</defName>
+    <label>bay decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallBay</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallBox</defName>
+    <label>box decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallBox</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallCell</defName>
+    <label>cell decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallCell</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallClear</defName>
+    <label>clear decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallClear</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallDock</defName>
+    <label>dock decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallDock</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallGas</defName>
+    <label>gas decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallGas</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+      <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallHall</defName>
+    <label>hall decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallHall</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallKeep</defName>
+    <label>keep decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallKeep</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallLab</defName>
+    <label>lab decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallLab</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallPad</defName>
+    <label>pad decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallPad</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallRoom</defName>
+    <label>room decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallRoom</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallWing</defName>
+    <label>wing decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallWing</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+    <ThingDef ParentName="DecalBase">
+    <defName>VFEPD_DecalWordSmallZone</defName>
+    <label>zone decal</label>
+    <graphicData>	
+      <texPath>Things/Building/Decals/DecalWordSmallZone</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <designatorDropdown>WordDecals</designatorDropdown>
+  </ThingDef>
+  
+  
+
+</Defs>
