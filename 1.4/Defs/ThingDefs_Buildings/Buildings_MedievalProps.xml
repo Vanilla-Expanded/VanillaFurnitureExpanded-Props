@@ -227,6 +227,7 @@
         <rect>(0.2,0.3,0.6,0.6)</rect>
       </damageData>
     </graphicData>
+	<building> <paintable>true</paintable></building>
   </ThingDef>
   
      <ThingDef ParentName="BuildingBase">
