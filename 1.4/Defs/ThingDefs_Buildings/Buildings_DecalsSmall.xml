@@ -17,6 +17,7 @@
 	<building>    
 			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
+			<paintable>true</paintable>
 	</building>
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>0</fillPercent>

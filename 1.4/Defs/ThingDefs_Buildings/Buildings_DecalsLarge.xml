@@ -9,6 +9,7 @@
     </costList>
 	<building>
 		      <isInert>true</isInert>
+			  <paintable>true</paintable>
 	</building>
   </ThingDef>
   

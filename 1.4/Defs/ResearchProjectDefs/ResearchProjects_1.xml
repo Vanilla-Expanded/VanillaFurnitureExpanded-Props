@@ -122,5 +122,16 @@
     <researchViewY>2.40</researchViewY>
 		<tab>VFE_PropsandDecor_Tab</tab>
   </ResearchProjectDef>
+  
+      <ResearchProjectDef>
+    <defName>BorderProps</defName>
+    <label>borders</label>
+    <description>Unlocks a number of decorative terrain borders.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+		<tab>VFE_PropsandDecor_Tab</tab>
+  </ResearchProjectDef>
 
 </Defs>
