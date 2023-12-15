@@ -31,7 +31,7 @@
 		<size>(2,2)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_HayBaleLarge</defName>
 		<label>large hay bale</label>
 		<description>A large roll of hay.</description>
@@ -61,7 +61,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_HayBaleMedium</defName>
 		<label>medium hay bale</label>
 		<description>A medium block of hay.</description>
@@ -90,7 +90,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_HayBaleSmall</defName>
 		<label>small hay bale</label>
 		<description>A medium block of hay.</description>
@@ -119,7 +119,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Hedge</defName>
 		<label>hedge</label>
 		<description>A natural hedge.</description>
