@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_1</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>1</priority>
+		<prop>VFEPD_ImperialBanner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_2</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>2</priority>
+		<prop>VFEPD_ImperialShuttle</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_3</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>3</priority>
+		<prop>VFEPD_ImperialShuttleCrashed</prop>
+		<shortLabel>crashed shuttle</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_4</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>4</priority>
+		<prop>VFEPD_ArmoredImperialShuttle</prop>
+		<shortLabel>armoured shuttle</shortLabel>
+	</VFEProps.PropDef>
+	
+</Defs>

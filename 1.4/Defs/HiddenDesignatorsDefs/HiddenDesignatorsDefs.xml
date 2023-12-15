@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- For testing purposes -->
+
+
+	<!--<VFEProps.HiddenDesignatorsDef>
+		<defName>VFEProps_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			
+			<li>VFEPD_DataConsole</li>
+			<li>VFEPD_DataConveyor</li>
+			
+			
+		</hiddenDesignators>							
+	</VFEProps.HiddenDesignatorsDef>-->
+
+
+
+
+
+</Defs>

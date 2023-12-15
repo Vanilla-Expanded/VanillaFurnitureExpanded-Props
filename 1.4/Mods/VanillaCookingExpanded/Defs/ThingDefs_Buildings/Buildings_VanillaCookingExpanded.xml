@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Sugarcane</defName>
+		<label>sugarcane</label>
+		<description>A fake, thick, tall, tropical grass with jointed stems. While not exactly the most nutritious thing to eat on its own, this genetically modified sugarcane is easily milled into sugar and then used for a variety of culinary creations - Particularly desserts.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_SugarCane</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Allspice</defName>
+		<label>allspice</label>
+		<description>A fake, anomalous, leafy vine bearing tiny unpalatable green fruits. When ground finely during cooking the fruits release a complex, peppery flavor, perfect for spicing dishes.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Allspice</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Wheat</defName>
+		<label>wheat</label>
+		<description>A fake, amber cereal plant that takes almost an entire growing season to come to fruition. While fragile and time-consuming, this wheat has been genetically engineered to gently break into flour with a mere touch.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Wheat</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>

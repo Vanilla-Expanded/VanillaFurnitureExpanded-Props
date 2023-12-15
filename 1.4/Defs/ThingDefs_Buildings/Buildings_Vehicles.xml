@@ -1,1064 +1,890 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarForklift</defName>
-    <label>forklift</label>
-    <description>An industrial style forklift.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarForklift/CarForklift</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarDeliveryBlack</defName>
-    <label>black delivery truck</label>
-    <description>A large black delivery truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,6)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,6)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarFamilyBlack</defName>
-    <label>black family car</label>
-    <description>A black family car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarPickupBlack</defName>
-    <label>black pickup truck</label>
-    <description>A black pickup truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,5)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarVintageBlack</defName>
-    <label>black vintage car</label>
-    <description>A black vintage car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  
-   <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarDeliveryWhite</defName>
-    <label>white delivery truck</label>
-    <description>A large white delivery truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,6)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,6)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarFamilyWhite</defName>
-    <label>white family car</label>
-    <description>A white family car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarPickupWhite</defName>
-    <label>white pickup truck</label>
-    <description>A white pickup truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,5)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarVintageWhite</defName>
-    <label>white vintage car</label>
-    <description>A white vintage car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarDeliverySilver</defName>
-    <label>silver delivery truck</label>
-    <description>A large silver delivery truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,6)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,6)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarFamilySilver</defName>
-    <label>silver family car</label>
-    <description>A silver family car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarPickupSilver</defName>
-    <label>silver pickup truck</label>
-    <description>A silver pickup truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,5)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarVintageSilver</defName>
-    <label>silver vintage car</label>
-    <description>A silver vintage car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  
-       <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarDeliveryBlue</defName>
-    <label>blue delivery truck</label>
-    <description>A large blue delivery truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,6)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,6)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarFamilyBlue</defName>
-    <label>blue family car</label>
-    <description>A blue family car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarPickupBlue</defName>
-    <label>blue pickup truck</label>
-    <description>A blue pickup truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,5)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarVintageBlue</defName>
-    <label>blue vintage car</label>
-    <description>A blue vintage car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  
-       <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarDeliveryRed</defName>
-    <label>red delivery truck</label>
-    <description>A large red delivery truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,6)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,6)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarFamilyRed</defName>
-    <label>red family car</label>
-    <description>A red family car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarPickupRed</defName>
-    <label>red pickup truck</label>
-    <description>A red pickup truck.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,5)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CarVintageRed</defName>
-    <label>red vintage car</label>
-    <description>A red vintage car.</description>
-    <graphicData>	
-      <texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(3,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>True</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  
-
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarForklift</defName>
+		<label>forklift</label>
+		<description>An industrial style forklift. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarForklift/CarForklift</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(252,244,134)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarDeliveryBlack</defName>
+		<label>delivery truck</label>
+		<description>A large delivery truck. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarFamilyBlack</defName>
+		<label>family car</label>
+		<description>A family car. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarPickupBlack</defName>
+		<label>pickup truck</label>
+		<description>A pickup truck. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarVintageBlack</defName>
+		<label>vintage car</label>
+		<description>A vintage style car. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(60,60,60)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarDeliveryWhite</defName>
+		<label>white delivery truck</label>
+		<description>A large white delivery truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarFamilyWhite</defName>
+		<label>white family car</label>
+		<description>A white family car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarPickupWhite</defName>
+		<label>white pickup truck</label>
+		<description>A white pickup truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarVintageWhite</defName>
+		<label>white vintage car</label>
+		<description>A white vintage car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarDeliverySilver</defName>
+		<label>silver delivery truck</label>
+		<description>A large silver delivery truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarFamilySilver</defName>
+		<label>silver family car</label>
+		<description>A silver family car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarPickupSilver</defName>
+		<label>silver pickup truck</label>
+		<description>A silver pickup truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarVintageSilver</defName>
+		<label>silver vintage car</label>
+		<description>A silver vintage car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarDeliveryBlue</defName>
+		<label>blue delivery truck</label>
+		<description>A large blue delivery truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarFamilyBlue</defName>
+		<label>blue family car</label>
+		<description>A blue family car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarPickupBlue</defName>
+		<label>blue pickup truck</label>
+		<description>A blue pickup truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarVintageBlue</defName>
+		<label>blue vintage car</label>
+		<description>A blue vintage car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarDeliveryRed</defName>
+		<label>red delivery truck</label>
+		<description>A large red delivery truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarFamilyRed</defName>
+		<label>red family car</label>
+		<description>A red family car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarPickupRed</defName>
+		<label>red pickup truck</label>
+		<description>A red pickup truck.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_CarVintageRed</defName>
+		<label>red vintage car</label>
+		<description>A red vintage car.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>True</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<costList>
+			<Steel>100</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>360</wickTicks>
+				<explosiveRadius>7.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
+				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

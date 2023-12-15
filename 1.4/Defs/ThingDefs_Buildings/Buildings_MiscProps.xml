@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeSnowman</defName>
+		<label>fake snowman</label>
+		<description>This is not made of snow, but a very fake looking polyurethane foam.</description>
+		<graphicData>
+			<texPath>Things/Building/Art/Snowman</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.1</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Present</defName>
+		<label>present</label>
+		<description>A festive present. Actually just a painted cardboard box. Booooh.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Present</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(0.7)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.1</fillPercent>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Hive</defName>
+		<label>fake hive</label>
+		<description>Not a real insect hive.</description>
+		<graphicData>
+			<texPath>Things/Building/Natural/Hive</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GlowPod</defName>
+		<label>fake glow pod</label>
+		<description>This doesn't even glow! I want to speak with the manager!</description>
+		<graphicData>
+			<texPath>Things/Building/Natural/GlowPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.2</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Geyser</defName>
+		<label>fake steam geyser</label>
+		<thingClass>VFEProps.Building_FakeSteamGeyser</thingClass>
+		<description>This is just a shallow hole with a tiny device spewing tepid, misted water. Provides no heat or energy, but looks cool.</description>
+		<graphicData>
+			<texPath>Things/Building/Natural/SteamGeyser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Floor</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>

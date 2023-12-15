@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+	<VFE_ChoosePropCategory>Select prop category:</VFE_ChoosePropCategory>
+	<VFE_GoBack>Go back</VFE_GoBack>
+	<VFE_PrefabSearch>Search</VFE_PrefabSearch>
+	<VFE_NoSilver>Not enough silver in stockpiles. You need to have at least {0} silver to build this prop</VFE_NoSilver>
+	<VFE_PropCostMultiplier>Prop cost multiplier</VFE_PropCostMultiplier>
+	<VFE_PropCostMultiplierDesc>Cost of prefabs that are bought with silver is calculated depending on their size, hit points, and cover. With this slider you can transform how much they'll cost. 0 disables all silver costs.</VFE_PropCostMultiplierDesc>
+	<VFE_SilverReturnMultiplier>Silver return multiplier</VFE_SilverReturnMultiplier>
+	<VFE_SilverReturnMultiplierDesc>When destroyed, props will return their purchase cost in silver. By default this will be 100% of this cost, but it can be reduced with this setting.</VFE_SilverReturnMultiplierDesc>
+	<VFE_Reset>Reset</VFE_Reset>
+	<VPE_NeedsMats>Built</VPE_NeedsMats>
+	<VPE_NeedsMatsDesc>This particular prop needs construction materials to be built instead of silver, and colonists must build it themselves</VPE_NeedsMatsDesc>
+	<VFEPD_BuildProps>build props</VFEPD_BuildProps>
+	<VFEPD_BuildPropsDesc>Open a menu to build props with a silver cost.</VFEPD_BuildPropsDesc>
+	<VFEPD_ResearchNeeded>Can't be built until {0} has been researched by the colony</VFEPD_ResearchNeeded>
+
+	
+</LanguageData>

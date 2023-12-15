@@ -1,681 +1,575 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthDirt</defName>
-    <label>dirt</label>
-    <description>A small amount of dirt.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Grainy</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-      <color>(91,75,65,97)</color>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthDirt</defName>
+		<label>dirt</label>
+		<description>A small amount of dirt.</description>
+		<graphicData>
+			<texPath>Things/Filth/Grainy</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<color>(91,75,65,97)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
 			<isEdifice>false</isEdifice>
-	      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthAnimalFilth</defName>
-    <label>animal filth</label>
-    <description>A small amount of animal filth.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Grainy</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-      <color>(97,65,48,97)</color>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthAnimalFilth</defName>
+		<label>animal filth</label>
+		<description>A small amount of animal filth.</description>
+		<graphicData>
+			<texPath>Things/Filth/Grainy</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<color>(97,65,48,97)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthSand</defName>
-    <label>sand</label>
-    <description>A small amount of sand.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Grainy</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-      <color>(141,115,98,97)</color>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthSand</defName>
+		<label>sand</label>
+		<description>A small amount of sand.</description>
+		<graphicData>
+			<texPath>Things/Filth/Grainy</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<color>(141,115,98,97)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthTrash</defName>
-    <label>trash</label>
-    <description>A small amount of trash.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Trash</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-      <color>(97,65,48,97)</color>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthTrash</defName>
+		<label>trash</label>
+		<description>A small amount of trash.</description>
+		<graphicData>
+			<texPath>Things/Filth/Trash</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<color>(97,65,48,97)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthRubbleRock</defName>
-    <label>rock rubble</label>
-    <description>A small amount of rock rubble.</description>
-    <graphicData>	
-      <texPath>Things/Filth/RubbleRock</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthRubbleRock</defName>
+		<label>rock rubble</label>
+		<description>A small amount of rock rubble.</description>
+		<graphicData>
+			<texPath>Things/Filth/RubbleRock</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthRubbleSlag</defName>
-    <label>scattered slag</label>
-    <description>A small amount of scattered slag.</description>
-    <graphicData>	
-      <texPath>Things/Filth/RubbleSlag</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthRubbleSlag</defName>
+		<label>scattered slag</label>
+		<description>A small amount of scattered slag.</description>
+		<graphicData>
+			<texPath>Things/Filth/RubbleSlag</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthRubbleSandbags</defName>
-    <label>scattered sandbags</label>
-    <description>A small amount of scattered sandbags.</description>
-    <graphicData>	
-      <texPath>Things/Filth/RubbleSandbags</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthRubbleSandbags</defName>
+		<label>scattered sandbags</label>
+		<description>A small amount of scattered sandbags.</description>
+		<graphicData>
+			<texPath>Things/Filth/RubbleSandbags</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthBlood</defName>
-    <label>blood</label>
-    <description>A splatter of blood.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Spatter</texPath>
-      <color>(131, 34, 34, 180)</color>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthBlood</defName>
+		<label>blood</label>
+		<description>A splatter of blood.</description>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(131, 34, 34, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthBugBlood</defName>
-    <label>bugblood</label>
-    <description>A splatter of insect blood.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Spatter</texPath>
-      <color>(132, 138, 114, 180)</color>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthBugBlood</defName>
+		<label>bugblood</label>
+		<description>A splatter of insect blood.</description>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(132, 138, 114, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthMachineBits</defName>
-    <label>machine bits</label>
-    <description>A bunch of machine bits.</description>
-    <graphicData>	
-      <texPath>Things/Filth/MachineBits</texPath>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthMachineBits</defName>
+		<label>machine bits</label>
+		<description>A bunch of machine bits.</description>
+		<graphicData>
+			<texPath>Things/Filth/MachineBits</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthAmnioticFluid</defName>
-    <label>amniotic fluid</label>
-    <description>A pool of amniotic fluid.</description>
-    <graphicData>	
-      <texPath>Things/Filth/PoolSoft</texPath>
-      <color>(200, 200, 140, 50)</color>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthAmnioticFluid</defName>
+		<label>amniotic fluid</label>
+		<description>A pool of amniotic fluid.</description>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(200, 200, 140, 50)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthSlime</defName>
-    <label>slime</label>
-    <description>A spatter of slime.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Spatter</texPath>
-      <color>(130, 142, 120, 170)</color>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthSlime</defName>
+		<label>slime</label>
+		<description>A spatter of slime.</description>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(130, 142, 120, 170)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthVomit</defName>
-    <label>vomit</label>
-    <description>A small, oozing pool of vomit.</description>
-    <graphicData>	
-      <texPath>Things/Filth/PoolSoft</texPath>
-      <color>(179, 185, 73, 180)</color>
-      <graphicClass>Graphic_Cluster</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthVomit</defName>
+		<label>vomit</label>
+		<description>A small, oozing pool of vomit.</description>
+		<graphicData>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<color>(179, 185, 73, 180)</color>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthFireFoam</defName>
-    <label>firefoam</label>
-    <description>A large pile of firefoam.</description>
-    <graphicData>	
-      <texPath>Things/Filth/FireFoam</texPath>
-      <color>(180, 180, 180, 100)</color>
-	  <drawSize>2</drawSize>
-      <graphicClass>Graphic_Cluster</graphicClass>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthFireFoam</defName>
+		<label>firefoam</label>
+		<description>A large pile of firefoam.</description>
+		<graphicData>
+			<texPath>Things/Filth/FireFoam</texPath>
+			<color>(180, 180, 180, 100)</color>
+			<drawSize>2</drawSize>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthChemfuel</defName>
-    <label>chemfuel puddle</label>
-    <description>A puddle of flammable chemfuel.</description>
-    <graphicData>	
-      <texPath>Things/Filth/LiquidFuel</texPath>
-	  <drawSize>1</drawSize>
-      <graphicClass>Graphic_Cluster</graphicClass>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthChemfuel</defName>
+		<label>chemfuel puddle</label>
+		<description>A puddle of flammable chemfuel.</description>
+		<graphicData>
+			<texPath>Things/Filth/LiquidFuel</texPath>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>2</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthCorpseBile</defName>
-    <label>corpse bile</label>
-    <description>A small spatter of corpse bile.</description>
-    <graphicData>	
-      <texPath>Things/Filth/CorpseBile</texPath>
-	  <drawSize>1</drawSize>
-      <graphicClass>Graphic_Cluster</graphicClass>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthCorpseBile</defName>
+		<label>corpse bile</label>
+		<description>A small spatter of corpse bile.</description>
+		<graphicData>
+			<texPath>Things/Filth/CorpseBile</texPath>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_FilthAsh</defName>
-    <label>ash</label>
-    <description>A pile of ash.</description>
-    <graphicData>	
-      <texPath>Things/Filth/Ash</texPath>
-      <color>(255, 255, 255, 220)</color>
-      <drawSize>3</drawSize>
-      <graphicClass>Graphic_Cluster</graphicClass>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Filth</altitudeLayer>
-    <passability>Standable</passability>
-    <pathCost>0</pathCost>
-    <drawerType>MapMeshOnly</drawerType>
-	<building>    
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthAsh</defName>
+		<label>ash</label>
+		<description>A pile of ash.</description>
+		<graphicData>
+			<texPath>Things/Filth/Ash</texPath>
+			<color>(255, 255, 255, 220)</color>
+			<drawSize>3</drawSize>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
-				      <isInert>true</isInert>
-	</building>
-    <castEdgeShadows>false</castEdgeShadows>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>5</MaxHitPoints>
-      <WorkToBuild>5</WorkToBuild>
-      <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FilthProps</designatorDropdown>
-	<clearBuildingArea>false</clearBuildingArea>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-  </ThingDef>
-  
-  
-
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
 </Defs>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropCategoryDef>
+		<defName>AP_PropCategory_Floors</defName>
+		<label>floors</label>
+		<description>Floors that are used for purely decorative purposes.</description>
+		<priority>-10</priority>
+		<icon>UI/Categories/Props_Floor</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>AP_PropCategory_Walls</defName>
+		<label>walls</label>
+		<description>Walls that are used mostly for decorative purposes.</description>
+		<priority>-5</priority>
+		<icon>UI/Categories/Props_Floor</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Borders</defName>
+		<label>borders</label>
+		<description>Ground borders to properly demarcate your pathways.</description>
+		<priority>0</priority>
+		<icon>UI/Categories/Props_Borders</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Decals</defName>
+		<label>decals</label>
+		<description>Decal props that are set on the ground with different informational data.</description>
+		<priority>1</priority>
+		<icon>UI/Categories/Props_Decals</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_LargeDecals</defName>
+		<label>big decals</label>
+		<description>Large decal props that are set on the ground with different informational data.</description>
+		<priority>2</priority>
+		<icon>UI/Categories/Props_DecalsBig</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Medieval</defName>
+		<label>medieval</label>
+		<description>Medieval props fit for a grand castle or a simple peasant village.</description>
+		<priority>3</priority>
+		<icon>UI/Categories/Props_Medieval</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Farm</defName>
+		<label>farm</label>
+		<description>Farm props such as hay and wood piles, wooden carts, etc.</description>
+		<priority>4</priority>
+		<icon>UI/Categories/Props_Farm</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Furniture</defName>
+		<label>furniture</label>
+		<description>Furniture that has no gameplay mechanic behind it, such as decorative armoires, mirrors, etc.</description>
+		<priority>5</priority>
+		<icon>UI/Categories/Props_Furniture</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Office</defName>
+		<label>office</label>
+		<description>Encompasses items such as desks, chairs, computers, laboratory equipment, whiteboards, office supplies, and other elements commonly found in professional workspaces.</description>
+		<priority>5.5</priority>
+		<icon>UI/Categories/Props_Furniture</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Industrial</defName>
+		<label>industrial</label>
+		<description>Industrial props such as barrels, pallets, boxes and containers.</description>
+		<priority>6</priority>
+		<icon>UI/Categories/Props_Industrial</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Kitchen</defName>
+		<label>kitchen</label>
+		<description>Kitchen props such as cooking appliances, kitchen furniture, etc.</description>
+		<priority>7</priority>
+		<icon>UI/Categories/Props_Kitchen</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Power</defName>
+		<label>power</label>
+		<description>Props related to power structures, generators, gas tanks, etc.</description>
+		<priority>8</priority>
+		<icon>UI/Categories/Props_Power</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Spacer</defName>
+		<label>spacer</label>
+		<description>High-tech props related to the spacer tech level.</description>
+		<priority>9</priority>
+		<icon>UI/Categories/Props_Spacer</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Vehicles</defName>
+		<label>vehicles</label>
+		<description>Vehicles props. Trucks, cars, lorries, etc.</description>
+		<priority>10</priority>
+		<icon>UI/Categories/Props_Vehicles</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Spaceships</defName>
+		<label>spaceships</label>
+		<description>Spaceship props. All kinds of vehicles designed for space travel.</description>
+		<priority>11</priority>
+		<icon>UI/Categories/Props_Spaceships</icon>
+	</VFEProps.PropCategoryDef>
+	
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Park</defName>
+		<label>parks</label>
+		<description>General outdoors props in a nature setting.</description>
+		<priority>12</priority>
+		<icon>UI/Categories/Props_Plants</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Workshop</defName>
+		<label>workshop</label>
+		<description>Production and workshop props that fit in a crafting environment.</description>
+		<priority>12.75</priority>
+		<icon>UI/Categories/Props_Workshop</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Filth</defName>
+		<label>filth</label>
+		<description>Base game filth as props. Cradle not included.</description>
+		<priority>13</priority>
+		<icon>UI/Categories/Props_Filth</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Ancient</defName>
+		<label>ancient</label>
+		<description>Ancient props that are usually scattered around the map. Note these will not work for the Scrapper meme in VE: Memes and Structures, as they are purely decorative.</description>
+		<priority>14</priority>
+		<icon>UI/Categories/Props_Ancient</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Vaults</defName>
+		<label>vaults</label>
+		<description>Props found in ancient vaults.</description>
+		<priority>15</priority>
+		<icon>UI/Categories/Props_Vault</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Empire</defName>
+		<label>imperial</label>
+		<description>Props from the Empire.</description>
+		<priority>16</priority>
+		<icon>UI/Categories/Props_Imperial</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Labs</defName>
+		<label>labs</label>
+		<description>Props found in ancient abandoned labs. Usually quite derelict.</description>
+		<priority>17</priority>
+		<icon>UI/Categories/Props_Lab</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Bedroom</defName>
+		<label>bedroom</label>
+		<description>Items such as beds, bedding, furniture (dressers, nightstands), lamps, curtains, and other decor elements commonly found in bedrooms.</description>
+		<priority>18</priority>
+		<icon>UI/Categories/Props_Bedroom</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_DiningRoom</defName>
+		<label>dining room</label>
+		<description>Items such as tables, chairs, tableware (plates, glasses, utensils), tablecloths, centerpieces, and other decor elements commonly found in dining settings.</description>
+		<priority>19</priority>
+		<icon>UI/Categories/Props_Bedroom</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Hospital</defName>
+		<label>hospital</label>
+		<description>Items such as medical equipment (beds, surgical tools, monitors), signage, and other items commonly found in healthcare environments.</description>
+		<priority>20</priority>
+		<icon>UI/Categories/Props_Hospital</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Military</defName>
+		<label>military</label>
+		<description>Items like replica weapons, uniforms, helmets, insignia, and other military-related paraphernalia designed for visual and thematic accuracy.</description>
+		<priority>21</priority>
+		<icon>UI/Categories/Props_Military</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Prison</defName>
+		<label>prison</label>
+		<description>Prison bars, cells, inmate uniforms, guards' uniforms, surveillance cameras, signage, and other elements associated with correctional facilities.</description>
+		<priority>22</priority>
+		<icon>UI/Categories/Props_Prison</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Royal</defName>
+		<label>royal</label>
+		<description>Crowns, scepters, thrones, royal attire, coats of arms, ceremonial swords, and other regal symbols.</description>
+		<priority>23</priority>
+		<icon>UI/Categories/Props_Royal</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Storage</defName>
+		<label>storage</label>
+		<description>Props such as shelves, containers, crates, storage bins, and labels, as well as tools or equipment associated with organizing and managing stored items.</description>
+		<priority>24</priority>
+		<icon>UI/Categories/Props_Storage</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Temple</defName>
+		<label>temple</label>
+		<description>Religious artifacts, ceremonial objects, statues, altars, ritualistic tools, and other elements representing the spiritual or cultural significance of a temple.</description>
+		<priority>25</priority>
+		<icon>UI/Categories/Props_Temple</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Recreation</defName>
+		<label>recreation</label>
+		<description>Sports equipment, games, picnic supplies, outdoor furniture, and other elements associated with leisure and entertainment.</description>
+		<priority>26</priority>
+		<icon>UI/Categories/Props_Recreation</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Children</defName>
+		<label>children</label>
+		<description>Children props, such as toys, children furniture, etc.</description>
+		<priority>24</priority>
+		<icon>UI/Categories/Props_Children</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Plants</defName>
+		<label>plants</label>
+		<description>Base game plants as props. Bear in mind these are decorative. They don't grow, don't produce anything, etc.</description>
+		<priority>100</priority>
+		<icon>UI/Categories/Props_Plants</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Mechs</defName>
+		<label>mechanoid</label>
+		<description>Props based on mech clusters, or other structures of mechanoid design.</description>
+		<priority>110</priority>
+		<icon>UI/Categories/Props_Mech</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Effecters</defName>
+		<label>effects</label>
+		<description>Invisible props that release particles from effecters. Bear in mind these will be laggy, so use in moderation.</description>
+		<priority>300</priority>
+		<icon>UI/Categories/Props_Effects</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Misc</defName>
+		<label>misc</label>
+		<description>Miscellaneous props that don't fit any other category.</description>
+		<priority>500</priority>
+		<icon>UI/Categories/Props_Misc</icon>
+	</VFEProps.PropCategoryDef>
+	
+
+</Defs>

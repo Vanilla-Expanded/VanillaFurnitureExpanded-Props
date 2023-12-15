@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_1</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1</priority>
+		<prop>VFEPD_Superpod</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_2</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>2</priority>
+		<prop>VFEPD_SkipBlack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_3</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>3</priority>
+		<prop>VFEPD_AlbatrossBlack</prop>
+	</VFEProps.PropDef>
+	
+	
+	
+</Defs>

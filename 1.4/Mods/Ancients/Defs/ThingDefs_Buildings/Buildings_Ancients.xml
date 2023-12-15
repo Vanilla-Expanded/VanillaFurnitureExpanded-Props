@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientEducator</defName>
+		<label>ancient educator</label>
+		<description>A very old interactive machine that’s commonly used in the vaults to pass the time. This one is just deactivated.</description>
+		<graphicData>
+			<texPath>Things/Building/Joy/AncientEducator/AncientEducator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.65, 0.25, 0.6)</volume>
+				<offset>(0, 0, -0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientFoosballTable</defName>
+		<label>ancient foosball table</label>
+		<description>An old relic of the times, foosball table allows players to engage in the long forgotten game of football without leaving the safety of the vault. Or it would, but its rods are soldered and immobile.</description>
+		<graphicData>
+			<texPath>Things/Building/Joy/AncientFoosballTable/AncientFoosballTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_LargeSupplyCrate</defName>
+		<label>large hermetic crate</label>
+		<description>A large crate with some building resources and components. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/LargeSupplyCrate/LargeSupplyCrate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3.0, 1.0, 3.0)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>1</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3, 3)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PipelineJunction</defName>
+		<label>pipeline junction</label>
+		<description>A large underground chemfuel pipeline. Not connected to anything.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/PipelineJunction/PipelineJunction</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3.0, 1.0, 3.0)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>1</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3, 3)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBedTwo</defName>
+		<label>ancient bed</label>
+		<description>An old-fashioned metal bed frame with a hard mattress and uncomfortable duvet.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AncientSingleBed/AncientSingleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientCryptosleepSuspender</defName>
+		<label>ancient cryptosleep suspender</label>
+		<description>An ancient medical pod that uses partial cryptosleep to slow down the degredation of wounds and help the body heal. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AncientCryptosleepSuspender/AncientCryptosleepSuspender</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMonitorBank</defName>
+		<label>ancient monitor bank</label>
+		<description>A small set of old computer screens.</description>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientMonitorBank/AncientMonitorBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5, 1.5)</drawSize>
+			<shadowData>
+				<volume>(3, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3, 1)</size>
+		<fillPercent>0.40</fillPercent>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBrokenDefensiveTurret</defName>
+		<label>ancient broken defensive turret</label>
+		<description>A destroyed defensive turret top.</description>
+		<size>(2, 2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientBrokenDefensiveTurret/AncientBrokenDefensiveTurret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<shadowData>
+				<volume>(2, 0.35, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBustedTurretPlatform</defName>
+		<label>ancient busted turret platform</label>
+		<description>A destroyed platform for a turret.</description>
+		<size>(2, 2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientBustedTurretPlatform/AncientBustedTurretPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<shadowData>
+				<volume>(2, 0.35, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientFuelTank</defName>
+		<label>ancient fuel tank</label>
+		<description>A large fuel tank that could be deconstructed for fuel. If it still had any.</description>
+		<size>(2, 3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientFuelTank/AncientFuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 3)</drawSize>
+			<shadowData>
+				<volume>(2, 0.35, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientInputTerminal</defName>
+		<label>ancient input terminal</label>
+		<description>A station with buttons and levers.</description>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientInputTerminal/AncientInputTerminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5, 1.5)</drawSize>
+			<shadowData>
+				<volume>(3, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3, 1)</size>
+		<fillPercent>0.40</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTransmitter</defName>
+		<label>ancient transmitter</label>
+		<description>A transmitter used to send signals over long range. Non-functional.</description>
+		<size>(3, 3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientTransmitter/AncientTransmitter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.35, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMachinery</defName>
+		<label>ancient machinery</label>
+		<description>A set of old machine blocks. Their purpose, if they ever had any, has long been forgotten.</description>
+		<size>(3,3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientMachinery</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.35, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientWaterFilter</defName>
+		<label>ancient water filter</label>
+		<description>A large water filtration system.</description>
+		<size>(3, 3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientWaterFilter/AncientWaterFilter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.35, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientComputerDesk</defName>
+		<label>ancient computer desk</label>
+		<description>An old, no longer operational computer desk.</description>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientComputerDesk/AncientComputerDesk</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+			<shadowData>
+				<volume>(2, 0.3, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2, 1)</size>
+		<fillPercent>0.40</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientShuttle</defName>
+		<label>ancient shuttle</label>
+		<description>An ancient, no longer operational shuttle.</description>
+		<size>(5, 3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Junk/AncientShuttle/AncientShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 3)</drawSize>
+			<shadowData>
+				<volume>(4.3, 0.4, 2.5)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientVitalsMonitor</defName>
+		<label>ancient vitals monitor</label>
+		<description>An old set of monitors to check up on the healing progress of wounded soldiers. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/AncientVitalsMonitor/AncientVitalsMonitor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<damageData>
+				<rectN>(0.078125,0.46875,0.859375,0.53125)</rectN>
+				<rectS>(0.078125,0.46875,0.859375,0.53125)</rectS>
+				<rectE>(0.125,0.46875,0.625,0.296875)</rectE>
+				<rectW>(0.25,0.46875,0.625,0.296875)</rectW>
+				<cornerTR>Damage/Corner</cornerTR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<pathCost>14</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientChemfuelPoweredGenerator</defName>
+		<label>ancient chemfuel powered generator</label>
+		<description>Produces a reliable stream of power by consuming chemfuel. Or it would, if it was working.</description>
+		<graphicData>
+			<texPath>Things/Building/Power/AncientChemfuelGenerator/AncientChemfuelGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2.93,2,2.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientGeothermalPlant</defName>
+		<label>ancient geothermal plant</label>
+		<description>Produces electricity from geothermal steam geysers. Or it would, if it was working.</description>
+		<graphicData>
+			<texPath>Things/Building/Power/AncientGeothermalPlant/AncientGeothermalPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<shadowData>
+				<volume>(6.03,1.0,5.25)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,5.4,6)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(6,6)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBattery</defName>
+		<label>ancient battery</label>
+		<description>An old, large battery commonly found in vaults, capable of sustaining the entire compound for a nearly infinite amount of time. This one is out-of-service.</description>
+		<graphicData>
+			<texPath>Things/Building/Power/AncientBattery/AncientBattery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBioBatteryTank</defName>
+		<label>ancient bio-battery tank</label>
+		<description>Produces a reliable stream of power by consuming biological material such as humans or animals. This one is out-of-service.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/BioBattery_Assembled</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.5,4.5)</drawSize>
+			<shadowData>
+				<volume>(2.93,2,2.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSupplySlingshot</defName>
+		 <label>ancient supply slingshot</label>
+    <description>Often found in ancient vaults, supply slingshot is a complex mechanism that catapults a supply crate across huge distances. This one is non-functional.</description>
+		 <graphicData>
+      <texPath>Things/Building/Misc/AncientSupplySlingshot/AncientSupplySlingshot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+	</ThingDef>
+</Defs>

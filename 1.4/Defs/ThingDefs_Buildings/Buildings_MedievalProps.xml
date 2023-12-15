@@ -1,659 +1,558 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_Anvil</defName>
-    <label>anvil</label>
-    <description>A heavy forge anvil.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/Anvil/Anvil</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<defaultPlacingRot>South</defaultPlacingRot>
-	<rotatable>true</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.1</fillPercent>
-    <statBases>
-      <MaxHitPoints>20</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
-      <Mass>10</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>0</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>5</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_ArmorStandEmpty</defName>
-    <label>empty armor stand</label>
-    <description>An armor stand. There is currently no armor mounted on it.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/ArmorStandEmpty/ArmorStandEmpty</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<defaultPlacingRot>South</defaultPlacingRot>
-	<rotatable>true</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
-      <Mass>5</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>5</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_ArmorStandFull</defName>
-    <label>full armor stand</label>
-    <description>An armor stand. There is a suit of plate armor mounted on it.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/ArmorStandFull/ArmorStandFull</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<defaultPlacingRot>South</defaultPlacingRot>
-	<rotatable>true</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.4</fillPercent>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
-      <Mass>8</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>5</WoodLog>
-	  <Steel>5</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_ArrowCage</defName>
-    <label>arrow cage</label>
-    <description>A small cage with arrows</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/ArrowCage/ArrowCage</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<rotatable>false</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.1</fillPercent>
-    <statBases>
-      <MaxHitPoints>10</MaxHitPoints>
-      <WorkToBuild>30</WorkToBuild>
-      <Mass>5</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>0</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>5</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
- <ThingDef ParentName="FurnitureBase">
-    <defName>VFEPD_Banner</defName>
-    <label>banner</label>
-    <description>A decorative banner hanging from a vertical wooden frame.</description>
-    <altitudeLayer>BuildingOnTop</altitudeLayer>
-    <passability>Standable</passability>
-    <fillPercent>0.40</fillPercent>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>7.5</Beauty>
-    </statBases>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
-    <costList>
-      <WoodLog>25</WoodLog>
-    </costList>
-    <canOverlapZones>true</canOverlapZones>
-    <pathCost>10</pathCost>
-    <rotatable>true</rotatable>
-    <size>(1,1)</size>
-    <uiIconOffset>(0, 0.15)</uiIconOffset>
-    <filthLeaving>Filth_Trash</filthLeaving>
-    <designationCategory>PropsandDecor</designationCategory>
-    <researchPrerequisites>
-      <li>MedievalProps</li>
-    </researchPrerequisites>
-    <graphicData>
-      <drawSize>(2.2,2.2)</drawSize>
-      <texPath>Things/Building/MedievalProps/Banner/Banner</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <shadowData>
-        <volume>(0.6,0.5,0.3)</volume>
-        <offset>(0,0,-0.2</offset>
-      </shadowData>
-      <damageData>
-        <rectN>(0.1, 0.1, 1.8, 1.5)</rectN>
-        <rectS>(0.1, 0.1, 1.8, 1.5)</rectS>
-        <rectE>(0.25, 0.5, 0.5, 1.5)</rectE>
-        <rectW>(0.25, 0.5, 0.5, 1.5)</rectW>
-      </damageData>
-    </graphicData>
-  </ThingDef>
-  
-  <ThingDef ParentName="FurnitureBase">
-    <defName>VFEPD_BrazierEmpty</defName>
-    <label>empty brazier</label>
-    <description>A bowl-shaped furnishing used to hold a fire.</description>
-    <category>Building</category>
-    <tickerType>Normal</tickerType>
-    <fillPercent>0.15</fillPercent>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Mass>15</Mass>
-    </statBases>
-    <selectable>true</selectable>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconOffset>(0, -0.04)</uiIconOffset>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <rotatable>false</rotatable>
-    <researchPrerequisites>
-      <li>MedievalProps</li>
-    </researchPrerequisites>
-    <graphicData>
-      <texPath>Things/Building/MedievalProps/BrazierEmpty/BrazierEmpty</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.55, 0.35, 0.3)</volume>
-        <offset>(0, 0, -0.28)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.2,0.3,0.6,0.6)</rect>
-      </damageData>
-    </graphicData>
-	<building> <paintable>true</paintable></building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_BucketEmpty</defName>
-    <label>empty bucket</label>
-    <description>A wooden bucket.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/BucketEmpty/BucketEmpty</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<rotatable>false</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>10</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
-      <Mass>1</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>2</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-       <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_BucketwithWater</defName>
-    <label>water bucket</label>
-    <description>A wooden bucket filled with water.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/BucketWater/BucketWater</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-    </graphicData>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-	<rotatable>false</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>10</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
-      <Mass>1</Mass>
-	  <Beauty>1</Beauty>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>2</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="FurnitureBase">
-    <defName>VFEPD_CageBrazier</defName>
-    <label>cage brazier</label>
-    <description>A metal cage shaped empty brazier.</description>
-    <category>Building</category>
-    <tickerType>Normal</tickerType>
-    <fillPercent>0.05</fillPercent>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Mass>15</Mass>
-    </statBases>
-    <selectable>true</selectable>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconOffset>(0, -0.04)</uiIconOffset>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <costList>
-      <Steel>5</Steel>
-    </costList>
-    <rotatable>false</rotatable>
-    <researchPrerequisites>
-      <li>MedievalProps</li>
-    </researchPrerequisites>
-    <graphicData>
-      <texPath>Things/Building/MedievalProps/CageBrazier/CageBrazier</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.55, 0.35, 0.3)</volume>
-        <offset>(0, 0, -0.28)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.2,0.3,0.6,0.6)</rect>
-      </damageData>
-    </graphicData>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WoodenChest</defName>
-    <label>wooden chest</label>
-    <description>A medium size wooden chest.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/Chest/Chest</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(1,1)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WoodenChestLarge</defName>
-    <label>large wooden chest</label>
-    <description>A large size wooden chest.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/ChestLarge/ChestLarge</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(2,1)</size>
-    <costList>
-      <WoodLog>20</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WeaponRackEmpty</defName>
-    <label>empty weapon rack</label>
-    <description>A long weapon rack. There aren't any weapons on it at the moment.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/WeaponRackEmpty/WeaponRackEmpty</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(2,1)</size>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WeaponRackSwords</defName>
-    <label>sword weapon rack</label>
-    <description>A long weapon rack. There is a selection of swords mounted on it.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/WeaponRackSwords/WeaponRackSwords</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(2,1)</size>
-    <costList>
-      <WoodLog>10</WoodLog>
-      <Steel>5</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WeaponRackSpears</defName>
-    <label>spears weapon rack</label>
-    <description>A long weapon rack. There is a selection of spears mounted on it.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/WeaponRackSpears/WeaponRackSpears</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(2,1)</size>
-    <costList>
-      <WoodLog>10</WoodLog>
-      <Steel>5</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WoodenSign</defName>
-    <label>wooden sign</label>
-    <description>A tall post with signs pointing in different directions.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/WoodenSign</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-	  <drawSize>(3,3)</drawSize>
-      <shadowData>
-        <volume>(0.15, 0.10, 2.20)</volume>
-      </shadowData>
-    </graphicData>
-	<rotatable>false</rotatable>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.1</fillPercent>
-    <statBases>
-      <MaxHitPoints>20</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>50</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>5</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_TanningRack</defName>
-    <label>tanning rack</label>
-    <description>A tanning rack with a pelt mounted on it.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/TanningRack/TanningRack</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-    </graphicData>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1</Flammability>
-    </statBases>
-    <size>(2,1)</size>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_WoodenPlatform</defName>
-    <label>wooden platform</label>
-    <description>A wooden platform to walk on.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/WoodenPlatform</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-	  <drawSize>(1.1,1.1)</drawSize>
-    </graphicData>
-	<rotatable>false</rotatable>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Floor</altitudeLayer>
-    <passability>Standable</passability>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>50</Mass>
-      <Flammability>0</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <WoodLog>2</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-     <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_CagePlatform</defName>
-    <label>cage platform</label>
-    <description>A cage platform to walk on.</description>
-    <graphicData>	
-      <texPath>Things/Building/MedievalProps/CagePlatform/CagePlatform</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(1.1,1.1)</drawSize>
-    </graphicData>
-	<rotatable>false</rotatable>
-    <researchPrerequisites><li>MedievalProps</li></researchPrerequisites>
-    <altitudeLayer>Floor</altitudeLayer>
-    <passability>Standable</passability>
-    <fillPercent>0</fillPercent>
-    <statBases>
-      <MaxHitPoints>10</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
-      <Mass>50</Mass>
-      <Flammability>0</Flammability>
-    </statBases>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>2</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>MedievalProps</designatorDropdown>
-	<building>
-		      <isInert>true</isInert>
-	</building>
-  </ThingDef>
-  
-  
-  
-  
-  
-
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Banner</defName>
+		<label>banner</label>
+		<description>A decorative banner hanging from a vertical wooden frame.</description>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.40</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<canOverlapZones>true</canOverlapZones>
+		<pathCost>10</pathCost>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<filthLeaving>Filth_Trash</filthLeaving>
+		<graphicData>
+			<drawSize>(2.2,2.2)</drawSize>
+			<texPath>Things/Building/MedievalProps/Banner/Banner</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				<offset>(0,0,-0.2</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1, 0.1, 1.8, 1.5)</rectN>
+				<rectS>(0.1, 0.1, 1.8, 1.5)</rectS>
+				<rectE>(0.25, 0.5, 0.5, 1.5)</rectE>
+				<rectW>(0.25, 0.5, 0.5, 1.5)</rectW>
+			</damageData>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WoodenPlatform</defName>
+		<label>wooden platform</label>
+		<description>A wooden platform to walk on.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/WoodenPlatform</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.1,1.1)</drawSize>
+			<color>(96,77,55)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Anvil</defName>
+		<label>anvil</label>
+		<description>A heavy forge anvil.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/Anvil/Anvil</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.3,0.3,0.3)</volume>
+			
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<rotatable>true</rotatable>
+		<pathCost>14</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ArmorStandEmpty</defName>
+		<label>empty armor stand</label>
+		<description>An armor stand. There is currently no armor mounted on it.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/ArmorStandEmpty/ArmorStandEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(96,77,55)</color>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>65</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ArmorStandFull</defName>
+		<label>full armor stand</label>
+		<description>An armor stand. There is a suit of plate armor mounted on it.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/ArmorStandFull/ArmorStandFull</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<rotatable>true</rotatable>
+		<pathCost>14</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ArrowCage</defName>
+		<label>arrow cage</label>
+		<description>A small cage with arrows</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/ArrowCage/ArrowCage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CageBrazier</defName>
+		<label>cage brazier</label>
+		<description>A metal cage shaped empty brazier.</description>
+		<category>Building</category>
+		<fillPercent>0.05</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>15</Mass>
+		</statBases>
+		<selectable>true</selectable>
+		<uiIconOffset>(0, -0.04)</uiIconOffset>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/CageBrazier/CageBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.3,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BrazierEmpty</defName>
+		<label>empty brazier</label>
+		<description>A bowl-shaped furnishing used to hold a fire.</description>
+		<category>Building</category>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>15</Mass>
+		</statBases>
+		<selectable>true</selectable>
+		<uiIconOffset>(0, -0.04)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>14</pathCost>
+		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/BrazierEmpty/BrazierEmpty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.3,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BucketEmpty</defName>
+		<label>empty bucket</label>
+		<description>A wooden bucket.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/BucketEmpty/BucketEmpty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(96,77,55)</color>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BucketwithWater</defName>
+		<label>water bucket</label>
+		<description>A wooden bucket filled with water.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/BucketWater/BucketWater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WoodenChest</defName>
+		<label>wooden chest</label>
+		<description>A medium size wooden chest.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/Chest/Chest</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+		</graphicData>
+		<pathCost>14</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WoodenChestLarge</defName>
+		<label>large wooden chest</label>
+		<description>A large size wooden chest.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/ChestLarge/ChestLarge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.75, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+		</graphicData>
+		<pathCost>30</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WeaponRackEmpty</defName>
+		<label>empty weapon rack</label>
+		<description>A long weapon rack. There aren't any weapons on it at the moment.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/WeaponRackEmpty/WeaponRackEmpty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.75, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+		</graphicData>
+		<pathCost>42</pathCost> 
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WeaponRackSwords</defName>
+		<label>sword weapon rack</label>
+		<description>A long weapon rack. There is a selection of swords mounted on it.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/WeaponRackSwords/WeaponRackSwords</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.75, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WeaponRackSpears</defName>
+		<label>spears weapon rack</label>
+		<description>A long weapon rack. There is a selection of spears mounted on it.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/WeaponRackSpears/WeaponRackSpears</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.75, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<pathCost>42</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WoodenSign</defName>
+		<label>wooden sign</label>
+		<description>A tall post with signs pointing in different directions.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/WoodenSign</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.25, 0.25, 0.25)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_TanningRack</defName>
+		<label>tanning rack</label>
+		<description>A tanning rack with a pelt mounted on it.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/TanningRack/TanningRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.25, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CagePlatform</defName>
+		<label>cage platform</label>
+		<description>A cage platform to walk on.</description>
+		<graphicData>
+			<texPath>Things/Building/MedievalProps/CagePlatform/CagePlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.1,1.1)</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 </Defs>

@@ -1,436 +1,364 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_Superpod</defName>
-    <label>superpod</label>
-    <description>A large, out-of-service, multi use drop pod.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Superpod/Superpod</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(3,3)</drawSize>
-      <shadowData>
-        <volume>(1, 1, 1)</volume>
-      </shadowData>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_SkipBlack</defName>
-    <label>black skip</label>
-    <description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Skip/Skip</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(5,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_AlbatrossBlack</defName>
-    <label>black gunship</label>
-    <description>A large, multi-personel transport ship currently out of service.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(9,9)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(25,25,25)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(5,5)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_SkipWhite</defName>
-    <label>white skip</label>
-    <description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Skip/Skip</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(5,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_AlbatrossWhite</defName>
-    <label>white gunship</label>
-    <description>A large, multi-personel transport ship currently out of service.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(9,9)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(255,255,255)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(5,5)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_SkipSilver</defName>
-    <label>silver skip</label>
-    <description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Skip/Skip</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(5,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_AlbatrossSilver</defName>
-    <label>silver gunship</label>
-    <description>A large, multi-personel transport ship currently out of service.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(9,9)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(180,173,150)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(5,5)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_SkipBlue</defName>
-    <label>blue skip</label>
-    <description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Skip/Skip</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(5,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_AlbatrossBlue</defName>
-    <label>blue gunship</label>
-    <description>A large, multi-personel transport ship currently out of service.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(9,9)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(44,83,140)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(5,5)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_SkipRed</defName>
-    <label>red skip</label>
-    <description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Skip/Skip</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(5,5)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(3,3)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  <ThingDef ParentName="BuildingBase">
-    <defName>VFEPD_AlbatrossRed</defName>
-    <label>red gunship</label>
-    <description>A large, multi-personel transport ship currently out of service.</description>
-    <graphicData>	
-      <texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>(9,9)</drawSize>
-      <shadowData>
-        <volume>(0.55, 0.30, 0.40)</volume>
-      </shadowData>
-		<color>(178,72,66)</color>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>SpaceshipProps</li></researchPrerequisites>
-    <altitudeLayer>Building</altitudeLayer>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <castEdgeShadows>False</castEdgeShadows>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <repairEffect>ConstructMetal</repairEffect>
-    <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>200</Mass>
-      <Flammability>0.2</Flammability>
-    </statBases>
-    <size>(5,5)</size>
-    <costList>
-      <Steel>150</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
-    <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpaceshipProps</designatorDropdown>
-  </ThingDef>
-  
-  
 
+
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Superpod</defName>
+		<label>superpod</label>
+		<description>A large, out-of-service, multi use drop pod.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Superpod/Superpod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_SkipBlack</defName>
+		<label>skip</label>
+		<description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Skip/Skip</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(60,60,60)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AlbatrossBlack</defName>
+		<label>gunship</label>
+		<description>A large, multi-personel transport ship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	
+	
+	
+	
+	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
+	
+	
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_SkipWhite</defName>
+		<label>white skip</label>
+		<description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Skip/Skip</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_AlbatrossWhite</defName>
+		<label>white gunship</label>
+		<description>A large, multi-personel transport ship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(255,255,255)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_SkipSilver</defName>
+		<label>silver skip</label>
+		<description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Skip/Skip</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_AlbatrossSilver</defName>
+		<label>silver gunship</label>
+		<description>A large, multi-personel transport ship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_SkipBlue</defName>
+		<label>blue skip</label>
+		<description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Skip/Skip</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_AlbatrossBlue</defName>
+		<label>blue gunship</label>
+		<description>A large, multi-personel transport ship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_SkipRed</defName>
+		<label>red skip</label>
+		<description>A light-weight, out-of-service skip, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Skip/Skip</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VFEPD_AlbatrossRed</defName>
+		<label>red gunship</label>
+		<description>A large, multi-personel transport ship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Albatross/Albatross</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+	
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
 </Defs>

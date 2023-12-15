@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipChunk</defName>
+		<label>ship chunk</label>
+		<description>A chunk of a spacecraft. Upon closer inspection it seems to be made of painted cardboard.</description>
+		<graphicData>
+			<texPath>Things/Building/Exotic/ShipChunk</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.1,0.1,1.8,1.8)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.39,0.5,1.25)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart</defName>
+		<label>ship part</label>
+		<description>An ancient ship part. Upon closer inspection it seems to be made of painted cardboard.</description>
+		<graphicData>
+			<texPath>Things/Building/Exotic/CrashedShipPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<shadowData>
+				<volume>(0.9, 1.0, 0.9)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.5, 0.1, 5, 2.8)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(6,3)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>60</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPartDefoliator</defName>
+		<label>defoliator ship part</label>
+		<description>An ancient ship part. Upon closer inspection it seems to be made of painted cardboard.</description>
+		<graphicData>
+			<texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<shadowData>
+				<volume>(0.9, 1.0, 0.9)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.5, 0.1, 5, 2.8)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(6,3)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>60</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientConcreteBarrier</defName>
+		<label>ancient concrete barrier</label>
+		<description>A traffic management solution from long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientConcreteBarrier</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<color>(231,216,206)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.35</fillPercent>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientLamppost</defName>
+		<label>ancient lamppost</label>
+		<description>Road lighting from long ago. No longer functional.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientLamppost</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<color>(231,216,206)</color>
+			<shadowData>
+				<volume>(0.76,0.3,0.15)</volume>
+				<offset>(0,0,-0.39)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<fillPercent>0.25</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Urn</defName>
+		<label>urn</label>
+		<description>An ancient-style decorative container.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Urn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,0.3,0.9)</rect>
+			</damageData>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientCryptosleepPod</defName>
+		<label>ancient cryptosleep pod</label>
+		<description>A single-use pod for preserving one person in a state of suspended animation. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientCryptosleepPod</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientLamp</defName>
+		<label>ancient lamp</label>
+		<description>An ancient self-powered lamp. Its internal power supply is completely depleted.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Ruins/AncientLamp</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<fillPercent>0.2</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
+		<rotatable>false</rotatable>
+	</ThingDef>
+</Defs>

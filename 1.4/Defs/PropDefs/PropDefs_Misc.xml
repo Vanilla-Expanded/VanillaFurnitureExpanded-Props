@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_2</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>2</priority>
+		<prop>VFEPD_FakeSnowman</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_3</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>3</priority>
+		<prop>VFEPD_Present</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_4</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>4</priority>
+		<prop>VFEPD_Hive</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_5</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>5</priority>
+		<prop>VFEPD_GlowPod</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_6</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>6</priority>
+		<prop>VFEPD_Geyser</prop>
+		
+	</VFEProps.PropDef>
+	
+</Defs>

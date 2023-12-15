@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_5</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>5</priority>
+		<prop>VFEPD_DeserterShuttle</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_6</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>6</priority>
+		<prop>VFEPD_ImperialMaxpack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_7</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>7</priority>
+		<prop>VFEPD_AmmoBox_UraniumSlug</prop>
+		<shortLabel>uranium ammo</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_8</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>8</priority>
+		<prop>VFEPD_AmmoBox_Autocannon</prop>
+		<shortLabel>autocannon ammo</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_9</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>9</priority>
+		<prop>VFEPD_AmmoBox_Missile</prop>
+		<shortLabel>missile ammo</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_10</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>10</priority>
+		<prop>VFEPD_SupplyCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_11</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>11</priority>
+		<prop>VFEPD_BiosecuredCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_12</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>12</priority>
+		<prop>VFEPD_SurveillancePillar</prop>
+		<shortLabel>display bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_13</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>13</priority>
+		<prop>VFEPD_AerodroneMunitionsCrate</prop>
+		<shortLabel>aerodrone crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_14</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>14</priority>
+		<prop>VFEPD_AerodroneBatteryPack</prop>
+		<shortLabel>battery pack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_15</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>15</priority>
+		<prop>VFEPD_Aerodrone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_16</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>16</priority>
+		<prop>VFEPD_FuelTank</prop>
+		<shortLabel>fuel tank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_17</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>17</priority>
+		<prop>VFEPD_SurveillanceStation</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_18</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>18</priority>
+		<prop>VFEPD_SurveillanceDisplayBank</prop>
+		<shortLabel>display bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_19</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>19</priority>
+		<prop>VFEPD_Techprinter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_20</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>20</priority>
+		<prop>VFEPD_TechiteDiscStack</prop>
+		<shortLabel>disk stack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_21</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>21</priority>
+		<prop>VFEPD_ImperialUnderfarm</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_22</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>22</priority>
+		<prop>VFEPD_WaterMain</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_23</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>23</priority>
+		<prop>VFEPD_ImperialMegaHighShield</prop>
+		<shortLabel>megashield</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_24</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>24</priority>
+		<prop>VFEPD_ZeusCannonControlStation</prop>
+		<shortLabel>zeus station</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_25</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>25</priority>
+		<prop>VFEPD_ZeusCannonCapacitorBank</prop>
+		<shortLabel>zeus capacitors</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_26</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>26</priority>
+		<prop>VFEPD_ZeusCannonStatic</prop>
+		<shortLabel>zeus cannon</shortLabel>
+	</VFEProps.PropDef>	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Empire_27</defName>
+		<category>VFE_PropCategory_Empire</category>
+		<priority>27</priority>
+		<prop>VFEPD_BurnoutIntelScraper</prop>
+		<shortLabel>intel scraper</shortLabel>
+	</VFEProps.PropDef>
+</Defs>

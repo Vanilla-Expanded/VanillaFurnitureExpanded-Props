@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeMummyFemale</defName>
+		<label>fake mummy (f)</label>
+		<description>A fake female mummy. The latest rage in decorating.</description>
+		<fillPercent>0.2</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Misc/AM_MummyFemale</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeMummyMale</defName>
+		<label>fake mummy (m)</label>
+		<description>A fake male mummy. The latest rage in decorating.</description>
+		<fillPercent>0.2</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Misc/AM_MummyMale</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeRelicAltar</defName>
+		<label>relic altar</label>
+		<description>A small bowl with capacity for one relic. Just for decorative purposes.</description>
+		<fillPercent>0.35</fillPercent>
+		<graphicData>
+			<drawSize>(1,1)</drawSize>
+			<texPath>Things/Building/Misc/AM_RelicSmashingAltar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	
+</Defs>

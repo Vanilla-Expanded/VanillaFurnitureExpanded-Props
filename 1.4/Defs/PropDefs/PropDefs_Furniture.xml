@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_FakeDoor</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>-10</priority>
+		<prop>VFEPD_FakeDoor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_FakeFlapDoor</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>-9</priority>
+		<prop>VFEPD_FakeAnimalDoor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_FakeAutoDoor</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>-8</priority>
+		<prop>VFEPD_FakeAutoDoor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_FakeFenceDoor</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>-7</priority>
+		<prop>VFEPD_FakeFenceDoor</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_FakeColumn</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>-6</priority>
+		<prop>VFEPD_FakeColumn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_1</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>1</priority>
+		<prop>VFEPD_SteelATM</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_2</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>2</priority>
+		<prop>VFEPD_SteelBookshelf</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_3</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>3</priority>
+		<prop>VFEPD_WoodenCupboard</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_4</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>4</priority>
+		<prop>VFEPD_WoodenCupboardDouble</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_5</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>5</priority>
+		<prop>VFEPD_WoodenCupboardPlates</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_6</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>6</priority>
+		<prop>VFEPD_WoodenCupboardNarrow</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_7</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>7</priority>
+		<prop>VFEPD_WoodenTallCabinet</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_8</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>8</priority>
+		<prop>VFEPD_WoodenShortCupboard</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_9</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>9</priority>
+		<prop>VFEPD_WoodenShortCupboardPlates</prop>
+		<shortLabel>short with plates</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_10</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>10</priority>
+		<prop>VFEPD_Desk</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_11</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>11</priority>
+		<prop>VFEPD_CoffeeTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_12</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>12</priority>
+		<prop>VFEPD_CoffeeTableSmall</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_13</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>13</priority>
+		<prop>VFEPD_WoodenDivider</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_14</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>14</priority>
+		<prop>VFEPD_SteelPlankDivider</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_15</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>15</priority>
+		<prop>VFEPD_WoodenMirror</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_16</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>16</priority>
+		<prop>VFEPD_SteelVendingMachine</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_17</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>17</priority>
+		<prop>VFEPD_WashingMachine</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_18</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>18</priority>
+		<prop>VFEPD_WarehouseShelfEmpty</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_19</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>19</priority>
+		<prop>VFEPD_WarehouseShelfBoxes</prop>
+		<shortLabel>shelf with boxes</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Sarcophagus</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>50</priority>
+		<prop>VFEPD_FakeSarcophagus</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Grave</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>51</priority>
+		<prop>VFEPD_FakeGrave</prop>
+
+	</VFEProps.PropDef>
+	
+	
+</Defs>

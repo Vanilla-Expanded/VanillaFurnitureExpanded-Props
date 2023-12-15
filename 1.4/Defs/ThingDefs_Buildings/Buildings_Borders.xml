@@ -1,193 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-    <!-- Borders Base -->
-    <ThingDef ParentName="BuildingBase" Abstract="True" Name="VFE_BorderBase">
-        <altitudeLayer>FloorEmplacement</altitudeLayer>
-        <passability>Standable</passability>
-        <size>(1,1)</size>
-		
-        <statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToBuild>5</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0</Flammability>
-			<Beauty>1</Beauty>
-        </statBases>
-		
-        <canOverlapZones>true</canOverlapZones>
-        <defaultPlacingRot>South</defaultPlacingRot>
-		<rotatable>true</rotatable>
-		
-		<pathCost>0</pathCost>
-		
-        <tradeability>None</tradeability>
-        <selectable>true</selectable>
-
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.05,1.05)</drawSize>
-        </graphicData>
-		<castEdgeShadows>false</castEdgeShadows>
-		
-        <clearBuildingArea>false</clearBuildingArea>
-		
-		<researchPrerequisites><li>BorderProps</li></researchPrerequisites>
-		<designationCategory>PropsandDecor</designationCategory>
-		
-        <building>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-            <ai_neverTrashThis>true</ai_neverTrashThis>
-            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<paintable>true</paintable>
-        </building>
-        <fillPercent>0</fillPercent>
-    </ThingDef>
-	
-    <!-- Carpet Border -->
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_CarpetBorder_Straight</defName>
-        <label>carpet border</label>
-        <description>A simple, paintable cloth carpet border.</description>
-		<costList>
-			<Cloth>1</Cloth>
-		</costList>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderCarpet_Straight</texPath>
-        </graphicData>
-    </ThingDef>
-	
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_CarpetBorder_Corner</defName>
-        <label>carpet border corner</label>
-        <description>A simple, paintable cloth carpet border. To be placed in the corner.</description>
-		<costList>
-			<Cloth>1</Cloth>
-		</costList>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderCarpet_Corner</texPath>
-        </graphicData>
-    </ThingDef>
-	
-    <!-- Flagstone Border -->
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_FlagstoneBorder_Straight</defName>
-        <label>flagstone border</label>
-        <description>A simple, paintable flagstone border.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderFlagstone_Straight</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_FlagstoneBorder_Corner</defName>
-        <label>flagstone border corner</label>
-        <description>A simple, paintable flagstone border. To be placed in the corner.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderFlagstone_Corner</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-    <!-- Stone Border -->
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_StoneBorder_Straight</defName>
-        <label>stone border</label>
-        <description>A simple, paintable stone border.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderStone_Straight</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_StoneBorder_Corner</defName>
-        <label>stone border corner</label>
-        <description>A simple, paintable stone border. To be placed in the corner.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderStone_Corner</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-    <!-- Metal Border -->
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_MetalBorder_Straight</defName>
-        <label>metal border</label>
-        <description>A simple, paintable metal border.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderMetal_Straight</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_MetalBorder_Corner</defName>
-        <label>metal border corner</label>
-        <description>A simple, paintable metal border. To be placed in the corner.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderMetal_Corner</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-    <!-- Wooden Border -->
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_WoodenBorder_Straight</defName>
-        <label>wooden border</label>
-        <description>A simple, paintable wooden border.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderWood_Straight</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-	
-
-    <ThingDef ParentName="VFE_BorderBase">
-        <defName>VFE_WoodenBorder_Corner</defName>
-        <label>wooden border corner</label>
-        <description>A simple, paintable wooden border. To be placed in the corner.</description>
-        <graphicData>
-            <texPath>Things/Building/BorderProps/BorderWood_Corner</texPath>
-        </graphicData>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-        <costStuffCount>1</costStuffCount>
-    </ThingDef>
-
-  
-
+	<!-- Carpet Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_CarpetBorder_Straight</defName>
+		<label>carpet border</label>
+		<description>A simple, paintable cloth carpet border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderCarpet_Straight</texPath>
+			 <color>(184, 184, 184)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_CarpetBorder_Corner</defName>
+		<label>carpet border corner</label>
+		<description>A simple, paintable cloth carpet border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderCarpet_Corner</texPath>
+			 <color>(184, 184, 184)</color>
+		</graphicData>
+	</ThingDef>
+	<!-- Flagstone Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_FlagstoneBorder_Straight</defName>
+		<label>flagstone border</label>
+		<description>A simple, paintable flagstone border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderFlagstone_Straight</texPath>
+			<color>(126,104,94)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_FlagstoneBorder_Corner</defName>
+		<label>flagstone border corner</label>
+		<description>A simple, paintable flagstone border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderFlagstone_Corner</texPath>
+			<color>(126,104,94)</color>
+		</graphicData>
+	</ThingDef>
+	<!-- Stone Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_StoneBorder_Straight</defName>
+		<label>stone border</label>
+		<description>A simple, paintable stone border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderStone_Straight</texPath>
+			<color>(105,95,97)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_StoneBorder_Corner</defName>
+		<label>stone border corner</label>
+		<description>A simple, paintable stone border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderStone_Corner</texPath>
+			<color>(105,95,97)</color>
+		</graphicData>
+	</ThingDef>
+	<!-- Metal Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_MetalBorder_Straight</defName>
+		<label>metal border</label>
+		<description>A simple, paintable metal border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderMetal_Straight</texPath>
+			<color>(105,105,105)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_MetalBorder_Corner</defName>
+		<label>metal border corner</label>
+		<description>A simple, paintable metal border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderMetal_Corner</texPath>
+			<color>(105,105,105)</color>
+		</graphicData>
+	</ThingDef>
+	<!-- Wooden Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WoodenBorder_Straight</defName>
+		<label>wooden border</label>
+		<description>A simple, paintable wooden border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWood_Straight</texPath>
+			<color>(133,97,67)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WoodenBorder_Corner</defName>
+		<label>wooden border corner</label>
+		<description>A simple, paintable wooden border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWood_Corner</texPath>
+			<color>(133,97,67)</color>
+		</graphicData>
+	</ThingDef>
+	<!-- Warning Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WarningBorder_Straight</defName>
+		<label>warning border</label>
+		<description>A simple, paintable warning border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWarning</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<color>(154,146,74)</color>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WarningBorder_Corner</defName>
+		<label>warning border corner</label>
+		<description>A simple, paintable warning border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWarningCorner</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<color>(154,146,74)</color>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+	</ThingDef>
 </Defs>

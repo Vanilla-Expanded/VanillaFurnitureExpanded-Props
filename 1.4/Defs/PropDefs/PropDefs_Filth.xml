@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef Abstract="true" Name="VFE_FilthPropBase">
+		<silverCostOverride>0</silverCostOverride>
+		<dontPopUpStupidGraphicErrors>true</dontPopUpStupidGraphicErrors>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_1</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>1</priority>
+		<prop>VFEPD_FilthDirt</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_2</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>2</priority>
+		<prop>VFEPD_FilthAnimalFilth</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_3</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>3</priority>
+		<prop>VFEPD_FilthSand</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_4</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>4</priority>
+		<prop>VFEPD_FilthTrash</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_5</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>5</priority>
+		<prop>VFEPD_FilthRubbleRock</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_6</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>6</priority>
+		<prop>VFEPD_FilthRubbleSlag</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_7</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>7</priority>
+		<prop>VFEPD_FilthRubbleSandbags</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_8</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>8</priority>
+		<prop>VFEPD_FilthBlood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_9</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>9</priority>
+		<prop>VFEPD_FilthBugBlood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_10</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>10</priority>
+		<prop>VFEPD_FilthMachineBits</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11</priority>
+		<prop>VFEPD_FilthAmnioticFluid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_12</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>12</priority>
+		<prop>VFEPD_FilthSlime</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_13</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>13</priority>
+		<prop>VFEPD_FilthVomit</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_14</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>14</priority>
+		<prop>VFEPD_FilthFireFoam</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_15</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>15</priority>
+		<prop>VFEPD_FilthChemfuel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_16</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>16</priority>
+		<prop>VFEPD_FilthCorpseBile</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_17</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>17</priority>
+		<prop>VFEPD_FilthAsh</prop>
+	</VFEProps.PropDef>
+</Defs>
