@@ -4,6 +4,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_CarpetBorder_Straight</defName>
 		<label>carpet border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable cloth carpet border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderCarpet_Straight</texPath>
@@ -23,6 +24,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_FlagstoneBorder_Straight</defName>
 		<label>flagstone border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable flagstone border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderFlagstone_Straight</texPath>
@@ -42,6 +44,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_StoneBorder_Straight</defName>
 		<label>stone border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable stone border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderStone_Straight</texPath>
@@ -61,6 +64,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_MetalBorder_Straight</defName>
 		<label>metal border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable metal border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderMetal_Straight</texPath>
@@ -80,6 +84,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_WoodenBorder_Straight</defName>
 		<label>wooden border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable wooden border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderWood_Straight</texPath>
@@ -99,6 +104,7 @@
 	<ThingDef ParentName="VFE_BorderBase">
 		<defName>VFE_WarningBorder_Straight</defName>
 		<label>warning border</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<description>A simple, paintable warning border.</description>
 		<graphicData>
 			<texPath>Things/Building/BorderProps/BorderWarning</texPath>
