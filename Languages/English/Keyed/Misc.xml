@@ -16,6 +16,8 @@
 	<VFEPD_BuildProps>build props</VFEPD_BuildProps>
 	<VFEPD_BuildPropsDesc>Open a menu to build props with a silver cost.</VFEPD_BuildPropsDesc>
 	<VFEPD_ResearchNeeded>Can't be built until {0} has been researched by the colony</VFEPD_ResearchNeeded>
+	<VFEPD_MakeCopy>Make copy</VFEPD_MakeCopy>
+	<VFEPD_MakeCopyDesc>Make a copy of this prop. This will require you to have the silver cost of the prop available in stockpiles.</VFEPD_MakeCopyDesc>
 
 	
 </LanguageData>

@@ -3,7 +3,10 @@ using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using Verse;
+using Verse.Sound;
+
 namespace VFEProps
 {
     public class Building_SubstractsSilver : Building
@@ -101,18 +104,35 @@ namespace VFEProps
                         {
                             int num = Math.Min(silverLeftToRemove, innerIfMinified.stackCount);
                             innerIfMinified.SplitOff(num).Destroy();
-                          
+
                             silverLeftToRemove -= num;
-                  
+
                             if (silverLeftToRemove <= 0) { break; }
                         }
-
                     }
                 }
             }
+        }
 
+        public override IEnumerable<Gizmo> GetGizmos()
+        {
+            foreach (Gizmo gizmo in base.GetGizmos())
+            {
+                yield return gizmo;
+            }
 
+            Command_Action designator = new Command_Action();
+            designator.action = delegate
+            {
+                Designator_Build designatorOnMouse = new Designator_Build(this.def);
 
+                Find.DesignatorManager.Select(designatorOnMouse);
+            };
+            designator.defaultLabel = "VFEPD_MakeCopy".Translate();
+            designator.defaultDesc = "VFEPD_MakeCopyDesc".Translate();
+            designator.icon = this.def.uiIcon;
+            yield return designator;
+            
         }
 
 
