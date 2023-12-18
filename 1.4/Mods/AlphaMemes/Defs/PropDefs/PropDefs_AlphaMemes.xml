@@ -1,143 +1,176 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_1</defName>
-		<category>VFE_PropCategory_Labs</category>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_1</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>201</priority>
-		<prop>VFEPD_AlphaGenesAncientGeneAssembler</prop>
-		<shortLabel>gene assembler</shortLabel>
+		<prop>VFEPD_FakeMummyFemale</prop>
+		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_2</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_2</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>202</priority>
-		<prop>VFEPD_AlphaGenesAncientGeneBank</prop>
-		<shortLabel>gene bank</shortLabel>
+		<prop>VFEPD_FakeMummyMale</prop>
+	
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_3</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_3</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>203</priority>
-		<prop>VFEPD_AlphaGenesAncientGeneExtractor</prop>
-		<shortLabel>gene extractor</shortLabel>
+		<prop>VFEPD_FakeRelicAltar</prop>
+		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_4</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_4</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>204</priority>
-		<prop>VFEPD_AlphaGenesAncientGeneProcessor</prop>
-		<shortLabel>gene processor</shortLabel>
+		<prop>VFEPD_EmptyGrogBarrel</prop>
+	
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_5</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_5</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>205</priority>
-		<prop>VFEPD_AlphaGenesAncientGrowthVat</prop>
-		<shortLabel>growth vat</shortLabel>
+		<prop>VFEPD_CanopicJar</prop>
+	
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_6</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_6</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>206</priority>
-		<prop>VFEPD_AlphaGenesAncientHugeBank</prop>
-		<shortLabel>huge gene bank</shortLabel>
+		<prop>VFEPD_CanopicJarB</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_7</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_7</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>207</priority>
-		<prop>VFEPD_AlphaGenesAncientLamp</prop>
-		<shortLabel>ancient lamp</shortLabel>
+		<prop>VFEPD_CanopicJarC</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_8</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_8</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>208</priority>
-		<prop>VFEPD_AlphaGenesAncientVitalsMonitor</prop>
-		<shortLabel>vitals monitor</shortLabel>
+		<prop>VFEPD_CanopicJarD</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_9</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_9</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>209</priority>
-		<prop>VFEPD_AlphaGenesAncientBandNode</prop>
-		<shortLabel>band node</shortLabel>
+		<prop>VFEPD_SmallPyramid</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_10</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_10</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>210</priority>
-		<prop>VFEPD_AlphaGenesAncientBasicRecharger</prop>
-		<shortLabel>mech recharger</shortLabel>
+		<prop>VFEPD_GrandGate</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_11</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_11</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>211</priority>
-		<prop>VFEPD_AlphaGenesAncientLargeRecharger</prop>
-		<shortLabel>standard recharger</shortLabel>
+		<prop>VFEPD_FuturisticObelisk</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_12</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_12</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>212</priority>
-		<prop>VFEPD_AlphaGenesAncientMechGestator</prop>
-		<shortLabel>mech gestator</shortLabel>
+		<prop>VFEPD_FuturisticStele</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_13</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_13</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>213</priority>
-		<prop>VFEPD_AlphaGenesAncientLargeMechGestator</prop>
-		<shortLabel>large gestator</shortLabel>
+		<prop>VFEPD_GreatPyramid</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_14</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_14</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>214</priority>
-		<prop>VFEPD_AlphaGenesAncientSubcoreRipscanner</prop>
-		<shortLabel>ripscanner</shortLabel>
+		<prop>VFEPD_FuturisticPyramid</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_15</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_15</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>215</priority>
-		<prop>VFEPD_AlphaGenesAncientWastepackAtomizer</prop>
-		<shortLabel>atomizer</shortLabel>
+		<prop>VFEPD_Sphinx</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_16</defName>
-		<category>VFE_PropCategory_Labs</category>
+		<defName>VFE_Prop_Temple_16</defName>
+		<category>VFE_PropCategory_Temple</category>
 		<priority>216</priority>
-		<prop>VFEPD_RuinedHospitalBed</prop>
-		<shortLabel>hospital bed</shortLabel>
+		<prop>VFEPD_Megalith</prop>
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_17</defName>
-		<category>VFE_PropCategory_Labs</category>
-		<priority>217</priority>
-		<prop>VFEPD_AlphaGenesAncientShelf</prop>
-		<shortLabel>ancient shelf</shortLabel>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Star</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1500</priority>
+		<prop>VFEPD_Star</prop>		
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_18</defName>
-		<category>VFE_PropCategory_Labs</category>
-		<priority>218</priority>
-		<prop>VFEPD_AlphaGenesAncientPollutionPump</prop>
-		<shortLabel>pollution pump</shortLabel>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_EyeOfHorus</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1501</priority>
+		<prop>VFEPD_EyeOfHorus</prop>		
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_19</defName>
-		<category>VFE_PropCategory_Labs</category>
-		<priority>219</priority>
-		<prop>VFEPD_AlphaGenesAncientFaultyLamp</prop>
-		<shortLabel>faulty lamp</shortLabel>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Obelisk</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1502</priority>
+		<prop>VFEPD_Obelisk</prop>		
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Labs_AlphaGenes_20</defName>
-		<category>VFE_PropCategory_Labs</category>
-		<priority>220</priority>
-		<prop>VFEPD_RuinedLabLamp</prop>
-		<shortLabel>ruined lamp</shortLabel>
-	</VFEProps.PropDef>-->
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Atheism</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1503</priority>
+		<prop>VFEPD_Atheism</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Khanda</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1504</priority>
+		<prop>VFEPD_Khanda</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_JainSpire</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1505</priority>
+		<prop>VFEPD_JainSpire</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Cog</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1506</priority>
+		<prop>VFEPD_Cog</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Skull</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1507</priority>
+		<prop>VFEPD_Skull</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_CavePaintings</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1508</priority>
+		<prop>VFEPD_CavePaintings</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteA</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1509</priority>
+		<prop>VFEPD_ScavengerMoteA</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1510</priority>
+		<prop>VFEPD_ScavengerMoteB</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1511</priority>
+		<prop>VFEPD_ScavengerMoteC</prop>		
+	</VFEProps.PropDef>
 </Defs>

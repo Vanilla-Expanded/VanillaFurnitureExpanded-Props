@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_AncientSpaceJunk</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.905</priority>
+		<prop>VFEPD_SpaceJunk</prop>
+		
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Tentacle</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1000</priority>
+		<prop>VFEPD_Tentacle</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TentacleB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1001</priority>
+		<prop>VFEPD_TentacleTwo</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TentacleC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1002</priority>
+		<prop>VFEPD_TentacleThree</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_EldritchRune</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1003</priority>
+		<prop>VFEPD_EldritchRune</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Torii</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1004</priority>
+		<prop>VFEPD_Torii</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_AuthStar</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1005</priority>
+		<prop>VFEPD_AuthStar</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Swderptika</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1006</priority>
+		<prop>VFEPD_SwderptikaMote</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Scarab</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1007</priority>
+		<prop>VFEPD_ScarabMote</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_InsectCloud</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1008</priority>
+		<prop>VFEPD_InsectCloudMote</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Pentagram</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1009</priority>
+		<prop>VFEPD_PentagramsMote</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_CrystalBall</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1010</priority>
+		<prop>VFEPD_CrystalBall</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Graph</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1011</priority>
+		<prop>VFEPD_Graph</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Stonks</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1012</priority>
+		<prop>VFEPD_Stonks</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_GreekColumn</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1013</priority>
+		<prop>VFEPD_GreekColumn</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Grapes</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1014</priority>
+		<prop>VFEPD_Grapes</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_FallingMeteor</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1015</priority>
+		<prop>VFEPD_FallingMeteor</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Statue</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1016</priority>
+		<prop>VFEPD_Statue</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_HugeStar</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1017</priority>
+		<prop>VFEPD_HugeStar</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_PantheistSymbol</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1018</priority>
+		<prop>VFEPD_PantheistSymbol</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Galaxy</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1019</priority>
+		<prop>VFEPD_Galaxy</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_OmnistSymbol</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1020</priority>
+		<prop>VFEPD_OmnistSymbol</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Cross</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1021</priority>
+		<prop>VFEPD_Cross</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Ohm</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1022</priority>
+		<prop>VFEPD_Ohm</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Crescent</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1023</priority>
+		<prop>VFEPD_Crescent</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_YinYang</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1024</priority>
+		<prop>VFEPD_YinYangMote</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Atom</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1025</priority>
+		<prop>VFEPD_Atom</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Bulb</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1026</priority>
+		<prop>VFEPD_Bulb</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Yoga</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1027</priority>
+		<prop>VFEPD_Yoga</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_DivinationStarA</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1028</priority>
+		<prop>VFEPD_DivinationStarA</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_DivinationStarB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1029</priority>
+		<prop>VFEPD_DivinationStarB</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_DivinationStarC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1030</priority>
+		<prop>VFEPD_DivinationStarC</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TradingStandard</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1031</priority>
+		<prop>VFEPD_TradingStandard</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TradingConfetti</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1032</priority>
+		<prop>VFEPD_TradingConfetti</prop>		
+	</VFEProps.PropDef>
+</Defs>

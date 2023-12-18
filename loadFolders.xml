@@ -24,6 +24,7 @@
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpandedTier3">1.4/Mods/VanillaVehiclesExpandedTier3</li>
 		<li IfModActive="sarg.alphavehiclesneolithic">1.4/Mods/AlphaVehiclesNeolithic</li>
 		<li IfModActive="Sarg.AlphaMemes">1.4/Mods/AlphaMemes</li>
+		<li IfModActive="VanillaExpanded.VMemesE">1.4/Mods/VanillaMemesExpanded</li>
 		
 	</v1.4>
 </loadFolders>

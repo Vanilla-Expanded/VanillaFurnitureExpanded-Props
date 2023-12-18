@@ -62,5 +62,793 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>42</pathCost>
 	</ThingDef>
-	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_EmptyGrogBarrel</defName>
+		<label>empty grog barrel</label>
+		<description>A huge, decorative grog barrel. This one is completely empty.</description>
+		<fillPercent>0.5</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/BuildingStyles/Corsair/AM_NutrientDispenser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,6)</drawSize>
+			<damageData>
+				<rect>(0.02,0.25,2.96,2.85)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+			</damageData>
+			<shadowData>
+				<volume>(2.87,0.75,3.05)</volume>
+				<offset>(0,0,0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>Impassable</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CanopicJar</defName>
+		<label>canopic jar</label>
+		<description>A decorative canopic jar. Well, you could stuff a fresh organ inside, but that'd be SO gross.</description>
+		<fillPercent>0.15</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_CanopicJar/AM_CanopicJar1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CanopicJarB</defName>
+		<label>canopic jar</label>
+		<description>A decorative canopic jar. Well, you could stuff a fresh organ inside, but that'd be SO gross.</description>
+		<fillPercent>0.15</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_CanopicJar/AM_CanopicJar2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CanopicJarC</defName>
+		<label>canopic jar</label>
+		<description>A decorative canopic jar. Well, you could stuff a fresh organ inside, but that'd be SO gross.</description>
+		<fillPercent>0.15</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_CanopicJar/AM_CanopicJar3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CanopicJarD</defName>
+		<label>canopic jar</label>
+		<description>A decorative canopic jar. Well, you could stuff a fresh organ inside, but that'd be SO gross.</description>
+		<fillPercent>0.15</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_CanopicJar/AM_CanopicJar4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_SmallPyramid</defName>
+		<label>pyramid</label>
+		<description>A gigantic stone structure whose outer surfaces are triangular and converge to a single step at the top.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_Pyramid</texPath>
+			<drawSize>(7.8,7.8)</drawSize>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(7,7)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_GrandGate</defName>
+		<label>grand gate</label>
+		<description>A huge entrance for a kemetic city.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_GrandGate</texPath>
+			<drawSize>(7,7)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<uiIconPath>Things/Building/BuildingStyles/Kemetic/AM_Gate_UIIcon</uiIconPath>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FuturisticObelisk</defName>
+		<label>futuristic obelisk</label>
+		<description>A huge metallic obelisk.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_FutureObelisk</texPath>
+			<drawSize>(7,7)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<uiIconPath>Things/Building/BuildingStyles/Kemetic/AM_FutureObelisk_UIIcon</uiIconPath>
+		<rotatable>false</rotatable>
+		<size>(1,4)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FuturisticStele</defName>
+		<label>futuristic stele</label>
+		<description>A huge metallic stele.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_FutureStele</texPath>
+			<drawSize>(5,5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_GreatPyramid</defName>
+		<label>great pyramid</label>
+		<description>A truly colossal stone structure whose outer surfaces are triangular and converge to a single step at the top.</description>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_GreatPyramid</texPath>
+			<drawSize>(24,24)</drawSize>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(24,24)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FuturisticPyramid</defName>
+		<label>futuristic great pyramid</label>
+		<description>A truly colossal metallic structure whose outer surfaces are triangular and converge to a single step at the top.</description>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_FuturePyramid</texPath>
+			<drawSize>(24,24)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(24,24)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Sphinx</defName>
+		<label>sphinx</label>
+		<description>A truly colossal statue of a sphinx, a mythical creature with the head of a human, and the body of a lion.</description>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Kemetic/AM_Sphynx</texPath>
+			<drawSize>(12,18)</drawSize>
+			<color>(170,157,125)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(12,18)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Megalith</defName>
+		<label>megalith</label>
+		<description>A large stone used to construct a prehistoric structure or monument, either alone or together with other stones, often hewn in definite shapes for special purposes.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/BuildingStyles/Neolithic/Megaliths</texPath>
+			<drawSize>(5,5)</drawSize>
+			<color>(105,95,97)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Star</defName>
+		<label>star</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Star". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_StarOfDavidMote</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_Star</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_EyeOfHorus</defName>
+		<label>eye of ra</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Eye of Ra". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_EyeOfHorus</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_EyeOfHorus</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Obelisk</defName>
+		<label>obelisk</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Obelisk". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_Obelisk</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_Obelisk</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Atheism</defName>
+		<label>atheism</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Atheism". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_UniversalAtheism</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_AtheismSymbol</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Khanda</defName>
+		<label>khanda</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Khanda". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_Khanda</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_SikhSymbol</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_JainSpire</defName>
+		<label>jain spire</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Jain spire". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_JainSpire</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_JainSpire</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Cog</defName>
+		<label>cog</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Cog". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_Cog</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_Cog</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Skull</defName>
+		<label>skull</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>Arrrr, matey, this here be a mote prop for "Skull". Shiver me timber, this be intrinsically laggy, me lad, though less than effecter props. Use in moderation, ye scurvy sea dog.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_Skull</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_Skull</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CavePaintings</defName>
+		<label>cave paintings</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Cave paintings". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_CavePaintings</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_CavePaintings</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ScavengerMoteA</defName>
+		<label>scavenger mote</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Scavenger Mote A". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_ScavengerMoteA</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_ScavengerMoteA</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ScavengerMoteB</defName>
+		<label>scavenger mote</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Scavenger Mote B". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_ScavengerMoteB</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_ScavengerMoteB</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ScavengerMoteC</defName>
+		<label>scavenger mote</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Scavenger Mote C". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Motes/AM_ScavengerMoteC</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>AM_ScavengerMoteC</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>
