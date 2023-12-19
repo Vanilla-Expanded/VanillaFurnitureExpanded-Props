@@ -36,5 +36,12 @@
 		<prop>VFEPD_Geyser</prop>
 		
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_Bridge</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>7</priority>
+		<prop>VFEPD_FakeBridge</prop>
+		<silverCostOverride>0</silverCostOverride>
+	</VFEProps.PropDef>
 	
 </Defs>

@@ -131,4 +131,34 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeBridge</defName>
+		<label>fake bridge</label>
+		<description>This is a false bridge support that won't hold any bridge above it.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/VFEPD_FakeBridge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			
+			
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<canOverlapZones>true</canOverlapZones>
+		<terrainAffordanceNeeded/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 </Defs>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeStoneBridge</defName>
+		<label>fake stone bridge</label>
+		<description>This is a false bridge support that won't hold any bridge above it.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/VFEPD_FakeStoneBridge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			
+			
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<canOverlapZones>true</canOverlapZones>
+		<terrainAffordanceNeeded/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeMetalBridge</defName>
+		<label>fake metal bridge</label>
+		<description>This is a false bridge support that won't hold any bridge above it.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/VFEPD_FakeMetalBridge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			
+			
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<canOverlapZones>true</canOverlapZones>
+		<terrainAffordanceNeeded/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>

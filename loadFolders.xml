@@ -25,6 +25,7 @@
 		<li IfModActive="sarg.alphavehiclesneolithic">1.4/Mods/AlphaVehiclesNeolithic</li>
 		<li IfModActive="Sarg.AlphaMemes">1.4/Mods/AlphaMemes</li>
 		<li IfModActive="VanillaExpanded.VMemesE">1.4/Mods/VanillaMemesExpanded</li>
+		<li IfModActive="VanillaExpanded.VFEArchitect">1.4/Mods/VanillaFurnitureExpandedArchitect</li>
 		
 	</v1.4>
 </loadFolders>
