@@ -111,7 +111,7 @@
 		<label>parks</label>
 		<description>General outdoors props in a nature setting.</description>
 		<priority>12</priority>
-		<icon>UI/Categories/Props_Plants</icon>
+		<icon>UI/Categories/Props_Parks</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Workshop</defName>
