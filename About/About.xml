@@ -24,7 +24,6 @@
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>VanillaExpanded.VTEXVariations</li>
 	</loadAfter>
 	<packageId>VanillaExpanded.VFEPropsandDecor</packageId>
 	<description>Vanilla Furniture Expanded - Props and Decor is a major mod release that has been in production for almost 8 months. The main aim is to provide much needed customizability to your bases and cities, a way to add some detail to your rooms and buildings, and to generally allow you to place more of “you” inside the game.
