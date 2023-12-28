@@ -110,7 +110,7 @@
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
@@ -145,7 +145,7 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -160,7 +160,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ShipLandingBeacon</defName>

@@ -791,7 +791,7 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -806,7 +806,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ToxiPotato</defName>
@@ -817,7 +819,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<fillPercent>0.1</fillPercent>
 		<pathCost>5</pathCost>
@@ -832,7 +834,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrayGrass</defName>
@@ -843,7 +847,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
@@ -874,7 +878,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
@@ -909,7 +913,7 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
@@ -929,6 +933,7 @@
 		<uiIconScale>1</uiIconScale>
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_TreeGrayPine</defName>
@@ -944,7 +949,7 @@
 			<drawSize>3</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -959,7 +964,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Witchwood</defName>
@@ -975,7 +982,7 @@
 			<drawSize>3</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -990,7 +997,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_RatPalm</defName>
@@ -1006,7 +1015,7 @@
 			<drawSize>3</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -1021,7 +1030,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_MechanitorShip</defName>

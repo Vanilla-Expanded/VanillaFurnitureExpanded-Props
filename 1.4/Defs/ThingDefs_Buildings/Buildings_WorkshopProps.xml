@@ -479,7 +479,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -625,7 +625,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -654,7 +654,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -683,7 +683,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -712,7 +712,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -741,7 +741,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -770,7 +770,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -799,7 +799,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -828,7 +828,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1084,7 +1084,7 @@
 			<shaderType>Transparent</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1170,7 +1170,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1199,7 +1199,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1228,7 +1228,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1286,7 +1286,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1315,7 +1315,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1577,7 +1577,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1606,7 +1606,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1635,7 +1635,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1664,7 +1664,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1693,7 +1693,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1722,7 +1722,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1778,7 +1778,7 @@
 		<graphicData>
 			<texPath>Things/Building/WorkshopProps/VFEPD_MediumScreen/VFEPD_MediumScreen</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>1</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
@@ -1838,7 +1838,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -1926,7 +1926,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2100,7 +2100,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2129,7 +2129,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2158,7 +2158,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2218,7 +2218,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<rotatable>false</rotatable>
@@ -2248,7 +2248,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2306,7 +2306,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2451,7 +2451,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2480,7 +2480,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2538,7 +2538,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>
@@ -2567,7 +2567,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<building>

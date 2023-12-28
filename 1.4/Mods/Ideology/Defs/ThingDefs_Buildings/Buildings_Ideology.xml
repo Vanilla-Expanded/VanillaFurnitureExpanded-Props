@@ -1932,7 +1932,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(247,215,107)</color>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
@@ -1948,6 +1949,7 @@
 		<size>(1,1)</size>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
@@ -1958,7 +1960,7 @@
 			<texPath>Things/Plant/GauranlenMoss</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<rotatable>false</rotatable>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
@@ -1993,7 +1995,7 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -2006,8 +2008,10 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
@@ -2023,7 +2027,7 @@
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<fillPercent>0.1</fillPercent>
 		<pathCost>5</pathCost>
@@ -2038,7 +2042,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Fibercorn</defName>
@@ -2049,7 +2055,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<fillPercent>0.1</fillPercent>
 		<pathCost>5</pathCost>
@@ -2064,7 +2070,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Timbershroom</defName>
@@ -2079,7 +2087,7 @@
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>LowPlant</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<fillPercent>0.1</fillPercent>
 		<pathCost>5</pathCost>
@@ -2094,7 +2102,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_TreeBonsai</defName>
@@ -2105,7 +2115,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>60</pathCost>
 		<fillPercent>0.25</fillPercent>
@@ -2120,7 +2130,9 @@
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ArchonexusCore</defName>

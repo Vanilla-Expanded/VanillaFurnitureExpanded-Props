@@ -34,7 +34,7 @@
 			<drawSize>(0.7)</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<clearBuildingArea>false</clearBuildingArea>
 		<fillPercent>0.1</fillPercent>
@@ -90,7 +90,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<fillPercent>0.2</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -104,6 +104,7 @@
 		<building>
 			<isInert>true</isInert>
 		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Geyser</defName>
