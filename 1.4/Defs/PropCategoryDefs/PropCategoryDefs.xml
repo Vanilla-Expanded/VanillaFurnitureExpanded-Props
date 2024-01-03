@@ -12,7 +12,7 @@
 		<label>walls</label>
 		<description>Walls that are used mostly for decorative purposes.</description>
 		<priority>-5</priority>
-		<icon>UI/Categories/Props_Floor</icon>
+		<icon>UI/Categories/Props_Walls</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Borders</defName>
