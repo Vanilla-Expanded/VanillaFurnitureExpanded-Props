@@ -18,6 +18,43 @@
 		<priority>1002</priority>
 		<prop>VFEPD_Wheat</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_CondimentPrepTable</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1007</priority>
+		<prop>VFEPD_CondimentPrepTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_ElectricPot</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1008</priority>
+		<prop>VFEPD_ElectricPot</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_Grill</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1009</priority>
+		<prop>VFEPD_Grill</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_DeepFrier</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1010</priority>
+		<prop>VFEPD_DeepFrier</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_CanningMachine</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1011</priority>
+		<prop>VFEPD_CanningMachine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_CheesePress</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1012</priority>
+		<prop>VFEPD_CheesePress</prop>
+	</VFEProps.PropDef>
+	
 	
 	
 </Defs>

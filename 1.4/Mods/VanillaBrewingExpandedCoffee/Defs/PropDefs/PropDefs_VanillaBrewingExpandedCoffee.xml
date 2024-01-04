@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_EspressoMachine</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1016</priority>
+		<prop>VFEPD_EspressoMachine</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

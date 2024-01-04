@@ -72,6 +72,13 @@
 		<shortLabel>arrow three ways</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_ecalArrowDiagonal</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>3.8</priority>
+		<prop>VFEPD_DecalArrowDiagonal</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_4</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>4</priority>
@@ -672,6 +679,9 @@
 		<priority>53.5</priority>
 		<prop>VFEPD_DecalWordSmallDock</prop>
 	</VFEProps.PropDef>
+	
+	
+	
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_87</defName>
 		<category>VFE_PropCategory_Decals</category>
@@ -723,7 +733,7 @@
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_95</defName>
 		<category>VFE_PropCategory_Decals</category>
-		<priority>95</priority>
+		<priority>53.4</priority>
 		<prop>VFEPD_DecalWordDanger</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
@@ -763,6 +773,18 @@
 		<prop>VFEPD_DecalHelipadRound</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_DecalHelipadSquareGeneric</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>101.1</priority>
+		<prop>VFEPD_DecalHelipadSquareGeneric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_DecalHelipadRoundGeneric</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>101.2</priority>
+		<prop>VFEPD_DecalHelipadRoundGeneric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_102</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>102</priority>
@@ -773,5 +795,47 @@
 		<category>VFE_PropCategory_Decals</category>
 		<priority>103</priority>
 		<prop>VFEPD_DecalWarningStripesClean</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_104</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>104</priority>
+		<prop>VFEPD_DecalWarningArrow</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_105</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>105</priority>
+		<prop>VFEPD_DecalWarningArrowClean</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_106</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>77.9</priority>
+		<prop>VFEPD_DecalWordStop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_107</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>107</priority>
+		<prop>VFEPD_DecalBikeLane</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_108</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>108</priority>
+		<prop>VFEPD_DecalStopSign</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_109</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>109</priority>
+		<prop>VFEPD_DecalPedestrianLane</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_110</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>110</priority>
+		<prop>VFEPD_DecalYield</prop>
 	</VFEProps.PropDef>
 </Defs>

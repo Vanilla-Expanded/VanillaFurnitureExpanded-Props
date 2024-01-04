@@ -2025,6 +2025,7 @@
 				<volume>(0.2, 0.3, 0.13)</volume>
 				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2053,6 +2054,7 @@
 		<graphicData>
 			<texPath>Things/Plant/Fibercorn</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2085,6 +2087,7 @@
 				<volume>(0.2, 0.6, 0.2)</volume>
 				<offset>(0,0,-0.3)</offset>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2484,14 +2487,12 @@
 		<defName>VFEPD_FakeGibbetCage</defName>
 		<label>fake gibbet cage</label>
 		<description>A fake gibbet cage with nothing inside. Sealed shut.</description>
-		
 		<graphicData>
 			<texPath>Things/Building/ModCompat/GibbetCageFull</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		
 			<drawSize>(1.3,1.3)</drawSize>
 			<color>(110,110,110)</color>
-		</graphicData>	
+		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
@@ -2508,9 +2509,7 @@
 		<building>
 			<isInert>true</isInert>
 		</building>
-		
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_Mote_RitualGlowRays</defName>
 		<label>ritual glow rays</label>
@@ -2520,17 +2519,16 @@
 			<texPath>Things/Building/ModCompat/Empty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
-			
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/GlowRays</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2552,9 +2550,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-	
-	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_Mote_TotemOutline</defName>
 		<label>totem</label>
@@ -2568,12 +2563,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/TotemPole</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2608,12 +2603,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/PositionHighlight</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2648,12 +2643,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/PawnHighlight</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2688,12 +2683,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/SpikePipe</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2728,12 +2723,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2768,12 +2763,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines2</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2808,12 +2803,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines3</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2848,12 +2843,12 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
-		
 		<pathCost>0</pathCost>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/RitualEffects/GlowSingleRay</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -2875,4 +2870,30 @@
 			</li>
 		</comps>
 	</ThingDef>
-</Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeBonsaiPot</defName>
+		<label>bonsai pot</label>
+		<description>This fake pot is similar to those used for planting bonsai trees. Colonists will not plant anything here, so you can put a fake flower on top.</description>
+		
+			<graphicData>
+				<texPath>Things/Building/Misc/BonsaiTreePot/BonsaiTreePot</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<color>(133,97,67)</color>
+			</graphicData>
+			<altitudeLayer>Building</altitudeLayer>
+			<passability>PassThroughOnly</passability>
+			<rotatable>false</rotatable>
+			<statBases>
+				<MaxHitPoints>75</MaxHitPoints>
+				<WorkToBuild>0</WorkToBuild>
+				<Mass>2</Mass>
+				<Flammability>1</Flammability>
+			</statBases>
+			<size>(1,1)</size>
+			<pathCost>42</pathCost>
+			<uiIconScale>1</uiIconScale>
+			<building>
+				<isInert>true</isInert>
+			</building>
+		</ThingDef>
+	</Defs>

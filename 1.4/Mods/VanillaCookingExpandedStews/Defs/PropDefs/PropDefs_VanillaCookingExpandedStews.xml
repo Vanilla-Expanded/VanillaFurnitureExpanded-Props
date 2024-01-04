@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_StewPot</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1013</priority>
+		<prop>VFEPD_StewPot</prop>
+	</VFEProps.PropDef>
+	
+	
+	
+</Defs>

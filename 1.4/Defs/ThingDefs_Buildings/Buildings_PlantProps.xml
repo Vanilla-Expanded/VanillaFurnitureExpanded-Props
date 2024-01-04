@@ -12,6 +12,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -52,6 +53,7 @@
 				<volume>(0.2, 0.3, 0.13)</volume>
 				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>
+			
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -91,6 +93,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+		
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -130,6 +133,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -163,6 +167,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -196,6 +201,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -229,6 +235,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -262,6 +269,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -295,6 +303,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -328,6 +337,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -361,6 +371,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -394,6 +405,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -427,6 +439,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -460,6 +473,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -493,6 +507,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -526,6 +541,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -694,6 +710,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1067,6 +1084,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1100,6 +1118,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1132,6 +1151,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>true</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1166,6 +1186,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>true</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1235,6 +1256,7 @@
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1303,6 +1325,7 @@
 				<volume>(0.55, 0.2, 0.2)</volume>
 				<offset>(0,0,-0.25)</offset>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1337,6 +1360,7 @@
 				<volume>(0.55, 0.2, 0.2)</volume>
 				<offset>(0,0,-0.25)</offset>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1371,6 +1395,7 @@
 				<volume>(0.55, 0.2, 0.2)</volume>
 				<offset>(0,0,-0.25)</offset>
 			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>

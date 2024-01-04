@@ -162,6 +162,14 @@
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowDiagonal</defName>
+		<label>diagonal arrow</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowDiagonal</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolA</defName>
 		<label>A symbol</label>
 		<graphicData>
@@ -895,6 +903,15 @@
 		<size>(2,2)</size>
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWordStop</defName>
+		<label>stop decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWordStop</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWarningGeneric</defName>
 		<label>warning decal</label>
 		<graphicData>
@@ -1029,6 +1046,24 @@
 		<size>(6,6)</size>
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalHelipadSquareGeneric</defName>
+		<label>generic square helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadSquareGeneric</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalHelipadRoundGeneric</defName>
+		<label>generic round helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadRoundGeneric</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWarningStripes</defName>
 		<label>warning stripes</label>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
@@ -1053,5 +1088,67 @@
 			<color>(154,146,74)</color>
 		</graphicData>
 		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningArrow</defName>
+		<label>warning arrow</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripesArrow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.01,1.01)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningArrowClean</defName>
+		<label>clean warning arrow</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripesArrowClean</texPath>
+			
+			<drawSize>(1.01,1.01)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalBikeLane</defName>
+		<label>bike lane decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalBikeLane</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalStopSign</defName>
+		<label>stop symbol decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalStop</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalPedestrianLane</defName>
+		<label>pedestrian lane decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalPedestrianLane</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalYield</defName>
+		<label>yield decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalYield</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
 	</ThingDef>
 </Defs>

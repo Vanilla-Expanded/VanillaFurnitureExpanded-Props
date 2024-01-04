@@ -688,4 +688,11 @@
 		<priority>508</priority>
 		<prop>VFEPD_Mote_RitualGlowSingleRay</prop>		
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_BonsaiPot</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>51.2</priority>
+		<prop>VFEPD_FakeBonsaiPot</prop>
+
+	</VFEProps.PropDef>
 </Defs>

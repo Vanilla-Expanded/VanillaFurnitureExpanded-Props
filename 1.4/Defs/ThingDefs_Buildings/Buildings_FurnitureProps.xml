@@ -811,7 +811,6 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,4)</drawSize>
 		</graphicData>
-		
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
 		<rotatable>true</rotatable>
@@ -823,6 +822,38 @@
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,2)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakePlantPot</defName>
+		<label>plant pot</label>
+		<description>A fake plant pot. Colonists will not plant anything here, so you can put a fake flower on top.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/PlantPot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>2</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
 		<pathCost>42</pathCost>
 		<uiIconScale>1</uiIconScale>
 		<building>

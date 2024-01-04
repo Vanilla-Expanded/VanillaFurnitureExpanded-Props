@@ -817,6 +817,7 @@
 		<graphicData>
 			<texPath>Things/Plant/Toxipotato</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<drawOffset>(0,0,0.1)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>

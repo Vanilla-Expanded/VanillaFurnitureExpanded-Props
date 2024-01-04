@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_ChemfuelTank</defName>
+		<category>VFE_PropCategory_Industrial</category>
+		<priority>1000</priority>
+		<prop>VFEPD_ChemfuelTank</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_DeepchemTank</defName>
+		<category>VFE_PropCategory_Industrial</category>
+		<priority>1001</priority>
+		<prop>VFEPD_DeepchemTank</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

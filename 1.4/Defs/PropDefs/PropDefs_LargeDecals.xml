@@ -75,6 +75,13 @@
 		<shortLabel>lrg. arrow three ways</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowDiagonalLarge</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.8</priority>
+		<prop>VFEPD_DecalArrowDiagonalLarge</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_4</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>4</priority>
@@ -766,7 +773,7 @@
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_95</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
-		<priority>95</priority>
+		<priority>53.4</priority>
 		<prop>VFEPD_LargeDecalWordSmallDanger</prop>
 	</VFEProps.PropDef>
 	
@@ -807,6 +814,18 @@
 		<prop>VFEPD_DecalHelipadRoundLarge</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalHelipadSquareLargeGeneric</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>101.1</priority>
+		<prop>VFEPD_DecalHelipadSquareLargeGeneric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalHelipadRoundLargeGeneric</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>101.2</priority>
+		<prop>VFEPD_DecalHelipadRoundLargeGeneric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_102</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>102</priority>
@@ -817,6 +836,48 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>103</priority>
 		<prop>VFEPD_DecalWarningStripesCleanLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_104</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>104</priority>
+		<prop>VFEPD_DecalWarningArrowLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_105</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>105</priority>
+		<prop>VFEPD_DecalWarningArrowCleanLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_106</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>77.9</priority>
+		<prop>VFEPD_LargeDecalWordStop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_107</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>107</priority>
+		<prop>VFEPD_DecalBikeLaneLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_108</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>108</priority>
+		<prop>VFEPD_DecalStopSignLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_109</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>109</priority>
+		<prop>VFEPD_DecalPedestrianLaneLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_110</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>110</priority>
+		<prop>VFEPD_DecalYieldLarge</prop>
 	</VFEProps.PropDef>
 
 	

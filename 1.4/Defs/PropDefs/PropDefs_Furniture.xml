@@ -166,6 +166,13 @@
 		<prop>VFEPD_FakeGrave</prop>
 
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Pot</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>51.1</priority>
+		<prop>VFEPD_FakePlantPot</prop>
+
+	</VFEProps.PropDef>
 	
 	
 </Defs>
