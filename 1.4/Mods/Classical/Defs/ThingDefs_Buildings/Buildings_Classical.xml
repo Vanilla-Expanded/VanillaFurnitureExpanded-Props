@@ -135,6 +135,7 @@
 			<texPath>Things/Plant/Poppy</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawOffset>(0,0,0.2)</drawOffset>
+			<drawSize>1.05</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>

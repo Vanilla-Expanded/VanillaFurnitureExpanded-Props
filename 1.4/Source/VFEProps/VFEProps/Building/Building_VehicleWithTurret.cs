@@ -4,7 +4,7 @@ using Verse;
 using Verse.Sound;
 
 using UnityEngine;
-using static HarmonyLib.Code;
+
 using System;
 
 namespace VFEProps

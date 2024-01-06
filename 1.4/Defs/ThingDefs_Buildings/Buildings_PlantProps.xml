@@ -3,6 +3,7 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Glowstool</defName>
 		<label>glowstool</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake small brown mushroom typically found in caves. It smells like an old, dirty rag pulled from the stomach of a rotting muffalo - but it tastes surprisingly good when cooked.</description>
 		<graphicData>
 			<texPath>Things/Plant/Glowstool</texPath>
@@ -85,6 +86,7 @@
 		<defName>VFEPD_Bryolux</defName>
 		<label>bryolux</label>
 		<description>A fake blue moss typically found in deep, dark caves. It is sticky, with tangled fibers, which slows anyone walking over it.</description>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<graphicData>
 			<texPath>Things/Plant/Bryolux</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -193,6 +195,7 @@
 		<defName>VFEPD_Rice</defName>
 		<label>rice plant</label>
 		<description>A fake, short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<graphicData>
 			<texPath>Things/Plant/RicePlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -231,7 +234,7 @@
 			<texPath>Things/Plant/PotatoPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.05,1.05)</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -265,7 +268,7 @@
 			<texPath>Things/Plant/CornPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.4,1.4)</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -299,7 +302,7 @@
 			<texPath>Things/Plant/StrawberryPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.05,1.05)</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -328,6 +331,7 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Haygrass</defName>
 		<label>haygrass</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake mixture of nutrient-rich grasses which yield large amounts of hay. Hay is edible for animals, but not humans.</description>
 		<graphicData>
 			<texPath>Things/Plant/Haygrass</texPath>
@@ -367,7 +371,7 @@
 			<texPath>Things/Plant/CottonPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.05,1.05)</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -401,7 +405,7 @@
 			<texPath>Things/Plant/Devilstrand</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8,0.8)</drawSize>
+			<drawSize>1</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -435,7 +439,7 @@
 			<texPath>Things/Plant/Healroot</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8,0.8)</drawSize>
+			<drawSize>1</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -469,7 +473,7 @@
 			<texPath>Things/Plant/HopsPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8,0.8)</drawSize>
+			<drawSize>1.05</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -503,7 +507,7 @@
 			<texPath>Things/Plant/SmokeleafPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8,0.8)</drawSize>
+			<drawSize>1</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -537,7 +541,7 @@
 			<texPath>Things/Plant/PsychoidPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8,0.8)</drawSize>
+			<drawSize>1</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -701,12 +705,13 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Chokevine</defName>
 		<label>chokevine</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake, tangled masses of cord-like, spiky vines which coil in great masses along the ground. Chokevine greatky slows down anyone who moves over it. Multiple tribes have independently generated stories of chokevine strangling children to death in the night, as a way to scare kids into coming home before dark.</description>
 		<graphicData>
 			<texPath>Things/Plant/Chokevine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.25</drawSize>
+			<drawSize>0.88</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -1080,7 +1085,7 @@
 			<texPath>Things/Plant/Agave</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>1.4</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -1109,12 +1114,13 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_PincushionCactus</defName>
 		<label>pincushion cactus</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake short cactus. It is so named because it resembles a pincushion.</description>
 		<graphicData>
 			<texPath>Things/Plant/PincushionCactus</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>0.65</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -1143,11 +1149,12 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrassShort</defName>
 		<label>short grass</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
 		<description>Fake wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
 		<graphicData>
 			<texPath>Things/Plant/Grass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>0.6</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -1178,11 +1185,12 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrassLong</defName>
 		<label>long grass</label>
-		<description>Fake wild tall grass. Slows down anyone moving over it..</description>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>Fake wild tall grass.</description>
 		<graphicData>
 			<texPath>Things/Plant/Grass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1.5,1.5)</drawSize>
+			<drawSize>0.85</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>
@@ -1218,7 +1226,7 @@
 			<texPath>Things/Plant/Bush</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1.5,1.5)</drawSize>
+			<drawSize>1.5</drawSize>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
 				<offset>(0,0,-0.25)</offset>
@@ -1247,6 +1255,7 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Brambles</defName>
 		<label>brambles</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>Fake, tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
 		<graphicData>
 			<texPath>Things/Plant/Brambles</texPath>
@@ -1355,7 +1364,7 @@
 			<texPath>Things/Plant/Clivia</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>1.1</drawSize>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
 				<offset>(0,0,-0.25)</offset>

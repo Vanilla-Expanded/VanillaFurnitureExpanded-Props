@@ -101,11 +101,12 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_FakeAnimaGrass</defName>
 		<label>fake anima grass</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
 		<description>Plastic grass painted in the same colour as anima grass. Probably terrible for the environment.</description>
 		<graphicData>
 			<texPath>Things/Plant/Grass_Anima</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>0.45</drawSize>
 			<shadowData>
 				<volume>(0, 0, 0)</volume>
 			</shadowData>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_ChemfuelTank</defName>
+		<defName>VFEPD_ChemfuelTank_VCE</defName>
 		<label>chemfuel tank</label>
 		<description>An industrial liquid storage tank meant for storing chemfuel. This one is empty and non-functional.</description>
 		<graphicData>

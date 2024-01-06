@@ -842,9 +842,11 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrayGrass</defName>
 		<label>gray grass</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
 		<description>This is just plastic grass painted gray. Gray? Grey? Can't you people just decide on one??</description>
 		<graphicData>
 			<texPath>Things/Plant/Graygrass</texPath>
+			<drawSize>0.6</drawSize>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -872,10 +874,11 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Ripthorn</defName>
 		<label>ripthorn</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake short toxin-adapted shrub that looks like a dense, tough tangle of thorny branches.</description>
 		<graphicData>
 			<texPath>Things/Plant/Ripthorn</texPath>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.2</drawSize>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>

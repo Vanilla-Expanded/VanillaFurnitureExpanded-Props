@@ -36,11 +36,13 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Sugarcane</defName>
 		<label>sugarcane</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake, thick, tall, tropical grass with jointed stems. While not exactly the most nutritious thing to eat on its own, this genetically modified sugarcane is easily milled into sugar and then used for a variety of culinary creations - Particularly desserts.</description>
 		<graphicData>
 			<texPath>Things/Plant/Crops/VCE_SugarCane</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawOffset>(0,0,0.2)</drawOffset>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -92,11 +94,13 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Wheat</defName>
 		<label>wheat</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>A fake, amber cereal plant that takes almost an entire growing season to come to fruition. While fragile and time-consuming, this wheat has been genetically engineered to gently break into flour with a mere touch.</description>
 		<graphicData>
 			<texPath>Things/Plant/Crops/VCE_Wheat</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawOffset>(0,0,0.2)</drawOffset>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>

@@ -289,6 +289,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building\Building_FakePlant3x3.cs" />
+    <Compile Include="Building\Building_FakePlant2x2.cs" />
     <Compile Include="Building\Building_NotifyColorChanged.cs" />
     <Compile Include="Building\Building_VehicleWithTurret.cs" />
     <Compile Include="Building\Building_FakeSteamGeyser.cs" />
@@ -327,6 +329,5 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
