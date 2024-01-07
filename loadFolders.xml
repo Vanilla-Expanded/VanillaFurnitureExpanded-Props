@@ -26,6 +26,9 @@
 		<li IfModActive="VanillaExpanded.VCookESushi">1.4/Mods/VanillaCookingExpandedSushi</li>
 		<li IfModActive="VanillaExpanded.VChemfuelE">1.4/Mods/VanillaChemfuelExpanded</li>
 		<li IfModActive="VanillaExpanded.VPlantsE">1.4/Mods/VanillaPlantsExpanded</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.4/Mods/VanillaPlantsExpandedMorePlants</li>
+		<li IfModActive="VanillaExpanded.VPlantsESucculents">1.4/Mods/VanillaPlantsExpandedSucculents</li>	
+		<li IfModActive="VanillaExpanded.VPlantsEMushrooms">1.4/Mods/VanillaPlantsExpandedMushrooms</li>	
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpanded">1.4/Mods/VanillaVehiclesExpanded</li>
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpandedTier3">1.4/Mods/VanillaVehiclesExpandedTier3</li>
 		<li IfModActive="sarg.alphavehiclesneolithic">1.4/Mods/AlphaVehiclesNeolithic</li>

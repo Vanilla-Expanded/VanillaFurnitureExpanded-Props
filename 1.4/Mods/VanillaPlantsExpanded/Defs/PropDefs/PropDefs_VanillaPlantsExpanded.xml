@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Plants_Sugarcane</defName>
+		<defName>VFE_Prop_Plants_Beet</defName>
 		<category>VFE_PropCategory_Plants</category>
 		<priority>2000</priority>
 		<prop>VFEPD_Beet</prop>
@@ -93,7 +93,7 @@
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Plants_BananaTree</defName>
 		<category>VFE_PropCategory_Plants</category>
-		<priority>2014</priority>
+		<priority>2014.5</priority>
 		<prop>VFEPD_BananaTree</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>

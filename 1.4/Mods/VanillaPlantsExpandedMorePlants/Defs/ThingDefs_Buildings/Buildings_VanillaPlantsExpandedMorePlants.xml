@@ -1,0 +1,1189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Celery</defName>
+		<label>celery</label>
+		<description>A vegetable consisting of a long fibrous stalk tapering into leaves. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Celery</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Pineapple</defName>
+		<label>pineapple</label>
+		<description>A sweet tropical fruit with a tough leathery skin and spiky leaves on top. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Pineapple</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Lettuce</defName>
+		<label>lettuce</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A leaf vegetable commonly eaten fresh and served as the base of green salads. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Lettuce</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.4</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BrusselsSprout</defName>
+		<label>brussels sprout</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A form of cabbage grown for its edible buds called "sprouts". This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_BrusselsSprout</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.8</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Cassava</defName>
+		<label>cassava</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A tuberous edible plant also called manioc, mandioca, or yuca. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Cassava</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.8</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SweetPotato</defName>
+		<label>sweet potato</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A tuberous edible plant also called manioc, mandioca, or yuca. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_SweetPotato</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.8</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Radish</defName>
+		<label>radish</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A tuberous edible plant also called manioc, mandioca, or yuca. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Radish</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.9</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Buckwheat</defName>
+		<label>buckwheat</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A pseudocereal cultivated for its grain-like seeds. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Buckwheat</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.5</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Peanut</defName>
+		<label>peanut</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>A plant that produces seeds with an oblong shape and a papery seed coat. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Peanut</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.6</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Sunflower</defName>
+		<label>sunflower</label>
+		<description>A large crop used for its edible oil and edible fruits. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Sunflower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.5</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Okra</defName>
+		<label>okra</label>
+		<description>A flowering plant in the mallow family valued for its edible green seed pods. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Okra</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Garlic</defName>
+		<label>garlic</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A plant with long, flat grasslike leaves forming a stalk. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Garlic</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.4</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Carrot</defName>
+		<label>carrot</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A herbaceous plant of the Apiaceae family that produces an edible taproot. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Carrot</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.9</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Beans</defName>
+		<label>beans</label>
+		<description>A herbaceous bush with a long history of cultivation. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Beans</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Chickpea</defName>
+		<label>chickpea</label>
+		<description>One of the earliest cultivated legumes, widely grown for its nutritious seeds. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Chickpea</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BellPepper</defName>
+		<label>bell pepper</label>
+		<description>Also known as sweet peppers, bell peppers are technically nightshades. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_BellPepper</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_YellowBellPepper</defName>
+		<label>yellow bell pepper</label>
+		<description>Also known as sweet peppers, bell peppers are technically nightshades. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_YellowBellPepper</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Taro</defName>
+		<label>taro</label>
+		<description>A tropical plant grown primarily for its edible corm, a root vegetable. This one is fake. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Taro</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded/>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Watercress</defName>
+		<label>watercress</label>
+		<description>Watercress is a rapidly growing, perennial plant. It is one of the oldest known leaf vegetables consumed by humans. This one is fake. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Watercress</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded/>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Lotus</defName>
+		<label>lotus</label>
+		<description>Sometimes colloquially called a water lily, lotus plants are adapted to grow in the flood plains of slow-moving rivers and delta areas. This one is fake. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Lotus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded/>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_WaterChestnut</defName>
+		<label>water chestnut</label>
+		<description>An aquatic vegetable that grows in marshes, under water, in the mud. This one is fake. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_WaterChestnut</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded/>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Melon</defName>
+		<label>melon</label>
+		<description>A plant producing a sweet, edible, and fleshy fruit of considerable size. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Melon</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Cucumber</defName>
+		<label>cucumber</label>
+		<description>A sprawling vine with large leaves and curling tendrils, triangular prickly hairy leaves and yellow flowers. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Cucumber</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ButternutSquash</defName>
+		<label>butternut squash</label>
+		<description>A vine plant that produces a vegetable with a sweet, nutty taste similar to that of a pumpkin. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_ButternutSquash</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.25</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AloeVera</defName>
+		<label>aloe vera</label>
+		<description>A herb with succulent leaves that are arranged in a rosette. The leaves are grey to green and sometimes have white spots on their surfaces. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_AloeVera</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.9</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Canola</defName>
+		<label>canola</label>
+		<description>A bright-yellow flowering variety of the rapeseed, cultivated mainly for its oil-rich seed. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Canola</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.25</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Blueberry</defName>
+		<label>blueberry</label>
+		<description>A shrub prized for its sweet edible fruits. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Blueberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Moss</defName>
+		<label>cave moss</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>A nutrient-rich moss that can be used to feed cave animals, but not humans. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Moss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Tinctshroom</defName>
+		<label>tinctshroom</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A genetically-engineered mushroom which secretes a self-altering dye. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Tinctshroom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Healshroom</defName>
+		<label>healshroom</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A slow-growing mushroom which yields herbal medicine when harvested. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Healshroom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Barley</defName>
+		<label>barley</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A cereal grain that people can use in bread, beverages, stews, and other dishes. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Barley</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Sorghum</defName>
+		<label>sorghum</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>A drought resistant cereal used for food, animal fodder, the production of alcoholic beverages, and biofuels. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Sorghum</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Rye</defName>
+		<label>rye</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A plant that grows well in much poorer soils than those necessary for most cereal grains. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Rye</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Oats</defName>
+		<label>oats</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>The oat, sometimes called the common oat, is a species of cereal grain grown for its seed, which is known by the same name. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Crops/VCE_Oats</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+			<drawOffset>(0,0,0.8)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeAvocado</defName>
+		<label>avocado tree</label>
+		<description>An evergreen tree with thick, leathery leaves that produces perfect white, ivory to yellow flowers. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Trees/VCE_TreeAvocado</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeOlive</defName>
+		<label>olive tree</label>
+		<description>A subtropical broad-leaved evergreen tree. Its leaves, leathery and lance-shaped, are dark green above and silvery on the underside and are paired opposite each other on the twig. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Trees/VCE_TreeOlive</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CoconutPalm</defName>
+		<label>coconut palm</label>
+		<description>A palm tree cultivated extensively in tropical areas for its edible fruit, the coconut. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Trees/VCE_TreeCoconut</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeAlmond</defName>
+		<label>almond tree</label>
+		<description>A deciduous tree cultivated for its fruit, almonds. The sweet almond can be eaten plain or be used as ingredient in desserts and confectioneries. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Trees/VCE_TreeAlmond</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeMango</defName>
+		<label>mango tree</label>
+		<description>A deciduous tree cultivated for its fruit, almonds. The sweet almond can be eaten plain or be used as ingredient in desserts and confectioneries. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Trees/VCE_TreeMango</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+</Defs>

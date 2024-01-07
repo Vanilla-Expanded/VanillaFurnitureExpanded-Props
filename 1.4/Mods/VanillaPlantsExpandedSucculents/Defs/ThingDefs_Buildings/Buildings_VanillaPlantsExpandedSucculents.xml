@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AloeVera_Succulent</defName>
+		<label>aloe vera</label>
+		<description>A cultivated succulent with thick, greenish, fleshy leaves that fan out from the short stem. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/AloeVera</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BunnyEarsCactus</defName>
+		<label>bunny ears cactus</label>
+		<description>A cultivated succulent with pads resembling ears of a bunny, and spines resembling fuzzy fur. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/BunnyEarsCactus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Echeveria</defName>
+		<label>echeveria</label>
+		<description>A cultivated succulent forming a rosette, native to arid shrublands. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Echeveria</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FairyWashboard</defName>
+		<label>fairy washboard</label>
+		<description>A cultivated succulent with rosette forming long triangular leaves. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/FairyWashboard</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_JadePlant</defName>
+		<label>jade</label>
+		<description>A cultivated succulent with thick, woody stems and oval-shaped leaves. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/JadePlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PeyotePlant</defName>
+		<label>peyote</label>
+		<description>A cultivated succulent resembling thick buttons. Whilst not as beautiful as flowers, this plant has a very long lifespan. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Peyote</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PincushionPlant</defName>
+		<label>pincushion</label>
+		<description>A cultivated succulent of cactus variety, with pointy spikes covering its exterior. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/PincushionPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Schlumbergera</defName>
+		<label>schlumbergera</label>
+		<description>A cultivated succulent with bell-shaped flowers. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Schlumbergera</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SnakePlant</defName>
+		<label>snake plant</label>
+		<description>A cultivated succulent with stiff, green banded leaves with a yellow border. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/SnakePlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.55</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SweetheartPlant</defName>
+		<label>sweetheart</label>
+		<description>A cultivated succulent with heart-shaped leaves on a tall stem.  This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/SweetheartPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.05</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+</Defs>
