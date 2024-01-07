@@ -56,7 +56,7 @@ namespace VFEProps
             foreach (int num5 in positionIndices)
             {
 
-                int num7 = 2;
+                int num7 = 3;
 
                 float num8 = 1f / (float)num7;
                 center = base.Position.ToVector3();

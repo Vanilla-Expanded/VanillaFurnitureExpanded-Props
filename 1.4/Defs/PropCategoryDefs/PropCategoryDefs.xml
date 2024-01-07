@@ -233,6 +233,13 @@
 		<icon>UI/Categories/Props_Plants</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_ExoticPlants</defName>
+		<label>exotic plants</label>
+		<description>Exotic plants from Alpha Biomes. Bear in mind these are decorative. They don't grow, don't produce anything, etc.</description>
+		<priority>101</priority>
+		<icon>UI/Categories/Props_ExoticPlants</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Mechs</defName>
 		<label>mechanoid</label>
 		<description>Props based on mech clusters, or other structures of mechanoid design.</description>
