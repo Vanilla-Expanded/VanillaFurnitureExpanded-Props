@@ -169,6 +169,12 @@
 		<prop>VFEPD_PalmTree</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Cocoa</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>28.5</priority>
+		<prop>VFEPD_TreeCocoa</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Plants_29</defName>
 		<category>VFE_PropCategory_Plants</category>		
 		<priority>29</priority>
@@ -246,7 +252,40 @@
 		<priority>41</priority>
 		<prop>VFEPD_Rafflesia</prop>
 	</VFEProps.PropDef>
-	
-	
-	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Ambrosia</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.1</priority>
+		<prop>VFEPD_Ambrosia</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Tinctoria</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.2</priority>
+		<prop>VFEPD_Tinctoria</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Dandelion</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.3</priority>
+		<prop>VFEPD_Dandelion</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Astragalus</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.4</priority>
+		<prop>VFEPD_Astragalus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Moss_Base</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.5</priority>
+		<prop>VFEPD_Moss_Base</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_ShrubLow</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>41.6</priority>
+		<prop>VFEPD_ShrubLow</prop>
+	</VFEProps.PropDef>
 </Defs>
