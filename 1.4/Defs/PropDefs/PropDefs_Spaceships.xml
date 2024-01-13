@@ -19,6 +19,212 @@
 		<prop>VFEPD_AlbatrossBlack</prop>
 	</VFEProps.PropDef>
 	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_Radiator</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1000</priority>
+		<prop>VFEPD_ShipPart_Radiator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_AdvancedRadiator</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1001</priority>
+		<shortLabel>advanced radiator</shortLabel>
+		<prop>VFEPD_ShipPart_AdvancedRadiator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchotechRadiator</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1002</priority>
+		<shortLabel>archo radiator</shortLabel>
+		<prop>VFEPD_ShipPart_ArchotechRadiator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechanoidRadiator</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1003</priority>
+		<shortLabel>mech radiator</shortLabel>
+		<prop>VFEPD_ShipPart_MechanoidRadiator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_SolarExpand</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1004</priority>
+		<prop>VFEPD_ShipPart_SolarExpand</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_SolarExpand_Archotech</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1005</priority>
+		<prop>VFEPD_ShipPart_SolarExpand_Archotech</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_SolarExpand_Mechanoid</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1006</priority>
+		<prop>VFEPD_ShipPart_SolarExpand_Mechanoid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_Engine_Small</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1007</priority>
+		<prop>VFEPD_ShipPart_Ship_Engine_Small</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_Engine</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1008</priority>
+		<prop>VFEPD_ShipPart_Ship_Engine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_NuclearEngine</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1009</priority>
+		<prop>VFEPD_ShipPart_Ship_NuclearEngine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_JohnsonTanaka_Drive</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1010</priority>
+		<prop>VFEPD_ShipPart_JohnsonTanaka_Drive</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_JohnsonTanaka_Drive_Ruined</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1011</priority>
+		<shortLabel>ruined J-T drive</shortLabel>
+		<prop>VFEPD_ShipPart_JohnsonTanaka_Drive_Ruined</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_Archotech_Thruster</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1012</priority>
+		<prop>VFEPD_ShipPart_Archotech_Thruster</prop>
+	</VFEProps.PropDef>
 	
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x1</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1013</priority>
+		<prop>VFEPD_ShipPart_ShipAngle1x1_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x1_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1014</priority>
+		<shortLabel>1x1 corner flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x1_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x2</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1015</priority>
+		<prop>VFEPD_ShipPart_ShipAngle1x2_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x2_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1016</priority>
+		<shortLabel>1x2 corner flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x2_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x3</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1017</priority>
+		<prop>VFEPD_ShipPart_ShipAngle1x3_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ShipAngle1x3_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1018</priority>
+		<shortLabel>1x3 corner flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x3_Flipped</prop>
+	</VFEProps.PropDef>
 	
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x1</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1019</priority>
+		<shortLabel>1x1 archo corner</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x1_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x1_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1020</priority>
+		<shortLabel>1x1 archo flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x1_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x2</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1021</priority>
+		<shortLabel>1x2 archo corner</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x2_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x2_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1022</priority>
+		<shortLabel>1x2 archo flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x2_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x3</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1023</priority>
+		<shortLabel>1x3 archo corner</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x3_Thing</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_ArchoShipAngle1x3_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1024</priority>
+		<shortLabel>1x3 archo flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ArchoShipAngle1x3_Flipped</prop>
+	</VFEProps.PropDef>
+	
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x1</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1025</priority>
+		<shortLabel>1x1 mech corner</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x1Mech</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x1_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1026</priority>
+		<shortLabel>1x1 mech flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x1Mech_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x2</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1027</priority>
+		<shortLabel>1x2 mech corner</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x2Mech</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x2_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1028</priority>
+		<shortLabel>1x2 mech flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x2Mech_Flipped</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x3</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1029</priority>
+		<shortLabel>1x3 mech corner</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x3Mech</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_ShipPart_MechShipAngle1x3_Flipped</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>1030</priority>
+		<shortLabel>1x3 mech flipped</shortLabel>
+		<prop>VFEPD_ShipPart_ShipAngle1x3Mech_Flipped</prop>
+	</VFEProps.PropDef>
 </Defs>

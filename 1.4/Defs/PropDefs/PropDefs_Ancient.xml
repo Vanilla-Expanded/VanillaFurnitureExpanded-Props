@@ -8,6 +8,13 @@
 		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_ScrapChunk</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.905</priority>
+		<prop>VFEPD_ScrapChunk</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Ancient_ShipPart</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>67.91</priority>
