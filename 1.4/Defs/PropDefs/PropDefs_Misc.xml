@@ -22,6 +22,13 @@
 		<prop>VFEPD_Hive</prop>
 		
 	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_SpaceHive</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>4.5</priority>
+		<prop>VFEPD_SpaceHive</prop>
+		
+	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Misc_5</defName>
 		<category>VFE_PropCategory_Misc</category>		

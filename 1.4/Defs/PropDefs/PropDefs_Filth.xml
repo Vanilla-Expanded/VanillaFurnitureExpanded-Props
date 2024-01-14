@@ -106,4 +106,16 @@
 		<priority>17</priority>
 		<prop>VFEPD_FilthAsh</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_FilthBones</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>17.1</priority>
+		<prop>VFEPD_FilthBones</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_FilthRadioactiveDust</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>17.2</priority>
+		<prop>VFEPD_FilthRadioactiveDust</prop>
+	</VFEProps.PropDef>
 </Defs>

@@ -1,5 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Personalpod</defName>
+		<label>personal pod</label>
+		<description>A small, out-of-service, multi use drop pod.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/PersonalPod/PersonalPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Superpod</defName>
 		<label>superpod</label>
@@ -60,6 +89,37 @@
 		<size>(3,3)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SpacerShuttle</defName>
+		<label>shuttle</label>
+		<description>A light-weight, out-of-service shuttle, allowing users to travel comfortably for a short distance.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/SpacerShuttle/SpacerShuttle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AlbatrossBlack</defName>
 		<label>gunship</label>
@@ -73,6 +133,68 @@
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(255,255,255)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HeavyDropship</defName>
+		<label>heavy dropship</label>
+		<description>A large, multi-personel heavy dropship currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/HeavyDropship/HeavyDropship</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Shuttle_HeavyCargo</defName>
+		<label>heavy cargo shuttle</label>
+		<description>A large, multi-personel heavy cargo shuttle currently out of service.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Shuttle_HeavyCargo/Shuttle_HeavyCargo</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(9,9)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -917,9 +1039,1271 @@
 			<li Class="CompProperties_ShipPart"/>
 		</comps>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_AutosleepPod</defName>
+		<label>autosleep pod</label>
+		<description>A decorative autosleep pod for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/AutoSleepPod/AutoSleepPod</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_AutosleepPod_Off</defName>
+		<label>autosleep pod, off</label>
+		<description>A decorative autosleep pod for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/AutoSleepPod/AutoSleepPodOff</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
 	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_AvatarCasket</defName>
+		<label>avatar casket</label>
+		<description>A decorative avatar casket for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/AvatarCasket/AvatarCasket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_CapacitorSmall</defName>
+		<label>small ship capacitor</label>
+		<description>A decorative small ship capacitor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/ShipCapacitors/CapacitorSmall</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Capacitor</defName>
+		<label>ship capacitor</label>
+		<description>A decorative ship capacitor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/ShipCapacitors/Capacitor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(3,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_CritterSleep_Small</defName>
+		<label>small animal caskets</label>
+		<description>Decorative small animal caskets for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/CritterSleepCaskets/Crittersleep_SM</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(2,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_CritterSleep_Large</defName>
+		<label>large animal caskets</label>
+		<description>Decorative large animal caskets for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/CritterSleepCaskets/CritterSleep</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Cryptonest</defName>
+		<label>cryptonest</label>
+		<description>Decorative cryptonest for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/CritterSleepCaskets/Cryptonest</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Cryptonest_Off</defName>
+		<label>cryptonest, off</label>
+		<description>Decorative cryptonest for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/CritterSleepCaskets/CryptonestOff</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+		
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_HoloEmitter</defName>
+		<label>basic holo emitter</label>
+		<description>A decorative basic holo emitter for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/HoloEmitters/BasicHolodeck</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_AdvancedHoloEmitter</defName>
+		<label>advanced holo emitter</label>
+		<description>A decorative advanced holo emitter for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/HoloEmitters/Holodeck</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoHoloEmitter</defName>
+		<label>archo holo emitter</label>
+		<description>A decorative archotech holo emitter for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/HoloEmitters/SapientHolodeck</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_HoloRepeater</defName>
+		<label>holo repeater</label>
+		<description>A decorative holo repeater for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/HoloEmitters/HologramRepeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShipComputer</defName>
+		<label>ship computer</label>
+		<description>A decorative ship computer for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Computers/Ship_ComputerCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
 	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShipComputer_AI</defName>
+		<label>AI ship computer</label>
+		<description>A decorative AI ship computer for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Computers/InsaneAI</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Heatsink</defName>
+		<label>heatsink</label>
+		<description>A decorative heatsink for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/Heatsink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_HeatsinkLarge</defName>
+		<label>large heatsink</label>
+		<description>A decorative large heatsink for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/HeatsinkLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(4,4)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_PurgePort</defName>
+		<label>purge port</label>
+		<description>A decorative purge port for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/PurgePort</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_PurgePortLarge</defName>
+		<label>large purge port</label>
+		<description>A decorative large purge port for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/PurgePortLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(4,4)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_QuickHeatsink</defName>
+		<label>quick heatsink</label>
+		<description>A decorative quick heatsink for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/QuickBleedingHeatsink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoHeatsink</defName>
+		<label>archo heatsink</label>
+		<description>A decorative archo heatsink for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Ports/AntiEntropicHeatsink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_SmallLifeSupport</defName>
+		<label>small life support</label>
+		<description>A decorative small life support for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/LifeSupport/Micro_LifeSupport</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_LifeSupport</defName>
+		<label>life support</label>
+		<description>A decorative life support for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/LifeSupport/Life_Support</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShieldGenerator</defName>
+		<label>shield generator</label>
+		<description>A decorative shield generator for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Shields/ShieldGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoShieldGenerator</defName>
+		<label>archo shield generator</label>
+		<description>A decorative archo shield generator for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Shields/ArchoShieldGen</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_CloakingDevice</defName>
+		<label>cloaking device</label>
+		<description>A decorative cloaking device for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/CloakingDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_HullFoamDistributor</defName>
+		<label>foam distributor</label>
+		<description>A decorative foam distributor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/HullFoamDistributor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
 	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_SalvageBay</defName>
+		<label>salvage bay</label>
+		<description>A decorative salvage bay for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/SalvageBay</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5.6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Ship_SensorCluster</defName>
+		<label>sensor cluster</label>
+		<description>A decorative sensor cluster for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/Ship_SensorCluster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Ship_SensorCluster_Large</defName>
+		<label>large sensor cluster</label>
+		<description>A decorative large sensor cluster for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/Ship_SensorClusterAdv</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_BigConsole</defName>
+		<label>big console</label>
+		<description>A decorative big console for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/Satellite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Ship_Bridge</defName>
+		<label>ship bridge</label>
+		<description>A decorative ship bridge for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Consoles/Ship_Bridge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,3.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		
+		<size>(5,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Ship_Bridge_Small</defName>
+		<label>small ship bridge</label>
+		<description>A decorative small ship bridge for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Consoles/Ship_Bridge_Mini</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,3.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShipReactor</defName>
+		<label>ship reactor</label>
+		<description>A decorative ship reactor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Reactors/ShipReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShipReactorAdv</defName>
+		<label>advanced ship reactor</label>
+		<description>A decorative advanced ship reactor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Reactors/ShipReactorMKII</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5.3,5.3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ShipReactorDamaged</defName>
+		<label>ruined ship reactor</label>
+		<description>A decorative ruined ship reactor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Reactors/ShipReactorDamaged</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5.3,5.3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchotechReactor</defName>
+		<label>archo reactor</label>
+		<description>A decorative archo reactor for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Reactors/ArchotechReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_Shuttle_Bay</defName>
+		<label>shuttle bay</label>
+		<description>A decorative shuttle bay for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/Shuttle_Bay</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,5)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_TorpedoTubes_Single</defName>
+		<label>single torpedo tube</label>
+		<description>Decorative single torpedo tube for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/TorpedoTubes/TorpedoTubes_Single</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(3,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_TorpedoTubes_Small</defName>
+		<label>small torpedo tubes</label>
+		<description>Decorative small torpedo tubes for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/TorpedoTubes/TorpedoTubes_small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(6,3)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_TorpedoTubes</defName>
+		<label>torpedo tubes</label>
+		<description>Decorative torpedo tubes for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/TorpedoTubes/TorpedoTubes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(6,6)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoSphere</defName>
+		<label>archo sphere</label>
+		<description>Decorative archo sphere for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/Archotech_DeusXMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,8)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(5,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchotechUplink</defName>
+		<label>archotech uplink</label>
+		<description>Decorative archotech uplink for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/ArchotechUplink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.46875</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoPillarA</defName>
+		<label>archo pillar</label>
+		<description>Decorative archo pillar for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/ArchoTechPillar_01</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoPillarB</defName>
+		<label>archo pillar</label>
+		<description>Decorative archo pillar for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/ArchoTechPillar_02</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoPillarC</defName>
+		<label>archo pillar</label>
+		<description>Decorative archo pillar for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/ArchoTechPillar_03</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipPart_ArchoPillarD</defName>
+		<label>archo pillar</label>
+		<description>Decorative archo pillar for a spaceship. This piece will connect to base game spaceships.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/Misc/ArchoTechPillar_04</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<shipPart>true</shipPart>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<comps>
+			<li Class="CompProperties_ShipPart"/>
+		</comps>
+	</ThingDef>
 	
 	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
 	<ThingDef ParentName="BuildingBase">

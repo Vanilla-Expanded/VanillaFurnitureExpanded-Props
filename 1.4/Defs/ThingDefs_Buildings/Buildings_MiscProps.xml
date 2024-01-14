@@ -76,6 +76,31 @@
 		<pathCost>42</pathCost>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SpaceHive</defName>
+		<label>space hive</label>
+		<description>A decorative space hive. Won't produce any insects.</description>
+		<graphicData>
+			<texPath>Things/Building/Spaceships/SpaceHive/SpaceHive</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GlowPod</defName>
 		<label>fake glow pod</label>
 		<description>This doesn't even glow! I want to speak with the manager!</description>
