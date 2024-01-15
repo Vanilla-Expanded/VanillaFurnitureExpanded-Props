@@ -195,7 +195,7 @@
 			<color>(181,181,181)</color>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>14</pathCost>
 		<fillPercent>0.2</fillPercent>
@@ -225,7 +225,7 @@
 			<color>(132,132,132)</color>
 		
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>

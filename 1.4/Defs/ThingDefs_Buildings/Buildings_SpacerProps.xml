@@ -457,7 +457,7 @@
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
 		<pathCost>14</pathCost>
