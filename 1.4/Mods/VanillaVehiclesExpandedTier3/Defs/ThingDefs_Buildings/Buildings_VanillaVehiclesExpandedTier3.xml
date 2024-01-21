@@ -154,7 +154,8 @@
 		<uiIconScale>1</uiIconScale>
 		<modExtensions>
 			<li Class="VFEProps.DrawTurretExtension">
-				<turretToDraw>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod_RocketswarmTurret</turretToDraw>
+			
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod_Rocket_SwarmTurret</turretToDraw>
 				<drawSize>(2,2)</drawSize>
 				<offset>
 					<north>(0, 0.93)</north>
