@@ -36,6 +36,8 @@
 		<li IfModActive="sarg.alphabiomes">1.4/Mods/AlphaBiomes</li>
 		<li IfModActive="VanillaExpanded.VMemesE">1.4/Mods/VanillaMemesExpanded</li>
 		<li IfModActive="VanillaExpanded.VFEArchitect">1.4/Mods/VanillaFurnitureExpandedArchitect</li>
+		<li IfModActive="XMB.AncientHydroponicFarmFacilities.MO">1.4/Mods/AncientHydroponicFarmFacilities</li>
+		<li IfModActive="XMB.AncientMiningIndustry.MO">1.4/Mods/AncientMiningIndustry</li>
 	
 	</v1.4>
 </loadFolders>
