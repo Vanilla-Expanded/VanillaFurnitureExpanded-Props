@@ -1005,6 +1005,20 @@
 		
 	</ThingDef>
 	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalFakeStairsInvertedCorner</defName>
+		<label>large fake stairs inverted corner</label>
+		
+		
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalFakeStairsInvertCorner</texPath>
+			<drawSize>(2,2)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,45)</color>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
 		<defName>VFEPD_LargeDecalLineThinCentered</defName>
 		<label>large decal line thin centered</label>
 		<graphicData>

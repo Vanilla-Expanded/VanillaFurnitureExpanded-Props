@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Industrial_Pipes</defName>
-		<category>VFE_PropCategory_Industrial</category>
-		<priority>0</priority>
-		<silverCostOverride>0</silverCostOverride>
-		<prop>VCHE_FakePipes</prop>
-	</VFEProps.PropDef>
+
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Industrial_1</defName>
 		<category>VFE_PropCategory_Industrial</category>

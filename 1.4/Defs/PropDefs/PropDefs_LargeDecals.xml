@@ -199,20 +199,7 @@
 		<shortLabel>lrg. thin centered round</shortLabel>
 		<prop>VFEPD_LargeDecalLineThinCenteredRound</prop>
 	</VFEProps.PropDef>
-	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
-		<defName>VFE_Prop_LargeDecals_FakeStairs</defName>
-		<category>VFE_PropCategory_LargeDecals</category>
-		<priority>9.85</priority>
-		<shortLabel>lrg. fake stairs</shortLabel>
-		<prop>VFEPD_LargeDecalFakeStairs</prop>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
-		<defName>VFE_Prop_LargeDecals_FakeStairsCorner</defName>
-		<category>VFE_PropCategory_LargeDecals</category>
-		<priority>9.95</priority>
-		<shortLabel>lrg. fake stairs corner</shortLabel>
-		<prop>VFEPD_LargeDecalFakeStairsCorner</prop>
-	</VFEProps.PropDef>
+	
 	
 	<!-- Letters decals -->
 	
