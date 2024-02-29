@@ -190,7 +190,7 @@ namespace VFEProps
                         }
                         else
                         {
-                            Messages.Message("VFE_NoSilver".Translate(cost), null, MessageTypeDefOf.RejectInput);
+                            Messages.Message("VFE_NoSilver".Translate(cost * VFEProps_Settings.costMultiplier), null, MessageTypeDefOf.RejectInput);
                         }
                     }
 
