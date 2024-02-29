@@ -30,7 +30,7 @@ namespace VFEProps
                 float y = curY;
                 Widgets.ThingIcon(new Rect(curX, y, 27f, 27f), ThingDefOf.Silver);
                 Rect rect2 = new Rect(curX + 29f, y, 999f, 29f);
-                int num2 = Utils.CostCalculator(___entDef);
+                int num2 = (int)(Utils.CostCalculator(___entDef) * VFEProps_Settings.costMultiplier);
                 string text = num2.ToString();
                
                 Text.Font = GameFont.Small;

@@ -38,7 +38,7 @@ namespace VFEProps
                     silverAmount = Utils.CostCalculator(prop.prop);
                 }
 
-                silverAmount = (int)(silverAmount*VFEProps_Settings.silverReturnMultiplier);
+                silverAmount = (int)(silverAmount* VFEProps_Settings.costMultiplier*VFEProps_Settings.silverReturnMultiplier);
 
                 if (silverAmount != 0) {
                     Thing silver = ThingMaker.MakeThing(ThingDefOf.Silver);
