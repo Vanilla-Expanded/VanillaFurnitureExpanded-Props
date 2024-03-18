@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarForklift</defName>
+		<label>forklift</label>
+		<description>An industrial style forklift. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarForklift/CarForklift</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(252,244,134)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarDeliveryBlack</defName>
+		<label>delivery truck</label>
+		<description>A large delivery truck. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarDelivery/CarDelivery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,6)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(180,173,150)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,6)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarFamilyBlack</defName>
+		<label>family car</label>
+		<description>A family car. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarFamily/CarFamily</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(44,83,140)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarPickupBlack</defName>
+		<label>pickup truck</label>
+		<description>A pickup truck. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarPickup/CarPickup</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(178,72,66)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CarVintageBlack</defName>
+		<label>vintage car</label>
+		<description>A vintage style car. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Vehicles/CarVintage/CarVintage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+			<color>(60,60,60)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+
+</Defs>

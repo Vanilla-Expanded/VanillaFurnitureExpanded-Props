@@ -1,0 +1,2903 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTerminal</defName>
+		<label>ancient terminal</label>
+		<description>An ancient computer terminal.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Misc/AncientTerminal/AncientTerminal</texPath>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientEnemyTerminal</defName>
+		<label>ancient enemy terminal</label>
+		<description>An ancient computer terminal.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Ruins/AncientEnemyTerminal</texPath>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientHermetic</defName>
+		<label>ancient hermetic crate</label>
+		<description>A self-powered hermetically-sealed crate for preserving valuable items. These can preserve their contents for a long time. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientHermeticCrate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1, 2)</drawSize>
+			<shadowData>
+				<volume>(1, 0.45, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1, 2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSecurityCrate</defName>
+		<label>ancient security crate</label>
+		<description>A large self-powered hermetically-sealed crate with built-in security alarms. These can preserve their contents for a long time. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientSecurityCrate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<shadowData>
+				<volume>(2, 0.45, 1.75)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(2, 2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientCommsConsole</defName>
+		<label>ancient comms console</label>
+		<description>An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientCommsConsole</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 2)</drawSize>
+			<shadowData>
+				<offset>(0.5, 0, 0)</offset>
+				<volume>(2, 0.5, 1.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(3, 2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientFuelNode</defName>
+		<label>ancient fuel node</label>
+		<description>An ancient, depleted fuel node once used to charge machines with fuel.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientFuelNode</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.7, 0.5, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(1, 1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSystemRack</defName>
+		<label>ancient system rack</label>
+		<description>An ancient rack unit packed with unidentifiable devices. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientSystemRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1, 3)</drawSize>
+			<shadowData>
+				<volume>(0.9, 0.4, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1, 3)</size>
+		<fillPercent>0.40</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientEquipmentBlocks</defName>
+		<label>ancient equipment blocks</label>
+		<description>A collection of ancient equipment blocks of unknown function. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<size>(4, 2)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientEquipmentBlocks</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 2)</drawSize>
+			<shadowData>
+				<volume>(4, 0.3, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientMachine</defName>
+		<label>ancient machine</label>
+		<description>A large ancient machine case filled with unknown machinery. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<size>(5, 3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 3)</drawSize>
+			<shadowData>
+				<volume>(5, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientStorageCylinder</defName>
+		<label>ancient storage cylinder</label>
+		<description>An ancient device that looks like it once stored some kind of fluid. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<size>(2, 1)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientStorageCylinder</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 1)</drawSize>
+			<shadowData>
+				<volume>(2, 0.35, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientBed</defName>
+		<label>ancient bed</label>
+		<description>An old, rotted mattress on a rusty frame.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,0.95)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientDisplayBank</defName>
+		<label>ancient display bank</label>
+		<description>An ancient computer interface. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientDisplayBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(3, 0.45, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3, 1)</size>
+		<fillPercent>0.50</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AncientLockerBank</defName>
+		<label>ancient locker bank</label>
+		<description>An ancient, rusted bank of lockers. All of the lockers have been forced open with nothing valuable left behind.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientLockerBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(3, 0.85, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3, 1)</size>
+		<fillPercent>0.50</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientCrate</defName>
+		<label>ancient crate</label>
+		<description>An ancient, broken crate. Any valuables it once contained have degraded to uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientCrate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(1, 0.5, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.30</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMilitaryCrate</defName>
+		<label>ancient military crate</label>
+		<description>An ancient, military-looking crate. It was broken long ago and any valuables it once contained were looted.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMilitaryCrate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(1, 0.5, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.30</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSpacerCrate</defName>
+		<label>ancient spacer crate</label>
+		<description>An ancient, broken crate. Any valuables it once contained were taken long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientSpacerCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.7, 0.5, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.30</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBarrel</defName>
+		<label>ancient barrel</label>
+		<description>An ancient, broken barrel that looks like it once contained waste of some sort. The only thing it contains now is a smear of dried sludge.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientBarrel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.7, 0.5, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.30</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientGenerator</defName>
+		<label>ancient generator</label>
+		<description>An ancient electrical generator. Its usable parts were smashed or looted long ago, and the rest has rusted into uselessness.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientGenerator</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.9, 0.85, 1.75)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientOperatingTable</defName>
+		<label>ancient operating table</label>
+		<description>A table once used for surgical operations. It has long since deteriorated into uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientOperatingTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shadowData>
+				<volume>(0.9, 0.3, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<fillPercent>0.3</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientShoppingCart</defName>
+		<label>ancient shopping cart</label>
+		<description>An ancient, rusted shopping cart. How exactly it got here is a mystery, but the story is long and probably quite sad.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/ShoppingCart</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.9, 0.35, 0.45)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientPostbox</defName>
+		<label>ancient postbox</label>
+		<description>An ancient postbox, smashed and deteriorated to uselessness. It seems to have been moved here long ago for some unknown reason.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/Postbox</texPath>
+			<shadowData>
+				<volume>(0.78, 0.35, 0.78)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientVendingMachine</defName>
+		<label>ancient vending machine</label>
+		<description>An ancient vending machine. It was smashed ages ago and generations of looters have taken every conceivably useful part. How it ended up here is a mystery.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/VendingMachine</texPath>
+			<shadowData>
+				<volume>(0.85, 0.35, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientAirConditioner</defName>
+		<label>ancient air conditioner</label>
+		<description>An ancient air conditioning machine. Its internals were smashed long ago and what wasn't looted has rusted away in the time since.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AirConditioner</texPath>
+			<shadowData>
+				<volume>(0.99, 0.35, 0.99)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientKitchenSink</defName>
+		<label>ancient kitchen sink</label>
+		<description>An ancient kitchen sink made of some non-metallic fiber-sheet material. It is badly deteriorated and there's no way to salvage anything from it.\n\nHow it got here must be a long story.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/KitchenSink</texPath>
+			<shadowData>
+				<volume>(0.99, 0.35, 0.99)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientStove</defName>
+		<label>ancient stove</label>
+		<description>An ancient stove. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/Stove</texPath>
+			<shadowData>
+				<volume>(0.99, 0.35, 0.99)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientOven</defName>
+		<label>ancient oven</label>
+		<description>An ancient oven. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientOven</texPath>
+			<shadowData>
+				<volume>(0.99, 0.35, 0.99)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientATM</defName>
+		<label>ancient ATM</label>
+		<description>An ancient ATM. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientATM</texPath>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWashingMachine</defName>
+		<label>ancient washing machine</label>
+		<description>An ancient device used for washing textiles. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWashingMachine</texPath>
+			<shadowData>
+				<volume>(0.85, 0.35, 0.85)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientHydrant</defName>
+		<label>ancient hydrant</label>
+		<description>An ancient hydrant. Heavily rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientHydrant</texPath>
+			<shadowData>
+				<volume>(0.45, 0.35, 0.45)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMicrowave</defName>
+		<label>ancient microwave</label>
+		<description>An ancient device for heating food. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMicrowave</texPath>
+			<shadowData>
+				<volume>(0.9, 0.35, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientToilet</defName>
+		<label>ancient toilet</label>
+		<description>An ancient toilet. Smashed long ago, it is completely useless now.\n\nHow it got here is hard to say.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientToilet</texPath>
+			<shadowData>
+				<volume>(0.5, 0.35, 0.5)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRefrigerator</defName>
+		<label>ancient refrigerator</label>
+		<description>An ancient refrigerator. It was stripped of interesting parts long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/Fridge</texPath>
+			<shadowData>
+				<volume>(0.9, 0.35, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientSmallCrate</defName>
+		<label>ancient small crate</label>
+		<description>A small, empty crate which was abandoned ages ago. It's too rusted to store anything.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/CrateSmall</texPath>
+			<shadowData>
+				<volume>(0.65, 0.35, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientLongCrate</defName>
+		<label>ancient long crate</label>
+		<description>A long, empty crate which was abandoned ages ago. It's too rusted to store anything.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/CrateLong</texPath>
+			<shadowData>
+				<volume>(0.9, 0.35, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientLargeCrate</defName>
+		<label>ancient large crate</label>
+		<description>A large crate which was abandoned ages ago. It's too rusted to store anything.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/CrateLarge</texPath>
+			<shadowData>
+				<volume>(0.99, 0.35, 0.99)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWheel</defName>
+		<label>ancient wheel</label>
+		<description>An ancient wheel from some kind of vehicle. The rubber has deteriorated away and the metal is twisted and rusted.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/Ruins/Wheel</texPath>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.55)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientGiantWheel</defName>
+		<label>ancient giant wheel</label>
+		<description>A giant wheel which came off some large vehicle many ages ago. The rubber has disintegrated away and the metal is twisted and rusted.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/GiantWheel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(1.35, 0.35, 1.35)</volume>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedCar</defName>
+		<label>ancient car</label>
+		<description>An ancient, broken car. Everything that isn't rusted away was looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RustedCars</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,4)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,4)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedTruck</defName>
+		<label>ancient truck</label>
+		<description>An ancient, broken truck. Everything useful either rusted away or was looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RustedTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,4)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.7, 3.4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,4)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedJeep</defName>
+		<label>ancient troop carrier</label>
+		<description>An ancient, broken troop carrier. Everything that isn't rusted away was looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RustedMilitaryJeep</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(2.5, 0.85, 4.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,5)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedCarFrame</defName>
+		<label>ancient car frame</label>
+		<description>An ancient, rusted car frame. The body shell has long since rusted away to nothing.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RustedCarFrame</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,3)</drawSize>
+			<shadowData>
+				<volume>(1.75, 0.25, 2.75)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarwalkerTorso</defName>
+		<label>ancient warwalker torso</label>
+		<description>The torso of a mid-scale warwalker which fell here in ancient days. The valuable parts were looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarwalkerTorso</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,6)</drawSize>
+			<shadowData>
+				<volume>(2.5, 0.55, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,6)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedDropship</defName>
+		<label>ancient dropship</label>
+		<description>The remains of an ancient dropship. The valuable parts were looted long ago and the rest has deteriorated to uselessness.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientRustedDropship</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,5)</drawSize>
+			<shadowData>
+				<volume>(5.0, 0.55, 4.0)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(6,5)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarwalkerClaw</defName>
+		<label>ancient warwalker claw</label>
+		<description>The assault claw of an ancient mid-scale warwalker. This weapon specialized in tearing through heavy plasteel armor at close range. Its valuable components were looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarwalkerClaw</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shadowData>
+				<volume>(0.6, 0.35, 1.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarwalkerLeg</defName>
+		<label>ancient warwalker leg</label>
+		<description>The shattered leg of a mid-scale warwalker that fell here long ago. It has been picked clean by looters, and no valuable components remain.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarwalkerLeg</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,4)</drawSize>
+			<shadowData>
+				<volume>(0.9, 0.35, 3.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,4)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMiniWarwalkerRemains</defName>
+		<label>ancient warsprinter remains</label>
+		<description>The shattered remains of an ancient sub-scale warsprinter. Whatever parts weren't ruined when it was destroyed were looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarsprinterRemains</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(3.7, 0.35, 1.8)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarspiderRemains</defName>
+		<label>ancient warspider remains</label>
+		<description>The ruined remains of an ancient mid-scale warspider. It has been picked over many times, and there is nothing valuable left to loot.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarspiderRemains</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(3.3, 0.55, 3.45)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientPipelineSection</defName>
+		<label>ancient pipeline section</label>
+		<description>A section from an ancient pipeline. It once carried some valuable fluid over long distances. Now it's been looted and deteriorated to uselessness.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/PipelineSection</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.55, 0.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarwalkerFoot</defName>
+		<label>ancient warwalker foot</label>
+		<description>A massive foot from an ancient warwalker. It seems to have been torn free from its owner by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarwalkerFoot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1, 0.55, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientTank</defName>
+		<label>ancient ruined tank</label>
+		<description>The remains of an ancient tank which was destroyed by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RuinedTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(4.5, 0.8, 2.4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientAPC</defName>
+		<label>ancient ruined APC</label>
+		<description>The remains of an ancient armored troop carrier which was destroyed by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RuinedAPC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(4.1, 0.66, 2.4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientWarwalkerShell</defName>
+		<label>ancient warwalker shell</label>
+		<description>Most of the armored shell of a warwalker. It appears to have been torn off by some colossal weapon system. All the valuable parts were looted, and the rest is badly deteriorated.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientWarwalkerShell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(3.8, 0.55, 1.8)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientJetEngine</defName>
+		<label>ancient jet engine</label>
+		<description>An ancient jet engine, probably detached from a large airplane. Its delicate internals are rusted to uselessness, and the valuable parts were looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/JetEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(2.5, 0.55, 1.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientDropshipEngine</defName>
+		<label>ancient dropship engine</label>
+		<description>An ancient dropship engine. It probably came off a military troop carrier. Its delicate internals are rusted to uselessness, and the valuable parts were looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientDropshipEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(2.5, 0.55, 1.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientPodCar</defName>
+		<label>ancient pod car</label>
+		<description>An ancient pod car once capable of automated flight. Its valuable parts were looted long ago, and the rest is badly deteriorated.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/PodCar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.55, 1.8)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientTankTrap</defName>
+		<label>ancient tank trap</label>
+		<description>An defensive fortification for stopping vehicles. It's been deteriorating for many years.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientTankTrap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.6, 0.65, 0.6)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientLargeRustedEngineBlock</defName>
+		<label>ancient macro-engine block</label>
+		<description>A large, ancient engine block from some giant vehicle or power source. It's rusted through, and all the useful components are gone. No repair could salvage this.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/LargeEngineBlock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<shadowData>
+				<volume>(1.65, 0.35, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientFence</defName>
+		<label>ancient fence</label>
+		<description>An ancient fence made of reinforced concrete posts joined by concrete panels.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/AncientFence_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Fences</li>
+			</linkFlags>
+			<shadowData>
+				<volume>(1, 0.5, 0.45)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.35,0.1,0.3,0.7)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+		<blockWind>false</blockWind>
+		<fillPercent>0.25</fillPercent>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fertility>0</fertility>
+		<building>
+			<isInert>true</isInert>
+			<isFence>true</isFence>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRazorWire</defName>
+		<label>ancient razor wire</label>
+		<description>A piece of ancient razor wire. It has been deteriorating for many years and no longer poses any danger.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientRazorWire</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.1</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientPipes</defName>
+		<label>ancient pipes</label>
+		<description>A bunch of rusted old pipes. It is hard to say how these ended up here.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientPipes</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMegaCannonTripod</defName>
+		<label>ancient mega-cannon platform</label>
+		<description>A mounting platform that once held some sort of cannon. It has been broken for many years and every useful component was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMegacannonTripod</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.75, 0.5, 0.75)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3, 3)</size>
+		<fillPercent>0.35</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMegaCannonBarrel</defName>
+		<label>ancient mega-cannon barrel</label>
+		<description>A barrel from a long-range cannon for artillery or anti-ship use. When it was new, it must have been frighteningly powerful. Now, it's far beyond repair and every useful component has been looted.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMegacannonBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shadowData>
+				<volume>(0.1, 0.3, 1.8)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientContainer</defName>
+		<label>ancient container</label>
+		<description>A large container from some ancient freight carrying vehicle. It has long since been looted and deteriorated into uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientContainer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<shadowData>
+				<volume>(2.4, 0.9, 4.2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,5)</size>
+		<fillPercent>1</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>Impassable</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMechDetritus</defName>
+		<label>mechanoid detritus</label>
+		<description>The remains of a smashed mechanoid. All the useful components and materials are ruined or missing.</description>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientMechDetritus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.25</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientMechDropBeacon</defName>
+		<label>ancient mech drop beacon</label>
+		<description>The broken shell of a mech drop beacon. Its useful components are missing and the shell has deteriorated after many years.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/DestroyedMechDropBeacon</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.95, 0.95, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientSecurityTurret</defName>
+		<label>ancient security turret</label>
+		<description>An ancient, broken security turret. The valuable parts have all been looted or smashed.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientSecurityTurret</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientRustedEngineBlock</defName>
+		<label>ancient engine block</label>
+		<description>An ancient engine block that is rusted through. No repair could salvage this.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/RustedEngineBlock</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.9, 0.35, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AncientBuildingBase">
+		<defName>VFEPD_AncientShipBeacon</defName>
+		<label>ancient nav beacon</label>
+		<description>An ancient, broken ship navigation beacon. Every useful component was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientBustedShipBeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.2, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.3</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HackingEffect</defName>
+		<label>hacking</label>
+		<description>This is an effecter prop for "Hacking". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/Hacking</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>Hacking</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HairCuttingEffect</defName>
+		<label>hair cutting</label>
+		<description>This is an effecter prop for "Hair Cutting". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/HairCutting/HairCuttingA</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>HairCutting</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BurnbongSmokeEffect</defName>
+		<label>burnbong smoke</label>
+		<description>This is an effecter prop for "Burnbong Smoke". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/Smoke</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>BurnbongSmoke</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MakingSkylanternEffect</defName>
+		<label>making skylantern</label>
+		<description>This is an effecter prop for "Making Skylantern". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Ethereal/SkyLanterns/SkyLantern</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>MakingSkylantern</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ChristmasTreeTwinkleEffect</defName>
+		<label>christmas twinkle</label>
+		<description>This is an effecter prop for "Christmas Tree Twinkle". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/Twinkle</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>ChristmasTreeTwinkle</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FireSmokeEffect</defName>
+		<label>fire smoke</label>
+		<description>This is an effecter prop for "Fire Smoke". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/Smoke</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>FireSmoke</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SleepAcceleratorActiveEffect</defName>
+		<label>sleep accelerator</label>
+		<description>This is an effecter prop for "Sleep Accelerator Active". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/BrightFlash</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>SleepAcceleratorActive</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BiosculpterPod_OperatingEffect</defName>
+		<label>biosculpter pod</label>
+		<description>This is an effecter prop for "Biosculpter Pod Operating". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/BrightFlash</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>BiosculpterPod_Operating</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GauranlenDebrisEffect</defName>
+		<label>gauranlen debris</label>
+		<description>This is an effecter prop for "Gauranlen Debris". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/GauranlenDebris/GauranlenDebrisA</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>GauranlenDebris</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GauranlenLeavesEffect</defName>
+		<label>gauranlen leaves</label>
+		<description>This is an effecter prop for "Gauranlen Leaves". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/Leaves/Leaf1</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>GauranlenLeaves</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GauranlenLeavesBatchEffect</defName>
+		<label>gauranlen leaves, batch</label>
+		<description>This is an effecter prop for "Gauranlen Leaves, Batch". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/Leaves/Leaf1</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>GauranlenLeavesBatch</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ChristmasTree</defName>
+		<label>christmas tree</label>
+		<description>A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations. Made of plastic.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/PlantProps/VFEPD_ChristmasTree/VFEPD_ChristmasTree</texPath>
+			<drawSize>(2.2,2.2)</drawSize>
+			<drawOffset>(0, 0, 0.75)</drawOffset>
+			<shadowData>
+				<volume>(0.8, 1.5, 0.8)</volume>
+				<offset>(0, 0, -0.25)</offset>
+			</shadowData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(247,215,107)</color>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeGauranlenMoss</defName>
+		<label>fake gauranlen moss</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>Plastic grass painted in the same colour as gauranlen moss. Probably terrible for the environment.</description>
+		<graphicData>
+			<texPath>Things/Plant/GauranlenMoss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeGauranlenTree</defName>
+		<label>fake gauranlen tree</label>
+		<description>Plastic tree imitating a gauranlen tree. No dryads here.</description>
+		<graphicData>
+			<texPath>Things/Plant/GauranlenTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.21, 0.6, 0.21)</volume>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Nutrifungus</defName>
+		<label>nutrifungus</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>A fake meaty bioengineered mushroom grown for its nutritious value.</description>
+		<graphicData>
+			<texPath>Things/Plant/Nutrifungus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Fibercorn</defName>
+		<label>fibercorn</label>
+		<description>A fake inedible, fibrous plant which usually produces a small amount of a wood-like substance.</description>
+		<graphicData>
+			<texPath>Things/Plant/Fibercorn</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Timbershroom</defName>
+		<label>timbershroom</label>
+		<description>A fake tall brown mushroom with a long stem.</description>
+		<graphicData>
+			<texPath>Things/Plant/Timbershroom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.6, 0.2)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</shadowData>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeBonsai</defName>
+		<label>bonsai tree</label>
+		<description>A fake tree, pruned and shaped to look visually pleasing.</description>
+		<graphicData>
+			<texPath>Things/Plant/BonsaiTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchonexusCore</defName>
+		<label>archonexus core</label>
+		<description>A cardboard imitation of the central core of an archonexus.</description>
+		<size>(11, 11)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/ArchonexusCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(11, 11)</drawSize>
+			<shadowData>
+				<volume>(9.8, 1, 8)</volume>
+				<offset>(0,0,-0.66)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GrandArchotechStructure</defName>
+		<label>grand archotech structure</label>
+		<description>A cardboard imitation of a grand archotech structure of towering height and impressive bulk.</description>
+		<size>(9, 9)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/GrandArchotechStructure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(9, 9)</drawSize>
+			<shadowData>
+				<volume>(8.1, 1, 6.2)</volume>
+				<offset>(0,0,-0.66)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MajorArchotechStructure</defName>
+		<label>major archotech structure</label>
+		<description>A cardboard imitation of a large archotech structure.</description>
+		<size>(7, 7)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/MajorArchotechStructure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7, 7)</drawSize>
+			<shadowData>
+				<volume>(7, 1, 5)</volume>
+				<offset>(0,0,-0.76)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchotechTower</defName>
+		<label>archotech tower</label>
+		<description>A cardboard imitation of a large archotech structure.</description>
+		<size>(3, 3)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/ArchotechTower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 1, 3.2)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FalseBlueFire</defName>
+		<label>fake darkfire</label>
+		<description>This is just smoke and mirrors.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconPath>Things/Special/Darklight/DarkFireA</uiIconPath>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.20</fillPercent>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<comps>
+			<li Class="VFEProps.CompProperties_ConstantFireOverlay">
+				<blueGraphic>true</blueGraphic>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_SpaceDrone</defName>
+		<label>space drone</label>
+		<description>An ancient ultratech spacedrone. Deactivated.</description>
+		<size>(5,3)</size>
+		<graphicData>
+			<texPath>Things/Building/Misc/Spacedrone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<color>(158,158,158)</color>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_DriedBlood</defName>
+		<label>dried blood</label>
+		<description>Splatters of dried blood. Lovely!</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/DriedBlood</texPath>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ScatteredDocuments</defName>
+		<label>scattered documents</label>
+		<description>Don't seem to contain any important information.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/ScatteredDocuments</texPath>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MoldyUniform</defName>
+		<label>ragged uniform</label>
+		<description>This is NOT the latest fashion.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/MoldyUniform</texPath>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PodSlime</defName>
+		<label>pod slime</label>
+		<description>I picture it tasting like Tang.</description>
+		<graphicData>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<texPath>Things/Filth/PoolSoft</texPath>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<color>(150, 200, 140, 65)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_OilSmear</defName>
+		<label>oil smear</label>
+		<description>If these appear under your car, take it to a mechanic.</description>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/OilSmear</texPath>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeGibbetCage</defName>
+		<label>fake gibbet cage</label>
+		<description>A fake gibbet cage with nothing inside. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/GibbetCageFull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.3,1.3)</drawSize>
+			<color>(110,110,110)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RitualGlowRays</defName>
+		<label>ritual glow rays</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Ritual Glow Rays". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/GlowRays</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RitualGlowRays</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_TotemOutline</defName>
+		<label>totem</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Totem outline". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/TotemPole</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_TotemOutline</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RolePositionHighlight</defName>
+		<label>role position</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Role Position Highlight". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/PositionHighlight</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RolePositionHighlight</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RolePawnHighlight</defName>
+		<label>role pawn highlight</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Role Pawn Highlight". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/PawnHighlight</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RolePawnHighlight</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_SpikePipe</defName>
+		<label>spike pipe</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Spike Pipe". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/SpikePipe</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_SpikePipe</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RitualTechLineA</defName>
+		<label>tech lines A</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Ritual Tech Line A". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RitualTechLineA</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RitualTechLineB</defName>
+		<label>tech lines B</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Ritual Tech Line B". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines2</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RitualTechLineB</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RitualTechLineC</defName>
+		<label>tech lines C</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Ritual Tech Line C". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/TechistLines/Lines3</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RitualTechLineC</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Mote_RitualGlowSingleRay</defName>
+		<label>glow single ray</label>
+		<thingClass>VFEProps.Building_NotifyColorChanged</thingClass>
+		<description>This is a mote prop for "Ritual Glow Single Ray". Intrinsically laggy, though less than effecter props. Use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/RitualEffects/GlowSingleRay</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_MoteReleaser">
+				<moteDef>Mote_RitualGlowSingleRay</moteDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeBonsaiPot</defName>
+		<label>bonsai pot</label>
+		<description>This fake pot is similar to those used for planting bonsai trees. Colonists will not plant anything here, so you can put a fake flower on top.</description>
+		
+			<graphicData>
+				<texPath>Things/Building/Misc/BonsaiTreePot/BonsaiTreePot</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<color>(133,97,67)</color>
+			</graphicData>
+			<altitudeLayer>Building</altitudeLayer>
+			<passability>PassThroughOnly</passability>
+			<rotatable>false</rotatable>
+			<statBases>
+				<MaxHitPoints>75</MaxHitPoints>
+				<WorkToBuild>0</WorkToBuild>
+				<Mass>2</Mass>
+				<Flammability>1</Flammability>
+			</statBases>
+			<size>(1,1)</size>
+			<pathCost>42</pathCost>
+			<uiIconScale>1</uiIconScale>
+			<building>
+				<isInert>true</isInert>
+			</building>
+		</ThingDef>
+	</Defs>

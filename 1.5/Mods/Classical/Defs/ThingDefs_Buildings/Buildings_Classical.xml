@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Tent</defName>
+		<label>tent</label>
+		<description>A small, personal tent no larger than a single person bed. Purely decorative.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/Tent/BedTent</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(210,180,140)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>28</pathCost>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Thermaebath</defName>
+		<label>thermaebath</label>
+		<description>A very large, heated stone bath meant to be shared by several patrons. This one isn't heated.</description>
+		<graphicData>
+			<texPath>Things/Building/Joy/Thermaebath/Thermaebath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(132, 135, 132)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>28</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>500</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(4,4)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_TheatreStage</defName>
+		<label>theatre stage</label>
+		<description>A lightly decorated wooden stage meant to provide area for props and actors both to create compelling scenes. Purely decorative.</description>
+		<graphicData>
+			<texPath>Things/Building/Joy/TheatreStage/TheatreStage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(2.5, 0.6, 0.1)</volume>
+				<offset>(0, 0, 0.2)</offset>
+			</shadowData>
+			<drawSize>(3,2)</drawSize>
+			<color>(132, 135, 132)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>50</pathCost>
+		<passability>Standable</passability>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>400</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MeatDryingRack</defName>
+		<label>meat drying rack</label>
+		<description>A solid wooden rack featuring a series of dangling metal hooks across a central beam meant to hang slabs of meat. Purely decorative.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/MeatDryingRack</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<passability>Standable</passability>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Plant_Poppy</defName>
+		<label>poppy</label>
+		<description>A fake tiny, crimson flower that can be harvested for opium, a strong pain killing drug.</description>
+		<graphicData>
+			<texPath>Things/Plant/Poppy</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawOffset>(0,0,0.2)</drawOffset>
+			<drawSize>1.05</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientGeneAssembler</defName>
+		<label>ancient gene assembler</label>
+		<description>A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. This device has collapsed in on itself, rendering it useless.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_GeneAssembler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientGeneBank</defName>
+		<label>ancient gene bank</label>
+		<description>This device was able to store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. It has corroded beyond any repair, and the genepacks stored inside are far gone.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientGeneExtractor</defName>
+		<label>ancient gene extractor</label>
+		<description>An automated surgery machine that was able to extract a person's genes and create a genepack from them. Its internal machinery is completely fused and rusted.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneExtractor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientGeneProcessor</defName>
+		<label>ancient gene processor</label>
+		<description>A genetic analysis and processing system. Ruined and unuseable.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGeneProcessor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientGrowthVat</defName>
+		<label>ancient growth vat</label>
+		<description>A vat of fluid which was able to gestate an embryo or accelerate a child's growth. Its transparent plasteel sheel has been smashed open, seemingly from the inside... Ominous.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedGrowthVat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientHugeBank</defName>
+		<label>ancient huge gene bank</label>
+		<description>A huge gene bank, much larger than the ones in use nowadays. Completely broken.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedHugeBank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<size>(4,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientLamp</defName>
+		<label>ancient broken lamp</label>
+		<description>A broken lamp.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientVitalsMonitor</defName>
+		<label>ancient vitals monitor</label>
+		<description>A broken vitals monitor with a dead screen.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedVitalsMonitor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientBandNode</defName>
+		<label>ancient band node</label>
+		<description>A broken mechanoid-band signal amplifier. Its antennas are bent in weird angles.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedBandNode</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientBasicRecharger</defName>
+		<label>ancient mech recharger</label>
+		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedBasicRecharger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.9,1.25)</drawSize>
+			<shadowData>
+				<volume>(2.9, 0.5, 0.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientLargeRecharger</defName>
+		<label>ancient large mech recharger</label>
+		<description>A broken mech recharger. The connecting pins are bent and chipped, making the whole machine useless.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedStandardRecharger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.8,2.8)</drawSize>
+			<shadowData>
+				<volume>(2.9, 0.5, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientMechGestator</defName>
+		<label>ancient mech gestator</label>
+		<description>A tank used to create new mechanoids. The mechanite tank was punctured long ago, and all the fluid has long since evaporated.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedMechGestatorStandard</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,4)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientLargeMechGestator</defName>
+		<label>ancient large mech gestator</label>
+		<description>A tank used to create new mechanoids. The mechanite tank was punctured long ago, and all the fluid has long since evaporated.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedMechGestatorLarge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.7, 4.275)</drawSize>
+			<shadowData>
+				<volume>(3.8, 3, 2.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,3)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientSubcoreRipscanner</defName>
+		<label>ancient subcore ripscanner</label>
+		<description>This thing is SO edgy. Like, SUPER edgy. Basically a medical bed with spikes. I bet it only worked if you played symphonic metal in the background. I blame Oskar.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedSubcoreRipscanner</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientWastepackAtomizer</defName>
+		<label>ancient wastepack atomizer</label>
+		<description>This was just a fancy waste bin, and it is now just a broken waste bin.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedWastepackAtomizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RuinedHospitalBed</defName>
+		<label>ancient hospital bed</label>
+		<description>A bed specially designed for use in hospitals. The mattress has rotted away into nothingness.</description>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedHospitalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientShelf</defName>
+		<label>ancient shelf</label>
+		<description>A rusted shelf.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientPollutionPump</defName>
+		<label>ancient pollution pump</label>
+		<description>This pump isn't going to pump anything at all anytime soon.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedPollutionPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AlphaGenesAncientFaultyLamp</defName>
+		<label>ancient faulty lamp</label>
+		<description>A metallic capsule filled with some bioluminescent compound. It seems to have stopped producing light.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_AncientFaultyLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8,1.6)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RuinedLabLamp</defName>
+		<label>ancient lab lamp</label>
+		<description>A metallic post with a glass cilinder filled with some bioluminescent compound. It seems to have stopped producing light.</description>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AG_RuinedLabLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.4,1.6)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+</Defs>

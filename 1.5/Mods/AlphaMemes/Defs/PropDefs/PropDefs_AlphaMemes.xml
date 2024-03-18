@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_1</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>201</priority>
+		<prop>VFEPD_FakeMummyFemale</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_2</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>202</priority>
+		<prop>VFEPD_FakeMummyMale</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_3</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>203</priority>
+		<prop>VFEPD_FakeRelicAltar</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_4</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>204</priority>
+		<prop>VFEPD_EmptyGrogBarrel</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_5</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>205</priority>
+		<prop>VFEPD_CanopicJar</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_6</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>206</priority>
+		<prop>VFEPD_CanopicJarB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_7</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>207</priority>
+		<prop>VFEPD_CanopicJarC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_8</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>208</priority>
+		<prop>VFEPD_CanopicJarD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_9</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>209</priority>
+		<prop>VFEPD_SmallPyramid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_10</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>210</priority>
+		<prop>VFEPD_GrandGate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_11</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>211</priority>
+		<prop>VFEPD_FuturisticObelisk</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_12</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>212</priority>
+		<prop>VFEPD_FuturisticStele</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_13</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>213</priority>
+		<prop>VFEPD_GreatPyramid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_14</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>214</priority>
+		<prop>VFEPD_FuturisticPyramid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_15</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>215</priority>
+		<prop>VFEPD_Sphinx</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Temple_16</defName>
+		<category>VFE_PropCategory_Temple</category>
+		<priority>216</priority>
+		<prop>VFEPD_Megalith</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Star</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1500</priority>
+		<prop>VFEPD_Star</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_EyeOfHorus</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1501</priority>
+		<prop>VFEPD_EyeOfHorus</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Obelisk</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1502</priority>
+		<prop>VFEPD_Obelisk</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Atheism</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1503</priority>
+		<prop>VFEPD_Atheism</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Khanda</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1504</priority>
+		<prop>VFEPD_Khanda</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_JainSpire</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1505</priority>
+		<prop>VFEPD_JainSpire</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Cog</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1506</priority>
+		<prop>VFEPD_Cog</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Skull</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1507</priority>
+		<prop>VFEPD_Skull</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_CavePaintings</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1508</priority>
+		<prop>VFEPD_CavePaintings</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteA</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1509</priority>
+		<prop>VFEPD_ScavengerMoteA</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1510</priority>
+		<prop>VFEPD_ScavengerMoteB</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_ScavengerMoteC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>1511</priority>
+		<prop>VFEPD_ScavengerMoteC</prop>		
+	</VFEProps.PropDef>
+</Defs>

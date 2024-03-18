@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_1</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>1</priority>
+		<prop>VFEPD_AncientTerminal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_2</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>2</priority>
+		<prop>VFEPD_AncientEnemyTerminal</prop>
+		<shortLabel>enemy terminal</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_3</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>3</priority>
+		<prop>VFEPD_AncientHermetic</prop>
+		<shortLabel>hermetic crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_4</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>4</priority>
+		<prop>VFEPD_AncientSecurityCrate</prop>
+		<shortLabel>security crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_5</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>5</priority>
+		<prop>VFEPD_AncientCommsConsole</prop>
+		<shortLabel>comms console</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_6</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>6</priority>
+		<prop>VFEPD_AncientFuelNode</prop>
+		<shortLabel>fuel node</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_7</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>7</priority>
+		<prop>VFEPD_AncientSystemRack</prop>
+		<shortLabel>system rack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_8</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>8</priority>
+		<prop>VFEPD_AncientEquipmentBlocks</prop>
+		<shortLabel>equipment blocks</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_9</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>9</priority>
+		<prop>VFEPD_AncientMachine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_10</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>10</priority>
+		<prop>VFEPD_AncientStorageCylinder</prop>
+		<shortLabel>storage cylinder</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_11</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>11</priority>
+		<prop>VFEPD_AncientBed</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_12</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>12</priority>
+		<prop>VFEPD_AncientDisplayBank</prop>
+		<shortLabel>display bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_13</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>13</priority>
+		<prop>VFEPD_AncientLockerBank</prop>
+		<shortLabel>locker bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_14</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>14</priority>
+		<prop>VFEPD_AncientCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_15</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>15</priority>
+		<prop>VFEPD_AncientMilitaryCrate</prop>
+		<shortLabel>military crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_16</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>16</priority>
+		<prop>VFEPD_AncientSpacerCrate</prop>
+		<shortLabel>spacer crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_17</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>17</priority>
+		<prop>VFEPD_AncientBarrel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_18</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>18</priority>
+		<prop>VFEPD_AncientGenerator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_19</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>19</priority>
+		<prop>VFEPD_AncientOperatingTable</prop>
+		<shortLabel>operating table</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_20</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>20</priority>
+		<prop>VFEPD_AncientShoppingCart</prop>
+		<shortLabel>shopping cart</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_21</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>21</priority>
+		<prop>VFEPD_AncientPostbox</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_22</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>22</priority>
+		<prop>VFEPD_AncientVendingMachine</prop>
+		<shortLabel>vending machine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_23</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>23</priority>
+		<prop>VFEPD_AncientAirConditioner</prop>
+		<shortLabel>ac unit</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_24</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>24</priority>
+		<prop>VFEPD_AncientKitchenSink</prop>
+		<shortLabel>kitchen sink</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_25</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>25</priority>
+		<prop>VFEPD_AncientStove</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_26</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>26</priority>
+		<prop>VFEPD_AncientATM</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_27</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>27</priority>
+		<prop>VFEPD_AncientWashingMachine</prop>
+		<shortLabel>washing machine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_28</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>28</priority>
+		<prop>VFEPD_AncientHydrant</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_29</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>29</priority>
+		<prop>VFEPD_AncientMicrowave</prop>
+		<shortLabel>microwave</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_30</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30</priority>
+		<prop>VFEPD_AncientToilet</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_31</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>31</priority>
+		<prop>VFEPD_AncientRefrigerator</prop>
+		<shortLabel>refrigerator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_32</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>32</priority>
+		<prop>VFEPD_AncientSmallCrate</prop>
+		<shortLabel>small crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_33</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>33</priority>
+		<prop>VFEPD_AncientLongCrate</prop>
+		<shortLabel>long crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_34</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>34</priority>
+		<prop>VFEPD_AncientLargeCrate</prop>
+		<shortLabel>large crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_35</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>35</priority>
+		<prop>VFEPD_AncientWheel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_36</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>36</priority>
+		<prop>VFEPD_AncientGiantWheel</prop>
+		<shortLabel>giant wheel</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_37</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>37</priority>
+		<prop>VFEPD_AncientRustedCar</prop>
+		<shortLabel>rusted car</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_38</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>38</priority>
+		<prop>VFEPD_AncientRustedTruck</prop>
+		<shortLabel>rusted truck</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_39</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>39</priority>
+		<prop>VFEPD_AncientRustedJeep</prop>
+		<shortLabel>rusted jeep</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_40</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>40</priority>
+		<prop>VFEPD_AncientRustedCarFrame</prop>
+		<shortLabel>car frame</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_41</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>41</priority>
+		<prop>VFEPD_AncientWarwalkerTorso</prop>
+		<shortLabel>warwalker torso</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_42</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>42</priority>
+		<prop>VFEPD_AncientRustedDropship</prop>
+		<shortLabel>rusted ship</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_43</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>43</priority>
+		<prop>VFEPD_AncientWarwalkerClaw</prop>
+		<shortLabel>warwalker claw</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_44</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>44</priority>
+		<prop>VFEPD_AncientWarwalkerLeg</prop>
+		<shortLabel>warwalker leg</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_45</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>45</priority>
+		<prop>VFEPD_AncientMiniWarwalkerRemains</prop>
+		<shortLabel>warwalker remains</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_46</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>46</priority>
+		<prop>VFEPD_AncientWarspiderRemains</prop>
+		<shortLabel>warspider remains</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_47</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>47</priority>
+		<prop>VFEPD_AncientPipelineSection</prop>
+		<shortLabel>pipeline</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_48</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>48</priority>
+		<prop>VFEPD_AncientWarwalkerFoot</prop>
+		<shortLabel>warwalker foot</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_49</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>49</priority>
+		<prop>VFEPD_AncientTank</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_50</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>50</priority>
+		<prop>VFEPD_AncientAPC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_51</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>51</priority>
+		<prop>VFEPD_AncientWarwalkerShell</prop>
+		<shortLabel>warwalker shell</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_52</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>52</priority>
+		<prop>VFEPD_AncientJetEngine</prop>
+		<shortLabel>jet engine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_53</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>53</priority>
+		<prop>VFEPD_AncientDropshipEngine</prop>
+		<shortLabel>ship engine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_54</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>54</priority>
+		<prop>VFEPD_AncientPodCar</prop>
+		<shortLabel>pod car</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_55</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>55</priority>
+		<prop>VFEPD_AncientTankTrap</prop>
+		<shortLabel>tank trap</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_56</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>56</priority>
+		<prop>VFEPD_AncientLargeRustedEngineBlock</prop>
+		<shortLabel>rusted engine</shortLabel>
+	</VFEProps.PropDef>
+	<!--<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_57</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>57</priority>
+		<prop>VFEPD_AncientFence</prop>
+	</VFEProps.PropDef>-->
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_58</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>58</priority>
+		<prop>VFEPD_AncientRazorWire</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_59</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>59</priority>
+		<prop>VFEPD_AncientPipes</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_60</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>60</priority>
+		<prop>VFEPD_AncientMegaCannonTripod</prop>
+		<shortLabel>cannon tripod</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_61</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>61</priority>
+		<prop>VFEPD_AncientMegaCannonBarrel</prop>
+		<shortLabel>cannon barrel</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_62</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>62</priority>
+		<prop>VFEPD_AncientContainer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_63</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>63</priority>
+		<prop>VFEPD_AncientMechDetritus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_64</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>64</priority>
+		<prop>VFEPD_AncientMechDropBeacon</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_65</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>65</priority>
+		<prop>VFEPD_AncientSecurityTurret</prop>
+		<shortLabel>ancient turret</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_66</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>66</priority>
+		<prop>VFEPD_AncientRustedEngineBlock</prop>
+		<shortLabel>rusted engine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_67</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67</priority>
+		<prop>VFEPD_AncientShipBeacon</prop>
+		<shortLabel>ship beacon</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_27</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>27</priority>
+		<prop>VFEPD_HackingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_28</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>28</priority>
+		<prop>VFEPD_HairCuttingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_29</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>29</priority>
+		<prop>VFEPD_BurnbongSmokeEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_30</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>30</priority>
+		<prop>VFEPD_MakingSkylanternEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_31</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>31</priority>
+		<prop>VFEPD_ChristmasTreeTwinkleEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_33</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>33</priority>
+		<prop>VFEPD_FireSmokeEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_34</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>34</priority>
+		<prop>VFEPD_SleepAcceleratorActiveEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_35</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>35</priority>
+		<prop>VFEPD_BiosculpterPod_OperatingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_36</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>36</priority>
+		<prop>VFEPD_GauranlenDebrisEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_37</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>37</priority>
+		<prop>VFEPD_GauranlenLeavesEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_38</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>38</priority>
+		<prop>VFEPD_GauranlenLeavesBatchEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_1</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>1</priority>
+		<prop>VFEPD_ChristmasTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_45</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>45</priority>
+		<prop>VFEPD_FakeGauranlenMoss</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_46</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>46</priority>
+		<prop>VFEPD_FakeGauranlenTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_47</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>47</priority>
+		<prop>VFEPD_Nutrifungus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_48</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>48</priority>
+		<prop>VFEPD_Fibercorn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_49</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>49</priority>
+		<prop>VFEPD_Timbershroom</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_50</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>50</priority>
+		<prop>VFEPD_TreeBonsai</prop>
+	</VFEProps.PropDef>
+	
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_17</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>17</priority>
+		<prop>VFEPD_ArchonexusCore</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_18</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>18</priority>
+		<prop>VFEPD_GrandArchotechStructure</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_19</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>19</priority>
+		<prop>VFEPD_MajorArchotechStructure</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_20</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>20</priority>
+		<prop>VFEPD_ArchotechTower</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_25Dark</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>25.1</priority>
+		<prop>VFEPD_FalseBlueFire</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_6</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>6</priority>
+		<prop>VFEPD_SpaceDrone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_30</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>30</priority>
+		<prop>VFEPD_DriedBlood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_31</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>31</priority>
+		<prop>VFEPD_ScatteredDocuments</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_32</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>32</priority>
+		<prop>VFEPD_MoldyUniform</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_33</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>33</priority>
+		<prop>VFEPD_PodSlime</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_34</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>34</priority>
+		<prop>VFEPD_OilSmear</prop>
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Gibbet</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>52</priority>
+		<prop>VFEPD_FakeGibbetCage</prop>
+
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Rays</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>500</priority>
+		<prop>VFEPD_Mote_RitualGlowRays</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Totem</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>501</priority>
+		<prop>VFEPD_Mote_TotemOutline</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Position</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>502</priority>
+		<prop>VFEPD_Mote_RolePositionHighlight</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_PawnPosition</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>503</priority>
+		<prop>VFEPD_Mote_RolePawnHighlight</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_SpikePipe</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>504</priority>
+		<prop>VFEPD_Mote_SpikePipe</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesA</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>505</priority>
+		<prop>VFEPD_Mote_RitualTechLineA</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>506</priority>
+		<prop>VFEPD_Mote_RitualTechLineB</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>507</priority>
+		<prop>VFEPD_Mote_RitualTechLineC</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_GlowSingleRay</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>508</priority>
+		<prop>VFEPD_Mote_RitualGlowSingleRay</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_BonsaiPot</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>51.2</priority>
+		<prop>VFEPD_FakeBonsaiPot</prop>
+
+	</VFEProps.PropDef>
+</Defs>

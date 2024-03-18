@@ -1,0 +1,2590 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyAdvResearch</defName>
+		<label>empty hi-tech research bench</label>
+		<description>A working surface to fill with laboratory stuff. Non-functional for research purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyAdvResearch/VPEPD_EmptyAdvResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,4)</drawSize>
+			<shadowData>
+				<volume>(0.30, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyBrewery</defName>
+		<label>empty brewery</label>
+		<description>A working surface to fill with brewery stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyBrewery/VPEPD_EmptyBrewery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(104,84,69)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyElectricSmelter</defName>
+		<label>empty smelter</label>
+		<description>A working surface to fill with smeltery stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyElectricSmelter/VPEPD_EmptyElectricSmelter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(111,51,34)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyFabrication</defName>
+		<label>empty fabrication bench</label>
+		<description>A working surface to fill with fabrication stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyFabrication/VPEPD_EmptyFabrication</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyResearch</defName>
+		<label>empty research bench</label>
+		<description>A working surface to fill with laboratory stuff. Non-functional for research purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyResearch/VPEPD_EmptyResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyScultingTable</defName>
+		<label>empty sculpting table</label>
+		<description>A working surface to fill with sculpting stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyScultingTable/VPEPD_EmptyScultingTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptySmithy</defName>
+		<label>empty smithing table</label>
+		<description>A working surface to fill with smithing stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptySmithy/VPEPD_EmptySmithy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(71,60,63)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyStonecutter</defName>
+		<label>empty stonecutting table</label>
+		<description>A working surface to fill with stonecutting stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyStonecutter/VPEPD_EmptyStonecutter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyTableMachining</defName>
+		<label>empty machining table</label>
+		<description>A working surface to fill with machining stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyTableMachining/VPEPD_EmptyTableMachining</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(46,96,108)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyTailoring</defName>
+		<label>empty tailoring table</label>
+		<description>A working surface to fill with tailoring stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyTailoring/VPEPD_EmptyTailoring</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyWorkbench</defName>
+		<label>empty workbench</label>
+		<description>A working surface to fill with production stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyWorkbench/VPEPD_EmptyWorkbench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Smelter</defName>
+		<label>smelter</label>
+		<description>A small smelter. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Smelter/VFEPD_Smelter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ChemfuelTankSmall</defName>
+		<label>chemfuel tank</label>
+		<description>A small chemfuel tank. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ChemfuelTank/VFEPD_ChemfuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterExhaust</defName>
+		<label>smelter exhaust</label>
+		<description>A small smelter exhaust. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterExhaust/VFEPD_SmelterExhaust</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ConveyorInput</defName>
+		<label>conveyor input</label>
+		<description>A small conveyor input. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ConveyorInput/VFEPD_ConveyorInput</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterGizmo</defName>
+		<label>smelter gizmo</label>
+		<description>A small smelter gizmo. God knows what this does. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterGizmo/VFEPD_SmelterGizmo</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BrownSmelterGizmo</defName>
+		<label>smelter gizmo, grey</label>
+		<description>A small smelter gizmo. God knows what this does. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BrownSmelterGizmo/VFEPD_BrownSmelterGizmo</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterHeater</defName>
+		<label>smelter heater</label>
+		<description>A small smelter heater. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterHeater/VFEPD_SmelterHeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AdjustableWrench</defName>
+		<label>adjustable wrench</label>
+		<description>A small adjustable wrench. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_AdjustableWrench/VFEPD_AdjustableWrench</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmallAlembic</defName>
+		<label>small alembic</label>
+		<description>A small alembic. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmallAlembic/VFEPD_SmallAlembic</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Alembic</defName>
+		<label>alembic</label>
+		<description>An alembic. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Alembic/VFEPD_Alembic</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_DoubleAlembic</defName>
+		<label>double alembic</label>
+		<description>A double alembic. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_DoubleAlembic/VFEPD_DoubleAlembic</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AssortedVials</defName>
+		<label>assorted vials</label>
+		<description>Assorted vials. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_AssortedVials/VFEPD_AssortedVials</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AssortedVialsB</defName>
+		<label>assorted vials</label>
+		<description>Assorted vials. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_AssortedVials2/VFEPD_AssortedVials2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AssortedVialsC</defName>
+		<label>assorted vials</label>
+		<description>Assorted vials. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_AssortedVials3/VFEPD_AssortedVials3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Beakers</defName>
+		<label>beakers</label>
+		<description>Assorted beakers. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Beakers/VFEPD_Beakers</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BioRefineryLargeBarrel</defName>
+		<label>biorefinery large barrel</label>
+		<description>The large barrel of a biorefinery. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BioRefineryLargeBarrel/VFEPD_BioRefineryLargeBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BioRefineryLargeBarrelHorizontal</defName>
+		<label>biorefinery large barrel</label>
+		<description>The large barrel of a biorefinery. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BioRefineryLargeBarrelHorizontal/VFEPD_BioRefineryLargeBarrelHorizontal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BioRefineryMediumBarrel</defName>
+		<label>biorefinery medium barrel</label>
+		<description>The medium barrel of a biorefinery. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BioRefineryMediumBarrel/VFEPD_BioRefineryMediumBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BioRefineryMediumBarrelHorizontal</defName>
+		<label>biorefinery medium barrel</label>
+		<description>The medium barrel of a biorefinery. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BioRefineryMediumBarrelHorizontal/VFEPD_BioRefineryMediumBarrelHorizontal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BioRefinerySmallBarrel</defName>
+		<label>biorefinery small barrel</label>
+		<description>The small barrel of a biorefinery. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BioRefinerySmallBarrel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BlocksPileA</defName>
+		<label>pile of blocks</label>
+		<description>A pile of blocks in the process of being chiseled. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BlocksPileA/VFEPD_BlocksPileA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BlocksPileB</defName>
+		<label>pile of blocks</label>
+		<description>A pile of blocks in the process of being chiseled. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BlocksPileB/VFEPD_BlocksPileB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BlocksPileC</defName>
+		<label>pile of blocks</label>
+		<description>A pile of blocks in the process of being chiseled. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BlocksPileC/VFEPD_BlocksPileC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+			<color>(126,104,94)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BloodSplatter</defName>
+		<label>blood splatter</label>
+		<description>Blood splatter from a butcher table. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BloodSplatter</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BreweryBarrel</defName>
+		<label>brewery barrel</label>
+		<description>A small brewery barrel. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BreweryBarrel/VFEPD_BreweryBarrel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BreweryTablet</defName>
+		<label>brewery mat</label>
+		<description>A brewery mat to process the plants into must. Or something. Don't look at me, I'm not a beer maker. Intended to be placed alongside an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_BreweryTablet</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Chisel</defName>
+		<label>chisel</label>
+		<description>A small chisel. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Chisel/VFEPD_Chisel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Cleaver</defName>
+		<label>cleaver</label>
+		<description>A small cleaver. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Cleaver/VFEPD_Cleaver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ConeWrench</defName>
+		<label>cone wrench</label>
+		<description>A small cone wrench. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ConeWrench/VFEPD_ConeWrench</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CuttingTableWithKnife</defName>
+		<label>cutting table, knife</label>
+		<description>A cutting table with a sharpened knife. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_CuttingTableWithKnife/VFEPD_CuttingTableWithKnife</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Docs</defName>
+		<label>scattered docs</label>
+		<description>A bunch of scattered research documents. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Docs/VFEPD_Docs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ManyDocs</defName>
+		<label>many docs</label>
+		<description>A bunch of many scattered research documents. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ManyDocs/VFEPD_ManyDocs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_DoubleOven</defName>
+		<label>double oven</label>
+		<description>A double oven. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_DoubleOven/VFEPD_DoubleOven</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationComputer</defName>
+		<label>fabrication computer</label>
+		<description>A fabrication computer. It computes. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationComputer/VFEPD_FabricationComputer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationGizmoA</defName>
+		<label>fabrication lathe</label>
+		<description>A fabrication lathe. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationGizmoA/VFEPD_FabricationGizmoA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationGizmoB</defName>
+		<label>fabrication lathe</label>
+		<description>A fabrication lathe. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationGizmoB/VFEPD_FabricationGizmoB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationGizmoC</defName>
+		<label>fabrication lathe</label>
+		<description>A fabrication lathe. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationGizmoC/VFEPD_FabricationGizmoC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationLargeGizmo</defName>
+		<label>fabrication computers</label>
+		<description>A bunch of fabrication structures. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationLargeGizmo/VFEPD_FabricationLargeGizmo</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(5,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationLaser</defName>
+		<label>fabrication laser</label>
+		<description>A fabrication laser. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationLaser/VFEPD_FabricationLaser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricationLathe</defName>
+		<label>fabrication small lathe</label>
+		<description>A fabrication laser. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricationLathe/VFEPD_FabricationLathe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricRollA</defName>
+		<label>fabric rolls</label>
+		<description>A bunch of fabric rolls. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricRollA/VFEPD_FabricRollA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricRollB</defName>
+		<label>fabric rolls</label>
+		<description>A bunch of fabric rolls. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricRollB/VFEPD_FabricRollB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FabricRollC</defName>
+		<label>fabric rolls</label>
+		<description>A bunch of fabric rolls. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_FabricRollC/VFEPD_FabricRollC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_File</defName>
+		<label>file</label>
+		<description>A small file. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_File/VFEPD_File</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HalfFinishedGun</defName>
+		<label>half-finished gun</label>
+		<description>A small half-finished gun. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_HalfFinishedGun/VFEPD_HalfFinishedGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HeavyHammer</defName>
+		<label>heavy hammer</label>
+		<description>A huge and heavy hammer. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_HeavyHammer/VFEPD_HeavyHammer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmallScreen</defName>
+		<label>small screen</label>
+		<description>A small computer screen. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmallScreen/VFEPD_SmallScreen</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MediumScreen</defName>
+		<label>medium screen</label>
+		<description>A medium computer screen. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_MediumScreen/VFEPD_MediumScreen</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_LargeScreen</defName>
+		<label>large screen</label>
+		<description>A large computer screen. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_LargeScreen/VFEPD_LargeScreen</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MachiningHammer</defName>
+		<label>machining hammer</label>
+		<description>A small machining hammer. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_MachiningHammer/VFEPD_MachiningHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MustBucket</defName>
+		<label>must bucket</label>
+		<description>A small must bucket. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_MustBucket/VFEPD_MustBucket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MustBuckets</defName>
+		<label>must buckets</label>
+		<description>Two small must buckets. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_MustBuckets/VFEPD_MustBuckets</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Potentiometer</defName>
+		<label>potentiometer</label>
+		<description>A potentiometer unit. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Potentiometer/VFEPD_Potentiometer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PotentiometerOven</defName>
+		<label>converted oven</label>
+		<description>An oven converted for smelters. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_PotentiometerOven/VFEPD_PotentiometerOven</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ResearchDatabase</defName>
+		<label>research database</label>
+		<description>A research database. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ResearchDatabase/VFEPD_ResearchDatabase</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ResearchStructure</defName>
+		<label>research structure</label>
+		<description>A research structure. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ResearchStructure/VFEPD_ResearchStructure</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ResearchStructureB</defName>
+		<label>research structure</label>
+		<description>A research structure. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ResearchStructureB/VFEPD_ResearchStructureB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Sandpaper</defName>
+		<label>sandpaper</label>
+		<description>A sheet of sandpaper. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Sandpaper</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Saw</defName>
+		<label>saw</label>
+		<description>A small saw. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Saw/VFEPD_Saw</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Scissors</defName>
+		<label>scissors</label>
+		<description>A small pair of scissors. Wait, but it's that two of them? Or a single unit? Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Scissors/VFEPD_Scissors</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Scraper</defName>
+		<label>scraper</label>
+		<description>A small scraper. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Scraper/VFEPD_Scraper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_SewingMachine</defName>
+		<label>sewing machine</label>
+		<description>A small sewing machine. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SewingMachine/VFEPD_SewingMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(150,20,20)</color>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SingleBeaker</defName>
+		<label>single beaker</label>
+		<description>A small beaker. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SingleBeaker/VFEPD_SingleBeaker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmallKnife</defName>
+		<label>small knife</label>
+		<description>A small knife. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmallKnife/VFEPD_SmallKnife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmallVent</defName>
+		<label>small vent</label>
+		<description>A small vent. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmallVent/VFEPD_SmallVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmallWrench</defName>
+		<label>small wrench</label>
+		<description>A small wrench. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmallWrench/VFEPD_SmallWrench</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SpinningWheel</defName>
+		<label>spinning wheel</label>
+		<description>A small spinning wheel. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SpinningWheel/VFEPD_SpinningWheel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_StoneGrinder</defName>
+		<label>stone grinder</label>
+		<description>A small stone grinder. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_StoneGrinder/VFEPD_StoneGrinder</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TextilesCardboardBox</defName>
+		<label>textiles box</label>
+		<description>A small textiles box. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_TextilesCardboardBox/VFEPD_TextilesCardboardBox</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TinyVent</defName>
+		<label>vent</label>
+		<description>A small vent. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_TinyVent/VFEPD_TinyVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Tongs</defName>
+		<label>tongs</label>
+		<description>A small tongs. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Tongs/VFEPD_Tongs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Tools</defName>
+		<label>tools</label>
+		<description>A tools tray. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Tools/VFEPD_Tools</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ToolsBoard</defName>
+		<label>tools tray</label>
+		<description>A tools tray. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ToolsBoard/VFEPD_ToolsBoard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_UnfinishedCloth</defName>
+		<label>unfinished cloth</label>
+		<description>Scraps of unfinished cloth. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_UnfinishedCloth/VFEPD_UnfinishedCloth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_WoodenMallet</defName>
+		<label>wooden mallet</label>
+		<description>A small wooden mallet. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_WoodenMallet/VFEPD_WoodenMallet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+</Defs>

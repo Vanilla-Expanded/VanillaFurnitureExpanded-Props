@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef Name="VFEPD_ColourableNoSilverFurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="True">
+		<building>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>
+	<ThingDef Name="VFEPD_NonColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="DecalBase">
+		<description>A small floor decal.</description>
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,65)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<paintable>true</paintable>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<filthLeaving Inherit="False"/>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef Abstract="True" ParentName="DecalBase" Name="DecalBaseLarge">
+		<description>A large floor decal.</description>
+		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="VPE_TableGatherSpotBase">
+		<description>People eat off tables when chairs are placed facing them.</description>
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>42</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<surfaceType>Eat</surfaceType>
+		<building>
+			<paintable>true</paintable>
+			<buildingTags>
+				<li>RitualFocus</li>
+			</buildingTags>
+		</building>
+		<uiOrder>2300</uiOrder>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_RitualFocus</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef Name="VFEPD_AncientBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+			
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase" Abstract="True" Name="VFE_BorderBase">
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <size>(1,1)</size>
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+        <statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+		
+        </statBases>
+		
+        <canOverlapZones>true</canOverlapZones>
+        <defaultPlacingRot>South</defaultPlacingRot>
+		<rotatable>true</rotatable>
+		
+		<pathCost>0</pathCost>
+		
+        <tradeability>None</tradeability>
+        <selectable>true</selectable>
+
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.05,1.05)</drawSize>
+        </graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		
+        <clearBuildingArea>false</clearBuildingArea>
+		
+		
+		
+        <building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<paintable>true</paintable>
+        </building>
+        <fillPercent>0</fillPercent>
+    </ThingDef>
+</Defs>

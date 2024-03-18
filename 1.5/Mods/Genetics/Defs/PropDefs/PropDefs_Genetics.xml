@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_1</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>1</priority>
+		<prop>VFEPD_AncientCryofreezer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_2</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>2</priority>
+		<prop>VFEPD_AncientElectrowomb</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_3</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>3</priority>
+		<prop>VFEPD_AncientElectrowombLarge</prop>
+		<shortLabel>large electrowomb</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_4</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>4</priority>
+		<prop>VFEPD_AncientGenomeRecombinator</prop>
+		<shortLabel>recombinator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_5</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>5</priority>
+		<prop>VFEPD_AncientGenomorpher</prop>
+		<shortLabel>genomorpher</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_6</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>6</priority>
+		<prop>VFEPD_AncientGenomeExtractor</prop>
+		<shortLabel>extractor</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_7</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>7</priority>
+		<prop>VFEPD_AncientGeneticsTinkeringTable</prop>
+		<shortLabel>tinkering table</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_8</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>8</priority>
+		<prop>VFEPD_AncientTissueGrinder</prop>
+		<shortLabel>tissue grinder</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_9</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>9</priority>
+		<prop>VFEPD_RuinedAncientBioBattery</prop>
+		<shortLabel>bio-battery</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_10</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>10</priority>
+		<prop>VFEPD_RuinedAncientGeneTailoringPod</prop>
+		<shortLabel>tailoring pod</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_11</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>11</priority>
+		<prop>VFEPD_AncientBioBattery</prop>
+		<shortLabel>microbiobattery</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_12</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>12</priority>
+		<prop>VFEPD_RuinedGenePod</prop>
+		<shortLabel>gene pod</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_13</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>13</priority>
+		<prop>VFEPD_RuinedAnimalControlHub</prop>
+		<shortLabel>animal control hub</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_14</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>14</priority>
+		<prop>VFEPD_RuinedAnimalEnrichmentCenter</prop>
+		<shortLabel>enrichment center</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_15</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>15</priority>
+		<prop>VFEPD_RuinedArchotechPlatform</prop>
+		<shortLabel>archo platform</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_16</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>16</priority>
+		<prop>VFEPD_RuinedGeneDuplicator</prop>
+		<shortLabel>duplicator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_17</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>17</priority>
+		<prop>VFEPD_RuinedGeneRecombinator</prop>
+		<shortLabel>recombinator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_18</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>18</priority>
+		<prop>VFEPD_RuinedGeneticDatabase</prop>
+		<shortLabel>database</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_19</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>19</priority>
+		<prop>VFEPD_RuinedGeneticExtractionTable</prop>
+		<shortLabel>extraction table</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_20</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>20</priority>
+		<prop>VFEPD_RuinedGeneticStorage</prop>
+		<shortLabel>gene storage</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_21</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>21</priority>
+		<prop>VFEPD_RuinedGenomeSequencer</prop>
+		<shortLabel>sequencer</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_22</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>22</priority>
+		<prop>VFEPD_RuinedHexagelPlant</prop>
+		<shortLabel>hexagel plant</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_23</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>23</priority>
+		<prop>VFEPD_RuinedIncubator</prop>
+		<shortLabel>incubator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_24</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>24</priority>
+		<prop>VFEPD_RuinedLabBarrel</prop>
+		<shortLabel>lab barrel</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_25</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>25</priority>
+		<prop>VFEPD_Rack</prop>
+		<shortLabel>rack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_26</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>26</priority>
+		<prop>VFEPD_CommsTable</prop>
+		<shortLabel>comms table</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_27</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>27</priority>
+		<prop>VFEPD_LooseCables</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_28</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>28</priority>
+		<prop>VFEPD_AncientCrateTwo</prop>
+		<shortLabel>ancient crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_29</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>29</priority>
+		<prop>VFEPD_AncientCrateDouble</prop>
+		<shortLabel>big ancient crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_30</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>30</priority>
+		<prop>VFEPD_AncientCratePile</prop>
+		<shortLabel>ancient crate pile</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_31</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>31</priority>
+		<prop>VFEPD_AncientTechCrate</prop>
+		<shortLabel>tech crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_32</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>32</priority>
+		<prop>VFEPD_RuinedBarrelDouble</prop>
+		<shortLabel>double barrel</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_33</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>33</priority>
+		<prop>VFEPD_RuinedVials</prop>
+		<shortLabel>ruined vials</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_34</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>34</priority>
+		<prop>VFEPD_RuinedLabShelf</prop>
+		<shortLabel>lab shelf</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_35</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>35</priority>
+		<prop>VFEPD_RuinedMechanoidTinkeringTable</prop>
+		<shortLabel>mech table</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_36</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>36</priority>
+		<prop>VFEPD_RuinedMutaniteCentrifuge</prop>
+		<shortLabel>centrifuge</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_37</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>37</priority>
+		<prop>VFEPD_RuinedNutrientVat</prop>
+		<shortLabel>nutrient vat</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_38</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>38</priority>
+		<prop>VFEPD_RuinedPulper</prop>
+		<shortLabel>pulper</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_39</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>39</priority>
+		<prop>VFEPD_RuinedPulpRecycler</prop>
+		<shortLabel>pulp recycler</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_40</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>40</priority>
+		<prop>VFEPD_RuinedRefrigeratedCoils</prop>
+		<shortLabel>refrigerated coils</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_41</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>41</priority>
+		<prop>VFEPD_RuinedTissueGrowingVat</prop>
+		<shortLabel>tissue vat</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_42</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>42</priority>
+		<prop>VFEPD_LabLockerBank</prop>
+		<shortLabel>locker bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_43</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>43</priority>
+		<prop>VFEPD_MonitorBank</prop>
+		<shortLabel>monitor bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_44</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>44</priority>
+		<prop>VFEPD_SignA</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_45</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>45</priority>
+		<prop>VFEPD_SignB</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_46</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>46</priority>
+		<prop>VFEPD_SignC</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_47</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>47</priority>
+		<prop>VFEPD_SignD</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_48</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>48</priority>
+		<prop>VFEPD_SignE</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_49</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>49</priority>
+		<prop>VFEPD_SignF</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_50</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>50</priority>
+		<prop>VFEPD_SignG</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_51</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>51</priority>
+		<prop>VFEPD_SignH</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_52</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>52</priority>
+		<prop>VFEPD_Toilet</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_53</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>53</priority>
+		<prop>VFEPD_Sink</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_54</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>54</priority>
+		<prop>VFEPD_SmallBioLight</prop>
+		<shortLabel>bio-light</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_55</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>55</priority>
+		<prop>VFEPD_BioLight</prop>
+		<shortLabel>bio-light large</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_56</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>56</priority>
+		<prop>VFEPD_Ruined_Mechahybridizer</prop>
+		<shortLabel>ruined hybridizer</shortLabel>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_57</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>57</priority>
+		<prop>VFEPD_Ruined_Mechahybrid_Antenna</prop>
+		<shortLabel>ruined antenna</shortLabel>
+	</VFEProps.PropDef>
+	
+</Defs>

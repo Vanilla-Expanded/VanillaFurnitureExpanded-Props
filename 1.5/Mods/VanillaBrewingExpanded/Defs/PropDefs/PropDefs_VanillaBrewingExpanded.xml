@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_Bar</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1000</priority>
+		<prop>VFEPD_Bar</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_SodaFountain</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1001</priority>
+		<prop>VFEPD_DecorativeSodaFountain</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_AmbrandyDistillery</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1002</priority>
+		<prop>VFEPD_AmbrandyDistillery</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_WhiskeyCask</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1003</priority>
+		<prop>VFEPD_WhiskeyCask</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_TequilaBarrel</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1004</priority>
+		<prop>VFEPD_TequilaBarrel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_VodkaDrum</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1005</priority>
+		<prop>VFEPD_VodkaDrum</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_GinStill</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1006</priority>
+		<prop>VFEPD_GinStill</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

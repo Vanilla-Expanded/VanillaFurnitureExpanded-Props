@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_ShipChunk</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.9</priority>
+		<prop>VFEPD_ShipChunk</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_ScrapChunk</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.905</priority>
+		<prop>VFEPD_ScrapChunk</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_ShipPart</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.91</priority>
+		<prop>VFEPD_ShipPart</prop>
+
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_ShipPartDefoliator</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67.92</priority>
+		<prop>VFEPD_ShipPartDefoliator</prop>
+		<shortLabel>defoliator part</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_68</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>68</priority>
+		<prop>VFEPD_AncientConcreteBarrier</prop>
+		<shortLabel>concrete barrier</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_69</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>69</priority>
+		<prop>VFEPD_AncientLamppost</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_70</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>70</priority>
+		<prop>VFEPD_Urn</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_71</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>71</priority>
+		<prop>VFEPD_AncientCryptosleepPod</prop>	
+		<shortLabel>crypto pod</shortLabel>			
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_72</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>72</priority>
+		<prop>VFEPD_AncientLamp</prop>		
+	</VFEProps.PropDef>
+	
+</Defs>
