@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_1</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>101</priority>
+		<prop>VFEPD_AncientMechGestator</prop>
+		<shortLabel>mech gestator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_2</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>102</priority>
+		<prop>VFEPD_AncientLargeMechGestator</prop>
+		<shortLabel>large gestator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_3</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>103</priority>
+		<prop>VFEPD_AncientBasicRecharger</prop>
+		<shortLabel>mech recharger</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_4</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>104</priority>
+		<prop>VFEPD_AncientStandardRecharger</prop>
+		<shortLabel>standard recharger</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_5</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>105</priority>
+		<prop>VFEPD_AncientToxifierGenerator</prop>
+		<shortLabel>toxifier gen.</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Labs_Biotech_6</defName>
+		<category>VFE_PropCategory_Labs</category>
+		<priority>106</priority>
+		<prop>VFEPD_AncientBandNode</prop>
+		<shortLabel>band node</shortLabel>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_39</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>39</priority>
+		<prop>VFEPD_MechRepairingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_40</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>40</priority>
+		<prop>VFEPD_MechBandAntennaPreparedEffect</prop>
+	</VFEProps.PropDef>
+
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_42</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>42</priority>
+		<prop>VFEPD_ControlMechEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_43</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>43</priority>
+		<prop>VFEPD_Fire_SpewEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_44</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>44</priority>
+		<prop>VFEPD_Fire_BurstEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_45</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>45</priority>
+		<prop>VFEPD_CellPollutionEffect</prop>
+	</VFEProps.PropDef>
+
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_47</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>47</priority>
+		<prop>VFEPD_SanguophageMeetingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_48</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>48</priority>
+		<prop>VFEPD_GeneAssembler_WorkingEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_50</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>50</priority>
+		<prop>VFEPD_AncientExostriderRemainsPulseEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_51</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>51</priority>
+		<prop>VFEPD_WastepackAtomizer_OperatingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_52</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>52</priority>
+		<prop>VFEPD_Bloodfeed_WarmupEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_53</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>53</priority>
+		<prop>VFEPD_Vat_BubblesEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_54</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>54</priority>
+		<prop>VFEPD_ApocritonPulseEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_51</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>51</priority>
+		<prop>VFEPD_FakePoluxTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_52</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>52</priority>
+		<prop>VFEPD_ToxiPotato</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_53</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>53</priority>
+		<prop>VFEPD_GrayGrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_54</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>54</priority>
+		<prop>VFEPD_Ripthorn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_55</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>55</priority>
+		<prop>VFEPD_PebbleCactus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_56</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>56</priority>
+		<prop>VFEPD_TreeGrayPine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_57</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>57</priority>
+		<prop>VFEPD_Witchwood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_58</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>58</priority>
+		<prop>VFEPD_RatPalm</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_7</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>7</priority>
+		<prop>VFEPD_MechanitorShip</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Mech_Antenna</defName>
+		<category>VFE_PropCategory_Mechs</category>		
+		<priority>20</priority>
+		<prop>VFEPD_MechbandAntenna</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Mech_Dish</defName>
+		<category>VFE_PropCategory_Mechs</category>		
+		<priority>21</priority>
+		<prop>VFEPD_MechbandDish</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_7</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>7</priority>
+		<prop>VFEPD_CocoonMegaspider</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_8</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>8</priority>
+		<prop>VFEPD_CocoonMegascarab</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_9</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>9</priority>
+		<prop>VFEPD_CocoonSpelopede</prop>
+		
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_300</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>300</priority>
+		<prop>VFEPD_AncientExostriderRemains</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_301</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>301</priority>
+		<prop>VFEPD_AncientExostriderHead</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_302</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>302</priority>
+		<prop>VFEPD_AncientExostriderLeg</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_303</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>303</priority>
+		<prop>VFEPD_AncientExostriderCannon</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_50</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>50</priority>
+		<prop>VFEPD_FilthAcid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_51</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>51</priority>
+		<prop>VFEPD_FlammableBile</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_52</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>52</priority>
+		<prop>VFEPD_Floordrawing</prop>
+	</VFEProps.PropDef>
+</Defs>

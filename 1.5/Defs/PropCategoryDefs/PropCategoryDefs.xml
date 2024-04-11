@@ -135,6 +135,13 @@
 		<icon>UI/Categories/Props_Filth</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Anomaly</defName>
+		<label>anomaly</label>
+		<description>Furniture and miscellaneous Props related to the Anomaly DLC.</description>
+		<priority>13.5</priority>
+		<icon>UI/Categories/Props_Anomaly</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Ancient</defName>
 		<label>ancient</label>
 		<description>Ancient props that are usually scattered around the map. Note these will not work for the Scrapper meme in VE: Memes and Structures, as they are purely decorative.</description>
