@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Structures_FakeStairs</defName>
 		<category>VFE_PropCategory_Structures</category>
@@ -43,51 +42,48 @@
 		<shortLabel>lrg. fake stairs inv. c.</shortLabel>
 		<prop>VFEPD_LargeDecalFakeStairsInvertedCorner</prop>
 	</VFEProps.PropDef>
-
-<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_FakeDoor</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>5</priority>
 		<prop>VFEPD_FakeDoor</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_FakeFlapDoor</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>6</priority>
 		<prop>VFEPD_FakeAnimalDoor</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_FakeAutoDoor</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>7</priority>
 		<prop>VFEPD_FakeAutoDoor</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_FakeFenceDoor</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>8</priority>
 		<prop>VFEPD_FakeFenceDoor</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_FakeColumn</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>9</priority>
 		<prop>VFEPD_FakeColumn</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_Pipes</defName>
 		<category>VFE_PropCategory_Structures</category>
 		<priority>10</priority>
 		<silverCostOverride>0</silverCostOverride>
 		<prop>VCHE_FakePipes</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Structures_Bridge</defName>
-		<category>VFE_PropCategory_Structures</category>		
+		<category>VFE_PropCategory_Structures</category>
 		<priority>11</priority>
 		<prop>VFEPD_FakeBridge</prop>
 		<silverCostOverride>0</silverCostOverride>
 	</VFEProps.PropDef>
-	
-	
 </Defs>

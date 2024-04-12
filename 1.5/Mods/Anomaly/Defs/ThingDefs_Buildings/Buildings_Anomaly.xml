@@ -1,15 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeCube</defName>
+		<label>fake cube</label>
+		<description>Isn't this heresy?? This is heresy, right??</description>
+		<fillPercent>0.1</fillPercent>
+		<graphicData>
+			<texPath>Things/Item/Special/GoldenCube</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_DecorativePlatform</defName>
+		<label>decorative platform</label>
+		<description>A decorative holding platform. Not useful for containment of any kind.</description>
+		<fillPercent>0.4</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/HoldingPlatform/HoldingPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_AtmosphericHeater</defName>
-    <label>atmospheric heater</label>
-    <description>A thermal projection device powered by scavenged shards of dark archotechnology. Inactive.</description>
+		<label>atmospheric heater</label>
+		<description>A thermal projection device powered by scavenged shards of dark archotechnology. Inactive.</description>
 		<fillPercent>0.9</fillPercent>
 		<graphicData>
-      <texPath>Things/Building/AtmosphericHeater_B</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
+			<texPath>Things/Building/AtmosphericHeater/AtmosphericHeater_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -21,16 +62,36 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
-	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AtmosphericHeaterLit</defName>
+		<label>atmospheric heater, lit</label>
+		<description>A thermal projection device powered by scavenged shards of dark archotechnology. Inactive.</description>
+		<fillPercent>0.9</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/AtmosphericHeater/AtmosphericHeater_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_DecorativeCubeSculture_Dirt</defName>
-    <label>decorative cube, dirt</label>
-    <description>A hastily constructed sculpture resembling a cube.</description>
+		<label>decorative cube, dirt</label>
+		<description>A hastily constructed sculpture resembling a cube.</description>
 		<fillPercent>0.35</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/CubeSculptures/CubeSculpture_Dirt</texPath>
-    </graphicData>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/CubeSculptures/CubeSculpture_Dirt</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -40,17 +101,16 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
-	
-		<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_DecorativeCubeSculture_Stone</defName>
-    <label>decorative cube, stone</label>
-    <description>A hastily constructed sculpture resembling a cube.</description>
+		<label>decorative cube, stone</label>
+		<description>A hastily constructed sculpture resembling a cube.</description>
 		<fillPercent>0.35</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
- <texPath>Things/Building/CubeSculptures/CubeSculpture_Stone</texPath>    </graphicData>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/CubeSculptures/CubeSculpture_Stone</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -60,17 +120,16 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
-		<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_DecorativeCubeSculture_Sand</defName>
-    <label>decorative cube, sand</label>
-    <description>A hastily constructed sculpture resembling a cube.</description>
+		<label>decorative cube, sand</label>
+		<description>A hastily constructed sculpture resembling a cube.</description>
 		<fillPercent>0.35</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/CubeSculptures/CubeSculpture_Sand</texPath>
-    </graphicData>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/CubeSculptures/CubeSculpture_Sand</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -80,17 +139,16 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
-		<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_DecorativeCubeSculture_Scrap</defName>
-    <label>decorative cube, scrap</label>
-    <description>A hastily constructed sculpture resembling a cube.</description>
+		<label>decorative cube, scrap</label>
+		<description>A hastily constructed sculpture resembling a cube.</description>
 		<fillPercent>0.35</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/CubeSculptures/CubeSculpture_Scrap</texPath>
-    </graphicData>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/CubeSculptures/CubeSculpture_Scrap</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -100,18 +158,15 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrayBox</defName>
-    <label>gray box</label>
-    <description>A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. Sealed shut.</description>
-		
-		 <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-       <texPath>Things/Building/GrayBox/GrayBox</texPath>
-    </graphicData>
+		<label>gray box</label>
+		<description>A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. Sealed shut.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/GrayBox/GrayBox</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -121,17 +176,15 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrayBox_Empty</defName>
-    <label>empty gray box</label>
-    <description>A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. Empty.</description>
-		
-		 <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-       <texPath>Things/Building/GrayBox/GrayBox_Open</texPath>
-    </graphicData>
+		<label>empty gray box</label>
+		<description>A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. Empty.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/GrayBox/GrayBox_Open</texPath>
+		</graphicData>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -141,18 +194,15 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<passability>PassThroughOnly</passability>
-		
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_FakeGrayDoor</defName>
 		<label>fake gray door</label>
 		<description>A non-functional door. It's just two painted plywood panels and won't open. Can be traversed.</description>
 		<graphicData>
-			 <texPath>Things/Building/GrayDoor/GrayDoor_Jammed</texPath>
+			<texPath>Things/Building/GrayDoor/GrayDoor_Jammed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
-			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -171,7 +221,6 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_FakeSecurityDoor</defName>
 		<label>fake security door</label>
@@ -179,7 +228,7 @@
 		<graphicData>
 			<texPath>Things/Building/SecurityDoor/SecurityDoor_MenuIcon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			 <drawSize>(3,2.4)</drawSize>
+			<drawSize>(2.5,3)</drawSize>
 			<color>(105,105,105)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -199,11 +248,9 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GrayStatue</defName>
 		<label>decorative gray statue</label>
-		
 		<description>A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. Merely decorative.</description>
 		<size>(1, 1)</size>
 		<statBases>
@@ -223,13 +270,11 @@
 				<offset>(0, 0, -0.5)</offset>
 			</shadowData>
 		</graphicData>
-	
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Noctolith</defName>
-    <label>noctolith</label>
-    <description>A twisted pillar of jagged blade-like structures made of dark, oily metal. Merely decorative.</description>
+		<label>noctolith</label>
+		<description>A twisted pillar of jagged blade-like structures made of dark, oily metal. Merely decorative.</description>
 		<size>(2, 2)</size>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -238,26 +283,24 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>Impassable</passability>
-    <blockLight>true</blockLight>
-    <fillPercent>1</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/Noctolith/Noctolith</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3, 3)</drawSize>
-      <shadowData>
-        <volume>(1.9, 1.3, 1.2)</volume>
-        <offset>(0, 0, -0.2)</offset>
-      </shadowData>
-    </graphicData>
-	
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Noctolith/Noctolith</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+			<shadowData>
+				<volume>(1.9, 1.3, 1.2)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_InactiveTwistedObelisk</defName>
-    <label>inactive twisted obelisk</label>
-    <description>A large metallic pillar. Inactive and merely decorative.</description>
-		 <size>(3,3)</size>
+		<label>inactive twisted obelisk</label>
+		<description>A large metallic pillar. Inactive and merely decorative.</description>
+		<size>(3,3)</size>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -265,26 +308,24 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>Impassable</passability>
-    <blockLight>true</blockLight>
-    <fillPercent>1</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/Obelisk_Twisted/TwistedObelisk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5, 5)</drawSize>
-     <shadowData>
-        <volume>(2.5, 5, 2.5)</volume>
-        <offset>(0, 0, -0.3)</offset>
-      </shadowData>
-    </graphicData>
-	
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Obelisk_Twisted/TwistedObelisk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(2.5, 5, 2.5)</volume>
+				<offset>(0, 0, -0.3)</offset>
+			</shadowData>
+		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_InactiveCorruptedObelisk</defName>
-    <label>inactive corrupted obelisk</label>
-    <description>A large metallic pillar. Inactive and merely decorative.</description>
-		 <size>(3,3)</size>
+		<label>inactive corrupted obelisk</label>
+		<description>A large metallic pillar. Inactive and merely decorative.</description>
+		<size>(3,3)</size>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -292,26 +333,24 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>Impassable</passability>
-    <blockLight>true</blockLight>
-    <fillPercent>1</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/Obelisk_Corrupted/CorruptedObelisk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5, 5)</drawSize>
-     <shadowData>
-        <volume>(2.5, 5, 2.5)</volume>
-        <offset>(0, 0, -0.3)</offset>
-      </shadowData>
-    </graphicData>
-	
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Obelisk_Corrupted/CorruptedObelisk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(2.5, 5, 2.5)</volume>
+				<offset>(0, 0, -0.3)</offset>
+			</shadowData>
+		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_InactiveWarpedObelisk</defName>
-    <label>inactive warped obelisk</label>
-    <description>A large metallic pillar. Inactive and merely decorative.</description>
-		 <size>(3,3)</size>
+		<label>inactive warped obelisk</label>
+		<description>A large metallic pillar. Inactive and merely decorative.</description>
+		<size>(3,3)</size>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -319,26 +358,24 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>Impassable</passability>
-    <blockLight>true</blockLight>
-    <fillPercent>1</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/Obelisk_Warped/WarpedObelisk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5, 5)</drawSize>
-     <shadowData>
-        <volume>(2.5, 5, 2.5)</volume>
-        <offset>(0, 0, -0.3)</offset>
-      </shadowData>
-    </graphicData>
-	
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/Obelisk_Warped/WarpedObelisk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(2.5, 5, 2.5)</volume>
+				<offset>(0, 0, -0.3)</offset>
+			</shadowData>
+		</graphicData>
 	</ThingDef>
-	
-		<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_PitBurrow</defName>
-    <label>fake pit burrow</label>
-    <description>A small hole connecting to some unseen cave network deep under the surface... Actually, on close inspection it seems to be just painted on the ground...</description>
-		 <size>(3,3)</size>
+		<label>fake pit burrow</label>
+		<description>A small hole connecting to some unseen cave network deep under the surface... Actually, on close inspection it seems to be just painted on the ground...</description>
+		<size>(3,3)</size>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -346,22 +383,20 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>PassThroughOnly</passability>
-   <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <fillPercent>0</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/PitBurrow</texPath>
-      <drawSize>(3, 3)</drawSize>
-    </graphicData>
-	
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<fillPercent>0</fillPercent>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/PitBurrow</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
 	</ThingDef>
-	
-			<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_EndlessPit2x2c</defName>
-    <label>fake pit, small</label>
-    <description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
-		 <size>(2,2)</size>
+		<label>fake pit, small</label>
+		<description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
+		<size>(2,2)</size>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -369,52 +404,48 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>PassThroughOnly</passability>
-   <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <fillPercent>0</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/EndlessPit/EndlessPit_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>EndlessPit</shaderType>
-      <drawSize>(2, 2)</drawSize>
-      <shaderParameters>
-        <_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
-      </shaderParameters>
-    </graphicData>
-	
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<fillPercent>0</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(2, 2)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_EndlessPit3x2c</defName>
-    <label>fake pit, medium</label>
-    <description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
-		 <size>(3,2)</size>
+		<label>fake pit, medium</label>
+		<description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
+		<size>(3,2)</size>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>1</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
-		<rotatable>false</rotatable>
-		 <passability>PassThroughOnly</passability>
-   <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <fillPercent>0</fillPercent>
-		 <graphicData>
-      <texPath>Things/Building/EndlessPit/EndlessPit_Medium</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>EndlessPit</shaderType>
-      <drawSize>(3, 2)</drawSize>
-      <shaderParameters>
-        <_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
-      </shaderParameters>
-    </graphicData>
-	
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<fillPercent>0</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Medium</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(3, 2)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
 	</ThingDef>
-		<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_EndlessPit3x3c</defName>
-    <label>fake pit, large</label>
-    <description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
-		 <size>(3,3)</size>
+		<label>fake pit, large</label>
+		<description>A smooth-sided hole that extends endlessly downwards... Actually, on close inspection it seems to be just painted on the ground...</description>
+		<size>(3,3)</size>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -422,26 +453,24 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>PassThroughOnly</passability>
-   <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <fillPercent>0</fillPercent>
-		  <graphicData>
-      <texPath>Things/Building/EndlessPit/EndlessPit_Large</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>EndlessPit</shaderType>
-      <drawSize>(3, 3)</drawSize>
-      <shaderParameters>
-        <_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
-      </shaderParameters>
-    </graphicData>
-	
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<fillPercent>0</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/EndlessPit/EndlessPit_Large</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>EndlessPit</shaderType>
+			<drawSize>(3, 3)</drawSize>
+			<shaderParameters>
+				<_NoiseTex>/Things/Mote/SoftNoise</_NoiseTex>
+			</shaderParameters>
+		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_PitGate</defName>
-    <label>pit gate</label>
-    <description>A massive, foreboding hole that connects the surface with a dark network of underground caves... Actually, on close inspection it seems to be just painted on the ground...</description>
-		 <size>(8,8)</size>
+		<label>pit gate</label>
+		<description>A massive, foreboding hole that connects the surface with a dark network of underground caves... Actually, on close inspection it seems to be just painted on the ground...</description>
+		<size>(8,8)</size>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -449,256 +478,197 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<rotatable>false</rotatable>
-		 <passability>PassThroughOnly</passability>
-   <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <fillPercent>0</fillPercent>
-		 <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/PitGate/PitGate</texPath>
-      <drawSize>(8,8)</drawSize>
-    </graphicData>
-	
-	</ThingDef>
-	
-	
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientLargeMechGestator</defName>
-		<label>ancient large mech gestator</label>
-		<description>An ancient large mech gestator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
-		<fillPercent>0.50</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<fillPercent>0</fillPercent>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientLargeMechGestator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(5.7, 4.275)</drawSize>
-			<shadowData>
-				<volume>(4, 1, 2.9)</volume>
-			</shadowData>
+			<texPath>Things/Building/PitGate/PitGate</texPath>
+			<drawSize>(8,8)</drawSize>
 		</graphicData>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<size>(4,3)</size>
-		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchotechSupport_Small</defName>
+		<label>archotech support</label>
+		<description>A twisted archotech structure. Inactive and merely decorative.</description>
+		<size>(3, 4)</size>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientBasicRecharger</defName>
-		<label>ancient basic recharger</label>
-		<description>An ancient basic recharger. Valuable parts are missing, and everything else is degraded to uselessness.</description>
-		<fillPercent>0.50</fillPercent>
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientBasicRecharger</texPath>
+			<texPath>Things/Building/TwistedArchotechSupport/TwistedArchotechSupport_small</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.9,1.25)</drawSize>
-			<shadowData>
-				<volume>(2.9, 0.5, 0.9)</volume>
-			</shadowData>
+			<drawSize>(7, 7)</drawSize>
+			<drawOffset>(0, 0, 0.8)</drawOffset>
 		</graphicData>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<size>(3,1)</size>
-		<altitudeLayer>Building</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchotechSupport_Large</defName>
+		<label>large archotech support</label>
+		<description>A twisted archotech structure. Inactive and merely decorative.</description>
+		<size>(3, 5)</size>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientStandardRecharger</defName>
-		<label>ancient standard recharger</label>
-		<description>An ancient standard recharger. Valuable parts are missing, and everything else is degraded to uselessness.</description>
-		<fillPercent>0.50</fillPercent>
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientStandardRecharger</texPath>
+			<texPath>Things/Building/TwistedArchotechSupport/TwistedArchotechSupport</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3.8,2.8)</drawSize>
-			<shadowData>
-				<volume>(2.8, 0.5, 1.8)</volume>
-			</shadowData>
+			<drawSize>(8, 8)</drawSize>
+			<drawOffset>(0, 0, 1.1)</drawOffset>
 		</graphicData>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<size>(3,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchotechSupport_Vertical</defName>
+		<label>vertical archotech support</label>
+		<description>A twisted archotech structure. Inactive and merely decorative.</description>
+		<size>(3, 3)</size>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
+		<passability>Impassable</passability>
+		<blockLight>true</blockLight>
+		<fillPercent>1</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/TwistedArchotechSupport/TwistedArchotechSupport_vertical</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+			<drawOffset>(0, 0, 0.5)</drawOffset>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientToxifierGenerator</defName>
-		<label>ancient toxifier generator</label>
-		<description>An ancient toxifier generator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
-		<fillPercent>0.50</fillPercent>
+		<defName>VFEPD_VoidSculpture</defName>
+		<label>decorative void sculpture</label>
+		<description>An unsettling sculpture made from bioferrite. Inactive and merely decorative.</description>
+		<size>(1, 1)</size>
 		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.35</fillPercent>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientToxifierGenerator</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/VoidSculpture</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VoidStructure</defName>
+		<label>void structure</label>
+		<description>A warped structure made of jagged oily metallic-like pieces. Inactive and merely decorative.</description>
+		<size>(5, 5)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<texPath>Things/Building/VoidStructure/VoidStructure_A</texPath>
+			<drawSize>(6, 6)</drawSize>
+			<drawOffset>(0, 0, 0.5)</drawOffset>
+			<addTopAltitudeBias>true</addTopAltitudeBias>
 			<shadowData>
-				<volume>(1.8, 2, 1.8)</volume>
+				<volume>(3, 2, 3)</volume>
 			</shadowData>
 		</graphicData>
-		<size>(2,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>450</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientBandNode</defName>
-		<label>ancient band node</label>
-		<description>An ancient band node. Valuable parts are missing, and everything else is degraded to uselessness.</description>
-		<fillPercent>0.50</fillPercent>
+		<defName>VFEPD_VoidStructureLit</defName>
+		<label>void structure, lit</label>
+		<description>A warped structure made of jagged oily metallic-like pieces. Inactive and merely decorative.</description>
+		<size>(5, 5)</size>
 		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientBandNode</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<texPath>Things/Building/VoidStructure/VoidStructure_B</texPath>
+			<drawSize>(6, 6)</drawSize>
+			<drawOffset>(0, 0, 0.5)</drawOffset>
+			<addTopAltitudeBias>true</addTopAltitudeBias>
 			<shadowData>
-				<volume>(0.9, 1, 0.9)</volume>
+				<volume>(3, 2, 3)</volume>
 			</shadowData>
 		</graphicData>
-		<size>(2,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientExostriderRemains</defName>
-		<label>exostrider remains</label>
-		<description>The remains of a massive, ancient exostrider war mechanoid.</description>
-		<fillPercent>0.50</fillPercent>
-		<rotatable>false</rotatable>
+		<defName>VFEPD_Fleshmassfilth</defName>
+		<label>fleshmass debris</label>
+		<description>Fleshmass filth. Just like grandma used to make.</description>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderMidsection</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,2)</drawSize>
-			<shadowData>
-				<volume>(1.9, 1, 1.9)</volume>
-				<offset>(-0.2,0,-0.2)</offset>
-			</shadowData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/FleshmassFilth</texPath>
+			<drawSize>1.25</drawSize>
+			<shaderType>Transparent</shaderType>
 		</graphicData>
-		<size>(3,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientExostriderHead</defName>
-		<label>exostrider head</label>
-		<description>The remains of the head of a massive, ancient exostrider mechanoid.</description>
-		<fillPercent>0.50</fillPercent>
-		<rotatable>false</rotatable>
-		<graphicData>
-			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderHead</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<shadowData>
-				<volume>(1.1, 1, 1.1)</volume>
-				<offset>(-0.2,0,-0.2)</offset>
-			</shadowData>
-		</graphicData>
-		<size>(2,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientExostriderLeg</defName>
-		<label>exostrider leg</label>
-		<description>The remains of the leg of a massive, ancient exostrider mechanoid.</description>
-		<fillPercent>0.50</fillPercent>
 		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RevenantSmear</defName>
+		<label>revenant smear</label>
+		<description>Revenant smear. That's the name of my black metal band.</description>
 		<graphicData>
-			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderLeg</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>(2,1)</drawSize>
-			<shadowData>
-				<volume>(1, 1, 0.4)</volume>
-				<offset>(-0.2,0,-0.2)</offset>
-			</shadowData>
+			<texPath>Things/Filth/RevenantSmear</texPath>
+			<drawSize>1.25</drawSize>
 		</graphicData>
-		<size>(2,1)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientExostriderCannon</defName>
-		<label>exostrider cannon</label>
-		<description>The remains of the back-mounted energy cannon of a massive, ancient exostrider mechanoid.</description>
-		<fillPercent>0.50</fillPercent>
-		<rotatable>false</rotatable>
-		<graphicData>
-			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderCannon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,2)</drawSize>
-			<shadowData>
-				<volume>(1.9, 1, 0.9)</volume>
-				<offset>(-0.2,0,-0.2)</offset>
-			</shadowData>
-		</graphicData>
-		<size>(3,2)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_MechRepairingEffect</defName>
-		<label>mech repairing</label>
-		<description>This is an effecter prop for "Mech Repairing". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/SparkFlash</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -714,476 +684,174 @@
 		<uiIconScale>1</uiIconScale>
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>MechRepairing</effecterDef>
-			</li>
-		</comps>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_MechBandAntennaPreparedEffect</defName>
-		<label>mech band antenna</label>
-		<description>This is an effecter prop for "Mech Band Antenna Prepared". Intrinsically laggy, use in moderation.</description>
+		<defName>VFEPD_RevenantGorePool</defName>
+		<label>revenant gore pool</label>
+		<description>Revenant gore pool. Smells like raspberries.</description>
 		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/AntennaPreparingFlash</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>MechBandAntennaPrepared</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_ControlMechEffect</defName>
-		<label>control mech</label>
-		<description>This is an effecter prop for "Control Mech". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/MechSparkSimple</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>ControlMech</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Fire_SpewEffect</defName>
-		<label>fire spew</label>
-		<description>This is an effecter prop for "Fire Spew". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/FireSpew_A</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>Fire_Spew</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Fire_BurstEffect</defName>
-		<label>fire burst</label>
-		<description>This is an effecter prop for "Fire Burst". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/FireGlow</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>Fire_Burst</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_CellPollutionEffect</defName>
-		<label>cell pollution</label>
-		<description>This is an effecter prop for "Cell Pollution". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/WastepackDissolve</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>CellPollution_Performant</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_SanguophageMeetingEffect</defName>
-		<label>sanguophage meeting</label>
-		<description>This is an effecter prop for "Sanguophage Meeting". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/Sanguophage_GlowingEyes</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>SanguophageMeeting</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_GeneAssembler_WorkingEffect</defName>
-		<label>gene assembler</label>
-		<description>This is an effecter prop for "Gene Assembler Working". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/PlainFlash</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>GeneAssembler_Working</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientExostriderRemainsPulseEffect</defName>
-		<label>exostrider pulse</label>
-		<description>This is an effecter prop for "Ancient Exostrider Remains Pulse". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/AncientExostriderRemains/LensFlareA</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>AncientExostriderRemainsPulse</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_WastepackAtomizer_OperatingEffect</defName>
-		<label>wastepack atomizer</label>
-		<description>This is an effecter prop for "Wastepack Atomizer Operating". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/BrightFlash</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>WastepackAtomizer_Operating</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Bloodfeed_WarmupEffect</defName>
-		<label>bloodfeed warmup</label>
-		<description>This is an effecter prop for "Bloodfeed Warmup". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/BloodSplash</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>Bloodfeed_Warmup</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Vat_BubblesEffect</defName>
-		<label>vat bubbles</label>
-		<description>This is an effecter prop for "Vat Bubbles". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/VatBubble</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>Vat_Bubbles_South</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_ApocritonPulseEffect</defName>
-		<label>apocriton pulse</label>
-		<description>This is an effecter prop for "Apocriton Pulse". Intrinsically laggy, use in moderation.</description>
-		<graphicData>
-			<texPath>Things/Building/ModCompat/Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<tickerType>Normal</tickerType>
-		<drawerType>MapMeshOnly</drawerType>
-		<uiIconPath>Things/Mote/PsychicDistortionApocriton</uiIconPath>
-		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_AttachEffecter">
-				<effecterDef>ApocrionAttached</effecterDef>
-			</li>
-		</comps>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_FakePoluxTree</defName>
-		<label>fake polux tree</label>
-		<description>Plastic tree imitating a polux tree. No pollution cleaning here.</description>
-		<graphicData>
-			<texPath>Things/Plant/TreePolux</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/RevenantBloodPool</texPath>
+			<drawSize>4.5</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_LooseGround</defName>
+		<label>loose ground</label>
+		<description>Loose ground filth.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/LooseGround</texPath>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TwistedFlesh</defName>
+		<label>twisted flesh</label>
+		<description>Twisted flesh filth. Organically sourced.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/TwistedFlesh</texPath>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MetalhorrorDebris</defName>
+		<label>metalhorror debris</label>
+		<description>Metalhorror debris filth.</description>
+		<graphicData>
+			<texPath>Things/Filth/MetalhorrorDebris</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FloorEtchings</defName>
+		<label>floor etchings</label>
+		<description>Floor etchings filth.</description>
+		<graphicData>
+			<texPath>Things/Filth/FloorEtchings</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeHarbingerTree</defName>
+		<label>fake harbinger tree</label>
+		<description>Plastic tree imitating a harbinger tree. No munchies.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeHarbinger/HarbingerTree_4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.35, 0.3, 0.35)</volume>
 				<offset>(0,0,0.05)</offset>
@@ -1209,494 +877,5 @@
 			<isEdifice>false</isEdifice>
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_ToxiPotato</defName>
-		<label>toxipotato plant</label>
-		<description>A fake genetically-engineered variant of potato adapted for growing in polluted areas.</description>
-		<graphicData>
-			<texPath>Things/Plant/Toxipotato</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawOffset>(0,0,0.1)</drawOffset>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>Standable</passability>
-		<fillPercent>0.1</fillPercent>
-		<pathCost>5</pathCost>
-		<filthLeaving Inherit="False"/>
-		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
-		</building>
-		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_GrayGrass</defName>
-		<label>gray grass</label>
-		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-		<description>This is just plastic grass painted gray. Gray? Grey? Can't you people just decide on one??</description>
-		<graphicData>
-			<texPath>Things/Plant/Graygrass</texPath>
-			<drawSize>0.6</drawSize>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>1.5</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Ripthorn</defName>
-		<label>ripthorn</label>
-		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
-		<description>A fake short toxin-adapted shrub that looks like a dense, tough tangle of thorny branches.</description>
-		<graphicData>
-			<texPath>Things/Plant/Ripthorn</texPath>
-			<drawSize>1.2</drawSize>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>1.5</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_PebbleCactus</defName>
-		<label>pebble cactus</label>
-		<description>A fake small cactus that resembles a cluster of pebbles.</description>
-		<graphicData>
-			<texPath>Things/Plant/PebbleCactus</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.24, 0.3, 0.15)</volume>
-				<offset>(-0.1,0,-0.38)</offset>
-			</shadowData>
-			<drawSize>1.5</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>1.5</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_TreeGrayPine</defName>
-		<label>gray pine tree</label>
-		<description>A fake small toxin-adapted tree with twisted branches.</description>
-		<graphicData>
-			<texPath>Things/Plant/TreeGrayPine</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.15, 0.3, 0.15)</volume>
-				<offset>(0,0,-0.38)</offset>
-			</shadowData>
-			<drawSize>3</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>130</pathCost>
-		<fillPercent>0.25</fillPercent>
-		<filthLeaving Inherit="False"/>
-		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
-		</building>
-		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Witchwood</defName>
-		<label>witchwood tree</label>
-		<description>A fake small toxin-adapted tree with a twisted trunk.</description>
-		<graphicData>
-			<texPath>Things/Plant/Witchwood</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.15, 0.35, 0.08)</volume>
-				<offset>(0,0,-0.34)</offset>
-			</shadowData>
-			<drawSize>3</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>130</pathCost>
-		<fillPercent>0.25</fillPercent>
-		<filthLeaving Inherit="False"/>
-		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
-		</building>
-		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_RatPalm</defName>
-		<label>rat palm tree</label>
-		<description>A fake tree similar to a palm tree with dense surface roots.</description>
-		<graphicData>
-			<texPath>Things/Plant/RatPalm</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.1, 0.35, 0.13)</volume>
-				<offset>(0,0,-0.25)</offset>
-			</shadowData>
-			<drawSize>3</drawSize>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>130</pathCost>
-		<fillPercent>0.25</fillPercent>
-		<filthLeaving Inherit="False"/>
-		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
-		</building>
-		<clearBuildingArea>false</clearBuildingArea>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
-		<defName>VFEPD_MechanitorShip</defName>
-		<label>mechanitor ship</label>
-		<description>A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. Deactivated.</description>
-		<size>(5,3)</size>
-		<graphicData>
-			<texPath>Things/Building/Misc/MechanitorShipCrashed</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6,3)</drawSize>
-			<shadowData>
-				<volume>(4.1, 1.0, 1.8)</volume>
-				<offset>(0, 0, -0.1)</offset>
-			</shadowData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<rotatable>false</rotatable>
-		<passability>Impassable</passability>
-		<fillPercent>1</fillPercent>
-		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<repairEffect>ConstructMetal</repairEffect>
-		<statBases>
-			<MaxHitPoints>350</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>100</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<building>
-			<isInert>true</isInert>
-		</building>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_MechbandAntenna</defName>
-		<label>mechband antenna</label>
-		<description>A mech-band signaling device. Deactivated.</description>
-		<size>(2,1)</size>
-		<graphicData>
-			<texPath>Things/Building/Misc/MechbandAntenna</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,1)</drawSize>
-			<shadowData>
-				<volume>(1.7, 0.75, 0.8)</volume>
-				<offset>(0.15, 0, 0)</offset>
-			</shadowData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.3</fillPercent>
-		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<repairEffect>ConstructMetal</repairEffect>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<pathCost>42</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_MechbandDish</defName>
-		<label>mechband dish</label>
-		<description>A mech-band signaling device more powerful than the normal mechlink antenna. Deactivated.</description>
-		<size>(2,2)</size>
-		<graphicData>
-			<texPath>Things/Building/Misc/MechbandDish</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<shadowData>
-				<volume>(1.1, 0.75, 1.1</volume>
-			</shadowData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.3</fillPercent>
-		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<repairEffect>ConstructMetal</repairEffect>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<pathCost>42</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_CocoonMegaspider</defName>
-		<label>megaspider cocoon</label>
-		<description>Not a real insect cocoon.</description>
-		<graphicData>
-			<graphicClass>Graphic_Random</graphicClass>
-			<texPath>Things/Building/Natural/CocoonMegaspider</texPath>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<rotatable>false</rotatable>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<pathCost>42</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_CocoonMegascarab</defName>
-		<label>megascarab cocoon</label>
-		<description>Not a real insect cocoon.</description>
-		<graphicData>
-			<graphicClass>Graphic_Random</graphicClass>
-			<texPath>Things/Building/Natural/CocoonMegascarab</texPath>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<rotatable>false</rotatable>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<pathCost>42</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_CocoonSpelopede</defName>
-		<label>spelopede cocoon</label>
-		<description>Not a real insect cocoon.</description>
-		<graphicData>
-			<graphicClass>Graphic_Random</graphicClass>
-			<texPath>Things/Building/Natural/CocoonSpelopede</texPath>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<rotatable>false</rotatable>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<pathCost>42</pathCost>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_FilthAcid</defName>
-		<label>acid</label>
-		<description>Spent acid.</description>
-		<graphicData>
-			<texPath>Things/Filth/Acid</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>2.5</drawSize>
-			<shaderType>Transparent</shaderType>
-		</graphicData>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Filth</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_FlammableBile</defName>
-		<label>flammable bile</label>
-		<description>Flammable bile. You know, a classic.</description>
-		<graphicData>
-			<texPath>Things/Filth/FlammableBile</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>1.5</drawSize>
-		</graphicData>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Filth</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_Floordrawing</defName>
-		<label>floor drawing</label>
-		<description>Floor drawings. There is no better incentive to go child free in life.</description>
-		<graphicData>
-			<graphicClass>Graphic_Random</graphicClass>
-			<texPath>Things/Filth/Floordrawing</texPath>
-			<shaderType>Transparent</shaderType>
-		</graphicData>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Filth</altitudeLayer>
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
 </Defs>
