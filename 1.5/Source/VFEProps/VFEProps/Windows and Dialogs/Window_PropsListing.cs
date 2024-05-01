@@ -21,6 +21,7 @@ namespace VFEProps
         private static readonly Color borderColor = new Color(0.13f, 0.13f, 0.13f);
         private static readonly Color fillColor = new Color(0, 0, 0, 0.1f);
         private string searchKey;
+        private bool writeStuff;
 
         public static Rect InfoRectProps => new Rect(0f, (float)(UI.screenHeight - 35) - ((MainTabWindow_Architect)MainButtonDefOf.Architect.TabWindow).WinHeight - 270f, 200f, 270f);
 
@@ -40,22 +41,58 @@ namespace VFEProps
             Close();
         }
 
-        public void CreateDesignator(BuildableDef thingdef, bool isMaterials)
+        public void CreateDesignator(BuildableDef thingdef, ThingDef stuff)
         {
-
-
             Designator_Build designator = new Designator_Build(thingdef);
-
-            Find.DesignatorManager.Select(designator);
-            
-
-          
-
+            if (stuff != null)
+            {
+                designator.SetStuffDef(stuff);
+            }
+            Find.DesignatorManager.Select(designator); 
         }
 
+        public void CreateDropdown(BuildableDef thingDef)
+        {
+          
+            if (thingDef == null || !thingDef.MadeFromStuff)
+            {
+                CreateDesignator(thingDef,null);
+                return;
+            }
+            List<FloatMenuOption> list = new List<FloatMenuOption>();
+            foreach (ThingDef item in from d in Find.CurrentMap.resourceCounter.AllCountedAmounts.Keys
+                                      orderby d.stuffProps?.commonality ?? float.PositiveInfinity descending, d.BaseMarketValue
+                                      select d)
+            {
+                if (item.IsStuff && item.stuffProps.CanMake(thingDef) && (DebugSettings.godMode || Find.CurrentMap.listerThings.ThingsOfDef(item).Count > 0))
+                {
+                    ThingDef localStuffDef = item;
+                    string str =  GenLabel.ThingLabel(thingDef, localStuffDef);
+                    str = str.CapitalizeFirst();
+                    FloatMenuOption floatMenuOption = new FloatMenuOption(str, delegate
+                    {
+                        CreateDesignator(thingDef, item);
+                    }, item);
+                    floatMenuOption.tutorTag = "SelectStuff-" + thingDef.defName + "-" + localStuffDef.defName;
+                    list.Add(floatMenuOption);
+                }
+            }
+            if (list.Count == 0)
+            {
+                Messages.Message("NoStuffsToBuildWith".Translate(), MessageTypeDefOf.RejectInput, historical: false);
+                return;
+            }
+            FloatMenu floatMenu = new FloatMenu(list);
+            floatMenu.onCloseCallback = delegate
+            {
+                writeStuff = true;
+            };
+            Find.WindowStack.Add(floatMenu);         
+
+    }
 
 
-        public bool CheckSilverInMap(int cost)
+    public bool CheckSilverInMap(int cost)
         {
             int totalSilver = 0;
             List<SlotGroup> allGroupsListForReading = Find.CurrentMap.haulDestinationManager.AllGroupsListForReading;
@@ -186,7 +223,15 @@ namespace VFEProps
 
                         if (CheckSilverInMap((int)(cost * VFEProps_Settings.costMultiplier)))
                         {
-                            CreateDesignator(props[i].prop, props[i].useMatsInsteadOfSilver);
+                            if (props[i].useMatsInsteadOfSilver && props[i].prop.stuffCategories!=null)
+                            {
+                                CreateDropdown(props[i].prop);
+                            }
+                            else { 
+                                CreateDesignator(props[i].prop, null);
+                            }
+
+                            
                         }
                         else
                         {
