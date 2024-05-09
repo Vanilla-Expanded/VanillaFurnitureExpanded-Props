@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<!-- For testing purposes -->
-
-
-	<!--<VFEProps.HiddenDesignatorsDef>
-		<defName>VFEProps_HiddenDesignators</defName>
+	<VFEProps.HiddenDesignatorsDef>
+		<defName>VFEPropsMain_HiddenDesignators</defName>
 		<hiddenDesignators>			
 			
-			<li>VFEPD_DataConsole</li>
-			<li>VFEPD_DataConveyor</li>
-			
-			
+			<li>VFEP_ShortWalls</li>
+		
 		</hiddenDesignators>							
-	</VFEProps.HiddenDesignatorsDef>-->
+	</VFEProps.HiddenDesignatorsDef>
 
 
 

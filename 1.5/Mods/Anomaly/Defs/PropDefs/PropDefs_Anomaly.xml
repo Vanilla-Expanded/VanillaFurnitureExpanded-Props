@@ -249,4 +249,25 @@
 		<priority>11051</priority>
 		<prop>VFEPD_FakeHarbingerTree</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11026</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11026</priority>
+		<prop>VFEPD_NociosphereDeparting</prop>
+		
+	</VFEProps.PropDef>
+	<!--<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11027</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11027</priority>
+		<prop>VFEPD_NociosphereDepartComplete</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11028</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11028</priority>
+		<prop>VFEPD_MeatExplosionTiny</prop>
+		
+	</VFEProps.PropDef>-->
 </Defs>

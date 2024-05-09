@@ -878,4 +878,157 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_NociosphereDeparting</defName>
+		<label>nociosphere departing</label>
+		<description>This is an effecter prop for "Nociosphere Departing". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Pawn/Nociosphere/Nociosphere_MenuIcon</uiIconPath>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>NociosphereDeparting</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TachycardiacArrest</defName>
+		<label>tachycardiac arrest</label>
+		<description>This is an effecter prop for "Tachycardiac Arrest". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/MeatPieces/MeatPieceB</uiIconPath>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>TachycardiacArrest</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShamblerRaise</defName>
+		<label>shambler raise</label>
+		<description>This is an effecter prop for "Shambler Raise". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/ShamblerAlert</uiIconPath>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>ShamblerRaise</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AbductWarmup</defName>
+		<label>abduct warmup</label>
+		<description>This is an effecter prop for "Shambler Raise". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/ShamblerAlert</uiIconPath>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="VFEProps.CompProperties_AttachEffecter">
+				<effecterDef>ShamblerRaise</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>
