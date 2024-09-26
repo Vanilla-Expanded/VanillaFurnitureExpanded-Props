@@ -17,7 +17,7 @@
 	<repairEffect>ConstructMetal</repairEffect>
 	<statBases>
 		<MaxHitPoints>100</MaxHitPoints>
-		<WorkToBuild>0</WorkToBuild>
+		<WorkToBuild>0</WorkToBuild>*-
 		<Mass>200</Mass>
 		<Flammability>1</Flammability>
 	</statBases>
@@ -212,5 +212,729 @@
         <isInert>true</isInert>
     </building>
 </ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_LargeBackpack_Decoration</defName>
+	<label>large backpack</label>
+	<description>an oversized military backpack that is already broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/LargeBackpackB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_LBT_Decoration</defName>
+	<label>LBT</label>
+	<description>The medical supplies backpack is broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/LBTB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_MBSS_Decoration</defName>
+	<label>MBSS</label>
+	<description>The small military backpack is broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/MBSSB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_PostmanShoulderBag_Decoration</defName>
+	<label>Postman shoulder bag</label>
+	<description>The postman's small shoulder bag is already broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/PostmanShoulderBagB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_Scav_Decoration</defName>
+	<label>Scav bag</label>
+	<description>The backpack made by the scavenger is broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/ScavB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_SportsBag_Decoration</defName>
+	<label>Sports bag</label>
+	<description>The sports bag is already broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/SportsBagB</texPath>
+		<drawSize>1.3</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_TravelBag_Decoration</defName>
+	<label>Travel bag</label>
+	<description>The oversized and eye-catching purple travel bag is already broken. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/TravelBagB</texPath>
+		<drawSize>1.5</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_BurgerPaperBag</defName>
+	<label>Burger paper bag</label>
+	<description>Paper bags from fried chicken restaurants. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/BurgerPaperBag</texPath>
+		<drawSize>1.1</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_BurgerPaperBox</defName>
+	<label>Burger paper box</label>
+	<description>Paper box from fried chicken restaurants. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Bags/BurgerPaperBox</texPath>
+		<drawSize>1.1</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_ClothesHangerEmpty_Decoration</defName>
+	<label>Empty clothes hanger</label>
+	<description>Clothing racks in clothing stores. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/ClothesHangerEmpty</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_EmptyShelves_Decoration</defName>
+	<label>Empty shelves</label>
+	<description>Empty supermarket shelves. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/EmptyShelves</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2.75,1.5)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_OldFreezer_Decoration</defName>
+	<label>Old freezer</label>
+	<description>Empty supermarket freezer. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/OldFreezer</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2.75,1.5)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_RustyEmptyShelves_Decoration</defName>
+	<label>Rusty empty shelves</label>
+	<description>Collapsed supermarket shelves. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/RustyEmptyShelves</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2.75,1.5)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_VegetableShelfEmpty_Decoration</defName>
+	<label>empty vegetable shelf</label>
+	<description>Empty vegetable shelves. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/VegetableShelf_Empty</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2,1)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_BigCase_Open_Decoration</defName>
+	<label>Big case</label>
+	<description>The opened case has nothing inside. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Container/BigCase_Open</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2,1)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>8</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Arrow</defName>
+    <label>Arrow</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Arrow</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>10</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>1</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,2)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Bishop</defName>
+    <label>Bishop</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Bishop</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+    
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>10</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>1</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Crown</defName>
+    <label>Crown</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Crown</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+   
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>10</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>1</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_D2A</defName>
+    <label>D2</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/D2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+   
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>10</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>1</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Knight</defName>
+    <label>Knight</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Knight</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+   
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Pawn</defName>
+    <label>Pawn</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Pawn</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+  
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Queen</defName>
+    <label>Queen</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Queen</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+  
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_Rook</defName>
+    <label>Rook</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/Rook</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+   
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_RFC</defName>
+    <label>RFC</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/RFC</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+  
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_DK</defName>
+    <label>DK</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/DK</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+  
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="DecalBase">
+    <defName>VFEPD_AM_ADI</defName>
+    <label>ADI</label>
+    <description>. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/FloorLabeling/ADI</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+   
+    <passability>Standable</passability>
+    <pathCost>42</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>200</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+
+
+
+
 
 </Defs>
