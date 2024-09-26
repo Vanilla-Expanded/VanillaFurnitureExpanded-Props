@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BenzPatentMotorwagen</defName>
+		<label>Benz Patent-Motorwagen</label>
+		<description>The Benz Patent-Motorwagen, built in 1885 by Karl Benz, is widely regarded as the first practical automobile. It was a three-wheeled vehicle powered by a single-cylinder, four-stroke engine. Benz patented the design in 1886, marking the birth of the modern car. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_BenzPatentMotorwagen/AV_BenzPatentMotorwagen</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.25</drawSize>
+			<color>(80, 85, 81)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,3)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FordModelA</defName>
+		<label>Ford Model A</label>
+		<description>The Ford Model A, produced from 1927 to 1931, was the successor to the Model T and marked a significant advancement in automotive design and technology. It featured a more modern look with improved styling, a more powerful 3.3-liter four-cylinder engine, and enhanced driving comfort. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_FordModelA/AV_FordModelA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5</drawSize>
+			<color>(49, 62, 41)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FordModelAAmbulance</defName>
+		<label>Ford Model A Ambulance</label>
+		<description>The Ford Model A, produced from 1927 to 1931, was the successor to the Model T and marked a significant advancement in automotive design and technology. It featured a more modern look with improved styling, a more powerful 3.3-liter four-cylinder engine, and enhanced driving comfort. This model has been converted into an ambulance. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_FordModelAAmbulance/AV_FordModelAAmbulance</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5.2</drawSize>
+			<color>(214, 214, 214)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FordModelAFireTruck</defName>
+		<label>Ford Model A Firetruck</label>
+		<description>The Ford Model A, produced from 1927 to 1931, was the successor to the Model T and marked a significant advancement in automotive design and technology. It featured a more modern look with improved styling, a more powerful 3.3-liter four-cylinder engine, and enhanced driving comfort. This model has been refitted as a fire truck. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_FordModelAFireTruck/AV_FordModelAFireTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5.2</drawSize>
+			<color>(91, 8, 8)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FordModelT</defName>
+		<label>Ford Model T</label>
+		<description>Produced from 1908 to 1927, the Ford Model T is one of the most iconic cars in automotive history. It was the first automobile mass-produced on moving assembly lines, making it affordable and accessible to a wide audience. Powered by a 2.9-liter, four-cylinder engine, the Model T revolutionized transportation and became a symbol of early 20th-century innovation. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_FordModelT/AV_FordModelT</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.85</drawSize>
+			<color>(51, 49, 44)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,3)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FordModelTVan</defName>
+		<label>Ford Model T</label>
+		<description>Produced from 1908 to 1927, the Ford Model T is one of the most iconic cars in automotive history. It was the first automobile mass-produced on moving assembly lines, making it affordable and accessible to a wide audience. Powered by a 2.9-liter, four-cylinder engine, the Model T revolutionized transportation and became a symbol of early 20th-century innovation. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_FordModelTVan/AV_FordModelTVan</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.85</drawSize>
+			<color>(153, 50, 34)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,3)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_OldsmobileLightTonneau</defName>
+		<label>Oldsmobile Light Tonneau</label>
+		<description>The Oldsmobile Light Tonneau, introduced in 1905, was an early automobile featuring a larger, more powerful design compared to the earlier Curved Dash model. It had a four-seat, open-top body style known as a "tonneau," with a rear seating area that could be accessed via a side door. Powered by a two-cylinder engine, it offered more horsepower and improved performance. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_OldsmobileLightTonneau/AV_OldsmobileLightTonneau</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4.2</drawSize>
+			<color>(153, 50, 34)</color>
+			<shaderType>CutoutComplex</shaderType>
+			
+		</graphicData>
+		
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,4)</size>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_OldsmobileModelRCurvedDash</defName>
+		<label>Oldsmobile Curved Dash</label>
+		<description>Produced from 1901 to 1907, the Oldsmobile Model R, "Curved Dash" was the first mass-produced car in the world. It featured a distinctive curved front dash (hence the name) and was powered by a single-cylinder engine, producing about 5 horsepower. Affordable and reliable, it became one of the most popular early automobiles, helping to establish Oldsmobile as a key player in the emerging car industry. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_OldsmobileModelRCurvedDash/AV_OldsmobileModelRCurvedDash</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.5</drawSize>
+			<color>(51, 49, 44)</color>
+			<shaderType>CutoutComplex</shaderType>
+			
+		</graphicData>
+		
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,3)</size>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_RenaultTypeK</defName>
+		<label>Renault Type K</label>
+		<description>The Renault Type K, produced in 1902, was a significant early automobile that gained fame for its victory in the 1902 Paris-Vienna race. Designed by the Renault brothers, it featured a four-cylinder engine, which was advanced for its time, delivering more power and speed than many contemporary vehicles. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_RenaultTypeK/AV_RenaultTypeK</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4.2</drawSize>
+			<color>(106, 33, 28)</color>
+			<shaderType>CutoutComplex</shaderType>
+			
+		</graphicData>
+		
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_RollsRoyceSilverGhost</defName>
+		<label>Rolls Royce Silver Ghost</label>
+		<description>The Rolls-Royce Silver Ghost, introduced in 1906, is often regarded as one of the most iconic and luxurious cars of the early 20th century. Powered by a 7.0-liter six-cylinder engine, the Silver Ghost was renowned for its smooth performance, reliability, and quiet operation, earning it the nickname "the best car in the world." Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier1/AV_RollsRoyceSilverGhost/AV_RollsRoyceSilverGhost</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5.5</drawSize>
+			<color>(171, 171, 186)</color>
+			<shaderType>CutoutComplex</shaderType>
+			
+		</graphicData>
+		
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,5)</size>
+		
+	</ThingDef>
+</Defs>

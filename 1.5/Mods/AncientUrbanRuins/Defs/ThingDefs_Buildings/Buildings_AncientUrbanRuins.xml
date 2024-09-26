@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_Exit_L</defName>
+	<label>Ancient escalator</label>
+	<description>An upward escalator that has ceased operation. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<texPath>Things/Building/AscendingEscalator</texPath>
+		<drawSize>7</drawSize>
+	</graphicData>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>200</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(4,4)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_Exit_S</defName>
+	<label>Ancient escalator</label>
+	<description>An upward escalator that has ceased operation. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<texPath>Things/Building/AscendingEscalatorA</texPath>
+		<drawSize>7</drawSize>
+	</graphicData>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>200</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,4)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_DownwardStairs</defName>
+	<label>Ancient construction site staircase</label>
+	<description>A staircase descends into the basement, where it is quite dark. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<texPath>Things/Building/DownwardStairs</texPath>
+		<drawSize>7</drawSize>
+	</graphicData>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>200</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(2,3)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_AM_Trader</defName>
+	<label>ancient logistics terminal</label>
+	<description>Ancient logistics terminal, this is part of the ancient underground automatic logistics system. You can purchase goods from ancient material storage stations through the interactive panel, which constitutes a logistics system within an ancient city. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/AncientLogisticsTerminal</texPath>
+		<drawSize>(4,4)</drawSize>
+	</graphicData>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>Impassable</passability>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>200</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(4,4)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AM_SmallGenerator</defName>
+    <label>small fuel generator</label>
+    <description>Small scale fuel generator. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/SmallGenerator</texPath>
+        <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <WorkToBuild>2500</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Mass>0</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AM_AncientDismantlingWorkbench</defName>
+    <label>ancient dismantling table</label>
+    <description>An ancient dismantling table that integrates machinery and sewing. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/AncientDismantlingWorkbench</texPath>
+        <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToBuild>3000</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Mass>0</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AM_DiningChair</defName>
+    <label>dining chair</label>
+    <description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/RFCDiningChair</texPath>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>8000</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Mass>5</Mass>
+    </statBases>
+    <pathCost>30</pathCost>
+    <fillPercent>0.35</fillPercent>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AM_LargeScreenTelevision</defName>
+    <label>large-screen television</label>
+    <description>A super large ancient television capable of displaying 3D images, providing an entertainment experience akin to a 3D cinema. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/LargeScreenTelevision</texPath>
+        <drawSize>(7,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <statBases>
+        <MaxHitPoints>185</MaxHitPoints>
+        <WorkToBuild>80000</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Mass>10</Mass>
+    </statBases>
+    <size>(7,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+</Defs>

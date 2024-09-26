@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Cog</defName>
+		<label>Cog</label>
+		<description>A medieval sailing vessel characterized by a sturdy, broad-bottomed design with a single mast and a square-rigged sail. It was commonly used for trade, transportation, and exploration during the Middle Ages in Europe. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier0/AV_Cog/AV_Cog</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<color>(129, 85, 59)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Junk</defName>
+		<label>Junk</label>
+		<description>A junk ship is a traditional sailing vessel known for its unique design, featuring a high stern and a flat bottom. It often employs multiple sails and was historically used for various maritime activities such as trade, fishing, and transportation. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier0/AV_Junk/AV_Junk</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<color>(77, 35, 25)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Longship</defName>
+		<label>Longship</label>
+		<description>A type of narrow and relatively long boat with a sleek design, often equipped with sails for propulsion. It is commonly used for various purposes such as transportation, exploration, and warfare throughout history. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier0/AV_Longship/AV_Longship</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<color>(129, 85, 59)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Caravel</defName>
+		<label>Caravel</label>
+		<description>A caravel is a small, fast, and versatile sailing ship known for its narrow hull, multiple masts, and combination of square and lateen sails. It was widely used for exploration, trade, and naval activities during the Age of Discovery. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier1/AV_Caravel/AV_Caravel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(10,10)</drawSize>
+			<color>(129, 85, 59)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(4,7)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_PirateCaravel</defName>
+		<label>Pirate caravel</label>
+		<description>A caravel is a small, fast, and versatile sailing ship known for its narrow hull, multiple masts, and combination of square and lateen sails. It was widely used for exploration, trade, and naval activities during the Age of Discovery. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier1/AV_PirateCaravel/AV_PirateCaravel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(10,10)</drawSize>
+			<color>(58, 41, 9)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(4,7)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Sloop</defName>
+		<label>Sloop</label>
+		<description>A single-masted sailing vessel with a fore-and-aft rig, typically equipped with a mainsail and one or more headsails. Sleek and agile, sloops are versatile vessels used for various purposes such as racing, cruising, fishing, and coastal patrols. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier1/AV_Sloop/AV_Sloop</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<color>(201, 205, 192)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Brig</defName>
+		<label>Brig</label>
+		<description>A two-masted sailing vessel with square rigging on both masts, typically carrying a fore-and-aft sail on the aftermast. Brigs were widely used for both naval and merchant purposes due to their combination of maneuverability and relatively large cargo capacity. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier2/AV_Brig/AV_Brig</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(15,15)</drawSize>
+			<color>(189, 182, 173)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,9)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Frigate</defName>
+		<label>Frigate</label>
+		<description>A warship with a sleek design, fast and maneuverable, originally developed for escort and protection duties in the Age of Sail. Frigates usually feature a single continuous gun deck, carrying a mix of cannons and other armaments. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier2/AV_Frigate/AV_Frigate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(16,16)</drawSize>
+			<color>(147, 137, 125)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,9)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Galleon</defName>
+		<label>Galleon</label>
+		<description>A large, multi-decked sailing ship primarily designed for transporting goods over long distances across oceans. It features a sturdy hull with ample cargo hold space, multiple masts rigged with square sails for propulsion, and a high stern and forecastle for additional cargo storage and crew quarters. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier2/AV_Galleon/AV_Galleon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(15,15)</drawSize>
+			<color>(129, 85, 59)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,9)</size>
+	</ThingDef>
+</Defs>
