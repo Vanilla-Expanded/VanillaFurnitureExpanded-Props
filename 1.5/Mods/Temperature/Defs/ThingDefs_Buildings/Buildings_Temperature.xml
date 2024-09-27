@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_IndustrialHeater</defName>
+		<label>industrial heater</label>
+		<description>A large, industrial-type heater machine that fits into a wall. It converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. It is capable of heating up the room to a much higher temperature than the standard heaters. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/IndustrialHeater/IndustrialHeater</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<pathCost/>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_IndustrialCooler</defName>
+		<label>industrial cooler</label>
+		<description>A large, industrial-type air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. It’s capable of cooling the room to much lower temperature than the standard cooler. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/IndustrialCooler/IndustrialCooler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2, 1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<pathCost/>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_WallHeater</defName>
+		<label>wall heater</label>
+		<description>A heating machine that fits into a wall. It converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. Can be used to heat up rooms during winter. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/WallHeater/WallHeater</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_WallMountedHeater</defName>
+		<label>wall-mounted heater</label>
+		<description>A wall-mounted device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. Can only be constructed on a wall. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/WallMountedHeater/WallMountedHeater</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_WallMountedCooler</defName>
+		<label>wall-mounted cooler</label>
+		<description>A wall-mounted air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. Can only be constructed on a wall. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/WallMountedCooler/WallMountedCooler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_WallMountedVent</defName>
+		<label>wall-mounted vent</label>
+		<description>A simple, wall-mounted vent for equalizing the temperature between two rooms without allowing people to walk between them. Can only be constructed on a wall. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/WallMountedVent/WallMountedVent</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_StandingCooler</defName>
+		<label>standing cooler</label>
+		<description>A free standing air-cooling machine. Cool air comes out of a fan and spreads over surrounding area. Can be used to cool down rooms during summer. Not efficient enough to refrigerate food. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/StandingCooler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.20</fillPercent>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VCHE_FakeDucts</defName>
+		<label>fake ducts</label>
+		<description>An air duct used by the AC network to transport air between the AC units and compressors. These do not transport anything.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/ACDuct_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom7</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/ACDuct_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/ACDuct_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_VentValve</defName>
+		<label>air duct valve</label>
+		<description>Switches air flow on/off. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/VentValve</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>35</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_ACControlUnit</defName>
+		<label>AC control unit</label>
+		<description>A main air conditioning control unit. Connects to compressors to allow AC units to generate cool or hot air. Needs to be connected to compressors by air ducts. AC control unit dictates the desired temperature for all AC units in the same network. Installing too many AC units may decrease the efficiency of the network, increasing the power drain of all devices. Constructing additional compressors will improve the efficiency of the network. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/ACControlUnit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>60</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_ACUnit</defName>
+		<label>AC unit</label>
+		<description>An air-conditioning machine that fits into a wall. Emits either cool or warm air in the same direction, depending on the current temperature of the room. Unless unlinked from the network settings, it will aim to achieve the temperature specified in the AC control unit. Needs to be connected to the AC control unit via air ducts. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/ACUnit/ACUnit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+			<Mass>120</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_ACUnitWall</defName>
+		<label>wall-mounted AC unit</label>
+		<description>A wall-mounted air-conditioning machine. Emits either cool or warm air in the same direction, depending on the current temperature of the room. Unless unlinked from the network settings, it will aim to achieve the temperature specified in the AC control unit. Needs to be connected to the AC control unit via air ducts. Can only be constructed on a wall. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/WallMountedAC/WallMountedAC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_ACCompressor</defName>
+		<label>AC compressor</label>
+		<description>An air conditioning compressor that needs to be connected to an AC control unit via air ducts. Can only be placed outside. When powered, it allows the AC network to operate two additional AC devices without losing efficiency. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/ACCompressorSmall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VTE_LargeACCompressor</defName>
+		<label>large AC compressor</label>
+		<description>A large air conditioning compressor that needs to be connected to an AC control unit via air ducts. Can only be placed outside. When powered, it allows the AC network to operate six additional AC devices without losing efficiency. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Building/ACCompressorLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>
