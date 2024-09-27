@@ -261,6 +261,13 @@
 		<icon>UI/Categories/Props_Mech</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Insectoids</defName>
+		<label>insectoid</label>
+		<description>Props based on insectoids, such as cocoons and spider webs.</description>
+		<priority>111</priority>
+		<icon>UI/Categories/Props_Insectoid</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Effecters</defName>
 		<label>effects</label>
 		<description>Invisible props that release particles from effecters. Bear in mind these will be laggy, so use in moderation.</description>

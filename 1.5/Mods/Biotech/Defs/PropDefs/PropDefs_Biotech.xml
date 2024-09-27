@@ -193,21 +193,21 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Misc_7</defName>
-		<category>VFE_PropCategory_Misc</category>		
+		<category>VFE_PropCategory_Insectoids</category>		
 		<priority>7</priority>
 		<prop>VFEPD_CocoonMegaspider</prop>
 		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Misc_8</defName>
-		<category>VFE_PropCategory_Misc</category>		
+		<category>VFE_PropCategory_Insectoids</category>		
 		<priority>8</priority>
 		<prop>VFEPD_CocoonMegascarab</prop>
 		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Misc_9</defName>
-		<category>VFE_PropCategory_Misc</category>		
+		<category>VFE_PropCategory_Insectoids</category>		
 		<priority>9</priority>
 		<prop>VFEPD_CocoonSpelopede</prop>
 		

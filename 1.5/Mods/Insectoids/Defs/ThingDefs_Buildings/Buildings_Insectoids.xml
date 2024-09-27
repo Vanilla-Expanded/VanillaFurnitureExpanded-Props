@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_VFEI2_SmallBurrow</defName>
+    <label>small insect burrow</label>
+    <description>A small insectoid-made hole connecting to some unseen cave network deep under the surface. The walls are covered in insectoid goop and are too slippery to climb down. Seems to be empty inside.</description>
+    <graphicData>
+        <texPath>Things/Building/InsectBurrowSmall</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <blockWind>false</blockWind>
+    <passability>Impassable</passability>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>35</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_VFEI2_MediumBurrow</defName>
+    <label>insect burrow</label>
+    <description>A medium-sized insectoid-made hole connecting to some unseen cave network deep under the surface. The walls are covered in insectoid goop and are too slippery to climb down. Seems to be empty inside.</description>
+    <graphicData>
+        <texPath>Things/Building/InsectBurrow</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <drawSize>2</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <blockWind>false</blockWind>
+    <passability>Impassable</passability>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>35</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_VFEI2_LargeBurrow</defName>
+    <label>large insect burrow</label>
+    <description>A massive insectoid-made hole connecting to some unseen cave network deep under the surface. The walls are covered in insectoid goop and are too slippery to climb down. Insectoid chittering can be heard from the tunnels beneath. Seems to be empty inside.</description>
+    <graphicData>
+        <texPath>Things/Building/InsectBurrowLarge</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <drawSize>3</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <blockWind>false</blockWind>
+    <passability>Impassable</passability>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>35</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeHiveDoor</defName>
+		<label>fake hive door</label>
+		<description>A non-functional door. It's just two painted plywood panels and won't open. Can be traversed.</description>
+		<graphicData>
+			<texPath>Things/Building/HiveDoor/DoorInsectoid_MenuIcon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.65,1.65)</drawSize>
+			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_LargeGlowPod</defName>
+    <label>large glow pod</label>
+    <description>A large bioluminescent pod produced by giant insects.</description>
+    <graphicData>
+        <texPath>Things/Building/GlowPodLarge</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>1.5</drawSize>
+        <damageData>
+            <rect>(0.2,0.2,0.6,0.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>4</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_GlowPodFormation</defName>
+    <label>glow pod formation</label>
+    <description>A large cluster of bioluminescent pods produced by giant insects.</description>
+    <graphicData>
+        <texPath>Things/Building/GlowPodFormation</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(1.3, 1.6, 1.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>(2, 2)</drawSize>
+        <damageData>
+            <rect>(1.2,1.2,1.6,1.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>12</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_GlowPodSpire</defName>
+    <label>glow pod spire</label>
+    <description>An incredibly tall spire of bioluminescent pods produced by giant insects.</description>
+    <graphicData>
+        <texPath>Things/Building/GlowPodSpire</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(2.3, 2.6, 2.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>(4, 4)</drawSize>
+        <damageData>
+            <rect>(2.2,2.2,2.6,2.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>50</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_StaticPod</defName>
+    <label>staticpod</label>
+    <description>A medium-sized hive structure capable of generating small amounts of electricity, produced by giant insects. Non-functional.</description>
+    <graphicData>
+        <texPath>Things/Building/Staticpod</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>(1.5, 1.5)</drawSize>
+        <damageData>
+            <rect>(0.2,0.2,0.6,0.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>4</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_FoamPod</defName>
+	<label>foampod</label>
+	<description>An organic, firefoam pod produced by giant insects. Non-functional.</description>
+	<graphicData>
+		<texPath>Things/Building/FoamPod</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shadowData>
+			<volume>(0.3, 0.6, 0.3)</volume>
+			<offset>(0,0,-0.1)</offset>
+		</shadowData>
+		<damageData>
+			<rect>(0.2,0.2,0.6,0.6)</rect>
+		</damageData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>6</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_TendrilFarm</defName>
+	<label>tendril farm</label>
+	<description>A pillar that slowly grows clusters of insectoid tendrilmoss.</description>
+	<graphicData>
+		<texPath>Things/Building/TendrilFarm</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shadowData>
+			<volume>(0.3, 0.6, 0.3)</volume>
+			<offset>(0,0,-0.1)</offset>
+		</shadowData>
+		<drawSize>(1.5, 1.5)</drawSize>
+		<damageData>
+			<rect>(0.2,0.2,0.6,0.6)</rect>
+		</damageData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>4</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_Creeper</defName>
+	<label>creeper</label>
+	<description>A hive-like structure created by giant insects.</description>
+	<graphicData>
+		<texPath>Things/Building/Creeper</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.5, 1.5)</drawSize>
+		<shadowData>
+			<volume>(0.3, 0.6, 0.3)</volume>
+			<offset>(0,0,-0.1)</offset>
+		</shadowData>
+		<damageData>
+			<rect>(0.2,0.2,0.6,0.6)</rect>
+		</damageData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>4</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_JellyFarm</defName>
+	<label>jelly farm</label>
+	<description>A deep organic bioreactor constantly generating insect jelly from nearby minerals and nutrition.</description>
+	<graphicData>
+		<texPath>Things/Building/JellyFarm</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shadowData>
+			<volume>(1.3, 1.6, 1.3)</volume>
+			<offset>(0,0,-0.1)</offset>
+		</shadowData>
+		<drawSize>(1.5, 1.5)</drawSize>
+		<damageData>
+			<rect>(1.2,1.2,1.6,1.6)</rect>
+		</damageData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>20</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(2,2)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_InfestedShipChunk</defName>
+	<label>infested ship chunk</label>
+	<description>A chunk of a spacecraft covered in biomass and insect jelly.</description>
+	<graphicData>
+		<texPath>Things/Building/InfestedShipChunk</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<drawSize>(2,2)</drawSize>
+		<damageData>
+			<rect>(0.1,0.1,1.8,1.8)</rect>
+		</damageData>
+		<shadowData>
+			<volume>(1.39,0.5,1.25)</volume>
+		</shadowData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>200</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(2,2)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_InfestedShipPart</defName>
+	<label>infested ship part</label>
+	<description>An ancient ship part, torn off of a craft of unknown origin.</description>
+	<graphicData>
+		<texPath>Things/Building/CrashedInfestedShipPart</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(6,3)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(6,3)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+	<fillPercent>0.20</fillPercent>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_InfestedShipModule</defName>
+	<label>infested ship module</label>
+	<description>A mysterious segment of a long destroyed spaceship.</description>
+	<graphicData>
+		<texPath>Things/Building/CrashedInfestedShipPart_Large</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(8,6)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(5,4)</size>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+	<fillPercent>0.20</fillPercent>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_KemianHive</defName>
+	<label>fake kemian hive</label>
+	<description>A hive of giant insects of the Kemian geneline. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/KemianHive</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>130</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(3,3)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+	<fillPercent>0.50</fillPercent>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_ChelisHive</defName>
+	<label>fake chelis hive</label>
+	<description>A hive of giant insects of the Chelis geneline. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/ChelisHive</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>130</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(3,3)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+	<fillPercent>0.50</fillPercent>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_XanidesHive</defName>
+	<label>fake xanides hive</label>
+	<description>A hive of giant insects of the Xanides geneline. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/XanidesHive</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>20</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>130</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(3,3)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+	<fillPercent>0.50</fillPercent>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_NuchadusHive</defName>
+	<label>fake nuchadus hive</label>
+	<description>A hive of giant insects of the Nuchadus geneline. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/NuchadusHive</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>2.6</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>130</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_ArtificialBasicHive</defName>
+	<label>fake basic hive</label>
+	<description>An artificially constructed hive of giant insects. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/BasicHive</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.6</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>80</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_VFEI2_InsectoidCocoon</defName>
+	<label>insectoid cocoon</label>
+	<description>These jelly cocoons keep swarmlings safe from fire, extreme temperatures, and other threats while they undergo a metamorphosis process. Non-functional: all its internal mechanisms have been removed.</description>
+	<graphicData>
+		<texPath>Things/Building/InsectoidCocoons</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<drawSize>1</drawSize>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<blockWind>true</blockWind>
+	<passability>PassThroughOnly</passability>
+	<pathCost>42</pathCost>
+	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	<repairEffect>ConstructMetal</repairEffect>
+	<statBases>
+		<MaxHitPoints>40</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Mass>35</Mass>
+		<Flammability>0</Flammability>
+	</statBases>
+	<size>(1,1)</size>
+	<rotatable>false</rotatable>
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_HeatPod</defName>
+    <label>heat pod</label>
+    <description>A bioluminescent pod produced by giant insects. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/Heatpod</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <damageData>
+            <rect>(0.2,0.2,0.6,0.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>4</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_DeepHeater</defName>
+    <label>deep heater</label>
+    <description>A deep canal that connects to some underground steam caverns, dug up by giant insects. Sprays out superheated steam at random, similar to steam geysers. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/DeepHeater</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>1.5</drawSize>
+        <damageData>
+            <rect>(0.2,0.2,0.6,0.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>4</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_JellyMorpher</defName>
+    <label>jelly morpher</label>
+    <description>An exotic, pulsating bioformation that forces attached insect jelly to undergo a chemical process that changes it into royal jelly. Produced by giant insects. Needs to be constructed on the creep and requires refueling with insect jelly in order to produce the royal variant. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/JellyMorpher</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+            <volume>(1.3, 1.6, 1.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>(2, 2)</drawSize>
+        <damageData>
+            <rect>(1.2,1.2,1.6,1.6)</rect>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>160</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>50</Mass>
+        <Flammability>1</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_Petroglypher</defName>
+    <label>petroglypher</label>
+    <description>A hive-like structure created by giant insects. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/Petroglypher</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4, 4)</drawSize>
+        <shadowData>
+            <volume>(2.3, 2.6, 2.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>40</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_Hivenode</defName>
+    <label>hivenode</label>
+    <description>A large, exotic goop spire created by giant insects. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/Hivenode</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4, 4)</drawSize>
+        <shadowData>
+            <volume>(2.3, 2.6, 2.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>160</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>40</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_Thornpod</defName>
+    <label>thornpod</label>
+    <description>A volatile pod covered in sharp chitin thorns, produced by giant insects. Non-functional: all its internal mechanisms have been removed.</description>
+    <graphicData>
+        <texPath>Things/Building/Thornpod</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shadowData>
+            <volume>(0.3, 0.6, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+        </shadowData>
+        <drawSize>1</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>40</MaxHitPoints>
+        <WorkToBuild>0</WorkToBuild>
+        <Mass>4</Mass>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+
+
+
+
+	
+	
+
+</Defs>

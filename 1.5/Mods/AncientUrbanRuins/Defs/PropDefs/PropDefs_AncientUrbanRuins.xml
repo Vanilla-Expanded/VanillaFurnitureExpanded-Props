@@ -1,226 +1,1114 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30001</defName>
+		<defName>VFE_Prop_VFEPD_AM_Exit_L</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30001</priority>
 		<prop>VFEPD_AM_Exit_L</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30002</defName>
+		<defName>VFE_Prop_VFEPD_AM_Exit_S</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30002</priority>
 		<prop>VFEPD_AM_Exit_S</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30003</defName>
+		<defName>VFE_Prop_VFEPD_AM_DownwardStairs</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30003</priority>
 		<prop>VFEPD_AM_DownwardStairs</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30004</defName>
+		<defName>VFE_Prop_VFEPD_AM_Trader</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30004</priority>
 		<prop>VFEPD_AM_Trader</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30005</defName>
+		<defName>VFE_Prop_VFEPD_AM_SmallGenerator</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30005</priority>
 		<prop>VFEPD_AM_SmallGenerator</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30006</defName>
+		<defName>VFE_Prop_VFEPD_AM_AncientDismantlingWorkbench</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30006</priority>
 		<prop>VFEPD_AM_AncientDismantlingWorkbench</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30007</defName>
+		<defName>VFE_Prop_VFEPD_AM_DiningChair</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30007</priority>
 		<prop>VFEPD_AM_DiningChair</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30008</defName>
+		<defName>VFE_Prop_VFEPD_AM_LargeScreenTelevision</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30008</priority>
 		<prop>VFEPD_AM_LargeScreenTelevision</prop>
 	</VFEProps.PropDef>
-	<!--<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_30009</defName>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_LargeBackpack_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>30009</priority>
-		<prop>VFEPD_ElectricalEquipment</prop>
+		<prop>VFEPD_AM_LargeBackpack_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20010</defName>
+		<defName>VFE_Prop_VFEPD_AM_LBT_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20010</priority>
-		<prop>VFEPD_AncientMineralConveyor</prop>
+		<priority>30010</priority>
+		<prop>VFEPD_AM_LBT_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20011</defName>
+		<defName>VFE_Prop_VFEPD_AM_MBSS_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20011</priority>
-		<prop>VFEPD_MineralConveyor</prop>
+		<priority>30011</priority>
+		<prop>VFEPD_AM_MBSS_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20012</defName>
+		<defName>VFE_Prop_VFEPD_AM_PostmanShoulderBag_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20012</priority>
-		<prop>VFEPD_AncientTunnelStructuralSupport_a</prop>
+		<priority>30012</priority>
+		<prop>VFEPD_AM_PostmanShoulderBag_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20013</defName>
+		<defName>VFE_Prop_VFEPD_AM_Scav_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20013</priority>
-		<prop>VFEPD_TunnelStructuralSupport_a</prop>
+		<priority>30013</priority>
+		<prop>VFEPD_AM_Scav_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20014</defName>
+		<defName>VFE_Prop_VFEPD_AM_SportsBag_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20014</priority>
-		<prop>VFEPD_AncientTunnelStructuralSupport_b</prop>
+		<priority>30014</priority>
+		<prop>VFEPD_AM_SportsBag_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20015</defName>
+		<defName>VFE_Prop_VFEPD_AM_TravelBag_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20015</priority>
-		<prop>VFEPD_TunnelStructuralSupport_b</prop>
+		<priority>30015</priority>
+		<prop>VFEPD_AM_TravelBag_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20016</defName>
+		<defName>VFE_Prop_VFEPD_AM_BurgerPaperBag</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20016</priority>
-		<prop>VFEPD_AncientMineralExports</prop>
+		<priority>30016</priority>
+		<prop>VFEPD_AM_BurgerPaperBag</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20017</defName>
+		<defName>VFE_Prop_VFEPD_AM_BurgerPaperBox</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20017</priority>
-		<prop>VFEPD_MineralExports</prop>
+		<priority>30017</priority>
+		<prop>VFEPD_AM_BurgerPaperBox</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20018</defName>
+		<defName>VFE_Prop_VFEPD_AM_ClothesHangerEmpty_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20018</priority>
-		<prop>VFEPD_OreDressingMachine</prop>
+		<priority>30018</priority>
+		<prop>VFEPD_AM_ClothesHangerEmpty_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20019</defName>
+		<defName>VFE_Prop_VFEPD_AM_EmptyShelves_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20019</priority>
-		<prop>VFEPD_AncientOreDressingMachine</prop>
+		<priority>30019</priority>
+		<prop>VFEPD_AM_EmptyShelves_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20020</defName>
+		<defName>VFE_Prop_VFEPD_AM_OldFreezer_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20020</priority>
-		<prop>VFEPD_AncientMudCarriage</prop>
+		<priority>30020</priority>
+		<prop>VFEPD_AM_OldFreezer_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20021</defName>
+		<defName>VFE_Prop_VFEPD_AM_RustyEmptyShelves_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20021</priority>
-		<prop>VFEPD_AncientSteelMiningCars</prop>
+		<priority>30021</priority>
+		<prop>VFEPD_AM_RustyEmptyShelves_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20022</defName>
+		<defName>VFE_Prop_VFEPD_AM_VegetableShelfEmpty_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20022</priority>
-		<prop>VFEPD_AncientUraniumMiningCars</prop>
+		<priority>30022</priority>
+		<prop>VFEPD_AM_VegetableShelfEmpty_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20023</defName>
+		<defName>VFE_Prop_VFEPD_AM_BigCase_Open_Decoration</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20023</priority>
-		<prop>VFEPD_AncientPlasteelMiningCars</prop>
+		<priority>30023</priority>
+		<prop>VFEPD_AM_BigCase_Open_Decoration</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20024</defName>
+		<defName>VFE_Prop_VFEPD_AM_Arrow</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20024</priority>
-		<prop>VFEPD_AncientEmptyMiningCar</prop>
+		<priority>30024</priority>
+		<prop>VFEPD_AM_Arrow</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20025</defName>
+		<defName>VFE_Prop_VFEPD_AM_Bishop</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20025</priority>
-		<prop>VFEPD_AncientRockMiningCar</prop>
+		<priority>30025</priority>
+		<prop>VFEPD_AM_Bishop</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20026</defName>
+		<defName>VFE_Prop_VFEPD_AM_Crown</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20026</priority>
-		<prop>VFEPD_AncientIndoorFireHydrants</prop>
+		<priority>30026</priority>
+		<prop>VFEPD_AM_Crown</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20027</defName>
+		<defName>VFE_Prop_VFEPD_AM_D2A</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20027</priority>
-		<prop>VFEPD_AncientBarrierGate</prop>
+		<priority>30027</priority>
+		<prop>VFEPD_AM_D2A</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20028</defName>
+		<defName>VFE_Prop_VFEPD_AM_Knight</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20028</priority>
-		<prop>VFEPD_AncientTruckCompartment</prop>
+		<priority>30028</priority>
+		<prop>VFEPD_AM_Knight</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20029</defName>
+		<defName>VFE_Prop_VFEPD_AM_Pawn</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20029</priority>
-		<prop>VFEPD_AncientSemiTrailer</prop>
+		<priority>30029</priority>
+		<prop>VFEPD_AM_Pawn</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20030</defName>
+		<defName>VFE_Prop_VFEPD_AM_Queen</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20030</priority>
-		<prop>VFEPD_AncientRustedTruckMining</prop>
+		<priority>30030</priority>
+		<prop>VFEPD_AM_Queen</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20031</defName>
+		<defName>VFE_Prop_VFEPD_AM_Rook</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20031</priority>
-		<prop>VFEPD_WarningBoard</prop>
+		<priority>30031</priority>
+		<prop>VFEPD_AM_Rook</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20032</defName>
+		<defName>VFE_Prop_VFEPD_AM_RFC</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20032</priority>
-		<prop>VFEPD_DiscardedRadiationSuit</prop>
+		<priority>30032</priority>
+		<prop>VFEPD_AM_RFC</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20033</defName>
+		<defName>VFE_Prop_VFEPD_AM_DK</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20033</priority>
-		<prop>VFEPD_PickAxe</prop>
+		<priority>30033</priority>
+		<prop>VFEPD_AM_DK</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20034</defName>
+		<defName>VFE_Prop_VFEPD_AM_ADI</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20034</priority>
-		<prop>VFEPD_Shovel</prop>
+		<priority>30034</priority>
+		<prop>VFEPD_AM_ADI</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20035</defName>
+		<defName>VFE_Prop_VFEPD_AM_HG</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20035</priority>
-		<prop>VFEPD_AncientBrokenTurret</prop>
+		<priority>30035</priority>
+		<prop>VFEPD_AM_HG</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20036</defName>
+		<defName>VFE_Prop_VFEPD_AM_VC</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20036</priority>
-		<prop>VFEPD_FakeRail</prop>
+		<priority>30036</priority>
+		<prop>VFEPD_AM_VC</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Ancient_20037</defName>
+		<defName>VFE_Prop_VFEPD_AM_IndicatorLine_Yellow</defName>
 		<category>VFE_PropCategory_Ancient</category>
-		<priority>20037</priority>
-		<prop>VFEPD_Crosstie</prop>
-	</VFEProps.PropDef>-->
-	
+		<priority>30037</priority>
+		<prop>VFEPD_AM_IndicatorLine_Yellow</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_IndicatorLine</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30038</priority>
+		<prop>VFEPD_AM_IndicatorLine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ArmoredGate_invincible</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30039</priority>
+		<prop>VFEPD_AM_ArmoredGate_invincible</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParterreD_East</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30040</priority>
+		<prop>VFEPD_AM_ParterreD_East</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Amublance</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30041</priority>
+		<prop>VFEPD_AM_Amublance</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FireTruck</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30042</priority>
+		<prop>VFEPD_AM_FireTruck</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParterreD_north</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30043</priority>
+		<prop>VFEPD_AM_ParterreD_north</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_DamagedEmptyShelves</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30044</priority>
+		<prop>VFEPD_AM_DamagedEmptyShelves</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientTruckCarriages</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30045</priority>
+		<prop>VFEPD_AM_AncientTruckCarriages</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FreightTrainCarriages</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30046</priority>
+		<prop>VFEPD_AM_FreightTrainCarriages</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ArmoredGate</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30047</priority>
+		<prop>VFEPD_AM_ArmoredGate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ArmoredGateL</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30048</priority>
+		<prop>VFEPD_AM_ArmoredGateL</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ArmoredGateS</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30049</priority>
+		<prop>VFEPD_AM_ArmoredGateS</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ArmoredGateXS</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30050</priority>
+		<prop>VFEPD_AM_ArmoredGateXS</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30051</priority>
+		<prop>VFEPD_AM_RollingShutter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedStairs</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30052</priority>
+		<prop>VFEPD_AM_BlockedStairs</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedStairsD</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30053</priority>
+		<prop>VFEPD_AM_BlockedStairsD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedElevators</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30054</priority>
+		<prop>VFEPD_AM_BlockedElevators</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedElevatorsD</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30055</priority>
+		<prop>VFEPD_AM_BlockedElevatorsD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedElevatorsA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30056</priority>
+		<prop>VFEPD_AM_BlockedElevatorsA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedElevatorsDA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30057</priority>
+		<prop>VFEPD_AM_BlockedElevatorsDA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MallBench</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30058</priority>
+		<prop>VFEPD_AM_MallBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MallPew</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30059</priority>
+		<prop>VFEPD_AM_MallPew</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MallWoodenBench</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30060</priority>
+		<prop>VFEPD_AM_MallWoodenBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SlideSign</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30061</priority>
+		<prop>VFEPD_AM_SlideSign</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SmallShoppingGuideMapA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30062</priority>
+		<prop>VFEPD_AM_SmallShoppingGuideMapA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SmallShoppingGuideMapB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30063</priority>
+		<prop>VFEPD_AM_SmallShoppingGuideMapB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SmallShoppingGuideMapC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30064</priority>
+		<prop>VFEPD_AM_SmallShoppingGuideMapC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FloorSignageA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30065</priority>
+		<prop>VFEPD_AM_FloorSignageA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FloorSignageB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30066</priority>
+		<prop>VFEPD_AM_FloorSignageB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FloorSignageC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30067</priority>
+		<prop>VFEPD_AM_FloorSignageC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_FloorSignageD</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30068</priority>
+		<prop>VFEPD_AM_FloorSignageD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_HallSignage</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30069</priority>
+		<prop>VFEPD_AM_HallSignage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BusRouteSignA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30070</priority>
+		<prop>VFEPD_AM_BusRouteSignA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BusRouteSignB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30071</priority>
+		<prop>VFEPD_AM_BusRouteSignB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SpiritualFortressA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30072</priority>
+		<prop>VFEPD_AM_SpiritualFortressA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SpiritualFortressB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30073</priority>
+		<prop>VFEPD_AM_SpiritualFortressB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SpiritualFortressC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30074</priority>
+		<prop>VFEPD_AM_SpiritualFortressC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SpiritualFortressD</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30075</priority>
+		<prop>VFEPD_AM_SpiritualFortressD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ShoppingMallGuideMap</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30076</priority>
+		<prop>VFEPD_AM_ShoppingMallGuideMap</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParkingLotSignage</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30077</priority>
+		<prop>VFEPD_AM_ParkingLotSignage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BusStop</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30078</priority>
+		<prop>VFEPD_AM_BusStop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientRoadblocks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30079</priority>
+		<prop>VFEPD_AM_AncientRoadblocks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientRevolvingDoorA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30080</priority>
+		<prop>VFEPD_AM_AncientRevolvingDoorA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientRevolvingDoorB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30081</priority>
+		<prop>VFEPD_AM_AncientRevolvingDoorB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientRevolvingDoorC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30082</priority>
+		<prop>VFEPD_AM_AncientRevolvingDoorC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MallColumn</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30083</priority>
+		<prop>VFEPD_AM_MallColumn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParkingLotColumn</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30084</priority>
+		<prop>VFEPD_AM_ParkingLotColumn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AncientCashRegister</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30085</priority>
+		<prop>VFEPD_AM_AncientCashRegister</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_CardboardBox_Impassable</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30086</priority>
+		<prop>VFEPD_AM_CardboardBox_Impassable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_brokedLogisticsTerminal</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30087</priority>
+		<prop>VFEPD_AM_brokedLogisticsTerminal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AbandonedBigBread</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30088</priority>
+		<prop>VFEPD_AM_AbandonedBigBread</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AbandonedForklift</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30089</priority>
+		<prop>VFEPD_AM_AbandonedForklift</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AtriumA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30091</priority>
+		<prop>VFEPD_AM_AtriumA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AtriumB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30092</priority>
+		<prop>VFEPD_AM_AtriumB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AtriumC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30093</priority>
+		<prop>VFEPD_AM_AtriumC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AtriumCorridorEast</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30094</priority>
+		<prop>VFEPD_AM_AtriumCorridorEast</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AtriumCorridorNorth</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30095</priority>
+		<prop>VFEPD_AM_AtriumCorridorNorth</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_EmptyCans</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30096</priority>
+		<prop>VFEPD_AM_EmptyCans</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_CardboardBox</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30097</priority>
+		<prop>VFEPD_AM_CardboardBox</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParterreA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30098</priority>
+		<prop>VFEPD_AM_ParterreA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParterreB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30099</priority>
+		<prop>VFEPD_AM_ParterreB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParterreC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30100</priority>
+		<prop>VFEPD_AM_ParterreC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Effigy</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30101</priority>
+		<prop>VFEPD_AM_Effigy</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_THICC</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30102</priority>
+		<prop>VFEPD_AM_THICC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_OilDrum</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30103</priority>
+		<prop>VFEPD_AM_OilDrum</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RefrigeratorEmpty</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30104</priority>
+		<prop>VFEPD_AM_RefrigeratorEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AVendingMachine</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30105</priority>
+		<prop>VFEPD_AM_AVendingMachine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ModelEmpty</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30106</priority>
+		<prop>VFEPD_AM_ModelEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ModelfEmpty</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30107</priority>
+		<prop>VFEPD_AM_ModelfEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_I_HP</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30108</priority>
+		<prop>VFEPD_AM_RollingShutter_I_HP</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_I</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30109</priority>
+		<prop>VFEPD_AM_RollingShutter_I</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_II_HP</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30110</priority>
+		<prop>VFEPD_AM_RollingShutter_II_HP</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_II</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30111</priority>
+		<prop>VFEPD_AM_RollingShutter_II</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_III_HP</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30112</priority>
+		<prop>VFEPD_AM_RollingShutter_III_HP</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_III</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30113</priority>
+		<prop>VFEPD_AM_RollingShutter_III</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_RollingShutter_NoHP</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30114</priority>
+		<prop>VFEPD_AM_RollingShutter_NoHP</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ConstructionSite</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30115</priority>
+		<prop>VFEPD_AM_ConstructionSite</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Cone</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30116</priority>
+		<prop>VFEPD_AM_Cone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Palisade</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30117</priority>
+		<prop>VFEPD_AM_Palisade</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BookCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30152</priority>
+		<prop>VFEPD_AM_BookCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_VegetableShelf</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30153</priority>
+		<prop>VFEPD_AM_VegetableShelf</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BTR82A</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30154</priority>
+		<prop>VFEPD_AM_BTR82A</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Refrigerator</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30155</priority>
+		<prop>VFEPD_AM_Refrigerator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_VendingMachine</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30156</priority>
+		<prop>VFEPD_AM_VendingMachine</prop>
+	</VFEProps.PropDef>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ComputerCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30163</priority>
+		<prop>VFEPD_AM_ComputerCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BigCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30164</priority>
+		<prop>VFEPD_AM_BigCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_OldBigCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30165</priority>
+		<prop>VFEPD_AM_OldBigCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_OldSmallCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30166</priority>
+		<prop>VFEPD_AM_OldSmallCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SmallCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30167</priority>
+		<prop>VFEPD_AM_SmallCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WeaponCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30168</priority>
+		<prop>VFEPD_AM_WeaponCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WeaponCaseLow</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30169</priority>
+		<prop>VFEPD_AM_WeaponCaseLow</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_OldWeaponCase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30170</priority>
+		<prop>VFEPD_AM_OldWeaponCase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_PaperBox_A</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30171</priority>
+		<prop>VFEPD_AM_PaperBox_A</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_PaperBox_B</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30172</priority>
+		<prop>VFEPD_AM_PaperBox_B</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_PaperBox_C</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30173</priority>
+		<prop>VFEPD_AM_PaperBox_C</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ClothesHanger</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30174</priority>
+		<prop>VFEPD_AM_ClothesHanger</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Injection_StorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30175</priority>
+		<prop>VFEPD_AM_Injection_StorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MedicalSupplies_StorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30176</priority>
+		<prop>VFEPD_AM_MedicalSupplies_StorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Snack_StorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30177</priority>
+		<prop>VFEPD_AM_Snack_StorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_StorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30178</priority>
+		<prop>VFEPD_AM_StorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_TousledStorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30179</priority>
+		<prop>VFEPD_AM_TousledStorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MilitarySupplies_StorageRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30180</priority>
+		<prop>VFEPD_AM_MilitarySupplies_StorageRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Freezer</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30181</priority>
+		<prop>VFEPD_AM_Freezer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BDAShelfA</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30182</priority>
+		<prop>VFEPD_AM_BDAShelfA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BDAShelfB</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30183</priority>
+		<prop>VFEPD_AM_BDAShelfB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_DoubleDeckRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30184</priority>
+		<prop>VFEPD_AM_DoubleDeckRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ThreeLayerRacks</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30185</priority>
+		<prop>VFEPD_AM_ThreeLayerRacks</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BriefCase_SalvagePoint</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30186</priority>
+		<prop>VFEPD_AM_BriefCase_SalvagePoint</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SICC_SalvagePoint</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30187</priority>
+		<prop>VFEPD_AM_SICC_SalvagePoint</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_LargeBackpack</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30188</priority>
+		<prop>VFEPD_AM_LargeBackpack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_LBT</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30189</priority>
+		<prop>VFEPD_AM_LBT</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MBSS</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30190</priority>
+		<prop>VFEPD_AM_MBSS</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_PostmanShoulderBag</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30191</priority>
+		<prop>VFEPD_AM_PostmanShoulderBag</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Scav</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30192</priority>
+		<prop>VFEPD_AM_Scav</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SportsBag</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30193</priority>
+		<prop>VFEPD_AM_SportsBag</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_TravelBag</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30194</priority>
+		<prop>VFEPD_AM_TravelBag</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_Bunker</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30195</priority>
+		<prop>VFEPD_AM_Entrance_Bunker</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_ReserveBunker</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30196</priority>
+		<prop>VFEPD_AM_Entrance_ReserveBunker</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_Shelter</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30197</priority>
+		<prop>VFEPD_AM_Entrance_Shelter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_Subway</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30198</priority>
+		<prop>VFEPD_AM_Entrance_Subway</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_Mall_A</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30199</priority>
+		<prop>VFEPD_AM_Entrance_Mall_A</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_Mall_B</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30200</priority>
+		<prop>VFEPD_AM_Entrance_Mall_B</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_CommercialStreet</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30201</priority>
+		<prop>VFEPD_AM_Entrance_CommercialStreet</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Exit_Staircase</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30202</priority>
+		<prop>VFEPD_AM_Exit_Staircase</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Exit_DoubleElevator</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30203</priority>
+		<prop>VFEPD_AM_Exit_DoubleElevator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Exit_Elevator</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30204</priority>
+		<prop>VFEPD_AM_Exit_Elevator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Notice</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30205</priority>
+		<prop>VFEPD_AM_Notice</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ManAtWork</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30206</priority>
+		<prop>VFEPD_AM_ManAtWork</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Crossroad</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30207</priority>
+		<prop>VFEPD_AM_Crossroad</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SteepAscent</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30208</priority>
+		<prop>VFEPD_AM_SteepAscent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WatchForBug</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30209</priority>
+		<prop>VFEPD_AM_WatchForBug</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WatchForGorehulk</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30210</priority>
+		<prop>VFEPD_AM_WatchForGorehulk</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WatchForMachine</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30211</priority>
+		<prop>VFEPD_AM_WatchForMachine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WatchForMetalhorror</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30212</priority>
+		<prop>VFEPD_AM_WatchForMetalhorror</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_WatchForNoctol</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30213</priority>
+		<prop>VFEPD_AM_WatchForNoctol</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AllowableTurn</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30214</priority>
+		<prop>VFEPD_AM_AllowableTurn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_AllowRightTurn</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30215</priority>
+		<prop>VFEPD_AM_AllowRightTurn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_MotorVehicleLane</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30216</priority>
+		<prop>VFEPD_AM_MotorVehicleLane</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_ParkingPermitted</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30217</priority>
+		<prop>VFEPD_AM_ParkingPermitted</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_TurnAround</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30218</priority>
+		<prop>VFEPD_AM_TurnAround</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_NoAccess</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30219</priority>
+		<prop>VFEPD_AM_NoAccess</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_NoGhoul</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30220</priority>
+		<prop>VFEPD_AM_NoGhoul</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_NoParking</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30221</priority>
+		<prop>VFEPD_AM_NoParking</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_NoTurningAaround</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30222</priority>
+		<prop>VFEPD_AM_NoTurningAaround</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_SpeedLimit40KPH</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30223</priority>
+		<prop>VFEPD_AM_SpeedLimit40KPH</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Entrance_UndergroundGarage</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30224</priority>
+		<prop>VFEPD_AM_Entrance_UndergroundGarage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_Exit_Staircase_UndergroundGarage</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30225</priority>
+		<prop>VFEPD_AM_Exit_Staircase_UndergroundGarage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VFEPD_AM_BlockedUndergroundGarageEntrance</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>30226</priority>
+		<prop>VFEPD_AM_BlockedUndergroundGarageEntrance</prop>
+	</VFEProps.PropDef>
 </Defs>
