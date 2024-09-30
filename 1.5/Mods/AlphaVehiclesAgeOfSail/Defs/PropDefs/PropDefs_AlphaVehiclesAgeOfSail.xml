@@ -4,7 +4,7 @@
 		<defName>VFE_Prop_Vehicles_Cog</defName>
 		<category>VFE_PropCategory_Vehicles</category>		
 		<priority>-89</priority>
-		<prop>VFEPD_Cog</prop>
+		<prop>VFEPD_AV_Cog</prop>
 	</VFEProps.PropDef>
 	
 <VFEProps.PropDef>

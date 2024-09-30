@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
-		<defName>VFEPD_Cog</defName>
+		<defName>VFEPD_AV_Cog</defName>
 		<label>Cog</label>
 		<description>A medieval sailing vessel characterized by a sturdy, broad-bottomed design with a single mast and a square-rigged sail. It was commonly used for trade, transportation, and exploration during the Middle Ages in Europe. Non-functional: all its internal mechanisms have been removed. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
 		<graphicData>
