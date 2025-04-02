@@ -304,7 +304,6 @@
     <Compile Include="Comps\Properties\CompProperties_MoteReleaser.cs" />
     <Compile Include="DefExtensions\DrawTurretExtension.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
-    <Compile Include="Defs\HiddenDesignatorsDef.cs" />
     <Compile Include="Defs\PropCategoryDef.cs" />
     <Compile Include="Defs\PropDef.cs" />
     <Compile Include="Defs\TurretRotationDef.cs" />
@@ -313,7 +312,6 @@
     <Compile Include="Harmony\GenLeaving_GetBuildingResourcesLeaveCalculator.cs" />
     <Compile Include="Harmony\Graphic_Cluster_DrawWorker.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
-    <Compile Include="Harmony\DesignationCategoryDef_ResolvedAllowedDesignators.cs" />
     <Compile Include="Harmony\ThingUtility_CheckAutoRebuildOnDestroyed.cs" />
     <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="Options\VFEProps_Settings.cs" />

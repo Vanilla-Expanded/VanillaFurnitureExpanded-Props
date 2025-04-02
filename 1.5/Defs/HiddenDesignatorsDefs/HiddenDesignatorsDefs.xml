@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFEProps.HiddenDesignatorsDef>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
 		<defName>VFEPropsMain_HiddenDesignators</defName>
 		<hiddenDesignators>			
 			
 			<li>VFEP_ShortWalls</li>
 		
 		</hiddenDesignators>							
-	</VFEProps.HiddenDesignatorsDef>
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
 
 
 

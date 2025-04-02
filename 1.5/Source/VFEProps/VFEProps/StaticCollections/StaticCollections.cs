@@ -15,15 +15,7 @@ namespace VFEProps
         static StaticCollections()
         {
 
-            foreach (HiddenDesignatorsDef hiddenDesignatorDef in DefDatabase<HiddenDesignatorsDef>.AllDefsListForReading)
-            {
-                foreach(BuildableDef thing in hiddenDesignatorDef.hiddenDesignators)
-                {
-
-                    hidden_designators.Add(thing);
-                }
-            }
-
+           
             foreach (PropDef prop in DefDatabase<PropDef>.AllDefsListForReading)
             {
                 if (prop.dontPopUpStupidGraphicErrors)
@@ -56,9 +48,6 @@ namespace VFEProps
 
         // A general list of props, cached for the Harmony patches
         public static HashSet<BuildableDef> props = new HashSet<BuildableDef>();
-
-        // A list of designators that shouldn't appear on the architect menu. Used for buildings that have a costlist
-        public static HashSet<BuildableDef> hidden_designators = new HashSet<BuildableDef>();
 
         // A list of things that usually pop up stupid errors in-game (especifically an error when displaying Graphic_Cluster as a Designator).
         // Used on filth props
