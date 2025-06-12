@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Badger</defName>
+		<label>Badger</label>
+		<description>A tracked, armoured fighting vehicle, the Badger is designed to transport scouts and infantry while providing covering fire to suppress enemy troops. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 6)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 5)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV_CannonTop</turretToDraw>
+				<drawSize>(4,4)</drawSize>
+				<offset>
+					<north>(0, 0.12)</north>
+					<south>(0, 0.72)</south>
+					<east>(-0.66, 0.51)</east>
+					<west>(0.66, 0.51)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BigRig</defName>
+		<label>Big Rig</label>
+		<description>A dedicated cargo transporter, the Big Rig is the epitome of bulk material transportation. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Truck/Tier3_Truck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+			<color>(124, 129, 164)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Burya</defName>
+		<label>Burya</label>
+		<description>A dedicated multiple launch rocket system platform, the Burya is a long-range siege and area denial weapon that can be operated by a two-man crew for faster loading speeds. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RocketArtillery/Tier3_RocketArtillery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_RocketArtillery/Tier3_RocketArtillery_CannonTop</turretToDraw>
+				<drawSize>(5,5)</drawSize>
+				<offset>
+					<north>(0, -1.25)</north>
+					<south>(0, 1.9)</south>
+					<east>(-2.05, 0.4)</east>
+					<west>(2.05, 0.4)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Goliath</defName>
+		<label>Goliath</label>
+		<description>More of a movable mini-base than a deployment pod, Goliath is an expensive but powerful solution to any immovable enemy object. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+			<color>(138, 100, 15)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+			
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod_Rocket_SwarmTurret</turretToDraw>
+				<drawSize>(2,2)</drawSize>
+				<offset>
+					<north>(0, 0.93)</north>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Hermano</defName>
+		<label>Hermano</label>
+		<description>A dedicated refrigeration vehicle, the Hermano is a decent cargo transporter with a specific niche in ferrying perishable goods. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RefrigeratedTruck/Tier3_RefrigeratedTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 7)</drawSize>
+			<color>(124, 129, 164)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2, 5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Lightning</defName>
+		<label>Lightning</label>
+		<description>A fast general purpose transporter, the Lightning is an excellent road vehicle for getting an appreciable amount of cargo in a very small time frame. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Supercar/Tier3_Supercar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+			<color>(216, 154, 115)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2, 4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Louie</defName>
+		<label>Louie</label>
+		<description>An armoured transport aircraft, the Louie is a robust and agile mobile mode of transportation. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_TransportHelicopter/Tier3_TransportHelicopter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 9)</drawSize>
+			<color>(75, 75, 75)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 7)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_TransportHelicopter/Tier3_TransportHelicopter_RotorTop</turretToDraw>
+				<drawSize>(7,7)</drawSize>
+				<offset>
+					<north>(0, 1.3)</north>
+					<east>(1.3, 1.25)</east>
+					<south>(0, -0.3)</south>
+					<west>(-1.3, 1.25)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Marshal</defName>
+		<label>Marshal</label>
+		<description>A general main battle tank, the Marshal is an improved combat vehicle that performs well in any engagement. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_ModernArmor/Tier3_ModernArmor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 7)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_ModernArmor/Tier3_ModernArmor_CannonTop</turretToDraw>
+				<drawSize>(8,8)</drawSize>
+				<offset>
+					<north>(0, 0.7)</north>
+					<south>(0, -0.05)</south>
+					<east>(0.28, 0.36)</east>
+					<west>(-0.28, 0.36)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Nomad</defName>
+		<label>Nomad</label>
+		<description>An armoured all-rounder vehicle, the Nomad performs remarkably well in all categories with an excellent cargo and passenger capacity. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_OffroadJeep/Tier3_OffroadJeep</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2, 4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Paladin</defName>
+		<label>Paladin</label>
+		<description>A general purpose armoured personnel carrier, the Paladin is a fast and hardy troop transport. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_LAV/Tier3_LAV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 7)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_LAV/Tier3_LAV_CannonTop</turretToDraw>
+				<drawSize>(2,2)</drawSize>
+				<offset>
+					<north>(0.38, 0.65)</north>
+					<south>(-0.36, 0.25)</south>
+					<east>(-0.18, 0.2)</east>
+					<west>(0.18, 0.2)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Springbok</defName>
+		<label>Springbok</label>
+		<description>A general all-rounder vehicle, the Springbok performs well in all categories with a good cargo and passenger capacity. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_ClassicCar/Tier3_ClassicCar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+			<color>(60, 60, 75)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2, 4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Udar</defName>
+		<label>Udar</label>
+		<description>A dedicated artillery unit, the Udar is a long-range siege weapon that can be operated by a two-man crew for faster loading speeds. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Artillery/Tier3_Artillery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 5)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Building/ModCompat/Tier3_Artillery_Joined</turretToDraw>
+				<drawSize>(4,4)</drawSize>
+				<offset>
+					<north>(0, 0.5)</north>
+					<south>(0, 0.2)</south>
+					<east>(0.2, 0.5)</east>
+					<west>(-0.2, 0.5)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ClassicCarWreck</defName>
+		<label>classical car wreck</label>
+		<description>An ancient, broken classic car. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3ClassicCar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,5)</drawSize>
+		</graphicData>
+		<size>(2,4)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SupercarWreck</defName>
+		<label>supercar wreck</label>
+		<description>An ancient, broken supercar. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3Supercar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<size>(4,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BattleTankWreck</defName>
+		<label>battle tank wreck</label>
+		<description>An ancient, broken battle tank. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3Tank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+		</graphicData>
+		<size>(6,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_LightArmoredVehicleWreck</defName>
+		<label>light armored vehicle wreck</label>
+		<description>An ancient, broken light armored vehicle. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3LAV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+		</graphicData>
+		<size>(6,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_OffroadJeepWreck</defName>
+		<label>offroad jeep wreck</label>
+		<description>An ancient, broken offroad jeep. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3OffroadJeep</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5.5,3.5)</drawSize>
+		</graphicData>
+		<size>(4,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_HelicopterWreck</defName>
+		<label>helicopter wreck</label>
+		<description>An ancient, broken helicopter. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3Helicopter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.5,8.5)</drawSize>
+		</graphicData>
+		<size>(3,7)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TruckWreck</defName>
+		<label>truck wreck</label>
+		<description>An ancient, broken truck. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3Truck</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+		</graphicData>
+		<size>(6,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArtilleryWreck</defName>
+		<label>artillery wreck</label>
+		<description>An ancient, broken self propelled artillery. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3Artillery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(4,5)</drawSize>
+		</graphicData>
+		<size>(6,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CargoHelicopterWreck</defName>
+		<label>cargo helicopter wreck</label>
+		<description>An ancient, crashed cargo helicopter. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3CargoHelicopter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(11.5,4.5)</drawSize>
+		</graphicData>
+		<size>(10,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RefrigeratedTruckWreck</defName>
+		<label>refrigerated truck wreck</label>
+		<description>An ancient, broken refrigerated truck. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3RefrigeratedTruck</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6.5,3.5)</drawSize>
+		</graphicData>
+		<size>(5,2)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_InfantryFightingVehicleWreck</defName>
+		<label>infantry fighting vehicle wreck</label>
+		<description>An ancient, broken infantry fighting vehicle. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_T3IFV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,6)</drawSize>
+		</graphicData>
+		<size>(3,5)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RocketArtilleryWreck</defName>
+		<label>rocket artillery wreck</label>
+		<description>An ancient, broken rocket artillery truck. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_Tier3MLRS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+		</graphicData>
+		<size>(6,3)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SiegePodWreck</defName>
+		<label>siege pod wreck</label>
+		<description>An ancient, destroyed siege pod. Everything that isn't rusted away was looted long ago.</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Wrecks/Wreck_Tier3SiegePod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(5,5)</size>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+</Defs>

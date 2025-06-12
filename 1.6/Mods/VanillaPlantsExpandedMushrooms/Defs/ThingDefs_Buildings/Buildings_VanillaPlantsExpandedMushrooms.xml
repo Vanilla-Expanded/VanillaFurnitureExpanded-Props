@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Timbercap_VE</defName>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<label>timbercap</label>		
+		<description>A short, brown mushroom with a hard stem. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Timbercap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Healtruffle</defName>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<label>healtruffle</label>		
+		<description>Healtruffle is a mushroom that grows slowly by using nutrients from rotstink. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Healtruffle</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Stinker</defName>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<label>stinker</label>		
+		<description>A small, fast-growing mushroom that forms large patches. It produces rotstink through a chemical process. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Stinker</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Blisscap</defName>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<label>blisscap</label>		
+		<description>A long, light-blue mushroom that offers more than just sustenance. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Blisscap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Lullabloom</defName>
+	
+		<label>lullabloom</label>		
+		<description>A special kind of mushroom that emits calming spores, ideal for planting next to a bed. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Lullabloom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.85</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Bileceps</defName>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<label>bileceps</label>		
+		<description>Bileceps is a peculiar, coral-like mushroom that thrives on the bile of decaying bodies. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Bileceps</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.65</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Glowcap</defName>
+	
+		<label>glowcap</label>		
+		<description>A small blue mushroom typically found in caves. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Glowcap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Redcap</defName>
+	
+		<label>redcap</label>		
+		<description>A cultivated mushroom with a beautiful red cap and a somewhat short lifespan. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Redcap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Zapcap</defName>
+	
+		<label>zapcap</label>		
+		<description>A large, bulbous, beige mushroom that is known to produce small amounts of electricity as it grows. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Zapcap</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Thermoregulus</defName>
+	
+		<label>thermoregulus</label>		
+		<description>A large, bulbous, beige mushroom that is known to produce small amounts of electricity as it grows. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Thermoregulus_Immature</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Foampuffer</defName>
+	
+		<label>foampuffer</label>		
+		<description>An ugly, thick mushroom with a cap that smells of muffalo fecal matter. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/Foampuffer</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MycothreadMushroom</defName>
+	
+		<label>mycothread mushroom</label>		
+		<description>This mushroom has been cultivated for ages by tunneler mining colonies. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plant/MycothreadMushroom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+</Defs>

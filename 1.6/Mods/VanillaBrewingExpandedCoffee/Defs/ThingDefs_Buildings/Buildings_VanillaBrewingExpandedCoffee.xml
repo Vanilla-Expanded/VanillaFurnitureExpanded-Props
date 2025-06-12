@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_EspressoMachine</defName>
+		<label>espresso machine</label>
+		<description>An espresso machine brews coffee by forcing pressurized water near boiling point through a "puck" of ground coffee and a filter in order to produce a thick, concentrated coffee called espresso. This one is inactive and non-functional.</description>
+		<graphicData>
+			<texPath>Things/Buildings/VBE_EspressoMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.3,1.3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+</Defs>

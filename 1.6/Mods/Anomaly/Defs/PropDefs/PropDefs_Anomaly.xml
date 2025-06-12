@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Structures_FakeGrayDoor</defName>
+		<category>VFE_PropCategory_Structures</category>		
+		<priority>8.5</priority>
+		<prop>VFEPD_FakeGrayDoor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Structures_FakeSecurityDoor</defName>
+		<category>VFE_PropCategory_Structures</category>		
+		<priority>8.6</priority>
+		<prop>VFEPD_FakeSecurityDoor</prop>
+	</VFEProps.PropDef>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_1</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>1</priority>
+		<prop>VFEPD_FakeCube</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_Platform</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>1.5</priority>
+		<prop>VFEPD_DecorativePlatform</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_2</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>2</priority>
+		<prop>VFEPD_AtmosphericHeater</prop>
+	
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_2Lit</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>2.5</priority>
+		<prop>VFEPD_AtmosphericHeaterLit</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_3</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>3</priority>
+		<prop>VFEPD_DecorativeCubeSculture_Dirt</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_4</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>4</priority>
+		<prop>VFEPD_DecorativeCubeSculture_Stone</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_5</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>5</priority>
+		<prop>VFEPD_DecorativeCubeSculture_Sand</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_6</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>6</priority>
+		<prop>VFEPD_DecorativeCubeSculture_Scrap</prop>
+	
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_7</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>7</priority>
+		<prop>VFEPD_GrayBox</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_8</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>8</priority>
+		<prop>VFEPD_GrayBox_Empty</prop>
+	
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_9</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>9</priority>
+		<prop>VFEPD_GrayStatue</prop>
+	
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_10</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>10</priority>
+		<prop>VFEPD_Noctolith</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_11</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>11</priority>
+		<prop>VFEPD_InactiveTwistedObelisk</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_12</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>12</priority>
+		<prop>VFEPD_InactiveCorruptedObelisk</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_13</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>13</priority>
+		<prop>VFEPD_InactiveWarpedObelisk</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_14</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>14</priority>
+		<prop>VFEPD_PitBurrow</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_15</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>15</priority>
+		<prop>VFEPD_EndlessPit2x2c</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_16</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>16</priority>
+		<prop>VFEPD_EndlessPit3x2c</prop>
+	
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_17</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>17</priority>
+		<prop>VFEPD_EndlessPit3x3c</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_18</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>18</priority>
+		<prop>VFEPD_PitGate</prop>
+	
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_19</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>19</priority>
+		<prop>VFEPD_ArchotechSupport_Small</prop>
+	
+	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_20</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>20</priority>
+		<prop>VFEPD_ArchotechSupport_Large</prop>
+	
+	</VFEProps.PropDef>	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_21</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>21</priority>
+		<prop>VFEPD_ArchotechSupport_Vertical</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_22</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>22</priority>
+		<prop>VFEPD_VoidSculpture</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_23</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>23</priority>
+		<prop>VFEPD_VoidStructure</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Anomaly_24</defName>
+		<category>VFE_PropCategory_Anomaly</category>
+		<priority>24</priority>
+		<prop>VFEPD_VoidStructureLit</prop>
+	
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11050</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11050</priority>
+		<prop>VFEPD_Fleshmassfilth</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11051</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11051</priority>
+		<prop>VFEPD_RevenantSmear</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11052</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11052</priority>
+		<prop>VFEPD_RevenantGorePool</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11053</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11053</priority>
+		<prop>VFEPD_LooseGround</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11054</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11054</priority>
+		<prop>VFEPD_TwistedFlesh</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11055</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11055</priority>
+		<prop>VFEPD_MetalhorrorDebris</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_11056</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>11056</priority>
+		<prop>VFEPD_FloorEtchings</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_11051</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>11051</priority>
+		<prop>VFEPD_FakeHarbingerTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11026</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11026</priority>
+		<prop>VFEPD_NociosphereDeparting</prop>
+		
+	</VFEProps.PropDef>
+	<!--<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11027</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11027</priority>
+		<prop>VFEPD_NociosphereDepartComplete</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11028</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>11028</priority>
+		<prop>VFEPD_MeatExplosionTiny</prop>
+		
+	</VFEProps.PropDef>-->
+</Defs>

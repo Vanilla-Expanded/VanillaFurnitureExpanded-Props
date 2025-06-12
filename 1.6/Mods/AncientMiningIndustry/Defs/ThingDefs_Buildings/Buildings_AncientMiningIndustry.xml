@@ -1,0 +1,1150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AutomaticDrillingRig</defName>
+		<label>automatic drilling rig</label>
+		<description>The remains of what was an automatic drill designed for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientAutomaticDrillingRig/AutomaticDrillingRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3, 3)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientAutomaticDrillingRig</defName>
+		<label>ancient automatic drilling rig</label>
+		<description>The remains of what was an automatic drill designed for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientAutomaticDrillingRig/AncientAutomaticDrillingRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3, 3)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientGiantRockExcavator</defName>
+		<label>ancient giant rock excavator chassis</label>
+		<description>The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientGiantRockExcavator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(13.5,13.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(9, 0.8, 9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(9,9)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExcavatorPowerFacilities</defName>
+		<label>ancient excavator power system</label>
+		<description>Torn power system of the ancient giant rock excavator. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientExcavatorPowerFacilities</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExcavatorBucketWheel</defName>
+		<label>ancient excavator bucket wheel</label>
+		<description>A rusted bucket wheel of ancient giant rock excavator. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientExcavatorBucketWheel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTunnelBoringMachine</defName>
+		<label>ancient tunnel boring machine</label>
+		<description>The rusted, gigantic husk of an ancient tunnel boring machine. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelBoringMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,9)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,7)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TunnelBoringMachine</defName>
+		<label>tunnel boring machine</label>
+		<description>The gigantic husk of a boring machine. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelBoringMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,9)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,7)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientElectricalEquipment</defName>
+		<label>ancient electrical appliances</label>
+		<description>Weathered electrical appliances once used in an ancient tunnel boring machines. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientElectricalEquipment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ElectricalEquipment</defName>
+		<label>electrical appliances</label>
+		<description>Weathered electrical appliances used in a tunnel boring machine. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/ElectricalEquipment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMineralConveyor</defName>
+		<label>ancient mineral conveyor</label>
+		<description>A torn ancient mineral conveyor once used for transporting minerals. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientMineralConveyor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MineralConveyor</defName>
+		<label>mineral conveyor</label>
+		<description>A mineral conveyor used for transporting minerals. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/MineralConveyor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTunnelStructuralSupport_a</defName>
+		<label>ancient structural support</label>
+		<description>A piece of ancient tunnel support frame used to support tunnels during construction. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelStructuralSupport_a</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TunnelStructuralSupport_a</defName>
+		<label>structural support</label>
+		<description>A piece of tunnel support frame used to support tunnels during construction. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelStructuralSupport_a</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTunnelStructuralSupport_b</defName>
+		<label>ancient structural support</label>
+		<description>A piece of ancient tunnel support frame used to support tunnels during construction. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelStructuralSupport_b</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TunnelStructuralSupport_b</defName>
+		<label>structural support</label>
+		<description>A piece of tunnel support frame used to support tunnels during construction. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelStructuralSupport_b</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMineralExports</defName>
+		<label>ancient mineral outlet</label>
+		<description>A piece of ancient mineral outlet. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientMineralExports</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,3)</drawSize>
+			<drawOffset>(0,0,0.08)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MineralExports</defName>
+		<label>mineral outlet</label>
+		<description>A piece of mineral outlet. Non-functional now.</description>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/MineralExports</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,3)</drawSize>
+			<drawOffset>(0,0,0.08)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_OreDressingMachine</defName>
+		<label>ore dressing machine</label>
+		<description>An ore dressing machine. Non-functional</description>
+		<graphicData>
+			<texPath>Things/Building/OreDressingMachine/OreDressingMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientOreDressingMachine</defName>
+		<label>ancient ore dressing machine</label>
+		<description>An ancient ore dressing machine. Non-functional</description>
+		<graphicData>
+			<texPath>Things/Building/OreDressingMachine/AncientOreDressingMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientMudCarriage</defName>
+		<label>ancient mud carriage</label>
+		<description>A mining car loaded with mud.</description>
+		
+		<graphicData>
+			<texPath>Things/Building/Props/AncientMudCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSteelMiningCars</defName>
+		<label>ancient steel mining car</label>
+		<description>A mining car loaded with Steel.</description>
+		
+		<graphicData>
+			<texPath>Things/Building/Props/AncientSteelMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientUraniumMiningCars</defName>
+		<label>ancient uranium mining car</label>
+		<description>A mining car loaded with Uranium.</description>
+		
+		<graphicData>
+			<texPath>Things/Building/Props/AncientUraniumMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientPlasteelMiningCars</defName>
+		<label>ancient plasteel mining car</label>
+		<description>A mining car loaded with Plasteel.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientPlasteelMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientEmptyMiningCar</defName>
+		<label>ancient empty mining car</label>
+		<description>An empty mine car.</description>
+		
+		<graphicData>
+			<texPath>Things/Building/Props/AncientEmptyCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientRockMiningCar</defName>
+		<label>ancient rock mining car</label>
+		<description>A mining car loaded with Rock.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientRockCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientIndoorFireHydrants</defName>
+		<label>ancient indoor fire hydrants</label>
+		<description>An ancient fire hydrant with no water left inside.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientIndoorFireHydrants</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBarrierGate</defName>
+		<label>ancient barrier gate</label>
+		<description>An ancient barrier gate that's no longer functioning properly.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientBarrierGate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientTruckCompartment</defName>
+		<label>ancient truck compartment</label>
+		<description>An old truck trunk filled with dirt.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientTruckCompartment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientSemiTrailer</defName>
+		<label>ancient semi trailer</label>
+		<description>An old truck trunk filled with dirt.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientSemiTrailers</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientRustedTruckMining</defName>
+		<label>ancient rusted truck</label>
+		<description>An ancient truck stripped of any useful parts.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/RustedTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 1.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_WarningBoard</defName>
+		<label>warning board</label>
+		<description>Beware of radiation.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/WarningBoard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_DiscardedRadiationSuit</defName>
+        <label>discarded radiation suit</label>
+		<description>A discarded radiation suit.</description>
+		 <graphicData>
+          <texPath>Things/Building/Props/DiscardedRadiationSuit</texPath>
+          <graphicClass>Graphic_multi</graphicClass>
+		  <drawSize>(1.8,1.8)</drawSize>
+        </graphicData>
+        <altitudeLayer>Filth</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0</fillPercent>
+		<pathCost>0</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PickAxe</defName>
+		<label>pickaxe</label>
+		<description>An abandoned pickaxe.</description>
+		 <graphicData>
+			<texPath>Things/Building/Props/PickAxe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>SmallWire</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0</fillPercent>
+		<pathCost>0</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Shovel</defName>
+		<label>shovel</label>
+		<description>An abandoned shovel.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/Shovel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>SmallWire</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0</fillPercent>
+		<pathCost>0</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientBrokenTurret</defName>
+		<label>ancient broken turret</label>
+		<description>This large shotgun turret, badly damaged, is no longer usable.</description>
+		<graphicData>
+			<texPath>Things/Building/Turret/AncientBrokenTurret</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,2.2)</drawSize>
+			<drawOffset>(0.02,0,-0.1)</drawOffset>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeRail</defName>
+		<label>fake rail</label>
+		<description>Common, rather rusty railway track.</description>
+		<category>Building</category>
+		<graphicData>
+      		<texPath>Things/Building/Railway/Rail_Altlas</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<damageData>
+       		<rect>(0,0.35,1,0.3)</rect>
+      		</damageData>
+            <linkType>Transmitter</linkType>
+            <linkFlags>
+              <li>PowerConduit</li>
+            </linkFlags>
+    	</graphicData>
+			<uiIconPath>Things/Building/Railway/Rail_UI</uiIconPath>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Railway/Rail_Altlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		 <drawStyleCategory>Defenses</drawStyleCategory>
+		
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Crosstie</defName>
+		<label>crosstie</label>
+		<description>A rail road crosstie placed under the railroad tracks.</description>
+		<graphicData>
+			<texPath>Things/Building/Railway/Crosstie</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+        <altitudeLayer>FloorCoverings</altitudeLayer>
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+	
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>

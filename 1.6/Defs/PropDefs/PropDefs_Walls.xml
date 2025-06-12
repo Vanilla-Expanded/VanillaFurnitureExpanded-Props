@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef Abstract="true" Name="VFE_WallPropBase">
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_WallPropBase">
+		<defName>VFE_Prop_Walls_1</defName>
+		<category>AP_PropCategory_Walls</category>
+		<priority>-1</priority>
+		<prop>VFEP_ShortWalls</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

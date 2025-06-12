@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>1</priority>
+		<prop>VFEPD_AncientEducator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_2</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>2</priority>
+		<prop>VFEPD_AncientFoosballTable</prop>
+		<shortLabel>foosball</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_3</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>3</priority>
+		<prop>VFEPD_LargeSupplyCrate</prop>
+		<shortLabel>hermetic crate</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_4</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>4</priority>
+		<prop>VFEPD_PipelineJunction</prop>
+		<shortLabel>pipeline junction</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_5</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>5</priority>
+		<prop>VFEPD_AncientBedTwo</prop>
+	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_6</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>6</priority>
+		<prop>VFEPD_AncientCryptosleepSuspender</prop>
+		<shortLabel>crypto suspender</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_7</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>7</priority>
+		<prop>VFEPD_AncientMonitorBank</prop>
+		<shortLabel>monitor bank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_8</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>8</priority>
+		<prop>VFEPD_AncientBrokenDefensiveTurret</prop>
+		<shortLabel>broken turret</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_9</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>9</priority>
+		<prop>VFEPD_AncientBustedTurretPlatform</prop>
+		<shortLabel>turret platform</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_10</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>10</priority>
+		<prop>VFEPD_AncientFuelTank</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_11</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>11</priority>
+		<prop>VFEPD_AncientInputTerminal</prop>
+		<shortLabel>input terminal</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_12</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>12</priority>
+		<prop>VFEPD_AncientTransmitter</prop>
+		<shortLabel>transmitter</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_13</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>13</priority>
+		<prop>VFEPD_AncientMachinery</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_14</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>14</priority>
+		<prop>VFEPD_AncientWaterFilter</prop>
+		<shortLabel>water filter</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_15</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>15</priority>
+		<prop>VFEPD_AncientComputerDesk</prop>
+		<shortLabel>computer desk</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_16</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>16</priority>
+		<prop>VFEPD_AncientShuttle</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_17</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>17</priority>
+		<prop>VFEPD_AncientVitalsMonitor</prop>
+		<shortLabel>vitals monitor</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_18</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>18</priority>
+		<prop>VFEPD_AncientChemfuelPoweredGenerator</prop>
+		<shortLabel>chemfuel generator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_19</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>19</priority>
+		<prop>VFEPD_AncientGeothermalPlant</prop>
+		<shortLabel>geothermal plant</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_20</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>20</priority>
+		<prop>VFEPD_AncientBattery</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_21</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>21</priority>
+		<prop>VFEPD_AncientBioBatteryTank</prop>
+		<shortLabel>bio battery tank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_22</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>22</priority>
+		<prop>VFEPD_AncientSupplySlingshot</prop>
+		<shortLabel>supply slingshot</shortLabel>
+	</VFEProps.PropDef>
+	
+</Defs>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef Abstract="true" Name="VFE_EffecterPropBase">
+		<silverCostOverride>0</silverCostOverride>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_1</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>1</priority>
+		<prop>VFEPD_CleanEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_2</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>2</priority>
+		<prop>VFEPD_PaintEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_3</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>3</priority>
+		<prop>VFEPD_ConstructMetalEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_4</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>4</priority>
+		<prop>VFEPD_ConstructWoodEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_5</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>5</priority>
+		<prop>VFEPD_ConstructDirtEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_6</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>6</priority>
+		<prop>VFEPD_BuryPawnEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_7</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>7</priority>
+		<prop>VFEPD_RoofWorkEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_8</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>8</priority>
+		<prop>VFEPD_EatMeatEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_8Bis</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>8.5</priority>
+		<prop>VFEPD_EatVegetarianEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_9</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>9</priority>
+		<prop>VFEPD_DrillEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_10</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>10</priority>
+		<prop>VFEPD_ResearchEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_11</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>11</priority>
+		<prop>VFEPD_ClearSnowEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_12</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>12</priority>
+		<prop>VFEPD_SowEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_13</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>13</priority>
+		<prop>VFEPD_Harvest_PlantEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_14</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>14</priority>
+		<prop>VFEPD_VomitEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_15</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>15</priority>
+		<prop>VFEPD_PlayPokerEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_16</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>16</priority>
+		<prop>VFEPD_DisabledByEMPEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_17</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>17</priority>
+		<prop>VFEPD_SurgeryEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_18</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>18</priority>
+		<prop>VFEPD_ButcherMechanoidEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_19</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>19</priority>
+		<prop>VFEPD_RepairEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_20</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>20</priority>
+		<prop>VFEPD_Smoke_JointEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_21</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>21</priority>
+		<prop>VFEPD_Power_Cell_BurningEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_22</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>22</priority>
+		<prop>VFEPD_Power_Cell_SparksEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_23</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>23</priority>
+		<prop>VFEPD_CutStoneEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_24</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>24</priority>
+		<prop>VFEPD_CookEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_25</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>25</priority>
+		<prop>VFEPD_FalseFire</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_26</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>26</priority>
+		<prop>VFEPD_BigFalseFire</prop>
+		
+	</VFEProps.PropDef>
+	
+	
+</Defs>

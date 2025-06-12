@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>VFEPropsMain_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			
+			<li>VFEP_ShortWalls</li>
+		
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+
+
+
+
+
+</Defs>

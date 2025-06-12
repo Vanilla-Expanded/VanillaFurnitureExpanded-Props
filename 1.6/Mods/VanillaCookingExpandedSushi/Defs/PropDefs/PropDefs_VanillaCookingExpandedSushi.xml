@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_ushiPrepTable</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1014</priority>
+		<prop>VFEPD_SushiPrepTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_SoyFermenter</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1015</priority>
+		<prop>VFEPD_SoyFermenter</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

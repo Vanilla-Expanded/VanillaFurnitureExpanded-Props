@@ -1,8 +1,5 @@
 <loadFolders>
-	<v1.3>
-		<li>/</li>
-		<li>1.3</li>
-	</v1.3>
+	
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
@@ -73,6 +70,44 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.5/Mods/Insectoids</li>
 		<li IfModActive="VanillaExpanded.Temperature">1.5/Mods/Temperature</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.6/Mods/Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
+		<li IfModActive="VanillaExpanded.VFEA">1.6/Mods/Ancients</li>
+		<li IfModActive="VanillaExpanded.VGeneticsE">1.6/Mods/Genetics</li>
+		<li IfModActive="OskarPotocki.VFE.Empire">1.6/Mods/Empire</li>
+		<li IfModActive="OskarPotocki.VFE.Deserters">1.6/Mods/Deserters</li>
+		<li IfModActive="OskarPotocki.VFE.Classical">1.6/Mods/Classical</li>
+		<li IfModActive="sarg.alphagenes">1.6/Mods/AlphaGenes</li>
+		<li IfModActive="VanillaExpanded.VBrewE">1.6/Mods/VanillaBrewingExpanded</li>
+		<li IfModActive="VanillaExpanded.VBrewECandT">1.6/Mods/VanillaBrewingExpandedCoffee</li>
+		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VanillaCookingExpanded</li>
+		<li IfModActive="VanillaExpanded.VCookEStews">1.6/Mods/VanillaCookingExpandedStews</li>
+		<li IfModActive="VanillaExpanded.VCookESushi">1.6/Mods/VanillaCookingExpandedSushi</li>
+		<li IfModActive="VanillaExpanded.VChemfuelE">1.6/Mods/VanillaChemfuelExpanded</li>
+		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMorePlants</li>
+		<li IfModActive="VanillaExpanded.VPlantsESucculents">1.6/Mods/VanillaPlantsExpandedSucculents</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMushrooms">1.6/Mods/VanillaPlantsExpandedMushrooms</li>
+		<li IfModActive="OskarPotocki.VanillaVehiclesExpanded">1.6/Mods/VanillaVehiclesExpanded</li>
+		<li IfModActive="OskarPotocki.VanillaVehiclesExpandedTier3">1.6/Mods/VanillaVehiclesExpandedTier3</li>
+		<li IfModActive="sarg.alphavehiclesneolithic">1.6/Mods/AlphaVehiclesNeolithic</li>
+		<li IfModActive="sarg.alphavehiclesageofsail">1.6/Mods/AlphaVehiclesAgeOfSail</li>
+		<li IfModActive="sarg.alphavehiclesearlycars">1.6/Mods/AlphaVehiclesEarlyCars</li>
+		<li IfModActive="Sarg.AlphaMemes">1.6/Mods/AlphaMemes</li>
+		<li IfModActive="sarg.alphabiomes">1.6/Mods/AlphaBiomes</li>
+		<li IfModActive="VanillaExpanded.VMemesE">1.6/Mods/VanillaMemesExpanded</li>
+		<li IfModActive="VanillaExpanded.VFEArchitect">1.6/Mods/VanillaFurnitureExpandedArchitect</li>
+		<li IfModActive="XMB.AncientHydroponicFarmFacilities.MO">1.6/Mods/AncientHydroponicFarmFacilities</li>
+		<li IfModActive="XMB.AncientMiningIndustry.MO">1.6/Mods/AncientMiningIndustry</li>
+		<li IfModActive="XMB.AncientUrbanrUins.MO">1.6/Mods/AncientUrbanRuins</li>
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/Insectoids</li>
+		<li IfModActive="VanillaExpanded.Temperature">1.6/Mods/Temperature</li>
+	</v1.6>
 </loadFolders>
 
 

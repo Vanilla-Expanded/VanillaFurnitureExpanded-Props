@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef Abstract="true" Name="VFE_BorderPropBase">
+		<silverCostOverride>0</silverCostOverride>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_1</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>1</priority>
+		<prop>VFE_CarpetBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_2</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>2</priority>
+		<prop>VFE_CarpetBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_3</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>3</priority>
+		<prop>VFE_FlagstoneBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_4</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>4</priority>
+		<prop>VFE_FlagstoneBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_5</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>5</priority>
+		<prop>VFE_StoneBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_6</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>6</priority>
+		<prop>VFE_StoneBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_7</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>7</priority>
+		<prop>VFE_MetalBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_8</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>8</priority>
+		<prop>VFE_MetalBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_9</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>9</priority>
+		<prop>VFE_WoodenBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_10</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>10</priority>
+		<prop>VFE_WoodenBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_11</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>11</priority>
+		<prop>VFE_WarningBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_12</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>12</priority>
+		<prop>VFE_WarningBorder_Corner</prop>
+	</VFEProps.PropDef>
+</Defs>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Balloon</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-100</priority>
+		<prop>VFEPD_Balloon</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Chariot</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-99</priority>
+		<prop>VFEPD_Chariot</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_CoveredCarriage</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-98</priority>
+		<prop>VFEPD_CoveredCarriage</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_DogSled</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-97</priority>
+		<prop>VFEPD_DogSled</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Hwacha</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-96</priority>
+		<prop>VFEPD_Hwacha</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_OutriggerCanoe</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-95</priority>
+		<prop>VFEPD_OutriggerCanoe</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_OxCart</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-94</priority>
+		<prop>VFEPD_OxCart</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Palanquin</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-93</priority>
+		<prop>VFEPD_Palanquin</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Rickshaw</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-92</priority>
+		<prop>VFEPD_Rickshaw</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_WarChariot</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-91</priority>
+		<prop>VFEPD_WarChariot</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Wheelbarrow</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-90</priority>
+		<prop>VFEPD_Wheelbarrow</prop>
+	</VFEProps.PropDef>
+
+	
+	
+</Defs>

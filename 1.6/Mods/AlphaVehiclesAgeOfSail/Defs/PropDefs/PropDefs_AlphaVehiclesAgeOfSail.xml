@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Cog</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-89</priority>
+		<prop>VFEPD_AV_Cog</prop>
+	</VFEProps.PropDef>
+	
+<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Junk</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-88</priority>
+		<prop>VFEPD_Junk</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Longship</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-87</priority>
+		<prop>VFEPD_Longship</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Caravel</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-86</priority>
+		<prop>VFEPD_Caravel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_PirateCaravel</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-85</priority>
+		<prop>VFEPD_PirateCaravel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Sloop</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-84</priority>
+		<prop>VFEPD_Sloop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Brig</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-83</priority>
+		<prop>VFEPD_Brig</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Frigate</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-82</priority>
+		<prop>VFEPD_Frigate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_Galleon</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-81</priority>
+		<prop>VFEPD_Galleon</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

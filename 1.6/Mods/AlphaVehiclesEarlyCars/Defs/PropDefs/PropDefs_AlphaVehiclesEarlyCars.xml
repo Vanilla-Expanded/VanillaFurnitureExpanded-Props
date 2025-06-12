@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_BenzPatentMotorwagen</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-80</priority>
+		<prop>VFEPD_BenzPatentMotorwagen</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_FordModelA</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-79</priority>
+		<prop>VFEPD_FordModelA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_FordModelAAmbulance</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-78</priority>
+		<prop>VFEPD_FordModelAAmbulance</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_FordModelAFireTruck</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-77</priority>
+		<prop>VFEPD_FordModelAFireTruck</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_FordModelT</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-76</priority>
+		<prop>VFEPD_FordModelT</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_FordModelTVan</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-75</priority>
+		<prop>VFEPD_FordModelTVan</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_OldsmobileLightTonneau</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-74</priority>
+		<prop>VFEPD_OldsmobileLightTonneau</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_OldsmobileModelRCurvedDash</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-73</priority>
+		<prop>VFEPD_OldsmobileModelRCurvedDash</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_RenaultTypeK</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-72</priority>
+		<prop>VFEPD_RenaultTypeK</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_RollsRoyceSilverGhost</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>-71</priority>
+		<prop>VFEPD_RollsRoyceSilverGhost</prop>
+	</VFEProps.PropDef>
+	
+
+	
+	
+</Defs>

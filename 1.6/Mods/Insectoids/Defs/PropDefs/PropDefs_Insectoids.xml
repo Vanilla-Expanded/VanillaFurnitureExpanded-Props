@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+    <defName>VFE_Prop_Insectoids_10</defName>
+    <category>VFE_PropCategory_Insectoids</category>
+    <priority>10</priority>
+    <prop>VFEPD_VFEI2_SmallBurrow</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>VFE_Prop_Insectoids_11</defName>
+    <category>VFE_PropCategory_Insectoids</category>
+    <priority>11</priority>
+    <prop>VFEPD_VFEI2_MediumBurrow</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>VFE_Prop_Insectoids_12</defName>
+    <category>VFE_PropCategory_Insectoids</category>
+    <priority>12</priority>
+    <prop>VFEPD_VFEI2_LargeBurrow</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>VFE_Prop_Insectoids_13</defName>
+    <category>VFE_PropCategory_Insectoids</category>
+    <priority>13</priority>
+    <prop>VFEPD_FakeHiveDoor</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_14</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>14</priority>
+	<prop>VFEPD_LargeGlowPod</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_15</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>15</priority>
+	<prop>VFEPD_GlowPodFormation</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_16</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>16</priority>
+	<prop>VFEPD_GlowPodSpire</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_17</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>17</priority>
+	<prop>VFEPD_StaticPod</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_18</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>18</priority>
+	<prop>VFEPD_FoamPod</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_19</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>19</priority>
+	<prop>VFEPD_TendrilFarm</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_20</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>20</priority>
+	<prop>VFEPD_Creeper</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_21</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>21</priority>
+	<prop>VFEPD_JellyFarm</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_22</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>22</priority>
+	<prop>VFEPD_InfestedShipChunk</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_23</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>23</priority>
+	<prop>VFEPD_VFEI2_InfestedShipPart</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_24</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>24</priority>
+	<prop>VFEPD_VFEI2_InfestedShipModule</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_25</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>25</priority>
+	<prop>VFEPD_VFEI2_KemianHive</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_26</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>26</priority>
+	<prop>VFEPD_VFEI2_ChelisHive</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_27</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>27</priority>
+	<prop>VFEPD_VFEI2_XanidesHive</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_28</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>28</priority>
+	<prop>VFEPD_VFEI2_NuchadusHive</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_29</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>29</priority>
+	<prop>VFEPD_VFEI2_ArtificialBasicHive</prop>
+</VFEProps.PropDef>
+
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_31</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>31</priority>
+	<prop>VFEPD_VFEI2_InsectoidCocoon</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_32</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>32</priority>
+	<prop>VFEPD_HeatPod</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_33</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>33</priority>
+	<prop>VFEPD_DeepHeater</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_34</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>34</priority>
+	<prop>VFEPD_JellyMorpher</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_35</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>35</priority>
+	<prop>VFEPD_Petroglypher</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_36</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>36</priority>
+	<prop>VFEPD_Hivenode</prop>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>VFE_Prop_Insectoids_37</defName>
+	<category>VFE_PropCategory_Insectoids</category>		
+	<priority>37</priority>
+	<prop>VFEPD_Thornpod</prop>
+</VFEProps.PropDef>
+
+	
+	
+	
+</Defs>

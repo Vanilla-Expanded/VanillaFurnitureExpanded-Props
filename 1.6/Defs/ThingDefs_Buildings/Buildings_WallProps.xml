@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEP_ShortWalls</defName>
+		<label>short wall</label>
+		<description>A passable chest-height wall. Cannot support roofs.</description>
+		<graphicData>
+			<texPath>Things/Building/WallProps/ShortWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/WallProps/ShortWallSmooth_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToBuild>65</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<MeditationFocusStrength>0.22</MeditationFocusStrength>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>4</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>false</blockWind>
+		<fillPercent>0.57</fillPercent>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<coversFloor>true</coversFloor>
+		 <drawStyleCategory>Defenses</drawStyleCategory>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<!-- Best affordance needed for stone -->
+		<designationCategory>Structure</designationCategory>
+		<uiOrder>2000</uiOrder>
+		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
+		<building>
+			<isInert>true</isInert>
+			<isPlaceOverableWall>false</isPlaceOverableWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+		</damageMultipliers>
+		<designationHotKey>Misc3</designationHotKey>
+	</ThingDef>
+</Defs>

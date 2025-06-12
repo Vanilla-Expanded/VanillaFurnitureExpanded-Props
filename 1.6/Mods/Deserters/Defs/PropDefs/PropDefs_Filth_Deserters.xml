@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_18</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>18</priority>
+		<prop>VFEPD_Filth_Propaganda</prop>
+	</VFEProps.PropDef>
+</Defs>

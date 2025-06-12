@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Kitchen_MeatDryingRack</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>1017</priority>
+		<prop>VFEPD_MeatDryingRack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Tent</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>1001</priority>
+		<prop>VFEPD_Tent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Thermaebath</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>1002</priority>
+		<prop>VFEPD_Thermaebath</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_TheatreStage</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>1003</priority>
+		<prop>VFEPD_TheatreStage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Poppy</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>1000</priority>
+		<prop>VFEPD_Plant_Poppy</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

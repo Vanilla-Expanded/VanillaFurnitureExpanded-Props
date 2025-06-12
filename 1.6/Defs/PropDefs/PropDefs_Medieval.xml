@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_1</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>1</priority>
+		<prop>VFEPD_Banner</prop>
+	</VFEProps.PropDef>
+<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_2</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>2</priority>
+		<prop>VFEPD_WoodenPlatform</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_3</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>3</priority>
+		<prop>VFEPD_Anvil</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_4</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>4</priority>
+		<prop>VFEPD_ArmorStandEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_5</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>5</priority>
+		<prop>VFEPD_ArmorStandFull</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_6</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>6</priority>
+		<prop>VFEPD_ArrowCage</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_7</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>7</priority>
+		<prop>VFEPD_CageBrazier</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_8</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>8</priority>
+		<prop>VFEPD_BrazierEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_9</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>9</priority>
+		<prop>VFEPD_BucketEmpty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_10</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>10</priority>
+		<prop>VFEPD_BucketwithWater</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_11</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>11</priority>
+		<prop>VFEPD_WoodenChest</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_12</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>12</priority>
+		<prop>VFEPD_WoodenChestLarge</prop>
+		<shortLabel>large chest</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_13</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>13</priority>
+		<prop>VFEPD_WeaponRackEmpty</prop>
+		<shortLabel>empty rack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_14</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>14</priority>
+		<prop>VFEPD_WeaponRackSwords</prop>
+		<shortLabel>swords rack</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_15</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>15</priority>
+		<prop>VFEPD_WeaponRackSpears</prop>
+		<shortLabel>spears rack</shortLabel>
+	</VFEProps.PropDef><VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_16</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>16</priority>
+		<prop>VFEPD_WoodenSign</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_17</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>17</priority>
+		<prop>VFEPD_TanningRack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Medieval_18</defName>
+		<category>VFE_PropCategory_Medieval</category>		
+		<priority>2.5</priority>
+		<prop>VFEPD_CagePlatform</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>

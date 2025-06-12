@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ImperialBanner</defName>
+		<label>imperial banner</label>
+		<description>A decorative banner hanging from a vertical wooden frame.</description>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.40</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<canOverlapZones>true</canOverlapZones>
+		<pathCost>10</pathCost>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<filthLeaving>Filth_Trash</filthLeaving>
+		<graphicData>
+			<drawSize>(2.2,2.2)</drawSize>
+			<texPath>Furniture/VFE_ImperialBanner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				<offset>(0,0,-0.2</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1, 0.1, 1.8, 1.5)</rectN>
+				<rectS>(0.1, 0.1, 1.8, 1.5)</rectS>
+				<rectE>(0.25, 0.5, 0.5, 1.5)</rectE>
+				<rectW>(0.25, 0.5, 0.5, 1.5)</rectW>
+			</damageData>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ImperialShuttle</defName>
+		<label>imperial shuttle</label>
+		<description>A spacer-tech imperial gunship designed for transit between surface and orbit, or between moons of a planetary system. This one seems to be non-functional.</description>
+		<size>(7,5)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Shuttle/ImperialShuttle/ImperialShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ImperialShuttleCrashed</defName>
+		<label>crashed imperial shuttle</label>
+		<description>Remains of an imperial shuttle.</description>
+		<size>(5,3)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Shuttle/ImperialShuttle/CrashedImperialShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArmoredImperialShuttle</defName>
+		<label>armored imperial shuttle</label>
+		<description>A spacer-tech imperial gunship designed for transit between surface and orbit, or between moons of a planetary system. This one seems to be non-functional.</description>
+		<size>(7,5)</size>
+		<fillPercent>0.50</fillPercent>
+		<graphicData>
+			<texPath>Shuttle/ImperialArmoredShuttle/ImperialArmoredShuttle_Skyfaller</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+</Defs>

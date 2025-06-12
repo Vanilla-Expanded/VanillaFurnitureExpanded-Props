@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Structures_StoneBridge</defName>
+		<category>VFE_PropCategory_Structures</category>
+		<priority>11.1</priority>
+		<prop>VFEPD_FakeStoneBridge</prop>
+		<silverCostOverride>0</silverCostOverride>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Structures_MetalBridge</defName>
+		<category>VFE_PropCategory_Structures</category>
+		<priority>11.2</priority>
+		<prop>VFEPD_FakeMetalBridge</prop>
+		<silverCostOverride>0</silverCostOverride>
+	</VFEProps.PropDef>
+</Defs>

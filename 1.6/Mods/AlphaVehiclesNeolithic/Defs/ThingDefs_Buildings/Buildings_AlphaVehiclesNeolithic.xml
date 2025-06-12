@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Balloon</defName>
+		<label>Balloon</label>
+		<description>A lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Air/Tier0/Balloon/AV_Balloon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(15,15)</drawSize>
+			<color>(77, 35, 25)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.7, 0.7, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Vehicles/Air/Tier0/Balloon/AV_BalloonUI</uiIconPath>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Chariot</defName>
+		<label>Chariot</label>
+		<description>A simple horse-driven cart that provides fast transportation. Non-functional: all its internal mechanisms have been removed. Even the horse is fake.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/Chariot/AV_Chariot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<color>(192, 146, 94)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.5, 0.4, 2)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_CoveredCarriage</defName>
+		<label>Covered Carriage</label>
+		<description>A horse-drawn four-wheeled vehicle used to transport people. Non-functional: all its internal mechanisms have been removed. Even the horses are fake.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/CoveredCarriage/AV_CoveredCarriage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,5.5)</drawSize>
+			<color>(80, 63, 32)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.4, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_DogSled</defName>
+		<label>Dog Sled</label>
+		<description>A sled pulled by four trained dogs used to travel over ice and through snow. Non-functional: all its internal mechanisms have been removed. Even the dogs are fake.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/DogSled/AV_DogSled</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<color>(71, 71, 71)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.5, 0.5, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,7)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Hwacha</defName>
+		<label>Hwacha</label>
+		<description>A primitive type of artillery designed to fire multiple rocket-powered iron-tipped arrows at once. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/Hwacha/AV_Hwacha</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(124, 85, 62)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.4, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_OutriggerCanoe</defName>
+		<label>Outrigger Canoe</label>
+		<description>A watercraft featuring a lateral support float known as an outrigger, which is fastened to one of the sides of the main hull. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Sea/Tier0/OutriggerCanoe/AV_OutriggerCanoe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		
+			<color>(191, 178, 163)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1, 0.5, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_OxCart</defName>
+		<label>Ox cart</label>
+		<description>A two wheeled cart pulled by oxen. A means of transportation used since ancient times, the ox cart is generally used to carry goods, such as agrarian produce or lumber. Non-functional: all its internal mechanisms have been removed. Even the oxen are fake.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/OxCart/AV_OxCart</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,5.5)</drawSize>
+			<color>(58, 41, 10)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.7, 0.4, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,5)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Palanquin</defName>
+		<label>Palanquin</label>
+		<description>A covered litter carried on poles on the shoulders of two bearers. A palanquin is not an efficient mode of transportation. Non-functional: its doors are sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/Palanquin/AV_Palanquin</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,4.5)</drawSize>
+			<color>(108, 71, 62)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.4, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Rickshaw</defName>
+		<label>Rickshaw</label>
+		<description>A mode of human-powered transport by which a runner draws a two-wheeled cart which seats another person. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/Rickshaw/AV_Rickshaw</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(124, 85, 62)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.4, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_WarChariot</defName>
+		<label>War chariot</label>
+		<description>The war chariot is a mobile archery platform operated by two people, with the driver steering the chariot with his reins while the main archer aims his bow and arrow at any targets within range. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/WarChariot/AV_WarChariot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,4.5)</drawSize>
+			<color>(192, 146, 94)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.4, 2)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Wheelbarrow</defName>
+		<label>Wheelbarrow</label>
+		<description>The wheelbarrow: Your trusty sidekick for moving stuff from 'point A' to 'point B' with all the pizzazz of a one-wheel parade float. Non-functional: all its internal mechanisms have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Land/Tier0/Wheelbarrow/AV_Wheelbarrow</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(124, 85, 62)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.4, 0.4, 1)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>	
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+</Defs>

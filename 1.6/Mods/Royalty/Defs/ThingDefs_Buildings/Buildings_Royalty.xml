@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_DrapeProp</defName>
+		<label>decorative drape</label>
+		<description>A decorative drape. This will not satisfy any noble requirements, as it is just for decorative purposes.</description>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.40</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<canOverlapZones>true</canOverlapZones>
+		<pathCost>10</pathCost>
+		<rotatable>true</rotatable>
+		<size>(2,1)</size>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<filthLeaving>Filth_Trash</filthLeaving>
+		<graphicData>
+			<drawSize>(4.2,4.2)</drawSize>
+			<texPath>Things/Building/Furniture/Drape</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(2,0.5,0.3)</volume>
+				<offset>(0,0,-0.2</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1, 0.1, 1.8, 1.5)</rectN>
+				<rectS>(0.1, 0.1, 1.8, 1.5)</rectS>
+				<rectE>(0.25, 0.5, 0.5, 1.5)</rectE>
+				<rectW>(0.25, 0.5, 0.5, 1.5)</rectW>
+			</damageData>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Shuttle</defName>
+		<label>shuttle</label>
+		<description>An out-of-service imperial shuttle.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Shuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<color>(162,164,149)</color>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ShuttleCrashed</defName>
+		<label>crashed shuttle</label>
+		<description>A VERY out-of-service imperial shuttle.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/CrashedShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<color>(162,164,149)</color>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeAnimaGrass</defName>
+		<label>fake anima grass</label>
+		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
+		<description>Plastic grass painted in the same colour as anima grass. Probably terrible for the environment.</description>
+		<graphicData>
+			<texPath>Things/Plant/Grass_Anima</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.45</drawSize>
+			<shadowData>
+				<volume>(0, 0, 0)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeAnimaTree</defName>
+		<label>fake anima tree</label>
+		<description>Plastic tree imitating an anima tree. Doesn't provide any sort of psychic powers.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeAnima</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.12, 0.08, 0.1)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipLandingBeacon</defName>
+		<label>landing beacon</label>
+		<description>Marks the corner of a landing area. Shuttles will ignore this one as it is inactive.</description>
+		<graphicData>
+      <texPath>Things/Building/Misc/ShipLandingBeacon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.2, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>14</pathCost>
+	</ThingDef>
+</Defs>
