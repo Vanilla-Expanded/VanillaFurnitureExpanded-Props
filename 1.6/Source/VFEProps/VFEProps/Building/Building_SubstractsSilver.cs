@@ -12,12 +12,12 @@ namespace VFEProps
     public class Building_SubstractsSilver : Building
     {
 
-
+        public bool swappingMap = false;
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            if (!respawningAfterLoad)
+            if (!respawningAfterLoad && !swappingMap)
             {
                 int cost = GetSilverCost();
                 if (cost != 0)
@@ -135,7 +135,17 @@ namespace VFEProps
             
         }
 
+        public override void PreSwapMap()
+        {
+            base.PreSwapMap();
+            swappingMap = true;
+        }
 
+        public override void PostSwapMap()
+        {
+            base.PostSwapMap();
+            swappingMap = false;
+        }
     }
 
 

@@ -33,6 +33,7 @@
 		<building>
 			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
+			  <canLandGravshipOn>true</canLandGravshipOn>
 			<paintable>true</paintable>
 			<ai_neverTrashThis>true</ai_neverTrashThis>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>

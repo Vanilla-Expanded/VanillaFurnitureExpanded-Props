@@ -312,6 +312,7 @@
     <Compile Include="Harmony\GenLeaving_GetBuildingResourcesLeaveCalculator.cs" />
     <Compile Include="Harmony\Graphic_Cluster_DrawWorker.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\RoyalTitlePermitWorker_CallShuttle_GetReportFromCell.cs" />
     <Compile Include="Harmony\ThingUtility_CheckAutoRebuildOnDestroyed.cs" />
     <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="Options\VFEProps_Settings.cs" />
