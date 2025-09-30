@@ -32,7 +32,18 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>5</priority>
 		<prop>VFEPD_AncientBedTwo</prop>
-	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_5_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>5.1</priority>
+		<prop>VFEPD_RustedHospitalBed</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_5_2</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>5.2</priority>
+		<prop>VFEPD_WheeledBed</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_6</defName>
@@ -40,6 +51,13 @@
 		<priority>6</priority>
 		<prop>VFEPD_AncientCryptosleepSuspender</prop>
 		<shortLabel>crypto suspender</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_6_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>6.1</priority>
+		<prop>VFEPD_AncientCryptosleepSarcophagus</prop>
+		<shortLabel>crypto sarcophagus</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_7</defName>
@@ -67,7 +85,6 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>10</priority>
 		<prop>VFEPD_AncientFuelTank</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_11</defName>
@@ -88,7 +105,6 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>13</priority>
 		<prop>VFEPD_AncientMachinery</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_14</defName>
@@ -109,13 +125,12 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>16</priority>
 		<prop>VFEPD_AncientShuttle</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_17</defName>
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>17</priority>
-		<prop>VFEPD_AncientVitalsMonitor</prop>
+		<prop>VFEPD_AncientVitalsMonitorTwo</prop>
 		<shortLabel>vitals monitor</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
@@ -123,6 +138,13 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>18</priority>
 		<prop>VFEPD_AncientChemfuelPoweredGenerator</prop>
+		<shortLabel>chemfuel generator</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_18_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>18.1</priority>
+		<prop>VFEPD_AncientChemfuelPoweredGenerator_Old</prop>
 		<shortLabel>chemfuel generator</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
@@ -137,21 +159,494 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>20</priority>
 		<prop>VFEPD_AncientBattery</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_21</defName>
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>21</priority>
-		<prop>VFEPD_AncientBioBatteryTank</prop>
-		<shortLabel>bio battery tank</shortLabel>
+		<prop>VFEPD_AncientSolarGenerator</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_22</defName>
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>22</priority>
+		<prop>VFEPD_AncientBioBatteryTank</prop>
+		<shortLabel>bio battery tank</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_23</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>23</priority>
 		<prop>VFEPD_AncientSupplySlingshot</prop>
 		<shortLabel>supply slingshot</shortLabel>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_24</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>24</priority>
+		<prop>VFEPD_AncientBroadcastingStation</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_25</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>25</priority>
+		<prop>VFEPD_AncientBroadcastingStation_Old</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_26</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>26</priority>
+		<prop>VFEPD_AncientSupplyCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_27</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>27</priority>
+		<prop>VFEPD_AncientCooler</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_28</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>28</priority>
+		<prop>VFEPD_AncientHeater</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_29</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>29</priority>
+		<prop>VFEPD_AncientCookingStation</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_30</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>30</priority>
+		<prop>VFEPD_AncientHydroponicFarm</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_31</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>31</priority>
+		<prop>VFEPD_SimulationDrive</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_32</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>32</priority>
+		<prop>VFEPD_AncientWorkshop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_33</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>33</priority>
+		<prop>VFEPD_GeneTailoringPod</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_34</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>34</priority>
+		<prop>VFEPD_ArchogenInjector</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_35</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>35</priority>
+		<prop>VFEPD_NeurostabilizerArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_36</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>36</priority>
+		<prop>VFEPD_CognitiveRecoveryArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_37</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>37</priority>
+		<prop>VFEPD_RapidInfusionPump</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_38</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>38</priority>
+		<prop>VFEPD_ArchiteRecycler</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_39</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>39</priority>
+		<prop>VFEPD_GenomicAttenuator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_40</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>40</priority>
+		<prop>VFEPD_RejectionBufferCoil</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_41</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>41</priority>
+		<prop>VFEPD_SpliceframeUplink</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_42</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>42</priority>
+		<prop>VFEPD_MutagenInhibitorCore</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_43</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>43</priority>
+		<prop>VFEPD_TraitSelectionPrism</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_44</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>44</priority>
+		<prop>VFEPD_AberrationRedirector</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_45</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>45</priority>
+		<prop>VFEPD_ComplexityHarmonizer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_46</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>46</priority>
+		<prop>VFEPD_ArchitePathingArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_47</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>47</priority>
+		<prop>VFEPD_RuinedArchogenInjector</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_48</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>48</priority>
+		<prop>VFEPD_RuinedNeurostabilizerArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_49</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>49</priority>
+		<prop>VFEPD_RuinedCognitiveRecoveryArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_50</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>50</priority>
+		<prop>VFEPD_RuinedRapidInfusionPump</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_51</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>51</priority>
+		<prop>VFEPD_RuinedArchiteRecycler</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_52</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>52</priority>
+		<prop>VFEPD_RuinedGenomicAttenuator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_53</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>53</priority>
+		<prop>VFEPD_RuinedRejectionBufferCoil</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_54</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>54</priority>
+		<prop>VFEPD_RuinedSpliceframeUplink</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_55</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>55</priority>
+		<prop>VFEPD_RuinedMutagenInhibitorCore</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_56</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>56</priority>
+		<prop>VFEPD_RuinedTraitSelectionPrism</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_57</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>57</priority>
+		<prop>VFEPD_RuinedAberrationRedirector</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_58</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>58</priority>
+		<prop>VFEPD_RuinedComplexityHarmonizer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_59</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>59</priority>
+		<prop>VFEPD_RuinedArchitePathingArray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_60</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>60</priority>
+		<prop>VFEPD_AncientFauxPlant</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_61</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>61</priority>
+		<prop>VFEPD_AncientHospitalArmchair</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_62</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>62</priority>
+		<prop>VFEPD_AncientHospitalBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_63</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>63</priority>
+		<prop>VFEPD_AncientHospitalCrib</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_64</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>64</priority>
+		<prop>VFEPD_AncientIncubator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_65</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>65</priority>
+		<prop>VFEPD_AncientIVStand</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_66</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>66</priority>
+		<prop>VFEPD_AncientKitchenette</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_67</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>67</priority>
+		<prop>VFEPD_AncientSink</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_68</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>68</priority>
+		<prop>VFEPD_AncientMedicalPartition</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_69</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>69</priority>
+		<prop>VFEPD_AncientOfficeDesk</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_70</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>70</priority>
+		<prop>VFEPD_AncientRepairBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_71</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>71</priority>
+		<prop>VFEPD_AncientResearchCountertop</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_72</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>72</priority>
+		<prop>VFEPD_BustedControlPanel</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_73</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>73</priority>
+		<prop>VFEPD_AncientOfficePrinter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_74</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>74</priority>
+		<prop>VFEPD_AncientTripWarning</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_75</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>75</priority>
+		<prop>VFEPD_AncientStorageHeater</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_76</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>76</priority>
+		<prop>VFEPD_AncientSunLamp</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_76_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>76.1</priority>
+		<prop>VFEPD_AncientVaultLamp</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_77</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>77</priority>
+		<prop>VFEPD_AncientToyBox</prop>
+	</VFEProps.PropDef>
 	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_79</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>79</priority>
+		<prop>VFEPD_AncientWaterCooler</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_80</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>80</priority>
+		<prop>VFEPD_CreepyBabyToy</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_81</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>81</priority>
+		<prop>VFEPD_LargeWoodenMilitaryCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_82</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>82</priority>
+		<prop>VFEPD_WoodenMilitaryCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_83</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>83</priority>
+		<prop>VFEPD_RubbishPile</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_84</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>84</priority>
+		<prop>VFEPD_RustedWheeledTray</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_85</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>85</priority>
+		<prop>VFEPD_VaultTerminal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_86</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>86</priority>
+		<prop>VFEPD_VaultTerminalBank</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_87</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>87</priority>
+		<prop>VFEPD_WarpedMopBucket</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_88</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>88</priority>
+		<prop>VFEPD_EmptyContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_89</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>89</priority>
+		<prop>VFEPD_SplicelingContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_90</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>90</priority>
+		<prop>VFEPD_SplicehulkContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_91</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>91</priority>
+		<prop>VFEPD_SplicefiendContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_92</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>92</priority>
+		<prop>VFEPD_ArchiteCapsuleContainment_Empty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_93</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>93</priority>
+		<prop>VFEPD_ArchiteCapsuleContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_94</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>94</priority>
+		<prop>VFEPD_AncientGenepackCrate_Empty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_95</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>95</priority>
+		<prop>VFEPD_AncientGenepackCrate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_96</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>96</priority>
+		<prop>VFEPD_PneumaticTubeLaunchPort</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_97</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>97</priority>
+		<prop>VFEPD_PneumaticTubes</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_98</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>98</priority>
+		<prop>VFEPD_AncientEmergencyPurifier</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_99</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>99</priority>
+		<prop>VFEPD_AncientEmergencyPurifier_Off</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_100</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>100</priority>
+		<prop>VFEPD_LockedVaultDoor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_101</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>101</priority>
+		<prop>VFEPD_VaultRamp</prop>
+	</VFEProps.PropDef>
 </Defs>

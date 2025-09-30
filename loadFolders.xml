@@ -77,7 +77,7 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
 		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
-		<li IfModActive="VanillaExpanded.VFEA">1.6/Mods/Ancients</li>
+		<li IfModActive="vanillaquestsexpanded.ancients">1.6/Mods/Ancients</li>
 		<li IfModActive="VanillaExpanded.VGeneticsE">1.6/Mods/Genetics</li>
 		<li IfModActive="OskarPotocki.VFE.Empire">1.6/Mods/Empire</li>
 		<li IfModActive="OskarPotocki.VFE.Deserters">1.6/Mods/Deserters</li>
