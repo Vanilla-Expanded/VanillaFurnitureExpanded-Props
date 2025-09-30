@@ -211,28 +211,10 @@
 		<prop>VFEPD_AncientHeater</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Vaults_29</defName>
-		<category>VFE_PropCategory_Vaults</category>
-		<priority>29</priority>
-		<prop>VFEPD_AncientCookingStation</prop>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Vaults_30</defName>
-		<category>VFE_PropCategory_Vaults</category>
-		<priority>30</priority>
-		<prop>VFEPD_AncientHydroponicFarm</prop>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_31</defName>
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>31</priority>
 		<prop>VFEPD_SimulationDrive</prop>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>VFE_Prop_Vaults_32</defName>
-		<category>VFE_PropCategory_Vaults</category>
-		<priority>32</priority>
-		<prop>VFEPD_AncientWorkshop</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_33</defName>
@@ -510,7 +492,6 @@
 		<priority>77</priority>
 		<prop>VFEPD_AncientToyBox</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_79</defName>
 		<category>VFE_PropCategory_Vaults</category>

@@ -881,69 +881,7 @@
 		</building>
 		<rotatable>false</rotatable>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientCookingStation</defName>
-		<label>ancient cooking station</label>
-		<description>A large stove and butchering station connected together to streamline the cooking process. Out of order.</description>
-		<graphicData>
-			<texPath>Things/Building/Props/AncientCookingStation</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7,4)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<size>(3,2)</size>
-		<pathCost>42</pathCost>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<rotatable>true</rotatable>
-	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientHydroponicFarm</defName>
-		<label>ancient hydroponic farm</label>
-		<description>An artificial nutrient bath for growing plants. Long inactive.</description>
-		<graphicData>
-			<texPath>Things/Building/Props/AncientHydroponicFarm</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>50</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<size>(3,3)</size>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<rotatable>false</rotatable>
-	</ThingDef>
+	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_SimulationDrive</defName>
 		<label>simulation drive</label>
@@ -978,38 +916,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>VFEPD_AncientWorkshop</defName>
-		<label>ancient workshop</label>
-		<description>A large workshop containing machining systems with a simple furnace and smithy station. Out of order.</description>
-		<graphicData>
-			<texPath>Things/Building/Props/AncientWorkshop</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7,4)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<size>(5,2)</size>
-		<pathCost>42</pathCost>
-		<uiIconScale>1</uiIconScale>
-		<building>
-			<isInert>true</isInert>
-		</building>
-		<rotatable>true</rotatable>
-	</ThingDef>
+	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GeneTailoringPod</defName>
 		<label>gene-tailoring pod</label>
