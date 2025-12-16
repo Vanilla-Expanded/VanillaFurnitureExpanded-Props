@@ -2694,7 +2694,7 @@
 		<graphicData>
 			<texPath>Things/Building/Exotic/PneumaticTubes</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,4)</drawSize>
+			<drawSize>(3,4)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
@@ -2707,7 +2707,7 @@
 			<Flammability>0</Flammability>
 			<WorkToBuild>0</WorkToBuild>
 		</statBases>
-		<size>(3,4)</size>
+		<size>(2,4)</size>
 		<rotatable>true</rotatable>
 		<building>
 			<isInert>true</isInert>

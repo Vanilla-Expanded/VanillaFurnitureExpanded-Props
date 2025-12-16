@@ -23,7 +23,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Building/Ancient/BlastDoor/AncientBlastDoor_MenuIcon</texPath>
-			 <drawSize>(2,2.2)</drawSize>
+			<drawSize>(2,2.2)</drawSize>
 		</graphicData>
 		<passability>Impassable</passability>
 		<fillPercent>1</fillPercent>
@@ -39,7 +39,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Building/Ancient/BlastDoor/AncientBlastDoor_Top</texPath>
-			 <drawSize>(2,2.2)</drawSize>
+			<drawSize>(2,2.2)</drawSize>
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
@@ -679,159 +679,1595 @@
 			<Flammability>0</Flammability>
 		</statBases>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_Pallet_Medicine</defName>
-	<label>medicine pallet</label>
-	<description>A pallet containing fake medical supplies.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/AirdropPallet_Medicine</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(2,2)</drawSize>
-	</graphicData>
-	<size>(2, 2)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_Pallet_SurvivalMeals</defName>
-	<label>survival meal pallet</label>
-	<description>A pallet containing fake survival meals.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/AirdropPallet_SurvivalMeals</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(2,2)</drawSize>
-	</graphicData>
-	<size>(2, 2)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientBox_ComponentIndustrial</defName>
-	<label>component box</label>
-	<description>A box filled with fake components.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/ComponentBox_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1,1)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>50</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientBox_ComponentSpacer</defName>
-	<label>advanced component box</label>
-	<description>A box of fake advanced components.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/SpacerComponentBox_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1,1)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>50</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientBox_SteelSlag</defName>
-	<label>steel scrap box</label>
-	<description>A box filled with fake steel scrap. It's heavy.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/SteelSlagBox_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1,1)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>50</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_MalfunctioningTransportPod</defName>
-	<label>malfunctioning transport pod</label>
-	<description>A cargo pod with a faulty release mechanism. It's still sealed, and empty.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/MalfunctioningCargoPod_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(2,2)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>250</MaxHitPoints>
-		<Flammability>0.5</Flammability>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientChemfuelCanister</defName>
-	<label>chemfuel canister</label>
-	<description>A sealed canister of chemfuel. It is empty.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/OldChemfuelCanister_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1,1)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>50</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientSafe</defName>
-	<label>rusted safe</label>
-	<description>A locked safe. It's heavily rusted, and empty.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/RustedSafe_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1,1)</drawSize>
-	</graphicData>
-	<size>(1, 1)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
-<ThingDef ParentName="VFEPD_OdysseyProps">
-	<defName>VFEPD_AncientPallet_SteelSlag</defName>
-	<label>steel scrap pallet</label>
-	<description>A pallet stacked with fake steel scrap.</description>
-	<graphicData>
-		<texPath>Things/Building/Ancient/OpenableContainers/SteelSlagPallet_Close</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(2,2)</drawSize>
-	</graphicData>
-	<size>(2, 2)</size>
-	<rotatable>false</rotatable>
-	<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-	</statBases>
-	
-</ThingDef>
-
+		<defName>VFEPD_Pallet_Medicine</defName>
+		<label>medicine pallet</label>
+		<description>A pallet containing fake medical supplies.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/AirdropPallet_Medicine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_Pallet_SurvivalMeals</defName>
+		<label>survival meal pallet</label>
+		<description>A pallet containing fake survival meals.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/AirdropPallet_SurvivalMeals</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientBox_ComponentIndustrial</defName>
+		<label>component box</label>
+		<description>A box filled with fake components.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/ComponentBox_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientBox_ComponentSpacer</defName>
+		<label>advanced component box</label>
+		<description>A box of fake advanced components.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SpacerComponentBox_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientBox_SteelSlag</defName>
+		<label>steel scrap box</label>
+		<description>A box filled with fake steel scrap. It's heavy.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SteelSlagBox_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MalfunctioningTransportPod</defName>
+		<label>malfunctioning transport pod</label>
+		<description>A cargo pod with a faulty release mechanism. It's still sealed, and empty.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/MalfunctioningCargoPod_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientChemfuelCanister</defName>
+		<label>chemfuel canister</label>
+		<description>A sealed canister of chemfuel. It is empty.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/OldChemfuelCanister_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSafe</defName>
+		<label>rusted safe</label>
+		<description>A locked safe. It's heavily rusted, and empty.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/RustedSafe_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientPallet_SteelSlag</defName>
+		<label>steel scrap pallet</label>
+		<description>A pallet stacked with fake steel scrap.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SteelSlagPallet_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSealedCrate</defName>
+		<label>sealed crate</label>
+		<description>A small crate that's still sealed.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SealedCrate_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSealedCrate_Open</defName>
+		<label>open crate</label>
+		<description>A small crate.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SealedCrate_Open</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSealedContainer</defName>
+		<label>sealed container</label>
+		<description>A small container that's still sealed.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SealedContainer_Close</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSealedContainer_Open</defName>
+		<label>open container</label>
+		<description>A small container.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/OpenableContainers/SealedContainer_Open</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_ShipChunk_Mech</defName>
+		<label>mechanoid ship chunk</label>
+		<description>A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.</description>
+		<graphicData>
+			<texPath>Things/Building/MechanoidShipChunk</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GravEngine_Prop</defName>
+		<label>grav engine</label>
+		<description>The ultratech heart of a gravship. Generates lift by inverting and intensifying gravity in a field around itself. Upon closer inspection it seems to be made out of cardboard.</description>
+		<graphicData>
+			<texPath>Things/Building/GravEngine/GravEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GravFieldExtender_Prop</defName>
+		<label>grav field extender</label>
+		<description>Extends the area in which substructure can be built and increases support capacity. This extender seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/GravFieldExtender</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_PilotConsole_Prop</defName>
+		<label>pilot console</label>
+		<description>An interface that allows launching and piloting a gravship. This console seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/PilotConsole/PilotConsole</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.7,2.6)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_ChemfuelTank_Prop</defName>
+		<label>small chemfuel tank</label>
+		<description>A chemfuel storage tank that supplies fuel for thrusters on a gravship. This tank seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/ChemfuelTank/ChemfuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_LargeChemfuelTank_Prop</defName>
+		<label>large chemfuel tank</label>
+		<description>A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. This tank seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/LargeChemfuelTank/LargeChemfuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_SmallThruster_Prop</defName>
+		<label>small thruster</label>
+		<description>A chemfuel thruster that increases the range of a gravship. This thruster seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/SmallThruster/SmallThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.1,2.2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>1</fillPercent>
+		<passability>Impassable</passability>
+		<pathCost>0</pathCost>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_LargeThruster_Prop</defName>
+		<label>large thruster</label>
+		<description>An advanced chemfuel thruster that greatly increases the range of a gravship. This thruster seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/LateralThruster/LateralThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,2.2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>1</fillPercent>
+		<passability>Impassable</passability>
+		<pathCost>0</pathCost>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_FuelOptimizer_Prop</defName>
+		<label>fuel optimizer</label>
+		<description>A gravtech unit that reduces the fuel needed for gravship flight. This unit seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/FuelOptimizer/FuelOptimizer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_SignalJammer_Prop</defName>
+		<label>signal jammer</label>
+		<description>A signal emitter that disguises the electromagnetic signature of your gravship. This emitter seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/SignalJammer/SignalJammer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GravcorePowerCell_Prop</defName>
+		<label>gravcore power cell</label>
+		<description>A power generator that draws energy from gravitational waves passing through the gravship. This generator seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/GravcorePowerCell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_PilotSubpersonaCore_Prop</defName>
+		<label>pilot subpersona core</label>
+		<description>A low-grade subpersona specialized in gravship flight. This one only has access to chatGPT and is therefore dumber than a Steam mod commenter.</description>
+		<graphicData>
+			<texPath>Things/Building/PilotSubpersonaCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GravshipShieldGenerator_Prop</defName>
+		<label>gravship shield generator</label>
+		<description>Creates a short-lived momentum repulsor surface to block projectiles. This generator seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/GravshipShieldGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GravAnchor_Prop</defName>
+		<label>grav anchor</label>
+		<description>Prevents the local map from being destroyed during a gravship launch. This anchor seems completely inert.</description>
+		<graphicData>
+			<texPath>Things/Building/GravAnchor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechStabilizer</defName>
+		<label>relay stabilizer</label>
+		<description>A shield projecter that protects a nearby mechanoid relay. This one is completely inert.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/MechanoidStabilizer/MechanoidStabilizer</texPath>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechRelay</defName>
+		<label>mechanoid relay</label>
+		<description>A node that coordinates signals across a planet-wide mechanoid communication network. This one is completely inert.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/MechanoidRelay</texPath>
+			<drawSize>(3.5, 3.5)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechRelay_Crashed</defName>
+		<label>crashed mechanoid relay</label>
+		<description>A node that coordinates signals across a planet-wide mechanoid communication network. Wrecked.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/MechanoidRelay_Crashed</texPath>
+			<drawSize>(3.5, 3.5)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientGravReactor</defName>
+		<label>ancient grav reactor</label>
+		<description>An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Ancient/GravReactor/AncientGravReactor</texPath>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<size>(5, 5)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientGravEngine</defName>
+		<label>ancient grav engine</label>
+		<description>An ultratech engine used to bring large structures and ships into orbit. Nonfunctional for many years.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Ancient/GravEngine</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientMiningCharge</defName>
+		<label>ancient mining charge</label>
+		<description>An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old and inert.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/MiningCharge</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientExplosivesCrate</defName>
+		<label>ancient explosives crate</label>
+		<description>A container of ancient mining charges. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/ExplosivesCrate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.9</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_EggSac</defName>
+		<label>egg sac</label>
+		<description>A slimy sac containing an insect larva. This one is empty.</description>
+		<graphicData>
+			<texPath>Things/Building/EggSac</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_CocoonLocust</defName>
+		<label>locust cocoon</label>
+		<description>A stasis cocoon containing a locust. This one is empty.</description>
+		<graphicData>
+			<texPath>Things/Building/CocoonLocust</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>55</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTransportPod</defName>
+		<label>ancient transport pod</label>
+		<description>An ancient cargo pod capable of carrying people, animals, and items. Not in working condition.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/AncientLaunchPod</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientHatch</defName>
+		<label>ancient stockpile entrance</label>
+		<description>The entrance to a long-abandoned subterranean facility. Sealed shut.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/AncientHatch/AncientHatch_Closed</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechanoidDropPod</defName>
+		<label>mechanoid drop pod</label>
+		<description>A launchable cargo pod intended to carry mechanoids. Not in working condition.</description>
+		<graphicData>
+			<texPath>Things/Special/DropPodMechanoid</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTerraformer</defName>
+		<label>ancient terraformer</label>
+		<description>An ancient terraforming device powered by a gravcore. It is inert.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientTerraformer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_CerebrexCore</defName>
+		<label>cerebrex core</label>
+		<description>The thinking mind of the mechanoid swarm. Powered by Linux.</description>
+		<graphicData>
+			<texPath>Things/Building/CerebrexCore/CerebrexCore_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_CerebrexCore_Destroyed</defName>
+		<label>destroyed cerebrex core</label>
+		<description>The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.</description>
+		<graphicData>
+			<texPath>Things/Building/CerebrexCore/CerebrexCoreDestroyed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_CerebrexStabilizer</defName>
+		<label>cerebrex stabilizer</label>
+		<description>A remote shield generator that makes the nearby cerebrex core nearly invincible. Or it would, if it wasn't fake.</description>
+		<graphicData>
+			<texPath>Things/Building/CerebrexStabilizer/CerebrexStabilizer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.7</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechanoidProcessor</defName>
+		<label>mechanoid processor</label>
+		<description>A powerful mechanoid computer running Windows 98.</description>
+		<graphicData>
+			<texPath>Things/Building/MechanoidProcessor</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_PassengerShuttle</defName>
+		<label>passenger shuttle</label>
+		<description>A chemfuel-powered shuttle designed for long-distance travel. This one refuses to start.</description>
+		<graphicData>
+			<texPath>Things/Building/PassengerShuttle/PassengerShuttle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+		</graphicData>
+		<size>(3,5)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechPylon</defName>
+		<label>mech pylon</label>
+		<description>A node in a distributed mechanoid computation network.</description>
+		<graphicData>
+			<texPath>Things/Building/MechPylon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_SurveyScanner</defName>
+		<label>surveying scanner</label>
+		<description>A wideband sensor unit that can detect and map various features in a local area.</description>
+		<graphicData>
+			<texPath>Things/Building/SurveyingScanner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientUplink</defName>
+		<label>ancient uplink</label>
+		<description>An ancient transmitter used for secure communications between the surface and orbit.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientUplink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.60</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GaussCannon</defName>
+		<label>gauss cannon</label>
+		<description>A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. Pew pew.</description>
+		<graphicData>
+			<texPath>Things/Building/GaussCannon/GaussCannon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(13,13)</drawSize>
+		</graphicData>
+		<size>(9,9)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AnticraftBeam</defName>
+		<label>anticraft beam</label>
+		<description>A massive anti-ship beam weapon. Pew pew.</description>
+		<graphicData>
+			<texPath>Things/Building/AnticraftBeam/AnticraftBeam</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(13,13)</drawSize>
+		</graphicData>
+		<size>(9,9)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.6</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_MechhiveAssembler</defName>
+		<label>mechhive birther</label>
+		<description>An automated mechanoid factory. It periodically births fresh mechanoids.</description>
+		<graphicData>
+			<texPath>Things/Building/MechhiveAssembler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.60</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_InsectLairEntrance</defName>
+		<label>cave entrance</label>
+		<description>The entrance to a cave network. Seems to be just painted on the floor.</description>
+		<graphicData>
+			<texPath>Things/Building/CaveEntranceA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_GeothermalVent</defName>
+		<label>sulfur spout</label>
+		<description>A naturally-occurring break in the ground from which volcanic gases escape. These vents bring nutrients to the surface from deep underground. Collectively, the fumes they spew are enough to block out the sun.</description>
+		<graphicData>
+			<texPath>Things/Building/GeothermalVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_FleckEmitterLongTerm">
+				<fleckDef>SulfurCloud</fleckDef>
+				<spawnRadius>0.2</spawnRadius>
+				<spawnChance>0.05</spawnChance>
+				<spawnOffsetFromCenter>(0.5,0.0,0.5)</spawnOffsetFromCenter>
+				<prewarmCycles>1.0</prewarmCycles>
+				<fleckScale>4.0</fleckScale>
+				<minRotationRate>-10.0</minRotationRate>
+				<maxRotationRate>10.0</maxRotationRate>
+				<minVelocityAngle>-20.0</minVelocityAngle>
+				<maxVelocityAngle>20.0</maxVelocityAngle>
+				<minVelocitySpeed>0.5</minVelocitySpeed>
+				<maxVelocitySpeed>0.7</maxVelocitySpeed>
+				<forceEnabled>true</forceEnabled>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientSmokeVent</defName>
+		<label>ancient smoke vent</label>
+		<description>The exhaust vent of some long forgotten underground megastructure. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientSmokeVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientToxVent</defName>
+		<label>ancient toxic vent</label>
+		<description>A massive duct that vents toxic fumes from an underground megastructure. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientToxVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientHeatVent</defName>
+		<label>ancient heat vent</label>
+		<description>A massive duct that drops endlessly into the ground. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientHeatVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientEmergencyLight_Red</defName>
+		<label>ancient emergency light</label>
+		<description>An ancient light containing a long-lasting battery. Inactive</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/EmergencyLight/AncientEmergencyLight</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<size>(1,1)</size>
+		<clearBuildingArea>false</clearBuildingArea>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>35</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_LifeSupportUnit</defName>
+		<label>life support unit</label>
+		<description>A unit connected to the orbital platform's larger life support network. It keeps rooms heated and pressurized.</description>
+		<graphicData>
+			<texPath>Things/Building/LifesupportUnit/LifesupportUnit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>Standable</passability>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
+		<statBases>
+			<MaxHitPoints>35</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_OrbitalScanner</defName>
+		<label>orbital scanner</label>
+		<description>A sensor unit that passively scans for irregular objects orbiting the planet. Inactive.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/OrbitalScanner/OrbitalScanner</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_OxygenPump</defName>
+		<label>oxygen pump</label>
+		<description>A small wall-mounted unit that does nothing.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/OxygenPump/OxygenPump</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>Standable</passability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_HunterDroneTrap</defName>
+		<label>hunter trap</label>
+		<description>A dormant and inactive hunter drone trap.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/HunterTrap</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_WaspDroneTrap</defName>
+		<label>wasp trap</label>
+		<description>Several dormant and inactive wasp drones.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/WaspTrap</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableMachining</defName>
+		<label>ancient machining table</label>
+		<description>A rusted machining table covered in debris. All useful parts have been scavenged.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableMachining</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableSmithingFueled</defName>
+		<label>ancient fueled smithy</label>
+		<description>An ancient smithy that once burned fuel for crafting. Now, it's covered in soot and rust.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableSmithingFueled</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableSmithingElectric</defName>
+		<label>ancient electric smithy</label>
+		<description>A ruined electric smithy with frayed wires and scorched surfaces. It's beyond repair.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableSmithingElectric</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableStoveElectric</defName>
+		<label>ancient electric stove</label>
+		<description>An old electric stove with shattered heating elements. It's far too damaged to use.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableStoveElectric</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableStoveFueled</defName>
+		<label>ancient fueled stove</label>
+		<description>A rusted cooking stove. It's beyond unusable.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableStoveFueled</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableTailorElectric</defName>
+		<label>ancient electric tailor bench</label>
+		<description>A ruined tailor's bench with torn fabric and broken tools. It's beyond salvage.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableTailorElectric</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTableTailorHand</defName>
+		<label>ancient hand tailor bench</label>
+		<description>A simple tailor's bench with splintered wood and rusted needles. Nothing useful remains.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientTableTailorHand</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientWindTurbineBody</defName>
+		<label>ancient wind turbine</label>
+		<description>A toppled wind turbine with broken blades. It's been scavenged for parts long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Workbenches/AncientWindTurbineBody</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,2)</drawSize>
+		</graphicData>
+		<size>(5,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientBarrierLong</defName>
+		<label>large concrete barrier</label>
+		<description>A concrete barrier used to block the path of vehicles.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Checkpoint/AncientBarrierLong</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientMilitaryBarrier</defName>
+		<label>ancient military barrier</label>
+		<description>A concrete barrier once used for military roadblocks.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Checkpoint/AncientMilitaryBarrier</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientChembarrel</defName>
+		<label>ancient chembarrel</label>
+		<description>A rusted barrel that once stored chemfuel. It's empty and corroded.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Chemfuel/AncientChembarrel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientChembarrelPallet</defName>
+		<label>ancient chembarrel pallet</label>
+		<description>A stack of rusted barrels on a decayed pallet. Any valuable fuel leaked out long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Chemfuel/AncientChembarrelPallet</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientChemtruck</defName>
+		<label>ancient chemtruck</label>
+		<description>An abandoned chemfuel transport truck. Any usable parts were looted long ago.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Chemfuel/AncientChemtrack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,4)</drawSize>
+		</graphicData>
+		<size>(2,4)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientArmchair</defName>
+		<label>ancient armchair</label>
+		<description>A faded and torn armchair. It's unusable in its current state.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/AncientArmchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientPlantPot</defName>
+		<label>ancient plant pot</label>
+		<description>A large cracked pot with dead soil. Nothing can grow here any more.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/AncientPlantPot</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.2</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientTV</defName>
+		<label>busted television</label>
+		<description>A shattered television set. The screen is broken and the electronics are stripped out.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/BustedTV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientBathtub</defName>
+		<label>cracked bathtub</label>
+		<description>A bathtub with deep cracks and rust stains. It's completely unusable.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/CrackedBathtub</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientShower</defName>
+		<label>cracked shower</label>
+		<description>A broken shower stall. The plumbing is corroded and the ceramics are shattered.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/CrackedShower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientFilingCabinet</defName>
+		<label>rusted filing cabinet</label>
+		<description>A corroded filing cabinet. There's nothing useful left inside.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/RustedFilingCabinet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.2</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientColdStorage</defName>
+		<label>ancient cold storage</label>
+		<description>An old refrigeration unit, now rusted shut. Any contents have long since decayed to dust.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/RustedFridge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientLockers</defName>
+		<label>rusted lockers</label>
+		<description>A set of metal lockers, heavily rusted and bent. They've been thoroughly looted.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/RustedLockers</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_OdysseyProps">
+		<defName>VFEPD_AncientRustedMicrowave</defName>
+		<label>rusted microwave</label>
+		<description>An ancient microwave covered in rust. It's beyond repair.</description>
+		<graphicData>
+			<texPath>Things/Building/Ancient/House/RustedMicrowave</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.3</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientPipes_Odyssey</defName>
+		<label>ancient pipe</label>
+		<description>Steel pipes. These do not transport anything.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Ancient/Chemfuel/AncientPipes_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom7</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+			
+		</graphicData>
+		<uiIconPath>Things/Building/Ancient/Chemfuel/AncientPipes_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Ancient/Chemfuel/AncientPipes_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<drawStyleCategory>Defenses</drawStyleCategory>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Filth_ChippedIce</defName>
+		<label>chipped ice</label>
+		<description>A pile of chipped ice.</description>
+		<graphicData>
+			<texPath>Things/Filth/ChippedIce</texPath>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Filth_VolcanicAsh</defName>
+		<label>volcanic ash</label>
+		<description>A pile of volcanic ash.</description>
+		<graphicData>
+			<texPath>Things/Filth/VolcanicAsh</texPath>
+			<color>(255, 255, 255, 220)</color>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
 </Defs>
