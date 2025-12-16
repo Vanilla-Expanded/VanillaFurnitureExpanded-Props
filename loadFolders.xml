@@ -108,6 +108,7 @@
 		<li IfModActive="XMB.AncientUrbanrUins.MO">1.6/Mods/AncientUrbanRuins</li>
 		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/Insectoids</li>
 		<li IfModActive="VanillaExpanded.Temperature">1.6/Mods/Temperature</li>
+		<li IfModActive="vanillaexpanded.gravship">1.6/Mods/VanillaGravshipExpanded</li>
 	</v1.6>
 </loadFolders>
 

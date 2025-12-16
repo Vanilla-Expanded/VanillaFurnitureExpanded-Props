@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VEGravship_1</defName>
+		<category>VFE_PropCategory_Spaceships</category>
+		<priority>20</priority>
+		<prop>VFEPD_OxygenPump</prop>
+	</VFEProps.PropDef>
+	
+</Defs>

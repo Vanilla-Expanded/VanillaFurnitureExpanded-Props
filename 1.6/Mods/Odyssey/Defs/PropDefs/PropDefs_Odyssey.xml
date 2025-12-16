@@ -564,7 +564,6 @@
 		<priority>377</priority>
 		<prop>VFEPD_AncientEmergencyLight_Red</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_97</defName>
 		<category>VFE_PropCategory_Ancient</category>
@@ -583,7 +582,6 @@
 		<priority>19</priority>
 		<prop>VFEPD_OxygenPump</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_101</defName>
 		<category>VFE_PropCategory_Ancient</category>
@@ -735,7 +733,6 @@
 		<prop>VFEPD_AncientPipes_Odyssey</prop>
 		<silverCostOverride>0</silverCostOverride>
 	</VFEProps.PropDef>
-		
 	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
 		<defName>VFE_Prop_Filth_Odyssey1</defName>
 		<category>VFE_PropCategory_Filth</category>
@@ -747,5 +744,101 @@
 		<category>VFE_PropCategory_Filth</category>
 		<priority>302</priority>
 		<prop>VFEPD_Filth_VolcanicAsh</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_42</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>542</priority>
+		<prop>VFEPD_ArcheanTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_43</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>543</priority>
+		<prop>VFEPD_Plant_Reeds</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_44</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>544</priority>
+		<prop>VFEPD_Plant_LilyPad</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_45</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>545</priority>
+		<prop>VFEPD_Plant_Bulrush</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_46</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>546</priority>
+		<prop>VFEPD_Plant_Lotus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_47</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>547</priority>
+		<prop>VFEPD_Plant_Thornvine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_48</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>548</priority>
+		<prop>VFEPD_Plant_TreeSnagroot</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_49</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>549</priority>
+		<prop>VFEPD_Plant_MagmaCactus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_50</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>550</priority>
+		<prop>VFEPD_Plant_Nightgrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_51</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>551</priority>
+		<prop>VFEPD_Boomshroom</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_52</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>552</priority>
+		<prop>VFEPD_Plant_Psilocap</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_53</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>553</priority>
+		<prop>VFEPD_Plant_Willowgill</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_54</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>554</priority>
+		<prop>VFEPD_Plant_NightRafflesia</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_55</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>555</priority>
+		<prop>VFEPD_Plant_YellowGrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_56</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>556</priority>
+		<prop>VFEPD_Plant_YellowTallGrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_Odyssey_57</defName>
+		<category>VFE_PropCategory_Plants</category>
+		<priority>557</priority>
+		<prop>VFEPD_Plant_Fireweed</prop>
 	</VFEProps.PropDef>
 </Defs>

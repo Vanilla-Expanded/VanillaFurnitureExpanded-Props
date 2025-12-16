@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="VFEPD_VEGravshipProps" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="true">
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
+		<rotatable>true</rotatable>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_Agrocell</defName>
+		<label>agrocell</label>
+		<description>An enclosed, space-efficient growing unit designed for use on gravships. Upon closer inspection, it's just a decal!</description>
+		<graphicData>
+			<texPath>Things/Structures/Agrocell/Agrocell</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,3)</drawSize>
+		</graphicData>
+		<size>(1,3)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactStove</defName>
+		<label>compact stove</label>
+		<description>A space-efficient, gravship-powered stove designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipCookingStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactDrugLab</defName>
+		<label>compact drug lab</label>
+		<description>A space-efficient, gravship-powered drug lab designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipDrugLab</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactMachiningTable</defName>
+		<label>compact machining table</label>
+		<description>A space-efficient, gravship-powered machining table designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipMachiningBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactSmithy</defName>
+		<label>compact smithy</label>
+		<description>A space-efficient, gravship-powered smithy designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipSmithy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactTailor</defName>
+		<label>compact tailor bench</label>
+		<description>A space-efficient, gravship-powered tailor bench designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipTailoringBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactRefinery</defName>
+		<label>compact biofuel refinery</label>
+		<description>A space-efficient, gravship-powered biofuel refinery designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipBiofuelRefinery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_CompactFabBench</defName>
+		<label>compact fabrication bench</label>
+		<description>A space-efficient, gravship-powered fabrication bench designed for use aboard gravships. This one seems to be non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Production/GravshipFabricationBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,1)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_TargetingTerminal</defName>
+		<label>targeting terminal</label>
+		<description>A control station dedicated to operating a single gravship artillery piece. Out of order.</description>
+		<graphicData>
+			<texPath>Things/Structures/TargetingTerminal/TargetingTerminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_AmmoBox_GaussShell</defName>
+		<label>gauss shell ammo box</label>
+		<description>A small-sized box containing large fake uranium shells.</description>
+		<graphicData>
+			<texPath>Things/Structures/Artillery/AmmoCrate_GaussSlugs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedSmallOxygenTank</defName>
+		<label>destroyed small oxygen tank</label>
+		<description>This tank once supplied oxygen to the gravship, but it’s now broken and useless.</description>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedOxygenTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedSmallAstrofuelTank</defName>
+		<label>destroyed small astrofuel tank</label>
+		<description>This tank once stored astrofuel for thrusters, but it has been destroyed.</description>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedAstrofuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedGravExtender</defName>
+		<label>destroyed grav field extender</label>
+		<description>This device once expanded a gravship’s build area, but it is now shattered.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>14</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedGravFieldExtender</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedSmallThruster</defName>
+		<label>destroyed small thruster</label>
+		<description>This thruster once powered the gravship, but it is now wrecked beyond use.</description>
+		<size>(1,2)</size>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.6</fillPercent>
+		<statBases>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedSmallAstrofuelThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,3)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedLargeThruster</defName>
+		<label>destroyed large thruster</label>
+		<description>This powerful thruster once pushed gravships across space, but now it lies broken.</description>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.6</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedLateralThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_DestroyedSmallHeatsink</defName>
+		<label>destroyed small heatsink</label>
+		<description>This heatsink once cooled the gravship’s systems, but it has burned out.</description>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Structures/Destroyed/DestroyedHeatsink</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_GravFieldAmplifier</defName>
+		<label>grav field amplifier</label>
+		<description>An advanced ultratech device that dramatically increases the size of a gravship. Inactive.</description>
+		<size>(3,3)</size>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Structures/GravFieldAmplifier/GravFieldAmplifier</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_GravshipShelf</defName>
+		<label>gravship shelf</label>
+		<description>A reinforced storage shelf designed for use aboard gravships. Made out of cardboard, can't hold any items.</description>
+		<size>(2,1)</size>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/GravShelf/GravShelf</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_WallFirefoamPopper</defName>
+		<label>wall firefoam popper</label>
+		<description>A wall-mounted variant of the firefoam popper. It is empty.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.2</fillPercent>
+		<passability>Standable</passability>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/WallMountedFirefoamPopper/WallMountedFirefoamPopper</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_CommsTerminal</defName>
+		<label>comms terminal</label>
+		<description>A compact version of a comms console that allows radio contact with other factions and orbital traders. Inactive.</description>
+		<size>(3,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/GravCommsModule/GravshipCommsModule</texPath>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_WallOrbitalTradeBeacon</defName>
+		<label>wall orbital trade beacon</label>
+		<description>A wall-mounted version of an orbital trade beacon. Inactive.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.15</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/WallMountedOrbitalTraderBeacon/WallMountedOrbitalTradeBeacon</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_FauxPlant</defName>
+		<label>faux plant</label>
+		<description>An artificial plant in a sturdy metal pot. It requires no light, water, or air, making it perfect for adding beauty to even the most inhospitable gravship environments.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.20</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/FauxPlant</texPath>
+			<drawSize>2</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_SealantPopper</defName>
+		<label>sealant popper</label>
+		<description>An inactive sealant popper.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.30</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Structures/GravshipFurniture/SealantPopper/SealantPopper</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_PilotCockpit</defName>
+		<label>pilot cockpit</label>
+		<description>An interface that allows launching and piloting a gravjumper. Inactive.</description>
+		<size>(1,2)</size>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/PilotConsoles/PilotCockpit/PilotCockpit</texPath>
+			<drawSize>(2,3)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_PilotBridge</defName>
+		<label>pilot bridge</label>
+		<description>An interface that allows launching and piloting a gravhulk. Inactive.</description>
+		<size>(5,3)</size>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/PilotConsoles/PilotBridge/PilotBridge</texPath>
+			<drawSize>(6,4)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_CopilotConsole</defName>
+		<label>copilot console</label>
+		<description>An auxiliary interface that allows a copilot to assist in launching and piloting a gravship. Inactive.</description>
+		<size>(3,1)</size>
+		<fillPercent>0.4</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Structures/PilotConsoles/CoPilotConsole/CoPilotConsole</texPath>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+	</ThingDef>
+</Defs>
