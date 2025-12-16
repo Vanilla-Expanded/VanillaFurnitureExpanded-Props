@@ -571,6 +571,12 @@
 		<prop>VFEPD_SplicefiendContainment</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_91_1</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>91.1</priority>
+		<prop>VFEPD_SplicetootsContainment</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Vaults_92</defName>
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>92</priority>
@@ -629,5 +635,95 @@
 		<category>VFE_PropCategory_Vaults</category>
 		<priority>101</priority>
 		<prop>VFEPD_VaultRamp</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_102</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>102</priority>
+		<prop>VFEPD_StorageShelf_Empty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_103</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>103</priority>
+		<prop>VFEPD_StorageShelf_Meals</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_104</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>104</priority>
+		<prop>VFEPD_StorageShelf_Medicine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_105</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>105</priority>
+		<prop>VFEPD_StorageShelf_Neutroamine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_106</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>106</priority>
+		<prop>VFEPD_StorageShelf_Gowns</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_107</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>107</priority>
+		<prop>VFEPD_AncientOrganBox_Empty</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_108</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>108</priority>
+		<prop>VFEPD_AncientOrganBox</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_109</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>109</priority>
+		<prop>VFEPD_BustedAncientWonderdoc</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_110</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>110</priority>
+		<prop>VFEPD_PneumaticTubes_Long</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_111</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>111</priority>
+		<prop>VFEPD_PneumaticTubes_Triple</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_112</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>112</priority>
+		<prop>VFEPD_PneumaticTubes_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_113</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>113</priority>
+		<prop>VFEPD_PneumaticTubes_Underground</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_114</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>114</priority>
+		<prop>VFEPD_PneumaticTubes_Wall</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_115</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>115</priority>
+		<prop>VFEPD_PneumaticTubes_Terminus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vaults_116</defName>
+		<category>VFE_PropCategory_Vaults</category>
+		<priority>116</priority>
+		<prop>VFEPD_PneumaticTubes_Terminus_Closed</prop>
 	</VFEProps.PropDef>
 </Defs>

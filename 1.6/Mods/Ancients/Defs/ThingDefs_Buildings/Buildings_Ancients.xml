@@ -279,6 +279,7 @@
 		</statBases>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
+		
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
@@ -1621,6 +1622,7 @@
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<fillPercent>0.40</fillPercent>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -1647,6 +1649,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -1654,7 +1657,7 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>18</Mass>
 			<Flammability>1</Flammability>
-			<Comfort>0.75</Comfort>
+			
 		
 		</statBases>
 		<size>(1,1)</size>
@@ -1676,6 +1679,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -1683,7 +1687,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>18</Mass>
 			<Flammability>1</Flammability>
-			<Comfort>0.7</Comfort>
 		
 		</statBases>
 		<size>(2,1)</size>
@@ -1714,6 +1717,7 @@
 			<Flammability>0.5</Flammability>
 		
 		</statBases>
+		<fillPercent>0.40</fillPercent>
 		<size>(1,1)</size>
 		<rotatable>true</rotatable>
 		<building>
@@ -1742,6 +1746,7 @@
 			<Flammability>0.5</Flammability>
 		
 		</statBases>
+		<fillPercent>0.40</fillPercent>
 		<size>(1,1)</size>
 		<rotatable>true</rotatable>
 		<building>
@@ -1770,6 +1775,7 @@
 			<Flammability>0.5</Flammability>
 			
 		</statBases>
+		<fillPercent>0.40</fillPercent>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<building>
@@ -1791,6 +1797,7 @@
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<fillPercent>0.40</fillPercent>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -1819,6 +1826,7 @@
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<fillPercent>0.40</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -1847,6 +1855,7 @@
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<fillPercent>0.40</fillPercent>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -1875,6 +1884,7 @@
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<fillPercent>0.40</fillPercent>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -1901,6 +1911,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -1929,6 +1940,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -1957,6 +1969,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -1984,6 +1997,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2009,6 +2023,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2036,6 +2051,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2067,6 +2083,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2091,6 +2108,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2115,6 +2133,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2145,6 +2164,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2173,6 +2193,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.10</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2200,6 +2221,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2227,6 +2249,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2254,6 +2277,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>80</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2280,6 +2304,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2309,6 +2334,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2336,6 +2362,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2361,6 +2388,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.10</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2390,6 +2418,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2416,6 +2445,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2444,6 +2474,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2474,6 +2505,36 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<uiIconScale>0.75</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SplicetootsContainment</defName>
+		<label>splicetoots containment</label>
+		<description>A fake splicetoots containment building.</description>
+		<graphicData>
+			<texPath>Things/Building/Traps/MutationSampler_Filled_Splicetoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<pathCost>20</pathCost>
+		<fillPercent>0.40</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -2500,6 +2561,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2526,6 +2588,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2552,6 +2615,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2578,6 +2642,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<pathCost>20</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -2763,4 +2828,429 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<defName>VFEPD_StorageShelf_Empty</defName>
+	<label>empty storage shelf</label>
+	<description>An empty, wobbly storage shelf. Anything of value is long gone.</description>
+
+	<graphicData>
+		<texPath>Things/Building/Lootables/AncientIndustrialShelf_Empty</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2,1)</drawSize>
+	</graphicData>
+	<fillPercent>0.40</fillPercent>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Flammability>0.5</Flammability>
+	
+		<WorkToBuild>0</WorkToBuild>
+	</statBases>
+
+	<size>(2,1)</size>
+	<rotatable>true</rotatable>
+
+	<building>
+		<isInert>true</isInert>
+	</building>
+</ThingDef>
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_StorageShelf_Meals</defName>
+    <label>survival meals shelf</label>
+    <description>A wobbly storage shelf containing fake packaged survival meals.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientIndustrialShelf_Meals</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0.5</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_StorageShelf_Medicine</defName>
+    <label>medicine shelf</label>
+    <description>A wobbly storage shelf containing fake medicine.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientIndustrialShelf_Medicine</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0.5</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_StorageShelf_Neutroamine</defName>
+    <label>neutroamine shelf</label>
+    <description>A wobbly storage shelf containing fake bottles of neutroamine.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientIndustrialShelf_Neutroamine</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0.5</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_StorageShelf_Gowns</defName>
+    <label>patient gowns shelf</label>
+    <description>A wobbly storage shelf with stacks of fake patient gowns.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientIndustrialShelf_PatientGowns</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0.5</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AncientOrganBox_Empty</defName>
+    <label>empty ancient organ box</label>
+    <description>An empty storage box with a built-in cooling system, typically used to preserve organs over extended durations.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientOrganBox_Open</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_AncientOrganBox</defName>
+    <label>ancient organ box</label>
+    <description>A secure storage box with a built-in cooling system, typically used to preserve organs over extended durations. Sealed shut.</description>
+    <graphicData>
+        <texPath>Things/Building/Lootables/AncientOrganBox_Sealed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_BustedAncientWonderdoc</defName>
+    <label>busted ancient wonderdoc</label>
+    <description>Once capable of performing powerful wondercycles, this ancient medical machine has fully broken down after a catastrophic malfunction. Its chambers are cracked, its systems dead, and it can no longer be used. Some valuables may still be salvaged from it.</description>
+    <graphicData>
+        <texPath>Things/Building/AncientWonderdoc/BustedAncientWonderdoc</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <Flammability>0.75</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+      
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Long</defName>
+    <label>pneumatic tubes</label>
+    <description>A network of ancient tubes used to deliver small and medium items between vaults. Some of the capsules remain stuck inside.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesLong</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(6,4)</drawSize>
+        <drawOffset>(0,0,0.15)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <passability>Impassable</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(6,2)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Triple</defName>
+    <label>pneumatic tubes</label>
+    <description>A network of ancient tubes used to deliver small and medium items between vaults. Some of the capsules remain stuck inside.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesTriple</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(6,4)</drawSize>
+        <drawOffset>(0,0,0.275)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <passability>Impassable</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(5,4)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Corner</defName>
+    <label>pneumatic tubes</label>
+    <description>A network of ancient tubes used to deliver small and medium items between vaults. Some of the capsules remain stuck inside.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesCorner</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(4,4)</drawSize>
+        <drawOffset>(0,0,0.275)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <passability>Impassable</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(4,4)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Underground</defName>
+    <label>underground pneumatic tubes</label>
+    <description>A network of ancient tubes used to deliver small and medium items between vaults. Some of the capsules remain stuck inside.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesUnderground</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0</fillPercent>
+    <passability>Standable</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(4,4)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Wall</defName>
+    <label>pneumatic tubes</label>
+    <description>A network of ancient tubes used to deliver small and medium items between vaults. Some of the capsules remain stuck inside.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesWall</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(2,2)</drawSize>
+        <drawOffset>(0,0,0.275)</drawOffset>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <passability>Impassable</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Terminus</defName>
+    <label>empty pneumatic tubes terminus</label>
+    <description>The pneumatic tubes network had an exit port here. It is empty.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesTerminus_Open</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+    <defName>VFEPD_PneumaticTubes_Terminus_Closed</defName>
+    <label>closed pneumatic tubes terminus</label>
+    <description>The pneumatic tubes network had an exit port here. It can be opened to access its contents.</description>
+    <graphicData>
+        <texPath>Things/Building/Exotic/VQEA_PneumaticTubesTerminus_Closed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(4,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>0</WorkToBuild>
+    </statBases>
+    <size>(2,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+        <isInert>true</isInert>
+    </building>
+</ThingDef>
+
+
+
 </Defs>
