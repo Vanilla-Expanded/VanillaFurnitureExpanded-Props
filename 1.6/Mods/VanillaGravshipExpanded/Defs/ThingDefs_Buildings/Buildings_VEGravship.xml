@@ -30,7 +30,6 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>0.5</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -47,7 +46,6 @@
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -64,7 +62,6 @@
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -81,7 +78,6 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -98,7 +94,6 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -115,7 +110,6 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -132,7 +126,6 @@
 		<statBases>
 			<MaxHitPoints>140</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -149,7 +142,6 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -166,7 +158,6 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.5</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -183,7 +174,6 @@
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.5</Flammability>
-			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
@@ -458,9 +448,330 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Structures/PilotConsoles/CoPilotConsole/CoPilotConsole</texPath>
 			<drawSize>(4,3)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>small heatsink</label>
+		<description>A compact thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Heatsinks/Heatsink</texPath>
+			<drawSize>(3,3)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<statBases>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>large heatsink</label>
+		<description>A large thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Heatsinks/HeatsinkLarge</texPath>
+			<drawSize>(3,3)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<statBases>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravheat absorber</label>
+		<description>A specialized thermal sink that draws all residual heat from the grav engine, instantly clearing its cooldown. The absorbed heat leaves the gravheat absorber inoperable for an extended period while it safely dissipates the stored energy. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Heatsinks/GravheatAbsorber</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>engineering console</label>
+		<description>An interface used to monitor the maintenance status of all gravship components. It draws power directly from the grav engine. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/EngineeringConsole/EngineeringConsole</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>mechanoid grav engine</label>
+		<description>The cold, artificial heart of a mechanoid orbital platform. This one seems inert.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidGravEngine/MechanoidGravEgnine</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<size>(3,3)</size>
+		<fillPercent>0.6</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>large mechanoid thruster</label>
+		<description>A massive astrofuel thruster built by the mechanoid core to propel their orbital platforms. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidLateralThruster/MechanoidLateralThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>resource processor</label>
+		<description>A machine-built structure that sustains mechanoid platforms by breaking down cosmic debris and wreckage into usable resources. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidResourceProcessor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>mechanoid pod launcher</label>
+		<description>A mechanized launch bay that periodically fires drop pods packed with mechanoids. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidPodLauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>mechanoid temp shield</label>
+		<description>A compact defense unit that projects a localized shield around itself. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidTempShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>astrofuel node</label>
+		<description>A compact fuel reservoir integrated into mechanoid platforms. Empty and sealed.</description>
+		<graphicData>
+			<texPath>Things/Structures/MechanoidStructures/MechanoidAstrofuelNode</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravcore power coil</label>
+		<description>A massive gravtech reactor that channels and amplifies gravitational wave energy into immense electrical output. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Power/GravcorePowerCoil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravship capacitor</label>
+		<description>Stores high amounts of electricity for later use. Or it would, if it wasn't so fake!</description>
+		<graphicData>
+			<texPath>Things/Structures/Power/GravshipHighDensityBattery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,3)</drawSize>
+		</graphicData>
+		<size>(1,3)</size>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>solar panelling</label>
+		<description>Fake solar panelling built out of cardboard. This will probably win a high school science fair or something. We don't have those where I live, so I have only seen them in movies.</description>
+		<graphicData>
+			<texPath>Things/Structures/Power/SolarPaneling/SolarPanelling_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Sandbags</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Structures/Power/SolarPaneling/SolarPanelling_MenuIcon</uiIconPath>
+		<size>(1,1)</size>
+		<terrainAffordanceNeeded IsNull="True"/>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Structures/Power/SolarPaneling/SolarPanelling_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<blockWind>false</blockWind>
+		<fillPercent>0</fillPercent>
+		<drawStyleCategory>Floors</drawStyleCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravtech console</label>
+		<description>An interface used to analyze gravdata gathered from gravship launches and travel. Inert.</description>
+		<graphicData>
+			<texPath>Things/Structures/GravtechResearchBench/GravtechResearchBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<fillPercent>0.3</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravship black box</label>
+		<description>An advanced recorder integrated into the gravship’s systems. The only thing this one would do in an accident is be blown to pieces.</description>
+		<graphicData>
+			<texPath>Things/Structures/GravshipBlackBox/GravshipBlackBox</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>flight computer</label>
+		<description>An advanced computational unit that optimizes data collection during gravship travel. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/FlightComputer/FlightComputer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.4</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gunner subpersona core</label>
+		<description>A low-grade subpersona specialized in gravship combat. This one lacks the brain, so it can post on Reddit.</description>
+		<graphicData>
+			<texPath>Things/Structures/GunnerSubpersonaCore/GunnerSubpersonaCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>maintenance hub</label>
+		<description>A centralized system that optimizes and automates routine upkeep across the gravship. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/GravshipMaintenanceHub/GravshipMaintenanceHub</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>capacitor harmonizer</label>
+		<description>A specialized device that balances and synchronizes energy flow between nearby capacitors. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/CapacitorHarmonizer/CapacitorHarmonizer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<label>gravlift</label>
+		<description>A complex vertical launch and stabilization platform integrated into the gravship’s core structure. This one is non-functional.</description>
+		<graphicData>
+			<texPath>Things/Structures/Gravlift/Gravlift</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
 	</ThingDef>
 </Defs>
