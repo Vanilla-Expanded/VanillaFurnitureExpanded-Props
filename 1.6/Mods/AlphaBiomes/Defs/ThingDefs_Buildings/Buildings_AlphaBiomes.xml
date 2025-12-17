@@ -2669,6 +2669,9 @@
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
 		<rotatable>false</rotatable>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
@@ -2687,6 +2690,9 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
 		<rotatable>false</rotatable>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
@@ -2705,6 +2711,9 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
 		<rotatable>false</rotatable>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
@@ -3000,7 +3009,7 @@
 			<texPath>Things/Plants/AB_CubeTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>3.8</drawSize>
-			<drawOffset>(0,0,2)</drawOffset>
+			<drawOffset>(0,0,1.5)</drawOffset>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
@@ -3033,7 +3042,7 @@
 			<texPath>Things/Plants/AB_FleshTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>3</drawSize>
-			<drawOffset>(0,0,2)</drawOffset>
+			<drawOffset>(0,0,1.5)</drawOffset>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
@@ -3066,7 +3075,7 @@
 			<texPath>Things/Plants/AB_DessertTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>3</drawSize>
-			<drawOffset>(0,0,2)</drawOffset>
+			<drawOffset>(0,0,1.5)</drawOffset>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
@@ -3099,7 +3108,7 @@
 			<texPath>Things/Plants/AB_TechnoTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>3</drawSize>
-			<drawOffset>(0,0,2)</drawOffset>
+			<drawOffset>(0,0,1.5)</drawOffset>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
@@ -3132,7 +3141,7 @@
 			<texPath>Things/Plants/AB_LuminescentTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>3</drawSize>
-			<drawOffset>(0,0,2)</drawOffset>
+			<drawOffset>(0,0,1.5)</drawOffset>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
