@@ -109,6 +109,7 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/Insectoids</li>
 		<li IfModActive="VanillaExpanded.Temperature">1.6/Mods/Temperature</li>
 		<li IfModActive="vanillaexpanded.gravship">1.6/Mods/VanillaGravshipExpanded</li>
+		<li IfModActive="VanillaExpanded.VCookEBakery">1.6/Mods/VanillaExpandedBakery</li>
 	</v1.6>
 </loadFolders>
 

@@ -455,6 +455,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>small heatsink</label>
+		<defName>VFEPD_VGE_SmallHeatsink</defName>
 		<description>A compact thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. Non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/Heatsinks/Heatsink</texPath>
@@ -468,6 +469,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>large heatsink</label>
+		<defName>VFEPD_VGE_LargeHeatsink</defName>
 		<description>A large thermal regulator that absorbs heat from gravship travel and slowly converts part of it into usable power while preventing system overheating and decreasing the grav engine cooldown duration. Non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/Heatsinks/HeatsinkLarge</texPath>
@@ -481,6 +483,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravheat absorber</label>
+		<defName>VFEPD_VGE_GravheatAbsorber</defName>
 		<description>A specialized thermal sink that draws all residual heat from the grav engine, instantly clearing its cooldown. The absorbed heat leaves the gravheat absorber inoperable for an extended period while it safely dissipates the stored energy. Non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/Heatsinks/GravheatAbsorber</texPath>
@@ -495,6 +498,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>engineering console</label>
+		<defName>VFEPD_VGE_EngineeringConsole</defName>
 		<description>An interface used to monitor the maintenance status of all gravship components. It draws power directly from the grav engine. Non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/EngineeringConsole/EngineeringConsole</texPath>
@@ -510,6 +514,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>mechanoid grav engine</label>
+		<defName>VFEPD_VGE_MechanoidGravEngine</defName>
 		<description>The cold, artificial heart of a mechanoid orbital platform. This one seems inert.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -526,6 +531,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>large mechanoid thruster</label>
+		<defName>VFEPD_VGE_LargeMechanoidThruster</defName>
 		<description>A massive astrofuel thruster built by the mechanoid core to propel their orbital platforms. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/MechanoidStructures/MechanoidLateralThruster/MechanoidLateralThruster</texPath>
@@ -540,6 +546,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>resource processor</label>
+		<defName>VFEPD_VGE_MechanoidResourceProcessor</defName>
 		<description>A machine-built structure that sustains mechanoid platforms by breaking down cosmic debris and wreckage into usable resources. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/MechanoidStructures/MechanoidResourceProcessor</texPath>
@@ -555,6 +562,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>mechanoid pod launcher</label>
+		<defName>VFEPD_VGE_MechanoidPodLauncher</defName>
 		<description>A mechanized launch bay that periodically fires drop pods packed with mechanoids. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/MechanoidStructures/MechanoidPodLauncher</texPath>
@@ -570,6 +578,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>mechanoid temp shield</label>
+		<defName>VFEPD_VGE_MechanoidTempShield</defName>
 		<description>A compact defense unit that projects a localized shield around itself. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/MechanoidStructures/MechanoidTempShield</texPath>
@@ -585,6 +594,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>astrofuel node</label>
+		<defName>VFEPD_VGE_MechanoidAstrofuelNode</defName>
 		<description>A compact fuel reservoir integrated into mechanoid platforms. Empty and sealed.</description>
 		<graphicData>
 			<texPath>Things/Structures/MechanoidStructures/MechanoidAstrofuelNode</texPath>
@@ -600,6 +610,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravcore power coil</label>
+		<defName>VFEPD_VGE_GravcorePowerCoil</defName>
 		<description>A massive gravtech reactor that channels and amplifies gravitational wave energy into immense electrical output. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/Power/GravcorePowerCoil</texPath>
@@ -616,6 +627,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravship capacitor</label>
+		<defName>VFEPD_VGE_GravshipCapacitor</defName>
 		<description>Stores high amounts of electricity for later use. Or it would, if it wasn't so fake!</description>
 		<graphicData>
 			<texPath>Things/Structures/Power/GravshipHighDensityBattery</texPath>
@@ -636,6 +648,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>solar panelling</label>
+		<defName>VFEPD_VGE_SolarPanelling</defName>
 		<description>Fake solar panelling built out of cardboard. This will probably win a high school science fair or something. We don't have those where I live, so I have only seen them in movies.</description>
 		<graphicData>
 			<texPath>Things/Structures/Power/SolarPaneling/SolarPanelling_Atlas</texPath>
@@ -670,6 +683,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravtech console</label>
+		<defName>VFEPD_VGE_GravtechConsole</defName>
 		<description>An interface used to analyze gravdata gathered from gravship launches and travel. Inert.</description>
 		<graphicData>
 			<texPath>Things/Structures/GravtechResearchBench/GravtechResearchBench</texPath>
@@ -686,6 +700,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravship black box</label>
+		<defName>VFEPD_VGE_GravshipBlackBox</defName>
 		<description>An advanced recorder integrated into the gravship’s systems. The only thing this one would do in an accident is be blown to pieces.</description>
 		<graphicData>
 			<texPath>Things/Structures/GravshipBlackBox/GravshipBlackBox</texPath>
@@ -701,6 +716,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>flight computer</label>
+		<defName>VFEPD_VGE_FlightComputer</defName>
 		<description>An advanced computational unit that optimizes data collection during gravship travel. Non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/FlightComputer/FlightComputer</texPath>
@@ -716,6 +732,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gunner subpersona core</label>
+		<defName>VFEPD_VGE_GunnerSubpersonaCore</defName>
 		<description>A low-grade subpersona specialized in gravship combat. This one lacks the brain, so it can post on Reddit.</description>
 		<graphicData>
 			<texPath>Things/Structures/GunnerSubpersonaCore/GunnerSubpersonaCore</texPath>
@@ -724,6 +741,7 @@
 		</graphicData>
 		<size>(1,1)</size>
 		<pathCost>20</pathCost>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.7</Flammability>
@@ -731,6 +749,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>maintenance hub</label>
+		<defName>VFEPD_VGE_MaintenanceHub</defName>
 		<description>A centralized system that optimizes and automates routine upkeep across the gravship. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/GravshipMaintenanceHub/GravshipMaintenanceHub</texPath>
@@ -739,6 +758,7 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<pathCost>20</pathCost>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.2</Flammability>
@@ -746,6 +766,7 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>capacitor harmonizer</label>
+		<defName>VFEPD_VGE_CapacitorHarmonizer</defName>
 		<description>A specialized device that balances and synchronizes energy flow between nearby capacitors. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/CapacitorHarmonizer/CapacitorHarmonizer</texPath>
@@ -761,17 +782,359 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_VEGravshipProps">
 		<label>gravlift</label>
+		<defName>VFEPD_VGE_Gravlift</defName>
 		<description>A complex vertical launch and stabilization platform integrated into the gravship’s core structure. This one is non-functional.</description>
 		<graphicData>
 			<texPath>Things/Structures/Gravlift/Gravlift</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
+		<rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<pathCost>20</pathCost>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>0.3</Flammability>
 		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VGE_OxyalgaePlant</defName>
+		<label>oxyalgae plant</label>
+		<description>A fast-growing aquatic plant cultivated in hydroponics and used to generate oxygen when converted in algae oxygenator. This one seems to be a plastic plants.</description>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<graphicData>
+			<texPath>Things/Plant/OxyalgaePlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VGE_AstrofuelPipe</defName>
+		<label>astrofuel pipe</label>
+		<description>Steel pipes. These do not transport anything.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Astrofuel/AstrofuelPipes_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom7</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/PipeNetworks/Astrofuel/AstrofuelPipes_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/PipeNetworks/Astrofuel/AstrofuelPipes_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<drawStyleCategory>Defenses</drawStyleCategory>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_VGE_OxygenPipe</defName>
+		<label>oxygen pipe</label>
+		<description>Steel pipes. These do not transport anything.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Oxygen/OxygenPipes_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom7</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/PipeNetworks/Oxygen/OxygenPipes_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/PipeNetworks/Oxygen/OxygenPipes_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<drawStyleCategory>Defenses</drawStyleCategory>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_GiantAstrofuelTank</defName>
+		<label>giant astrofuel tank</label>
+		<description>A monumental astrofuel storage tank that supplies fuel for thrusters on a gravship. Sealed and empty</description>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Astrofuel/GiantAstrofuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,3)</drawSize>
+		</graphicData>
+		<fillPercent>0.6</fillPercent>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(6,3)</size>
+		<pathCost>20</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_AstrofuelTap</defName>
+		<label>astrofuel tap</label>
+		<description>A hopper-like storage device meant to hold dispensed astrofuel for use later.</description>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Astrofuel/AstrofuelTap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_AstrofuelDrain</defName>
+		<label>astrofuel drain</label>
+		<description>A hopper-like storage structure meant to input astrofuel into the network, filling up connected tanks.</description>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Astrofuel/AstrofuelDrain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_AstrofuelGenerator</defName>
+		<label>astrofuel generator</label>
+		<description>Produces power by consuming astrofuel. Much more efficient than chemfuel generators.</description>
+		<graphicData>
+			<texPath>Things/Structures/Power/AstrofuelGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>1.0</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_IndustrialAstrofuelGenerator</defName>
+		<label>industrial astrofuel generator</label>
+		<description>Produces a large amount of power by consuming astrofuel. Much more efficient than chemfuel generators.</description>
+		<graphicData>
+			<texPath>Things/Structures/Power/IndustrialAstrofuelGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>1.0</fillPercent>
+		<pathCost>150</pathCost>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_AstrofuelSynthesizer</defName>
+		<label>astrofuel synthesizer</label>
+		<description>A specialized structure that refines chemfuel into high-grade astrofuel. It must be connected to the astrofuel pipe network and linked to at least one astrofuel tank to operate. Once connected, it automatically converts inserted chemfuel into astrofuel for use in engines and systems.</description>
+		<graphicData>
+			<texPath>Things/Structures/AstrofuelSynthesizer/AstrofuelSynthesizer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<size>(4,2)</size>
+		<fillPercent>0.40</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_Astropurifier</defName>
+		<label>astropurifier</label>
+		<description>A gravtech unit that enhances the precision and stability of astrofuel refinement. When placed next to an astrofuel synthesizer, it enables perfect 1:1 conversion from chemfuel to astrofuel, though the process takes twice as long.</description>
+		<graphicData>
+			<texPath>Things/Structures/Astropurifier/Astropurifier</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<fillPercent>0.40</fillPercent>
+		<pathCost>20</pathCost>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_GiantThruster</defName>
+		<label>giant thruster</label>
+		<description>A massive, reinforced astrofuel thruster built with advanced alloys and ultra-dense vacstone plating. It massively increases the range and maximum size of the gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to four giant thrusters.</description>
+		<graphicData>
+			<texPath>Things/Structures/Thrusters/GiantAstrofuelThruster</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15,4.15)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_SmallOxygenTank</defName>
+		<label>small oxygen tank</label>
+		<description>An oxygen tank that supplies oxygen to pumps throughout the gravship.</description>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Oxygen/OxygenTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_LargeOxygenTank</defName>
+		<label>large oxygen tank</label>
+		<description>A large oxygen tank that supplies oxygen to pumps throughout the gravship.</description>
+		<graphicData>
+			<texPath>Things/PipeNetworks/Oxygen/LargeOxygenTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<pathCost>20</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_OxygenHarvester</defName>
+		<label>oxygen harvester</label>
+		<description>A device that draws in breathable oxygen from the surrounding atmosphere and stores it in the oxygen network. It functions only on planetary surfaces with an atmosphere and will not operate in vacuum or low-oxygen environments.</description>
+		<graphicData>
+			<texPath>Things/Structures/OxygenScrubber/OxygenScrubber</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_LifeSupportSystem</defName>
+		<label>algae oxygenator</label>
+		<description>A vital device that processes harvested oxyalgae into breathable oxygen. Converts biomass into gas and pumps it into the oxygen network to supply pressurized rooms and equipment.</description>
+		<graphicData>
+			<texPath>Things/Structures/LifeSupportTank/LifeSupportTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VEGravshipProps">
+		<defName>VFEPD_VGE_OxygenReclaimer</defName>
+		<label>oxygen reclaimer</label>
+		<description>A self-contained atmospheric unit that extracts trace oxygen from surrounding gases. It produces oxygen at a slow, steady rate, but requires no input materials. Needs to be connected to an oxygen tank via oxygen pipes to work.</description>
+		<graphicData>
+			<texPath>Things/Structures/OxygenReclaimer/OxygenReclaimer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<size>(2,2)</size>
 	</ThingDef>
 </Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VanillaExpandedBakery_Kitchen_1</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>20</priority>
+		<prop>VPEPD_VCE_BakeryOven_Fueled</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_VanillaExpandedBakery_Kitchen_2</defName>
+		<category>VFE_PropCategory_Kitchen</category>		
+		<priority>21</priority>
+		<prop>VPEPD_VCE_BakeryOven_Electric</prop>
+	</VFEProps.PropDef>
+</Defs>

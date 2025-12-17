@@ -302,7 +302,7 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_50</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>350</priority>
 		<prop>VFEPD_ShipChunk_Mech</prop>
 	</VFEProps.PropDef>
@@ -386,19 +386,19 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_64</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>351</priority>
 		<prop>VFEPD_MechStabilizer</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_65</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>352</priority>
 		<prop>VFEPD_MechRelay</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_66</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>353</priority>
 		<prop>VFEPD_MechRelay_Crashed</prop>
 	</VFEProps.PropDef>
@@ -452,7 +452,7 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_76</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>361</priority>
 		<prop>VFEPD_MechanoidDropPod</prop>
 	</VFEProps.PropDef>
@@ -464,25 +464,25 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_78</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>363</priority>
 		<prop>VFEPD_CerebrexCore</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_79</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>364</priority>
 		<prop>VFEPD_CerebrexCore_Destroyed</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_80</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>365</priority>
 		<prop>VFEPD_CerebrexStabilizer</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_81</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>366</priority>
 		<prop>VFEPD_MechanoidProcessor</prop>
 	</VFEProps.PropDef>
@@ -494,7 +494,7 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_83</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>368</priority>
 		<prop>VFEPD_MechPylon</prop>
 	</VFEProps.PropDef>
@@ -524,7 +524,7 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Odyssey_88</defName>
-		<category>VFE_PropCategory_Ancient</category>
+		<category>VFE_PropCategory_Mechs</category>
 		<priority>373</priority>
 		<prop>VFEPD_MechhiveAssembler</prop>
 	</VFEProps.PropDef>

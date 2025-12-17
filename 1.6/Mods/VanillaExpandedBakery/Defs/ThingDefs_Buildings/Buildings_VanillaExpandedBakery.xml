@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VPEPD_VCE_BakeryOven_Fueled</defName>
+		<label>fueled bakery oven</label>
+		<description>A wood-fueled oven designed for baking cookies, pastries, and cakes. Its steady heat ensures even cooking and sweet results. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Building/BakeryOven/FueledBakery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VPEPD_VCE_BakeryOven_Electric</defName>
+		<label>electric bakery oven</label>
+		<description>An electric oven designed for baking cookies, pastries, and cakes with reliable, consistent heat distribution for perfect results every time. Non-functional.</description>
+		<graphicData>
+			<texPath>Things/Building/BakeryOven/ElectricBakery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>

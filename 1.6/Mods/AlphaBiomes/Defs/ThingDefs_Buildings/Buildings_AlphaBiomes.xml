@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<ThingDef Name="VFEPD_AlphaBiomesProps" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="true">
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
+		<rotatable>true</rotatable>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_RedBugloss</defName>
 		<label>red bugloss</label>
@@ -312,9 +328,7 @@
 		<description>A plant of the euphorbia genus, commonly called spurges. This plant has adapted to arid climates and stores a lot of water inside their spine-covered leaves. This one is fake.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_EuphorbiaRimworldia</texPath>
-									<graphicClass>Graphic_Random</graphicClass>
-
-			
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.3, 0.2, 0.15)</volume>
 				<offset>(0,0,-0.1)</offset>
@@ -381,7 +395,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_Slimecasia</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0.5)</drawOffset>
 		</graphicData>
@@ -411,7 +424,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_SlimyFern</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0.5)</drawOffset>
 		</graphicData>
@@ -439,7 +451,6 @@
 		<label>tall slimy grass</label>
 		<description>Wild tall grass. Slows down anyone moving over it. This one is fake.</description>
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-		 
 		<graphicData>
 			<texPath>Things/Plants/AB_SlimeGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -470,9 +481,8 @@
 		<label>slimy tree</label>
 		<description>This tree doesn't seem to be entirely solid. Upon further examination, it isn't an independent entity, its roots fusing seamlessly with the hardened gelatinous ground. This one is fake.</description>
 		<graphicData>
-				<texPath>Things/Plants/AB_SlimyTree</texPath>
+			<texPath>Things/Plants/AB_SlimyTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			
 			<drawSize>2.8</drawSize>
 			<drawOffset>(0,0,0.9)</drawOffset>
 		</graphicData>
@@ -531,7 +541,6 @@
 		<label>exotic flowers</label>
 		<description>A bunch of colourful flowers. These are fake.</description>
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-		 
 		<graphicData>
 			<texPath>Things/Plants/AB_Flowers</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -696,7 +705,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_SessileMechanoid</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			
 			<drawSize>3.5</drawSize>
 			<drawOffset>(0,0,1.25)</drawOffset>
 		</graphicData>
@@ -725,7 +733,6 @@
 		<label>hardy grass</label>
 		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground. This one is fake.</description>
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-		 
 		<graphicData>
 			<texPath>Things/Plant/Grass_Leafless</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -1145,7 +1152,6 @@
 		<label>ocular grass</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures. This one is fake.</description>
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-		 
 		<graphicData>
 			<texPath>Things/Plants/GU_AlienGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -1406,8 +1412,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_CrystalHorn</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -1441,8 +1445,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_FrostLeaf</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -1476,8 +1478,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_RimeNodules</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -1511,8 +1511,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_CrystalFlower</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -1547,7 +1545,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_FlashFrozenTree</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			
 			<shadowData>
 				<volume>(0.2, 0.15, 0.13)</volume>
 				<offset>(-0.03,0,-0.44)</offset>
@@ -1678,8 +1675,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_GreenRockFern</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -1713,8 +1708,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_Iashiphus</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.3, 0.2, 0.15)</volume>
 				<offset>(0,0,-0.1)</offset>
@@ -1748,8 +1741,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_SugarFamewort</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.3, 0.2, 0.15)</volume>
 				<offset>(0,0,-0.1)</offset>
@@ -1779,12 +1770,10 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_RavenNettle</defName>
 		<label>raven nettle</label>
-	
 		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>Tangled, thorny, woody shoots covered with leaves. Raven nettle grows in clusters, and slows down anyone moving over it. This one is fake.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_RavenNettle</texPath>
-		
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.445</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
@@ -1811,12 +1800,10 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_DriedRavenNettle</defName>
 		<label>dried raven nettle</label>
-	
 		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
 		<description>Tangled, thorny, woody shoots covered with leaves. Raven nettle grows in clusters, and slows down anyone moving over it. This one is fake.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_RavenNettleLeafless</texPath>
-		
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.445</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
@@ -1906,7 +1893,6 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ToxicGamma</defName>
 		<label>toxic gamma</label>
@@ -1914,8 +1900,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_ToxicGamma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -2074,7 +2058,6 @@
 		<graphicData>
 			<texPath>Things/Plants/AB_EuphorbiaDesiccata</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		
 			<shadowData>
 				<volume>(0.3, 0.2, 0.15)</volume>
 				<offset>(0,0,-0.1)</offset>
@@ -2104,7 +2087,6 @@
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ToxiGrass</defName>
 		<label>toxi grass</label>
-		
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
 		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground. This one is fake.</description>
 		<graphicData>
@@ -2233,9 +2215,7 @@
 		<defName>VFEPD_EyeGrass</defName>
 		<label>flowering ocular grass</label>
 		<description>Are those... eyes?</description>
-		
 		<thingClass>VFEProps.Building_FakePlant3x3</thingClass>
-	
 		<graphicData>
 			<texPath>Things/Plants/AB_EyeGrass</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -2329,5 +2309,852 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
-	<!--<thingClass>VFEProps.Building_FakePlant2x2</thingClass>-->
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AncientFreezingVent</defName>
+		<label>ancient freezing vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent freezing cold air from an underground megastructure, dramatically lowering the temperature of the surrounding area. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientFreezingVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFEPD_AB_AncientGreyPallVent</defName>
+		<label>ancient gray pall vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent large amounts of sickly looking smoke that will plunge the area into a preternatural darkness. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientGreyPallVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFEPD_AB_AncientBloodRainVent</defName>
+		<label>ancient blood rain vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent huge red clouds of a vaporized blood-like substance that will coalesce into a disgusting blood rain. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientBloodRainVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFEPD_AB_AncientDeathPallVent</defName>
+		<label>ancient death pall vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent clouds of microscopic self-powered archites that affect corpses reanimating them to create a twisted imitation of life. Permanently inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientDeathPallVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictArchotechTower</defName>
+		<label>derelict archotech tower</label>
+		<description>A moderately-sized archotech tower rising from the ground. It seems to be long inert.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.75</fillPercent>
+		<statBases>
+			<Flammability>0</Flammability>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictMajorArchotechStructure</defName>
+		<label>derelict major archotech structure</label>
+		<description>A large archotech structure. The dull green surface is ruiend and covered in vegetation. It seems to be long inert.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<size>(7,7)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.75</fillPercent>
+		<statBases>
+			<Flammability>0</Flammability>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictArchonexusCore</defName>
+		<label>derelict archonexus core</label>
+		<description>The ruined central core of an archonexus. Its broad surfaces are dusty and covered with vegetation. It seems to be long inert.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(11,11)</drawSize>
+		</graphicData>
+		<size>(11,11)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.75</fillPercent>
+		<statBases>
+			<Flammability>0</Flammability>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedTurret_Single</defName>
+		<label>ruined mech turret base</label>
+		<description>A ruined mech turret base. Completely broken.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedTurret_Single</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedTurret_Full</defName>
+		<label>ruined mech turret</label>
+		<description>A ruined mech turret. Completely broken. No useful components can be scavenged from this old turret.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedTurret_Full</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedShield</defName>
+		<label>ruined mech shield</label>
+		<description>A spent mech shield generator. Still faintly humming.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedMortar_Single</defName>
+		<label>ruined mech mortar gun</label>
+		<description>A ruined mech mortar.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedMortar_Single</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>true</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedMortar_Full</defName>
+		<label>ruined mech mortar</label>
+		<description>A ruined mech auto-mortar. Completely broken. No useful components can be scavenged from this old mortar.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedMortar_Full</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedLargeGunPlatform</defName>
+		<label>ruined mech large turret base</label>
+		<description>A ruined mech large turret base. Whatever this base held, it's long gone.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedLargeGunPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedCell</defName>
+		<label>ruined mech power cell</label>
+		<description>A ruined mech power cell. Perhaps a few components can be scavenged from this one.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedCell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedActivator</defName>
+		<label>ruined mech proximity activator</label>
+		<description>A ruined mech proximity activator. Perhaps a few components can be scavenged from this one.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedActivator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedCapsule</defName>
+		<label>ruined mech capsule</label>
+		<description>A ruined mech capsule. Thankfully it has been empty for a while.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedCapsule</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,3)</drawSize>
+		</graphicData>
+		<size>(2,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_Mech_RuinedAssembler</defName>
+		<label>ruined mech assembler</label>
+		<description>A ruined mech assembler. Thankfully it has been inactive for a while.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedAssembler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.50</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictSwimmingPool</defName>
+		<label>derelict swimming pool</label>
+		<description>This was once a relaxing swimming pool, but it is now a fetid, stagnant pool of water.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DerelictPool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(10,5)</drawSize>
+		</graphicData>
+		<size>(10,5)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<passability>Impassable</passability>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictRecliner</defName>
+		<label>derelict recliner</label>
+		<description>A recliner used for relaxation. Rotten and dirty to the point of uselessness.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DerelictRecliner</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictBeachUmbrella</defName>
+		<label>derelict beach umbrella</label>
+		<description>A beach umbrella so broken that it won't even keep the sun out.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DerelictBeachUmbrella</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DirtyBeachBall</defName>
+		<label>dirty beach ball</label>
+		<description>A half-deflated beach ball that has seen better days.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DirtyBeachBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DerelictPoolLadder</defName>
+		<label>derelict pool ladder</label>
+		<description>This pool ladder has seen better days.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DerelictPoolLadder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_DirtyPoolFloat</defName>
+		<label>dirty pool float</label>
+		<description>A deflated and dirty pool float.</description>
+		<graphicData>
+			<texPath>Things/Building/DerelictResort/AB_DirtyPoolFloat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_MechanoidReceiver</defName>
+		<label>mechanoid resonance receiver</label>
+		<description>A wide band receiver designed to intercept lingering mechanoid signal patterns from the environment. Completely inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/MechanoidIntrusion/AB_MechanoidReceiver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_MycoticCollector</defName>
+		<label>mycotic collector</label>
+		<description>Collects edible airborne micro-fungi present in this map and extracts them into processed fungi that can be used as a food ingredient. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/MycoticJungle/AB_MycoticCollector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_MagmaThermalPlant</defName>
+		<label>magma-thermal generator</label>
+		<description>Produces electricity from hyperheated geothermal steam geysers in a magma rich zone. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/PyroclasticConflagration/AB_MagmaGeothermal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_ShackledGamma</defName>
+		<label>shackled gamma</label>
+		<description>A containment vat designed to preserve and regulate the life of a Gamma plant beyond its natural span. This gamma seems to be a plastic plant.</description>
+		<graphicData>
+			<texPath>Things/Building/ForsakenCrags/AB_ShackledGamma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>2500</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_GallatrossBones</defName>
+		<label>gallatross bones</label>
+		<description>This ribcage once belonged to a living Gallatross of truly exceptional size. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_Bones1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AncientGallatrossSkull</defName>
+		<label>ancient gallatross skull</label>
+		<description>This skull belonged to an exceptionally huge Gallatross. Look at the size of this thing! Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_AncientGallatrossSkull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AncientBone</defName>
+		<label>ancient bone</label>
+		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_AncientBone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AncientBrokenBone</defName>
+		<label>ancient shattered bone</label>
+		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_AncientBrokenBone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AncientVerticalBone</defName>
+		<label>ancient bones</label>
+		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_AncientVerticalBone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_HugeGallatrossSkeleton</defName>
+		<label>huge gallatross skeleton</label>
+		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_WholeGallatrossSkeleton</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(12,8)</drawSize>
+		</graphicData>
+		<size>(8,4)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_SlimeCompressor</defName>
+		<label>slime compressor</label>
+		<description>A bulky, churning machine that grinds down organic slime and compresses it under immense pressure, slowly transforming the ooze into dense, usable sandstone. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/GelatinousSuperorganism/AB_SlimeCompressor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AlcyoniteSolar</defName>
+		<label>alcyonite solar generator</label>
+		<description>Uses alcyonite solar cells to extract electricity from the sun. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/OcularForest/AB_RedSolarCells</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>70</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AlcyoniteSolar_Advanced</defName>
+		<label>advanced alcyonite solar generator</label>
+		<description>Uses alcyonite solar cells to extract electricity from the sun. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/OcularForest/AB_RedSolarCell_Advanced</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>70</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_OcularGasSpewer</defName>
+		<label>ocular gas spewer</label>
+		<description>This device needs a small amount of electricity to condense atmospheric gases and spew a large cloud of ocular gas. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/OcularForest/AB_OcularGasSpewer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<fillPercent>0.3</fillPercent>
+		<pathCost>25</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_AlienComplianceCenter</defName>
+		<label>ocular compliance center</label>
+		<description>An experimental device that emmanates strange waves making everyone love the truly alien weather. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/OcularForest/AB_AlienComplianceCenter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<fillPercent>0.2</fillPercent>
+		<pathCost>25</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_TarPump</defName>
+		<label>tar pump</label>
+		<description>Extracts tar from a natural tar hole and transforms the tar into chemfuel. Inactive.</description>
+		<graphicData>
+			<texPath>Things/Building/TarPits/AB_TarPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>70</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_AlphaBiomesProps">
+		<defName>VFEPD_AB_BumbledroneHive</defName>
+		<label>bumbledrone hive</label>
+		<description>A huge mound of hardened organic matter that communicates with an extensive underground hive. This one was built out of papier mache.</description>
+		<graphicData>
+			<texPath>Things/Building/TarPits/AB_BumbledroneHive</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.6</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Flammability>2.0</Flammability>
+		</statBases>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AB_GoldenCubeTree</defName>
+		<label>golden cube tree</label>
+		<description>These rare trees grow giant, shimmering golden cubes in place of fruit. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_CubeTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>3.8</drawSize>
+			<drawOffset>(0,0,2)</drawOffset>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AB_FleshTree</defName>
+		<label>flesh tree</label>
+		<description>A grotesque growth of pulsing, veiny tissue stretched over a warped wooden frame. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_FleshTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,2)</drawOffset>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AB_DessertTree</defName>
+		<label>dessert tree</label>
+		<description>An easy answer to the question: "what would you create if you were an insane plant geneticist?". This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_DessertTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,2)</drawOffset>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AB_TechnoTree</defName>
+		<label>techno tree</label>
+		<description>A bizarre fusion of bark and circuitry, this half-synthetic tree hums with low energy pulses. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_TechnoTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,2)</drawOffset>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AB_LuminescentTree</defName>
+		<label>luminescent tree</label>
+		<description>A tree-like giant bramble that supports a huge globe of glowing sap that casts a soft, colorful light in the dark. This one is fake.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_LuminescentTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,2)</drawOffset>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
 </Defs>

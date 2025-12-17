@@ -234,8 +234,6 @@
 		<priority>39</priority>
 		<prop>VFEPD_RedPlantsTall</prop>
 	</VFEProps.PropDef>
-	
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_ExoticPlants_AlienTree</defName>
 		<category>VFE_PropCategory_ExoticPlants</category>
@@ -296,7 +294,6 @@
 		<priority>49</priority>
 		<prop>VFEPD_FlashFrozenTree</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_ExoticPlants_BrownBarrelCactus</defName>
 		<category>VFE_PropCategory_ExoticPlants</category>
@@ -357,7 +354,6 @@
 		<priority>59</priority>
 		<prop>VFEPD_KeeningCordax</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_ExoticPlants_ToxicGamma</defName>
 		<category>VFE_PropCategory_ExoticPlants</category>
@@ -435,5 +431,275 @@
 		<category>VFE_PropCategory_ExoticPlants</category>
 		<priority>72</priority>
 		<prop>VFEPD_GlobularPlant_Polluted</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_100</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>376.1</priority>
+		<prop>VFEPD_AB_AncientFreezingVent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFE_Prop_AlphaBiomes_101</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>376.2</priority>
+		<prop>VFEPD_AB_AncientGreyPallVent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFE_Prop_AlphaBiomes_102</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>376.3</priority>
+		<prop>VFEPD_AB_AncientBloodRainVent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>VFE_Prop_AlphaBiomes_103</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>376.4</priority>
+		<prop>VFEPD_AB_AncientDeathPallVent</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_1</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>73</priority>
+		<prop>VFEPD_AB_GoldenCubeTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_2</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>74</priority>
+		<prop>VFEPD_AB_FleshTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_3</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>75</priority>
+		<prop>VFEPD_AB_DessertTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_4</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>76</priority>
+		<prop>VFEPD_AB_TechnoTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_5</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>77</priority>
+		<prop>VFEPD_AB_LuminescentTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_ExoticPlants_6</defName>
+		<category>VFE_PropCategory_ExoticPlants</category>
+		<priority>78</priority>
+		<prop>VFEPD_AB_ShackledGamma</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Insects_1</defName>
+		<category>VFE_PropCategory_Insectoids</category>
+		<priority>103</priority>
+		<prop>VFEPD_AB_BumbledroneHive</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Spacer_1</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>20.1</priority>
+		<prop>VFEPD_AB_DerelictArchotechTower</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Spacer_2</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>20.2</priority>
+		<prop>VFEPD_AB_DerelictMajorArchotechStructure</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Spacer_3</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>20.3</priority>
+		<prop>VFEPD_AB_DerelictArchonexusCore</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_1</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>450</priority>
+		<prop>VFEPD_AB_Mech_RuinedTurret_Single</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_2</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>451</priority>
+		<prop>VFEPD_AB_Mech_RuinedTurret_Full</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_3</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>452</priority>
+		<prop>VFEPD_AB_Mech_RuinedShield</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_4</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>453</priority>
+		<prop>VFEPD_AB_Mech_RuinedMortar_Single</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_5</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>454</priority>
+		<prop>VFEPD_AB_Mech_RuinedMortar_Full</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_6</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>455</priority>
+		<prop>VFEPD_AB_Mech_RuinedLargeGunPlatform</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_7</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>456</priority>
+		<prop>VFEPD_AB_Mech_RuinedCell</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_8</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>457</priority>
+		<prop>VFEPD_AB_Mech_RuinedActivator</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_9</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>458</priority>
+		<prop>VFEPD_AB_Mech_RuinedCapsule</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_10</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>459</priority>
+		<prop>VFEPD_AB_Mech_RuinedAssembler</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Mech_11</defName>
+		<category>VFE_PropCategory_Mechs</category>
+		<priority>460</priority>
+		<prop>VFEPD_AB_MechanoidReceiver</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_1</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>8</priority>
+		<prop>VFEPD_AB_DerelictSwimmingPool</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_2</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>9</priority>
+		<prop>VFEPD_AB_DerelictRecliner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_3</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>10</priority>
+		<prop>VFEPD_AB_DerelictBeachUmbrella</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_4</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>11</priority>
+		<prop>VFEPD_AB_DirtyBeachBall</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_5</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>12</priority>
+		<prop>VFEPD_AB_DerelictPoolLadder</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_6</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>13</priority>
+		<prop>VFEPD_AB_DirtyPoolFloat</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_7</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>14</priority>
+		<prop>VFEPD_AB_GallatrossBones</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_8</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>15</priority>
+		<prop>VFEPD_AB_AncientGallatrossSkull</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_9</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>16</priority>
+		<prop>VFEPD_AB_AncientBone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_10</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>17</priority>
+		<prop>VFEPD_AB_AncientBrokenBone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_11</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>18</priority>
+		<prop>VFEPD_AB_AncientVerticalBone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_12</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>19</priority>
+		<prop>VFEPD_AB_HugeGallatrossSkeleton</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Power_1</defName>
+		<category>VFE_PropCategory_Power</category>
+		<priority>15</priority>
+		<prop>VFEPD_AB_MagmaThermalPlant</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Power_2</defName>
+		<category>VFE_PropCategory_Power</category>
+		<priority>16</priority>
+		<prop>VFEPD_AB_AlcyoniteSolar</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Power_3</defName>
+		<category>VFE_PropCategory_Power</category>
+		<priority>17</priority>
+		<prop>VFEPD_AB_AlcyoniteSolar_Advanced</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_13</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>20</priority>
+		<prop>VFEPD_AB_MycoticCollector</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_14</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>21</priority>
+		<prop>VFEPD_AB_SlimeCompressor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_15</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>22</priority>
+		<prop>VFEPD_AB_OcularGasSpewer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_16</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>23</priority>
+		<prop>VFEPD_AB_AlienComplianceCenter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_AlphaBiomes_Misc_17</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>24</priority>
+		<prop>VFEPD_AB_TarPump</prop>
 	</VFEProps.PropDef>
 </Defs>
