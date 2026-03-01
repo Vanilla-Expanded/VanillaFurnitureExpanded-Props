@@ -308,6 +308,7 @@
 			</shadowData>
 			<color>(117,169,119)</color>
 		</graphicData>
+		<rotatable>False</rotatable>
 		<pathCost>42</pathCost>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
