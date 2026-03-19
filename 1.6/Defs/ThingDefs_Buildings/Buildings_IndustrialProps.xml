@@ -311,6 +311,7 @@
 		<pathCost>42</pathCost>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
 		<fillPercent>0.6</fillPercent>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
