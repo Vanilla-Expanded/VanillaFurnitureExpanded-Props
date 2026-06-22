@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="VFEPD_VPEFlowersBase" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="true">
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_RedRoseBush</defName>
+		<label>red rose bush</label>
+		<description>A dense, woody shrub known for producing vibrant, classic roses. With its thick foliage and striking blooms, it serves as an excellent ornamental centerpiece for any garden.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/RedRoseBush/RedRoseBush_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Daisy</defName>
+		<label>daisy</label>
+		<description>A common, cheerful flower with white petals and a yellow center, often found in fields and lawns. It's a symbol of innocence and purity.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Daisy/Daisy_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Lavender</defName>
+		<label>lavender</label>
+		<description>A fragrant perennial herb, known for its calming properties. It's highly prized for its scent and vibrant purple flowers, and its presence can uplift the mood of everyone.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Lavender/Lavender_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Tulip</defName>
+		<label>tulip</label>
+		<description>A classic spring flower known for its vibrant, cup-shaped blooms on a single stem. They are symbols of perfect love and new beginnings.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Tulip/Tulip_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Hydrangea</defName>
+		<label>hydrangea bush</label>
+		<description>A popular, dense shrub known for its large, round clusters of flowers that bloom for a long season. Their color often changes based on soil acidity.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Hydrangea/Hydrangea_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Hydrangea_Purple</defName>
+		<label>hydrangea bush</label>
+		<description>A popular, dense shrub known for its large, round clusters of flowers that bloom for a long season. Their color often changes based on soil acidity.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Hydrangea/Hydrangea_Blooming_Alternate</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Pansy</defName>
+		<label>pansy</label>
+		<description>A cultivated hybrid flower famous for its bright, "face-like" blooms. It thrives in cool temperatures and is often one of the first flowers to appear in spring.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Pansy/Pansy_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Marigold</defName>
+		<label>marigold</label>
+		<description>A vibrant, sun-loving flower known for its brilliant orange and yellow blooms. Its presence is sometimes associated with repelling insectoids, though some varieties can have a distinct, pungent scent.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Marigold/Marigold_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Lilac</defName>
+		<label>lilac</label>
+		<description>A highly fragrant, woody shrub known for its dense clusters of purple or white flowers that signify the start of summer. Very resilient and cold-hardy.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Lilac/Lilac_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Hiacynth</defName>
+		<label>hyacinth</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>A highly fragrant, dense flower known for its clusters of bell-shaped blooms. As a bulb flower, it is one of the earliest signs of spring and is highly valued for its sweet scent.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Hiacynth/Hiacynth_Blooming</texPath>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Crocus</defName>
+		<label>crocus</label>
+		<description>A small, low-lying flower that is one of the very first signs of spring, often pushing its blooms through the last of the winter snow. Its beautiful, cup-shaped bloom brings a brief but powerful moment of color to the early year.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Crocus/Crocus_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Amaryllis</defName>
+		<label>amaryllis</label>
+		<description>A majestic, showy bulb flower known for its large, trumpet-shaped blooms and long, elegant stalks. It is highly valued for its striking beauty and ability to bloom during the deep cold, when conditions are right.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Amaryllis/Amaryllis_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Daffodil</defName>
+		<label>daffodil</label>
+		<description>A classic, cheerful spring flower known for its trumpet-shaped central corona and wide petals. It's an early bloomer, symbolizing new beginnings and unrequited love.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Daffodil/Daffodil_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Hibiscus</defName>
+		<label>hibiscus</label>
+		<description>A large, woody shrub famous for its massive, tropical-looking, trumpet-shaped flowers that bloom continuously in warm weather. Much more beautiful outside than inside. A symbol of delicate beauty and a warm climate staple.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Hibiscus/Hibiscus_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Chrysanthemum</defName>
+		<label>chrysanthemum</label>
+		<description>A widely cultivated flowering plant known for its diverse forms and colors, often blooming in the late year. It is a symbol of joy and a long, vibrant life. Its flowers are much more beautiful outside than inside, especially when fully bloomed.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Chrysanthemum/Chrysanthemum_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Aster</defName>
+		<label>aster</label>
+		<description>A star-shaped, daisy-like flower, often with purple-blue petals, famous for providing vibrant color in the late season. It is a symbol of patience and elegance.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Aster/Aster_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Sedum</defName>
+		<label>sedum</label>
+		<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<description>Sedums are tough, succulent plants known for their fleshy leaves and star-shaped flower clusters that bloom for a long season. Unlike other plants, they do not enter a leafless state in cold temperatures.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Sedum/Sedum_Blooming</texPath>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Strelitzia</defName>
+		<label>strelitzia</label>
+		<description>An iconic, tropical perennial known as the 'Bird of Paradise' flower. Its crane-like, vibrant orange and blue blooms make it one of the most striking and beautiful plants in a garden. When it withers, it’s incredibly difficult to look at.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Strelitzia/Strelitzia_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Plumeria</defName>
+		<label>plumeria</label>
+		<description>A tropical flowering tree, also known as frangipani, famous for its intensely fragrant, waxy, pinwheel-shaped flowers. It is a symbol of perfection and spring in tropical climates.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Plumeria/Plumeria_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Peony</defName>
+		<label>peony bush</label>
+		<description>A dense, long-lived shrub known for its large, fragrant, lush blooms. Peonies are slow to establish, but a mature plant can live for decades, rewarding the grower with increasing beauty year after year.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Peony/Peony_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Saintpaulia</defName>
+		<label>saintpaulia</label>
+		<description>A small, fuzzy-leafed perennial, commonly known as the african violet. It produces clusters of dainty, colorful flowers almost continuously, making it a highly prized indoor ornamental. It thrives only in stable, warm conditions.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Saintpaulia/Saintpaulia_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Lily</defName>
+		<label>lily</label>
+		<description>A stately and elegant perennial flower, known for its large, showy, trumpet-shaped blooms atop a single stem. It grows from a bulb and brings dramatic color to the summer garden.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Lily/Lily_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_BeardedIris</defName>
+		<label>bearded iris</label>
+		<description>A distinct perennial known for its unique, beard-like hairs on the lower petals of its large, elegant flowers. It creates a stunning visual display and grows in large clusters.\n\nThis one is fake.</description>
+			<thingClass>VFEProps.Building_FakePlant2x2</thingClass>
+		<graphicData>
+			<texPath>Things/Flowers/BeardedIris/BeardedIris_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_FlameAzalea</defName>
+		<label>flame azalea bush</label>
+		<description>A striking, deciduous shrub known for its brilliant, flame-orange clusters of tubular flowers. It thrives in acidic soils and provides a vibrant, fire-like visual contrast in any garden.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/FlameAzalea/FlameAzalea_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_PampasGrass</defName>
+		<label>pampas grass</label>
+		<description>A tall, vigorous ornamental grass famous for its large, feathery white plumes that sway in the wind. It provides structure and height to garden borders and is remarkably resilient.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/PampasGrass/PampasGrass_Blooming</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_PraireFire</defName>
+		<label>prairie fire</label>
+		<description>A hardy, vibrant flower known for its fiery red and orange petals that resemble dancing flames. It is exceptionally resilient and thrives in hot, sunny conditions.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/PraireFire/PraireFire_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_VPEFlowersBase">
+		<defName>VFEPD_VPEF_Plant_Bloomaris</defName>
+		<label>bloomaris</label>
+		<description>An exotic, decorative fungus that can be grown in caves. It thrives in almost total darkness, emitting a soft, warm glow.\n\nThis one is fake.</description>
+		<graphicData>
+			<texPath>Things/Flowers/Bloomaris/Bloomaris_Blooming</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

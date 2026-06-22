@@ -94,6 +94,7 @@
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMorePlants</li>
 		<li IfModActive="VanillaExpanded.VPlantsESucculents">1.6/Mods/VanillaPlantsExpandedSucculents</li>
 		<li IfModActive="VanillaExpanded.VPlantsEMushrooms">1.6/Mods/VanillaPlantsExpandedMushrooms</li>
+		<li IfModActive="VanillaExpanded.VPEFlowers">1.6/Mods/VanillaPlantsExpandedFlowers</li>
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpanded">1.6/Mods/VanillaVehiclesExpanded</li>
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpandedTier3">1.6/Mods/VanillaVehiclesExpandedTier3</li>
 		<li IfModActive="sarg.alphavehiclesneolithic">1.6/Mods/AlphaVehiclesNeolithic</li>
